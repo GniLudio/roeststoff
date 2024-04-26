@@ -1,0 +1,6 @@
+# TypeScript
+/node_modules/
+
+# Hidden Files
+.*
+!.gitignore
