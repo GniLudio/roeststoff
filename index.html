@@ -13,7 +13,78 @@
 </head>
 
 <body>
-    <h1>Röststoff</h1>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md sticky-top bg-secondary">
+        <div class="container-fluid">
+            <!-- Brand / Logo -->
+            <a class="navbar-brand" href="#">
+                <img src="images/brand.jpg" alt="Röststoff" height="50">
+            </a>
+            <!-- Toggler for small screens -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar content -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav nav nav-pills nav-fill w-100 text-center" id="navTabs" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="folgen-tab" data-bs-toggle="tab" data-bs-target="#folgen"
+                            type="button" role="tab" aria-controls="folgen" aria-selected="true">Folgen</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="roesties-tab" data-bs-toggle="tab" data-bs-target="#roesties"
+                            type="button" role="tab" aria-controls="roesties" aria-selected="true">Rösties</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="trinkstoff-tab" data-bs-toggle="tab" data-bs-target="#trinkstoff"
+                            type="button" role="tab" aria-controls="trinkstoff" aria-selected="true">Trinkstoff</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="boestof-tab" data-bs-toggle="tab" data-bs-target="#boestof"
+                            type="button" role="tab" aria-controls="boestof" aria-selected="true">Böst-Of</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="restaurants-tab" data-bs-toggle="tab" data-bs-target="#restaurants"
+                            type="button" role="tab" aria-controls="restaurants"
+                            aria-selected="true">Restaurants</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="lehrstoff-tab" data-bs-toggle="tab" data-bs-target="#lehrstoff"
+                            type="button" role="tab" aria-controls="lehrstoff" aria-selected="true">Lehrstoff</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="sponsoren-tab" data-bs-toggle="tab" data-bs-target="#sponsoren"
+                            type="button" role="tab" aria-controls="sponsoren" aria-selected="true">Sponsoren</button>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Content -->
+    <div class="container-fluid" id="main-content">
+        <div class="tab-content text-center" id="tabs">
+            <!-- Folgen -->
+            <div class="tab-pane fade show active" id="folgen" role="tabpanel" aria-labelledby="folgen-tab">
+            </div>
+            <div class="tab-pane fade show" id="roesties" role="tabpanel" aria-labelledby="roesties-tab">
+            </div>
+            <div class="tab-pane fade show" id="trinkstoff" role="tabpanel" aria-labelledby="trinkstoff-tab">
+            </div>
+            <div class="tab-pane fade show" id="boestof" role="tabpanel" aria-labelledby="boestof-tab">
+            </div>
+            <div class="tab-pane fade show" id="restaurants" role="tabpanel" aria-labelledby="restaurants-tab">
+            </div>
+            <div class="tab-pane fade show" id="lehrstoff" role="tabpanel" aria-labelledby="lehrstoff-tab">
+            </div>
+            <div class="tab-pane fade show" id="sponsoren" role="tabpanel" aria-labelledby="sponsoren-tab">
+            </div>
+        </div>
+    </div>
 
     <!-- Bootstrap Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
