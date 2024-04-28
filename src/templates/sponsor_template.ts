@@ -1,8 +1,7 @@
-import { episodes } from "../data/episodes";
 import { getEpisodes } from "../utils";
 import { createCard } from "./card_template";
 
-export function convertSponsorToHTML(sponsor: Sponsor): HTMLElement {
+export function convertSponsorToHTML(sponsor: Sponsor): Node {
     return createCard({
         content_type: "sponsor",
         img_folder: "sponsors",

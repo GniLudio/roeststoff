@@ -1,14 +1,14 @@
 export const restaurants: Restaurant[] = [
     {
-        id: -1,
-        name: "Restaurant 1",
+        id: -3,
+        name: "Restaurant 3",
         description: "Dies ist ein Test-Restaurant.",
         timestamps: [
-            { episode: -1, time: "00:00:01" },
-            { episode: -2, time: "00:00:02" },
-            { episode: -3, time: "00:00:03" },
+            { episode: -1, time: "01:00:00" },
+            { episode: -2, time: "02:00:00" },
+            { episode: -3, time: "03:00:00" },
         ],
-        imgFormat: "jpg"
+        imgFormat: "webp"
     },
     {
         id: -2,
@@ -22,14 +22,14 @@ export const restaurants: Restaurant[] = [
         imgFormat: "webp"
     },
     {
-        id: -3,
-        name: "Restaurant 3",
+        id: -1,
+        name: "Restaurant 1",
         description: "Dies ist ein Test-Restaurant.",
         timestamps: [
-            { episode: -1, time: "01:00:00" },
-            { episode: -2, time: "02:00:00" },
-            { episode: -3, time: "03:00:00" },
+            { episode: -1, time: "00:00:01" },
+            { episode: -2, time: "00:00:02" },
+            { episode: -3, time: "00:00:03" },
         ],
-        imgFormat: "webp"
-    }
+        imgFormat: "jpg"
+    },
 ];

@@ -51,6 +51,13 @@ interface Sponsor {
     imgFormat: ImageFormat,
 }
 
+interface GlossaryEntry {
+    id: GlossaryEntryID, 
+    title: string,
+    description: string,
+    timestamps: Timestamp[],
+}
+
 interface Timestamp {
     episode: EpisodeID,
     time: string,
@@ -62,4 +69,5 @@ type BoestOfID = number;
 type RestaurantID = number;
 type SponsorID = number;
 type DrinkID = number;
-type ImageFormat = "jpg" | "webp" | "png"
+type GlossaryEntryID = number;
+type ImageFormat = "png" | "jpg" | "svg" | "webp";

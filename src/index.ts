@@ -8,6 +8,9 @@ import { restaurants } from "./data/restaurants";
 import { convertRestaurantToHTML } from "./templates/restaurant_template";
 import { sponsors } from "./data/sponsors";
 import { convertSponsorToHTML } from "./templates/sponsor_template";
+import { glossary } from "./data/glossary";
+import { convertGlossaryEntryToHTML } from "./templates/glossary_entry_template";
+import { compareGlossaryEntry, comparePerson } from "./utils";
 
 console.log("index.ts loaded");
 
@@ -22,7 +25,7 @@ episode_container.replaceChildren(...episode_elements);
 
 // PEOPLE / ROESTIES
 const people_container = document.getElementById('roesties_content');
-const person_elements = people.filter(shouldBeDisplayed).map(convertPersonToHTML)
+const person_elements = people.filter(shouldBeDisplayed).sort(comparePerson).map(convertPersonToHTML)
 people_container.replaceChildren(...person_elements);
 
 // DRINKS / Trinkstoff
@@ -39,3 +42,8 @@ restaurants_container.replaceChildren(...restaurant_elements);
 const sponsors_container = document.getElementById("sponsors_content");
 const sponsors_elements = sponsors.filter(shouldBeDisplayed).map(convertSponsorToHTML);
 sponsors_container.replaceChildren(...sponsors_elements);
+
+// Glossary / Lehrstoff
+const glossary_container = document.getElementById("glossary_content");
+const glossary_elements = glossary.filter(shouldBeDisplayed).sort(compareGlossaryEntry).map(convertGlossaryEntryToHTML);
+glossary_container.replaceChildren(...glossary_elements);

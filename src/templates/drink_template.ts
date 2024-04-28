@@ -1,8 +1,7 @@
-import { episodes } from "../data/episodes";
 import { getEpisodes } from "../utils";
 import { createCard } from "./card_template";
 
-export function convertDrinkToHTML(drink: Drink): HTMLElement {
+export function convertDrinkToHTML(drink: Drink): Node {
     return createCard({
         content_type: "drink",
         img_folder: "drinks",

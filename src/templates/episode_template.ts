@@ -4,7 +4,7 @@ import { people } from "../data/people";
 import { sponsors } from "../data/sponsors";
 import { createCard } from "./card_template";
 
-export function convertEpisodeToHTML(episode: Episode): HTMLElement {
+export function convertEpisodeToHTML(episode: Episode): Node {
     const boest_of = boest_ofs.find(boest_of => boest_of.timestamp.episode == episode.id);
     return createCard({
         content_type: "episode",
@@ -19,6 +19,7 @@ export function convertEpisodeToHTML(episode: Episode): HTMLElement {
             "Gäste": getElementsOfEpisode(people.filter(person => !person.isHost)).map( guest => guest.name),
             "Trinkstoff": getElementsOfEpisode(drinks).map(drink => drink.name),
             "Sponsoren": getElementsOfEpisode(sponsors).map(sponsor => sponsor.name),
+            "Datum": episode.date,
             "Beschreibung": episode.description,
         }
     });

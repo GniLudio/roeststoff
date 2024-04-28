@@ -1,6 +1,7 @@
 console.log("card_template.ts loaded");
 
-export function createCard(info: {content_type: string, img_folder: string, img_alt: string, id: number, card_title: string, card_subtitle: string, title: string, img_format: ImageFormat, additional_info: Record<string, string|string[]>}): HTMLElement {
+export function createCard(info: {content_type: string, img_folder: string, img_alt: string, id: number, card_title: string, card_subtitle: string, title: string, img_format: ImageFormat, additional_info: Record<string, string|string[]>}): Node {
+    console.log("Create Card", info.content_type, info.card_title, info.id, info.img_format);
     let html_text = card_template;
 
     html_text = html_text.replace(new RegExp('{id}', 'g'), info.id.toFixed())
@@ -12,7 +13,7 @@ export function createCard(info: {content_type: string, img_folder: string, img_
         .replace('{card_subtitle}', info.card_subtitle)
         .replace('{title}', info.title)
         .replace('{additional_info}', createAdditionalInfo(info.additional_info));
-    return new DOMParser().parseFromString(html_text, "text/html").body;
+    return new DOMParser().parseFromString(html_text, "text/html").body.firstChild;
 }
 
 function createAdditionalInfo(info: Record<string, string|string[]>): string {
@@ -34,7 +35,7 @@ function createAdditionalInfo(info: Record<string, string|string[]>): string {
 }
 
 const card_template: string = `
-    <div class="col h-100">
+    <div class="col">
         <div class="card h-100 bg-light border-warning border-3">
             <img src="images/{img_folder}/{content_type}_{id}.{img_format}" class="card-img-top p-1 rounded-3" alt="{content_alt} {id}">
             <div class="card-body d-flex flex-column">

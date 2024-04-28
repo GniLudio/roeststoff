@@ -1,10 +1,10 @@
 export const drinks: Drink[] = [
     {
-        id: -1,
-        name: "Drink 1",
+        id: -3,
+        name: "Drink 3",
         description: "Dies ist ein Test-Drink.",
         price: "99.99€",
-        imgFormat: "jpg",
+        imgFormat: "webp",
         timestamps: [
             { episode: -1, time: "00:00:01" },
         ],
@@ -21,11 +21,11 @@ export const drinks: Drink[] = [
         ],
     },
     {
-        id: -3,
-        name: "Drink 3",
+        id: -1,
+        name: "Drink 1",
         description: "Dies ist ein Test-Drink.",
         price: "99.99€",
-        imgFormat: "webp",
+        imgFormat: "jpg",
         timestamps: [
             { episode: -1, time: "01:00:00" },
             { episode: -2, time: "02:00:00" },

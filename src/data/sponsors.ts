@@ -1,11 +1,13 @@
 export const sponsors: Sponsor[] = [
     {
-        id: -1,
-        name: "Sponsor 1",
+        id: -3,
+        name: "Sponsor 3",
         description: "Dies ist ein Test-Sponsor.",
-        imgFormat: "jpg",
+        imgFormat: "webp",
         timestamps: [
-            { episode: -1, time: "00:00:01" },
+            { episode: -1, time: "01:00:00" },
+            { episode: -2, time: "02:00:00" },
+            { episode: -3, time: "03:00:00" },
         ],
     },
     {
@@ -19,14 +21,12 @@ export const sponsors: Sponsor[] = [
         ],
     },
     {
-        id: -3,
-        name: "Sponsor 3",
+        id: -1,
+        name: "Sponsor 1",
         description: "Dies ist ein Test-Sponsor.",
-        imgFormat: "webp",
+        imgFormat: "jpg",
         timestamps: [
-            { episode: -1, time: "01:00:00" },
-            { episode: -2, time: "02:00:00" },
-            { episode: -3, time: "03:00:00" },
+            { episode: -1, time: "00:00:01" },
         ],
     },
 ]
