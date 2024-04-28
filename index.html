@@ -18,7 +18,7 @@
         <div class="container-fluid">
             <!-- Brand / Logo -->
             <a class="navbar-brand p-1" href="#">
-                <img src="images/temp_1.jpg" alt="Röststoff" height="50">
+                <img src="images/brand.jpg" alt="Logo" height="50">
             </a>
             <!-- Toggler for small screens -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -31,32 +31,32 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav nav nav-pills nav-fill w-100" id="navTabs" role="tablist">
                     <li class="nav-item m-1" role="presentation">
-                        <button class="nav-link active" id="episodes-tab" data-bs-toggle="tab" data-bs-target="#episodes"
+                        <button class="nav-link border border-1 border-secondary fw-bold" id="episodes-tab" data-bs-toggle="tab" data-bs-target="#episodes"
                             type="button" role="tab" aria-controls="episodes" aria-selected="true">Folgen</button>
                     </li>
                     <li class="nav-item m-1" role="presentation">
-                        <button class="nav-link" id="roesties-tab" data-bs-toggle="tab" data-bs-target="#roesties"
+                        <button class="nav-link border border-1 border-secondary fw-bold" id="roesties-tab" data-bs-toggle="tab" data-bs-target="#roesties"
                             type="button" role="tab" aria-controls="roesties" aria-selected="true">Rösties</button>
                     </li>
                     <li class="nav-item m-1" role="presentation">
-                        <button class="nav-link" id="trinkstoff-tab" data-bs-toggle="tab" data-bs-target="#trinkstoff"
+                        <button class="nav-link border border-1 border-secondary fw-bold" id="trinkstoff-tab" data-bs-toggle="tab" data-bs-target="#trinkstoff"
                             type="button" role="tab" aria-controls="trinkstoff" aria-selected="true">Trinkstoff</button>
                     </li>
                     <li class="nav-item m-1" role="presentation">
-                        <button class="nav-link" id="boestof-tab" data-bs-toggle="tab" data-bs-target="#boestof"
+                        <button class="nav-link border border-1 border-secondary fw-bold" id="boestof-tab" data-bs-toggle="tab" data-bs-target="#boestof"
                             type="button" role="tab" aria-controls="boestof" aria-selected="true">Böst-Of</button>
                     </li>
                     <li class="nav-item m-1" role="presentation">
-                        <button class="nav-link" id="restaurants-tab" data-bs-toggle="tab" data-bs-target="#restaurants"
+                        <button class="nav-link border border-1 border-secondary fw-bold" id="restaurants-tab" data-bs-toggle="tab" data-bs-target="#restaurants"
                             type="button" role="tab" aria-controls="restaurants"
                             aria-selected="true">Restaurants</button>
                     </li>
                     <li class="nav-item m-1" role="presentation">
-                        <button class="nav-link" id="lehrstoff-tab" data-bs-toggle="tab" data-bs-target="#lehrstoff"
+                        <button class="nav-link border border-1 border-secondary fw-bold" id="lehrstoff-tab" data-bs-toggle="tab" data-bs-target="#lehrstoff"
                             type="button" role="tab" aria-controls="lehrstoff" aria-selected="true">Lehrstoff</button>
                     </li>
                     <li class="nav-item m-1" role="presentation">
-                        <button class="nav-link" id="sponsoren-tab" data-bs-toggle="tab" data-bs-target="#sponsoren"
+                        <button class="nav-link border border-1 border-secondary fw-bold active" id="sponsoren-tab" data-bs-toggle="tab" data-bs-target="#sponsoren"
                             type="button" role="tab" aria-controls="sponsoren" aria-selected="true">Sponsoren</button>
                     </li>
 
@@ -68,8 +68,8 @@
     <!-- Content -->
     <div class="container-fluid  p-3" id="main-content">
         <div class="tab-content text-center" id="tabs">
-            <!-- Folgen -->
-            <div class="tab-pane fade show active" id="episodes" role="tabpanel" aria-labelledby="episodes-tab">
+            <!-- Episodes / Folgen -->
+            <div class="tab-pane fade show" id="episodes" role="tabpanel" aria-labelledby="episodes-tab">
                 <div class="container">
                     <div id="episodes_content"
                         class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-2 g-md-3 g-xl-4">
@@ -77,17 +77,47 @@
                     </div>
                 </div>
             </div>
+            <!-- People / Roesties -->
             <div class="tab-pane fade show" id="roesties" role="tabpanel" aria-labelledby="roesties-tab">
+                <div class="container">
+                    <div id="roesties_content"
+                        class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-2 g-md-3 g-xl-4">
+                        <!-- Content is inserted by script -->
+                    </div>
+                </div>
             </div>
+            <!-- Drinks / Trinkstoff -->
             <div class="tab-pane fade show" id="trinkstoff" role="tabpanel" aria-labelledby="trinkstoff-tab">
+                <div class="container">
+                    <div id="drinks_content"
+                        class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-2 g-md-3 g-xl-4">
+                        <!-- Content is inserted by script -->
+                    </div>
+                </div>
             </div>
+            <!-- Boest-Of -->
             <div class="tab-pane fade show" id="boestof" role="tabpanel" aria-labelledby="boestof-tab">
             </div>
+            <!-- Restaurants -->
             <div class="tab-pane fade show" id="restaurants" role="tabpanel" aria-labelledby="restaurants-tab">
+                <div class="container">
+                    <div id="restaurants_content"
+                        class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-2 g-md-3 g-xl-4">
+                        <!-- Content is inserted by script -->
+                    </div>
+                </div>
             </div>
+            <!-- Glossary / Lehrstoff -->
             <div class="tab-pane fade show" id="lehrstoff" role="tabpanel" aria-labelledby="lehrstoff-tab">
             </div>
-            <div class="tab-pane fade show" id="sponsoren" role="tabpanel" aria-labelledby="sponsoren-tab">
+            <!-- Sponsors -->
+            <div class="tab-pane fade show active" id="sponsoren" role="tabpanel" aria-labelledby="sponsoren-tab">
+                <div class="container">
+                    <div id="sponsors_content"
+                        class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 g-2 g-md-3 g-xl-4">
+                        <!-- Content is inserted by script -->
+                    </div>
+                </div>
             </div>
         </div>
     </div>

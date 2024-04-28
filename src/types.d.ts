@@ -3,15 +3,19 @@ interface Episode {
     title: string,
     description: string,
     date: string,
-    card_title?: string,
-    card_subtitle?: string,
-    guests?: PersonID[],
+    short_title: string,
+    short_subtitle: string,
+    imgFormat: ImageFormat,
 }
 
 interface Person {
     id: PersonID,
     name: string,
-    description?: string,
+    isHost?: boolean,
+    description: string,
+    characteristics: [string, Timestamp][],
+    imgFormat: ImageFormat,
+    timestamps: Timestamp[],
 }
 
 interface BoestOf {
@@ -27,18 +31,29 @@ interface Restaurant {
     name: string,
     description: string,
     timestamps: Timestamp[],
+    imgFormat: ImageFormat,
+}
+
+interface Drink {
+    id: DrinkID,
+    name: string,
+    description: string,
+    price: string,
+    imgFormat: ImageFormat,
+    timestamps: Timestamp[],
 }
 
 interface Sponsor {
     id: SponsorID,
     name: string,
+    description: string,
     timestamps: Timestamp[],
+    imgFormat: ImageFormat,
 }
 
 interface Timestamp {
     episode: EpisodeID,
-    start: number,
-    end?: number,
+    time: string,
 }
 
 type PersonID = number;
@@ -46,3 +61,5 @@ type EpisodeID = number;
 type BoestOfID = number;
 type RestaurantID = number;
 type SponsorID = number;
+type DrinkID = number;
+type ImageFormat = "jpg" | "webp" | "png"

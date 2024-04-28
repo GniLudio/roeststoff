@@ -1,8 +1,9 @@
-export const sponsors: Sponsor[] = [
+export const drinks: Drink[] = [
     {
         id: -1,
-        name: "Sponsor 1",
-        description: "Dies ist ein Test-Sponsor.",
+        name: "Drink 1",
+        description: "Dies ist ein Test-Drink.",
+        price: "99.99€",
         imgFormat: "jpg",
         timestamps: [
             { episode: -1, time: "00:00:01" },
@@ -10,8 +11,9 @@ export const sponsors: Sponsor[] = [
     },
     {
         id: -2,
-        name: "Sponsor 2",
-        description: "Dies ist ein Test-Sponsor.",
+        name: "Drink 2",
+        description: "Dies ist ein Test-Drink.",
+        price: "99.99€",
         imgFormat: "webp",
         timestamps: [
             { episode: -1, time: "00:01:00" },
@@ -20,13 +22,14 @@ export const sponsors: Sponsor[] = [
     },
     {
         id: -3,
-        name: "Sponsor 3",
-        description: "Dies ist ein Test-Sponsor.",
+        name: "Drink 3",
+        description: "Dies ist ein Test-Drink.",
+        price: "99.99€",
         imgFormat: "webp",
         timestamps: [
             { episode: -1, time: "01:00:00" },
             { episode: -2, time: "02:00:00" },
             { episode: -3, time: "03:00:00" },
         ],
-    },
-]
+    }
+];
