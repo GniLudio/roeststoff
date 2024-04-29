@@ -1,4 +1,6 @@
-export const glossary: GlossaryEntry[] = [
+import { compareByTimestamps } from "../utils";
+
+export const glossary: GlossaryEntry[] = ([
     {
         id: -3,
         title: "Glosary Entry 3",
@@ -26,4 +28,4 @@ export const glossary: GlossaryEntry[] = [
             { episode: -1, time: "00:00:01" },
         ]
     },
-];
+] satisfies GlossaryEntry[]).sort(compareByTimestamps);

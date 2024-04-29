@@ -1,5 +1,7 @@
 console.log("card_template.ts loaded");
 
+const parser = new DOMParser();
+
 export function createCard(info: {content_type: string, img_folder: string, img_alt: string, id: number, card_title: string, card_subtitle: string, title: string, img_format: ImageFormat, additional_info: Record<string, string|string[]>}): Node {
     console.log("Create Card", info.content_type, info.card_title, info.id, info.img_format);
     let html_text = card_template;
@@ -13,7 +15,7 @@ export function createCard(info: {content_type: string, img_folder: string, img_
         .replace('{card_subtitle}', info.card_subtitle)
         .replace('{title}', info.title)
         .replace('{additional_info}', createAdditionalInfo(info.additional_info));
-    return new DOMParser().parseFromString(html_text, "text/html").body.firstChild;
+    return parser.parseFromString(html_text, "text/html").body.firstChild;
 }
 
 function createAdditionalInfo(info: Record<string, string|string[]>): string {
@@ -25,7 +27,8 @@ function createAdditionalInfo(info: Record<string, string|string[]>): string {
         } 
         else if (typeof(value) == "string") {
             content = value;
-        } else {
+        } 
+        else {
             content = list_template.replace('{content}', value.map(item => list_item_template.replace('{content}', item)).join(""));
         }
         additional_info += additional_info_item_template.replace('{title}', title).replace('{content}', content);

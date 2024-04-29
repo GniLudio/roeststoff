@@ -1,4 +1,6 @@
-export const restaurants: Restaurant[] = [
+import { compareByTimestamps } from "../utils";
+
+export const restaurants: Restaurant[] = ([
     {
         id: -3,
         name: "Restaurant 3",
@@ -32,4 +34,4 @@ export const restaurants: Restaurant[] = [
         ],
         imgFormat: "jpg"
     },
-];
+] satisfies Restaurant[]).sort(compareByTimestamps);

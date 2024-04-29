@@ -1,4 +1,6 @@
-export const boest_ofs: BoestOf[] = [
+import { compareByTimestamp } from "../utils";
+
+export const boest_ofs: BoestOf[] = ([
     {
         id: -1,
         title: "Böst-Of 1",
@@ -38,4 +40,4 @@ export const boest_ofs: BoestOf[] = [
             ["1. Platz (Ilona)", "2. Platz (Ilona)", "3. Platz (Ilona)", "4. Platz (Ilona)", "5. Platz (Ilona)"],
         ]
     },
-];
+] satisfies BoestOf[]).sort(compareByTimestamp);

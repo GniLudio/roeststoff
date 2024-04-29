@@ -1,4 +1,6 @@
-export const sponsors: Sponsor[] = [
+import { compareByTimestamps } from "../utils";
+
+export const sponsors: Sponsor[] = ([
     {
         id: -3,
         name: "Sponsor 3",
@@ -29,4 +31,4 @@ export const sponsors: Sponsor[] = [
             { episode: -1, time: "00:00:01" },
         ],
     },
-]
+] satisfies Sponsor[]).sort(compareByTimestamps);

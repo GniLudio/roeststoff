@@ -1,4 +1,6 @@
-export const drinks: Drink[] = [
+import { compareByTimestamps } from "../utils";
+
+export const drinks: Drink[] = ([
     {
         id: -3,
         name: "Drink 3",
@@ -32,4 +34,4 @@ export const drinks: Drink[] = [
             { episode: -3, time: "03:00:00" },
         ],
     }
-];
+] satisfies Drink[]).sort(compareByTimestamps);

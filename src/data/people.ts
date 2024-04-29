@@ -1,4 +1,6 @@
-export const people: Person[] = [
+import { comparePerson } from "../utils";
+
+export const people: Person[] = ([
     {
         id: -3,
         name: "Person 3",
@@ -44,4 +46,5 @@ export const people: Person[] = [
             
         ],
     },
-];
+] satisfies Person[]).sort(comparePerson);
+
