@@ -4,18 +4,35 @@ const parser = new DOMParser();
 
 export function createCard(info: {content_type: string, img_folder: string, img_alt: string, id: number, card_title: string, card_subtitle: string, title: string, img_format: ImageFormat, additional_info: Record<string, string|string[]>}): Node {
     console.log("Create Card", info.content_type, info.card_title, info.id, info.img_format);
-    let html_text = card_template;
 
-    html_text = html_text.replace(new RegExp('{id}', 'g'), info.id.toFixed())
-        .replace(new RegExp('{content_type}', 'g'), info.content_type)
-        .replace('{img_folder}', info.img_folder)
-        .replace('{content_alt}', info.img_alt)
-        .replace('{img_format}', info.img_format)
-        .replace('{card_title}', info.card_title)
-        .replace('{card_subtitle}', info.card_subtitle)
-        .replace('{title}', info.title)
-        .replace('{additional_info}', createAdditionalInfo(info.additional_info));
-    return parser.parseFromString(html_text, "text/html").body.firstChild;
+    const element = document.createElement(`div`);
+    element.classList.add('col');
+    element.innerHTML = `
+        <div class="card bg-light border-warning border-3 h-100">
+                <img src="images/${info.img_folder}/${info.content_type}_${info.id}.${info.img_format}" 
+                    class="card-img-top p-1 rounded-3" alt="${info.img_alt} ${info.id}">
+                <div class="card-body d-flex flex-column">
+                    <div class="m-auto">
+                        <h5 class="card-title">${info.card_title}</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">${info.card_subtitle}</h6>
+                    </div>
+                    <button class="btn btn-primary m-auto" data-bs-toggle="modal" data-bs-target="#${info.content_type}_${info.id}_modal">Infos</button>
+                </div>
+            </div>
+            <div class="modal fade" id="${info.content_type}_${info.id}_modal" tabindex="-1" aria-labelledby="${info.content_type}_${info.id}_modal" aria-hidden="true">
+                <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header text-center">
+                            <h2 class="modal-title w-100" id="${info.content_type}_${info.id}_modal">${info.title}</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            ${createAdditionalInfo(info.additional_info)}
+                        </div>
+                    </div>
+                </div>
+        </div>`
+    return element;
 }
 
 function createAdditionalInfo(info: Record<string, string|string[]>): string {
@@ -37,33 +54,6 @@ function createAdditionalInfo(info: Record<string, string|string[]>): string {
     return additional_info;
 }
 
-const card_template: string = `
-    <div class="col">
-        <div class="card h-100 bg-light border-warning border-3">
-            <img src="images/{img_folder}/{content_type}_{id}.{img_format}" class="card-img-top p-1 rounded-3" alt="{content_alt} {id}">
-            <div class="card-body d-flex flex-column">
-                <div class="m-auto">
-                    <h5 class="card-title">{card_title}</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">{card_subtitle}</h6>
-                </div>
-                <a href="#" class="btn btn-primary m-auto" data-bs-toggle="modal" data-bs-target="#{content_type}_{id}_modal">Infos</a>
-            </div>
-        </div>
-        <div class="modal fade" id="{content_type}_{id}_modal" tabindex="-1" aria-labelledby="{content_type}_{id}_modal" aria-hidden="true">
-            <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
-                <div class="modal-content">
-                    <div class="modal-header text-center">
-                        <h2 class="modal-title w-100" id="{content_type}_{id}_modal">{title}</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        {additional_info}
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-`;
 const additional_info_item_template = `<div class='rounded-5 m-3 p-1 border border-2 border-warning-subtle bg-light'><h5>{title}</h5><p>{content}</p></div>`
 const list_template: string = `<ul class="list-group list-group-flush" style='display:inline-block'>{content}</ul>`
 const list_item_template: string = `<li class="list-group-item bg-transparent">{content}</li>`;
