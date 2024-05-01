@@ -1,48 +1,22 @@
-import { drinks } from "./data/drinks";
-import { episodes } from "./data/episodes";
-import { people } from "./data/people";
-import { convertDrinkToHTML } from "./templates/drink_template";
-import { convertPersonToHTML } from "./templates/person_template";
-import { convertEpisodeToHTML } from "./templates/episode_template";
-import { restaurants } from "./data/restaurants";
-import { convertRestaurantToHTML } from "./templates/restaurant_template";
-import { sponsors } from "./data/sponsors";
-import { convertSponsorToHTML } from "./templates/sponsor_template";
-import { glossary } from "./data/glossary";
-import { convertGlossaryEntryToHTML } from "./templates/glossary_entry_template";
-
 console.log("index.ts loaded");
 
-// SETTINGS
+import { createEpisodeCard, parseEpisode } from "./tabs/episodes";
+import episodeXML from '../data/episodes.xml';
+import peopleXML from '../data/people.xml';
+import { comparePerson, createPersonCard, parsePerson } from "./tabs/people";
+
+// GENERAL
 const TESTING: boolean = true;
 const shouldBeDisplayed = (element: {id: number}) => TESTING ? element.id < 0 : element.id >= 0;
+const parser: DOMParser = new DOMParser();
 
-// EPISODES
-const episode_container = document.getElementById("episodes_content");
-const episode_elements = episodes.filter(shouldBeDisplayed).map(convertEpisodeToHTML)
-episode_container.replaceChildren(...episode_elements);
 
-// PEOPLE / ROESTIES
-const people_container = document.getElementById('roesties_content');
-const person_elements = people.filter(shouldBeDisplayed).map(convertPersonToHTML)
-people_container.replaceChildren(...person_elements);
+// EPISODES / FOLGEN
+const episodeXMLElements: NodeListOf<Element> = parser.parseFromString(episodeXML, "text/xml").querySelector('rss').querySelector('channel').querySelectorAll('item');
+const episodeHTMLElements: HTMLElement[] = Array.from(episodeXMLElements).map(parseEpisode).map(createEpisodeCard);
+document.getElementById("episodes_content").replaceChildren(...episodeHTMLElements);
 
-// DRINKS / Trinkstoff
-const drinks_container = document.getElementById("drinks_content");
-const drink_elements = drinks.filter(shouldBeDisplayed).map(convertDrinkToHTML);
-drinks_container.replaceChildren(...drink_elements);
-
-// Restaurants
-const restaurants_container = document.getElementById("restaurants_content");
-const restaurant_elements = restaurants.filter(shouldBeDisplayed).map(convertRestaurantToHTML);
-restaurants_container.replaceChildren(...restaurant_elements);
-
-// Sponsors / Sponsoren
-const sponsors_container = document.getElementById("sponsors_content");
-const sponsors_elements = sponsors.filter(shouldBeDisplayed).map(convertSponsorToHTML);
-sponsors_container.replaceChildren(...sponsors_elements);
-
-// Glossary / Lehrstoff
-const glossary_container = document.getElementById("glossary_content");
-const glossary_elements = glossary.filter(shouldBeDisplayed).map(convertGlossaryEntryToHTML);
-glossary_container.replaceChildren(...glossary_elements);
+// PEOPLE / STOFFIES
+const peopleXMLElements = parser.parseFromString(peopleXML, "text/xml").querySelector('people').querySelectorAll('person');
+const peopleHTMLElements = Array.from(peopleXMLElements).map(parsePerson).sort(comparePerson).map(createPersonCard);
+document.getElementById('people_content').replaceChildren(...peopleHTMLElements);

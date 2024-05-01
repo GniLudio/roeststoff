@@ -1,73 +1,48 @@
 interface Episode {
     id: EpisodeID,
+    type: EpisodeType,
     title: string,
+    subtitle: string,
     description: string,
-    date: string,
-    short_title: string,
-    short_subtitle: string,
-    imgFormat: ImageFormat,
+    pubDate: string,
+    duration: number,
+    enclosure: {
+        url: Link,
+        length: number,
+        type: string,
+    }
 }
 
 interface Person {
-    id: PersonID,
     name: string,
+    description: string,
+    image?: string,
     isHost?: boolean,
-    description: string,
-    characteristics: [string, Timestamp][],
-    imgFormat: ImageFormat,
-    timestamps: Timestamp[],
+    appearances: Timestamp[],
 }
 
-interface BoestOf {
-    id: BoestOfID,
+interface CardInfo {
     title: string,
-    description: string,
-    timestamp: Timestamp,
-    rankings: [peter: string[], ilona: string[]],
+    subtitle: string,
+    image?: string,
+    additionalInfo?: AdditionalCardInfo
 }
 
-interface Restaurant {
-    id: RestaurantID,
-    name: string,
-    description: string,
-    timestamps: Timestamp[],
-    imgFormat: ImageFormat,
-}
-
-interface Drink {
-    id: DrinkID,
-    name: string,
-    description: string,
-    price: string,
-    imgFormat: ImageFormat,
-    timestamps: Timestamp[],
-}
-
-interface Sponsor {
-    id: SponsorID,
-    name: string,
-    description: string,
-    timestamps: Timestamp[],
-    imgFormat: ImageFormat,
-}
-
-interface GlossaryEntry {
-    id: GlossaryEntryID, 
+interface AdditionalCardInfo {
+    id: string,
+    buttonName: string,
     title: string,
-    description: string,
-    timestamps: Timestamp[],
+    content: string,
 }
 
-interface Timestamp {
-    episode: EpisodeID,
-    time: string,
-}
-
-type PersonID = number;
+type EpisodeUID = {id: number, type: EpisodeType}
 type EpisodeID = number;
-type BoestOfID = number;
-type RestaurantID = number;
-type SponsorID = number;
-type DrinkID = number;
-type GlossaryEntryID = number;
-type ImageFormat = "png" | "jpg" | "svg" | "webp";
+type EpisodeType = "full" | "trailer" | "bonus";
+type Link = string;
+
+type Timestamp = EpisodeUID & {time?: number}
+
+declare module '*.xml' {
+    const content: string;
+    export default content;
+}

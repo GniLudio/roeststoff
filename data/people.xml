@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<people>
+    <person>
+        <name>Ilona Scholl</name>
+        <description>Die Professionelle.</description>
+        <image>images/people/ilona_scholl.jpg</image>
+        <isHost>true</isHost>
+        <appearances>
+            <appearance>
+                <episode>1</episode>
+            </appearance>
+            <appearance>
+                <episode>2</episode>
+            </appearance>
+        </appearances>
+    </person>
+    <person>
+        <name>Peter Smits</name>
+        <description>Der Dullie vom Dienst.</description>
+        <image>images/people/peter_smits.jpg</image>
+        <isHost>true</isHost>
+    </person>
+</people>
