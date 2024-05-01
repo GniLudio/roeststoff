@@ -12,7 +12,7 @@ export function createEpisodeCard(episode: Episode): HTMLElement {
             content: ''
                 + createAdditionalInfoBlock('Untertitel', episode.subtitle)
                 + createAdditionalInfoBlock('Episode', episode.id.toFixed() + (episode.type != "full" ? ` (<span style='text-transform:capitalize'>${episode.type}</span>)` : ""))
-                + createAdditionalInfoBlock('Veröffentlichung', episode.pubDate)
+                + createAdditionalInfoBlock('Veröffentlichung', episode.pubDate.toLocaleString('de', {timeZone:'Europe/Berlin', dateStyle: 'full', timeStyle: 'short'}))
                 + createAdditionalInfoBlock('Dauer', "~" + durationToString(episode.duration))
                 + createAdditionalInfoBlock('Gäste', 'TODO')
                 + createAdditionalInfoBlock('Trinkstoff', 'TODO')
@@ -24,13 +24,14 @@ export function createEpisodeCard(episode: Episode): HTMLElement {
 }
 
 export function parseEpisode(element: Element): Episode {
+    const pubDate = element.querySelector('pubDate')?.textContent;
     return {
         id: parseInt(element.querySelector('episode')?.textContent) || -1,
         type: element.querySelector('episodeType')?.textContent as EpisodeType || "full",
         title: element.querySelector('title')?.textContent ?? "-",
         subtitle: element.querySelector('subtitle')?.textContent ?? "-",
         description: element.querySelector('encoded')?.textContent ?? "-",
-        pubDate: (element.querySelector('pubDate')?.textContent ?? "Mon, 01 Apr 0001 00:00:00 -0000"),
+        pubDate: pubDate ? new Date(Date.parse(pubDate)) : new Date(),
         duration: parseInt(element.querySelector('duration')?.textContent) || -1,
         enclosure: {
             url: element.querySelector('enclosure')?.getAttribute('url') ?? "-",

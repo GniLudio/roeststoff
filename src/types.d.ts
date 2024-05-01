@@ -4,7 +4,7 @@ interface Episode {
     title: string,
     subtitle: string,
     description: string,
-    pubDate: string,
+    pubDate: Date,
     duration: number,
     enclosure: {
         url: Link,
