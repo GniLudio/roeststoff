@@ -1,32 +1,41 @@
-import { createCard } from "../cardUtils";
+import { createAdditionalInfoListBlock, createCard } from "../cardUtils";
+import { compareByLastAppearance, getEpisodeNameWithTime, parseApperances, parseTimestamp } from "../utils";
 
-export function createPersonCard(person: Person): HTMLElement {
+export function createPersonCard(person: Person, getEpisode: EpisodeGetter): HTMLElement {
     return createCard({
-        title: person.name,
+        name: person.name,
         subtitle: person.description,
         image: person.image,
         additionalInfo: {
-            id: `additional_info_person_${person.name.replace(/\W/g,'_')}`,
+            id: `person_${person.name}`,
             buttonName: 'Info',
-            title: person.name,
-            content: "TODO"
+            name: person.name,
+            content: ''
+                + createAdditionalInfoListBlock('Folgen', getEpisodeNameWithTime(person, getEpisode))
+                + createAdditionalInfoListBlock('Merkmale', person.characteristics.map(c => c.text))
         }
     });
+}
+
+export function parsePerson(element: Element): Person {
+    const characteristics = element.querySelector('characteristics')?.querySelectorAll("characteristic");
+    return {
+        name: element.querySelector('name')!.textContent!,
+        description: element.querySelector('description')!.textContent!,
+        image: element.querySelector('image')?.textContent!,
+        isHost: element.querySelector('isHost')?.textContent == "true",
+        appearances: parseApperances(element),
+        characteristics: characteristics ? Array.from(characteristics).map(parseCharacteristic) : []
+    };
 }
 
 export function comparePerson(a: Person, b: Person): number {
     if (a.isHost && b.isHost) return 0;
     else if (a.isHost) return -1;
     else if (b.isHost) return 1;
-    else return b.name.localeCompare(a.name);
+    else return compareByLastAppearance(a, b);
 }
 
-export function parsePerson(episode: Element): Person {
-    return {
-        name: episode.querySelector('name')?.textContent ?? "-",
-        description: episode.querySelector('description')?.textContent ?? "-",
-        image: episode.querySelector('image')?.textContent,
-        isHost: episode.querySelector('isHost')?.textContent == "true",
-        appearances: []
-    };
+function parseCharacteristic(element: Element): Characteristic {
+    return { text: element.querySelector('text')!.textContent!, timestamp: parseTimestamp(element) };
 }

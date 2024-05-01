@@ -33,12 +33,12 @@
                 <ul class="navbar-nav nav nav-pills nav-fill w-100 row-cols-lg-auto row-cols-sm-5 row-cols-1"
                     id="navTabs" role="tablist">
                     <li class="nav-item m-1" role="presentation">
-                        <button class="nav-link border border-3 border-primary fw-bold p-1 p-lg-2 rounded-5"
+                        <button class="nav-link border border-3 border-primary fw-bold p-1 p-lg-2 rounded-5 active"
                             id="episodes-tab" data-bs-toggle="tab" data-bs-target="#episodes" type="button" role="tab"
                             aria-controls="episodes" aria-selected="true">Folgen</button>
                     </li>
                     <li class="nav-item m-1" role="presentation">
-                        <button class="nav-link border border-3 border-primary fw-bold p-1 p-lg-2 rounded-5 active"
+                        <button class="nav-link border border-3 border-primary fw-bold p-1 p-lg-2 rounded-5"
                             id="roesties-tab" data-bs-toggle="tab" data-bs-target="#roesties" type="button" role="tab"
                             aria-controls="roesties" aria-selected="true">Stoffies</button>
                     </li>
@@ -81,7 +81,7 @@
     <div class="container-fluid p-3 flex-shrink-0" id="main-content">
         <div class="tab-content text-center float" id="tabs">
             <!-- Episodes / Folgen -->
-            <div class="tab-pane fade show" id="episodes" role="tabpanel" aria-labelledby="episodes-tab">
+            <div class="tab-pane fade show active" id="episodes" role="tabpanel" aria-labelledby="episodes-tab">
                 <div class="container">
                     <div id="episodes_content"
                         class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 row-cols-xxl-6 g-2 g-md-3 g-xl-4">
@@ -90,7 +90,7 @@
                 </div>
             </div>
             <!-- People / Roesties -->
-            <div class="tab-pane fade show active" id="roesties" role="tabpanel" aria-labelledby="roesties-tab">
+            <div class="tab-pane fade show" id="roesties" role="tabpanel" aria-labelledby="roesties-tab">
                 <div class="container">
                     <div id="people_content"
                         class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 row-cols-xxl-6 g-2 g-md-3 g-xl-4">
@@ -109,6 +109,12 @@
             </div>
             <!-- Boest-Of -->
             <div class="tab-pane fade show" id="boestof" role="tabpanel" aria-labelledby="boestof-tab">
+                <div class="container">
+                    <div id="boestof_content"
+                        class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 row-cols-xxl-6 g-2 g-md-3 g-xl-4">
+                        <!-- Content is inserted by script -->
+                    </div>
+                </div>
             </div>
             <!-- Restaurants -->
             <div class="tab-pane fade show" id="restaurants" role="tabpanel" aria-labelledby="restaurants-tab">
@@ -131,12 +137,20 @@
             <!-- Glossary / Lehrstoff -->
             <div class="tab-pane fade show" id="glossary" role="tabpanel" aria-labelledby="glossary-tab">
                 <div class="container">
-                    <div class="accordion" id="glossary_content">
+                    <div id="glossary_content"
+                        class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 row-cols-xxl-6 g-2 g-md-3 g-xl-4">
+                        <!-- Content is inserted by script -->
                     </div>
                 </div>
             </div>
             <!-- Misc / Sonstiges -->
             <div class="tab-pane fade show" id="misc" role="tabpanel" aria-labelledby="misc-tab">
+                <div class="container">
+                    <div id="misc_content"
+                        class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 row-cols-xxl-6 g-2 g-md-3 g-xl-4">
+                        <!-- Content is inserted by script -->
+                    </div>
+                </div>
             </div>
         </div>
     </div>

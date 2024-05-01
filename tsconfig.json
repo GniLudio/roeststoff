@@ -9,7 +9,9 @@
         "allowJs": true,
         "moduleResolution": "node",
         "allowSyntheticDefaultImports": true,
-        "esModuleInterop": true
+        "esModuleInterop": true,
+        "alwaysStrict": true,
+        "strict": true
     },
     "include": [
         "**/*.ts"
