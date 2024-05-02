@@ -1,31 +1,28 @@
-interface Episode extends EpisodeUID {
+// ---------- CONTENT TYPES ----------
+interface Episode extends EpisodeID {
     name: string,
-    subtitle: string,
-    description: string,
-    pubDate: Date,
-    duration: Time,
-    enclosure: {
-        url: Link,
-        length: number,
-        type: string,
-    }
+    subtitle?: string,
+    description?: string,
+    pubDate?: Date,
+    duration?: Time,
+    enclosure?: EpisodeEnclosure
 }
 
 interface Person {
     name: string,
     description: string,
     image: string,
-    isHost: boolean,
-    appearances: Timestamp[],
-    characteristics: Characteristic[],
+    isHost?: boolean,
+    appearances?: Timestamp[],
+    characteristics?: Characteristic[],
 }
 
 interface Drink {
     name: string,
     description: string,
     price: string,
-    image?: string,
-    appearances: Timestamp[],
+    image: string,
+    appearances?: Timestamp[],
 }
 
 interface BoestOf extends Timestamp {
@@ -38,14 +35,15 @@ interface Restaurant {
     name: string,
     image: string,
     description: string,
-    team: string[],
-    appearances: Timestamp[],
+    team?: string[],
+    appearances?: Timestamp[],
+    characteristics?: Characteristic[],
 }
 
 interface Sponsor {
     name: string,
     image: string,
-    appearances: Timestamp[],
+    appearances?: Timestamp[],
 }
 
 interface GlossaryEntry extends Timestamp {
@@ -59,42 +57,60 @@ interface MiscEntry extends Timestamp {
     image?: string,
 }
 
-interface CardInfo {
-    name: string,
-    subtitle?: string,
-    image?: string,
-    additionalInfo?: AdditionalCardInfo
+// ---------- NESTED TYPES ----------
+
+interface Characteristic extends Timestamp { 
+    description: string 
 }
 
-interface AdditionalCardInfo {
-    id: string,
-    buttonName: string,
-    name: string,
-    content: string,
+interface Timestamp extends EpisodeID { 
+    episodeTime?: Time 
 }
 
-interface EpisodeUID {
-    episodeID: EpisodeID,
-    episodeType: EpisodeType
-}
-interface Time {
-    hours: number,
-    minutes: number,
-    seconds: number
-}
-interface Timestamp extends EpisodeUID {
-    episodeTime: Time
-}
-interface Characteristic {
-    text: string,
-    timestamp: Timestamp
+interface Time { 
+    hours: number, 
+    minutes: number, 
+    seconds: number 
 }
 
-type EpisodeID = number;
+interface EpisodeID { 
+    episodeType?: EpisodeType, 
+    episode: number 
+}
+
+interface EpisodeEnclosure {
+    type: string,
+    url: string,
+}
+
 type EpisodeType = "full" | "trailer" | "bonus";
-type Link = string;
-type EpisodeGetter = (uid: EpisodeUID) => Episode;
-type EpisodeFilter = (uid: EpisodeUID, item: { appearances: Timestamp[] }) => boolean;
+
+// ---------- OTHER ----------
+
+interface CardInfo {
+    title: string,
+    image?: string,
+    subtitle?: string,
+    additionalInfo?: CardAdditionalInfo
+}
+
+interface CardAdditionalInfo {
+    [header: string]: string | string[]
+}
+
+type EpisodeGetter = (uid: EpisodeID) => Episode;
+type EpisodeFilter = (uid: EpisodeID, item: { appearances: Timestamp[] }) => boolean;
+
+interface AllContent {
+    episodes: Episode[],
+    people: Person[],
+    drinks: Drink[],
+    boestOfs: BoestOf[],
+    restaurants: Restaurant[],
+    sponsors: Sponsor[],
+    glossary: GlossaryEntry[],
+    misc: MiscEntry[]
+}
 
 declare module '*.xml' {
     const content: string;

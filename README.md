@@ -20,11 +20,19 @@
     ?<isHost>true|false</isHost>
     ?<appearances>
         *<appearance>
-            <episodeID>number</episodeID>
+            <episode>number</episode>
             ?<episodeType>full|bonus|trailer</episodeType>
             ?<episodeTime>hours:minutes:seconds</episodeTime>
         </appearance>
     </appearances>
+    ?<characteristics>
+        *<characteristic>
+            <description>string</description>
+            <episode>number</episode>
+            ?<episodeType>full|bonus|trailer</episodeType>
+            ?<episodeTime>hours:minutes:seconds</episodeTime>
+        </characteristics>
+    </characteristics>
 </person>
 ```
 
@@ -32,12 +40,12 @@
 ```xml
 *<drink>
     <name>string</name>
-    ?<price>string</price>
-    ?<description>string<description>
-    ?<image>string</image>
+    <description>string<description>
+    <price>string</price>
+    <image>string</image>
     ?<appearances>
         *<appearance>
-            <episodeID>number</episodeID>
+            <episode>number</episode>
             ?<episodeType>full|bonus|trailer</episodeType>
             ?<episodeTime>hours:minutes:seconds</episodeTime>
         </appearance>
@@ -49,7 +57,7 @@
 ```xml
 *<boestof>
     <name>string</name>
-    <episodeID>number</episodeID>
+    <episode>number</episode>
     ?<episodeType>full|bonus|trailer</episodeType>
     ?<episodeTime>hours:minutes:seconds</episodeTime>
     <peter>
@@ -67,16 +75,24 @@
     <name>string</name>
     <description>string</description>
     <image>string</image>
-    <team>
+    ?<team>
         *<member>string</member>
     </team>
     ?<appearances>
         *<appearance>
-            <episodeID>number</episodeID>
+            <episode>number</episode>
             ?<episodeType>full|bonus|trailer</episodeType>
             ?<episodeTime>hours:minutes:seconds</episodeTime>
         </appearance>
     </appearances>
+    ?<characteristics>
+        *<characteristic>
+            <description>string</description>
+            <episode>number</episode>
+            ?<episodeType>full|bonus|trailer</episodeType>
+            ?<episodeTime>hours:minutes:seconds</episodeTime>
+        </characteristics>
+    </characteristics>
 </restaurant>
 ```
 
@@ -87,7 +103,7 @@
     <image>string</image>
     ?<appearances>
         *<appearance>
-            <episodeID>number</episodeID>
+            <episode>number</episode>
             ?<episodeType>full|bonus|trailer</episodeType>
             ?<episodeTime>hours:minutes:seconds</episodeTime>
         </appearance>
@@ -100,7 +116,7 @@
 *<entry>
     <name>string</name>
     <description>string</description>
-    <episodeID>number</episodeID>
+    <episode>number</episode>
     ?<episodeType>full|bonus|trailer</episodeType>
     ?<episodeTime>hours:minutes:seconds</episodeTime>
 </entry>
@@ -112,6 +128,10 @@
     <name>string</name>
     <description>string</description>
     ?<image>string</image>
+    <episode>number</episode>
+    ?<episodeType>full|bonus|trailer</episodeType>
+    ?<episodeTime>hours:minutes:seconds</episodeTime>
+</entry>
 </entry>
 ```
 
