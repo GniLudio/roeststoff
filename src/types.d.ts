@@ -85,21 +85,23 @@ interface EpisodeEnclosure {
 
 type EpisodeType = "full" | "trailer" | "bonus";
 
-// ---------- OTHER ----------
-
+// ---------- CARDS ----------
 interface CardInfo {
     title: string,
     image?: string,
     subtitle?: string,
-    additionalInfo?: CardAdditionalInfo
+    additionalInfo?: ModalInfo
 }
 
-interface CardAdditionalInfo {
-    [header: string]: string | string[]
+interface ModalInfo {
+    id: string,
+    title: string,
+    content: {
+        [header: string]: string | undefined | string[]
+    }
 }
 
-type EpisodeGetter = (uid: EpisodeID) => Episode;
-type EpisodeFilter = (uid: EpisodeID, item: { appearances: Timestamp[] }) => boolean;
+// ---------- OTHER ----------
 
 interface AllContent {
     episodes: Episode[],
@@ -116,4 +118,3 @@ declare module '*.xml' {
     const content: string;
     export default content;
 }
-

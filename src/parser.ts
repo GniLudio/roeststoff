@@ -5,7 +5,7 @@ export function parseXML<T>(rawXML: string, rootPath: string[], entryName: strin
     const xmlDocument: XMLDocument = new DOMParser().parseFromString(rawXML, "text/xml");
     // get root element
     let root: Element | null = xmlDocument.querySelector(`${rootPath[0]}`);
-    for (let i = 1; i < rootPath.length && root != null; i++) {
+    for (let i = 1; (i < rootPath.length) && (root != null); i++) {
         root = root.querySelector(`:scope ${rootPath[i]}`);
     }
     if (root == null) {
@@ -36,9 +36,9 @@ export function parsePerson(element: Element): Person {
         name: parseMandatory(parseString, element, 'name'),
         description: parseMandatory(parseString, element, 'description'),
         image: parseMandatory(parseString, element, 'image'),
-        isHost: parseMandatory(parseBoolean, element, 'isHost'),
-        appearances: parseOptionalArray(parseTimestamp, element, 'appearances', 'apperance'),
-        characteristics: parseOptionalArray(parseCharacteristic, element, 'characteristics', 'characteristics'),
+        isHost: parseOptional(parseBoolean, element, 'isHost'),
+        appearances: parseOptionalArray(parseTimestamp, element, 'appearances', 'appearance'),
+        characteristics: parseOptionalArray(parseCharacteristic, element, 'characteristics', 'characteristic'),
     };
 }
 
@@ -130,8 +130,8 @@ function parseEpisodeID(element: Element): EpisodeID {
 
 function parseEpisodeEnclosure(element: Element): EpisodeEnclosure {
     return {
-        type: assert(element.getAttribute('type')),
-        url: assert(element.getAttribute('url')),
+        type: assert(element.getAttribute('type'), `Couldn't find attribute: type`),
+        url: assert(element.getAttribute('url'), `Couldn't find attribute: url`),
     };
 }
 
@@ -165,7 +165,7 @@ function parseBoolean(element: Element): boolean {
 
 // ----------HELPER----------
 function parseMandatoryArray<T>(parser: (entry: Element) => T, element: Element, name: string, entryName: string): T[] {
-    const parent = assert(element.querySelector(`:scope ${name}`));
+    const parent = assert(element.querySelector(`:scope ${name}`), `Couldn't find array: ${name}`);
     return Array.from(parent.querySelectorAll(`:scope ${entryName}`)).map(parser);
 }
 
@@ -175,13 +175,13 @@ function parseOptionalArray<T>(parser: (entry: Element) => T, element: Element, 
     return Array.from(parent.querySelectorAll(`:scope ${entryName}`)).map(parser);
 }
 
+function parseMandatory<T>(parser: (e: Element) => T, element: Element, name: string): T {
+    const parent = assert(element.querySelector(`:scope ${name}`), `Couldn't find field: ${name}`);
+    return parser(parent);
+}
+
+
 function parseOptional<T>(parser: (e: Element) => T, parent: Element, name: string): T | undefined {
     const element = parent.querySelector(`:scope ${name}`);
     return element ? parser(element) : undefined;
 }
-
-function parseMandatory<T>(parser: (e: Element) => T, element: Element, name: string): T {
-    const parent = element.querySelector(`:scope ${name}`);
-    return parser(assert(parent, `Couldn't parse ${name}`));
-}
-
