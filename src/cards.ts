@@ -138,7 +138,7 @@ function createCard(info: CardInfo): HTMLElement {
             ${cardImage}
             <div class="card-body d-flex flex-column h-100">
                 <h5 class="card-title">${info.title}</h5>
-                <h6 class="card-subtitle m-auto py-2">${info.subtitle}</h5>
+                <h6 class="card-subtitle m-auto py-2">${info.subtitle ?? ""}</h5>
                 ${additionalInfo[0]}
             </div>
         </div>
