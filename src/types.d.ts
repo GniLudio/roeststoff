@@ -64,7 +64,7 @@ interface Characteristic extends Timestamp {
 }
 
 interface Timestamp extends EpisodeID { 
-    episodeTime?: Time 
+    episodeTime: Time 
 }
 
 interface Time { 

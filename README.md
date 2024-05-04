@@ -22,7 +22,7 @@
         *<appearance>
             <episode>number</episode>
             ?<episodeType>full|bonus|trailer</episodeType>
-            ?<episodeTime>hours:minutes:seconds</episodeTime>
+            <episodeTime>hours:minutes:seconds</episodeTime>
         </appearance>
     </appearances>
     ?<characteristics>
@@ -30,7 +30,7 @@
             <description>string</description>
             <episode>number</episode>
             ?<episodeType>full|bonus|trailer</episodeType>
-            ?<episodeTime>hours:minutes:seconds</episodeTime>
+            <episodeTime>hours:minutes:seconds</episodeTime>
         </characteristics>
     </characteristics>
 </person>
@@ -47,7 +47,7 @@
         *<appearance>
             <episode>number</episode>
             ?<episodeType>full|bonus|trailer</episodeType>
-            ?<episodeTime>hours:minutes:seconds</episodeTime>
+            <episodeTime>hours:minutes:seconds</episodeTime>
         </appearance>
     </appearances>
 </drink>
@@ -59,7 +59,7 @@
     <name>string</name>
     <episode>number</episode>
     ?<episodeType>full|bonus|trailer</episodeType>
-    ?<episodeTime>hours:minutes:seconds</episodeTime>
+    <episodeTime>hours:minutes:seconds</episodeTime>
     <peter>
         *<rank>string</rank>
     </peter>
@@ -82,7 +82,7 @@
         *<appearance>
             <episode>number</episode>
             ?<episodeType>full|bonus|trailer</episodeType>
-            ?<episodeTime>hours:minutes:seconds</episodeTime>
+            <episodeTime>hours:minutes:seconds</episodeTime>
         </appearance>
     </appearances>
     ?<characteristics>
@@ -90,7 +90,7 @@
             <description>string</description>
             <episode>number</episode>
             ?<episodeType>full|bonus|trailer</episodeType>
-            ?<episodeTime>hours:minutes:seconds</episodeTime>
+            <episodeTime>hours:minutes:seconds</episodeTime>
         </characteristics>
     </characteristics>
 </restaurant>
@@ -98,14 +98,14 @@
 
 ### Sponsoren (sponsors.xml)
 ```xml
-<sponsor>
+*<sponsor>
     <name>string</name>
     <image>string</image>
     ?<appearances>
         *<appearance>
             <episode>number</episode>
             ?<episodeType>full|bonus|trailer</episodeType>
-            ?<episodeTime>hours:minutes:seconds</episodeTime>
+            <episodeTime>hours:minutes:seconds</episodeTime>
         </appearance>
     </appearances>
 </sponsor>
@@ -118,7 +118,7 @@
     <description>string</description>
     <episode>number</episode>
     ?<episodeType>full|bonus|trailer</episodeType>
-    ?<episodeTime>hours:minutes:seconds</episodeTime>
+    <episodeTime>hours:minutes:seconds</episodeTime>
 </entry>
 ```
 
@@ -130,8 +130,7 @@
     ?<image>string</image>
     <episode>number</episode>
     ?<episodeType>full|bonus|trailer</episodeType>
-    ?<episodeTime>hours:minutes:seconds</episodeTime>
-</entry>
+    <episodeTime>hours:minutes:seconds</episodeTime>
 </entry>
 ```
 

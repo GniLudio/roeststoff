@@ -6,7 +6,7 @@
         <description>string</description>
         <episode>number</episode>
         ?<episodeType>full|bonus|trailer</episodeType>
-        ?<episodeTime>hours:minutes:seconds</episodeTime>
+        <episodeTime>hours:minutes:seconds</episodeTime>
     </entry>
     -->
 </root>

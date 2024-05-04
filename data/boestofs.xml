@@ -5,7 +5,7 @@
         <name>string</name>
         <episode>number</episode>
         ?<episodeType>full|bonus|trailer</episodeType>
-        ?<episodeTime>hours:minutes:seconds</episodeTime>
+        <episodeTime>hours:minutes:seconds</episodeTime>
         <peter>
             *<rank>string</rank>
         </peter>

@@ -108,7 +108,7 @@ function parseCharacteristic(element: Element): Characteristic {
 function parseTimestamp(element: Element): Timestamp {
     return {
         ...parseEpisodeID(element),
-        episodeTime: parseOptional(parseTime, element, 'episodeTime'),
+        episodeTime: parseMandatory(parseTime, element, 'episodeTime'),
     };
 }
 
