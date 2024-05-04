@@ -1,3 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
+    <!--
+    *<boestof>
+        <name>string</name>
+        <episode>number</episode>
+        ?<episodeType>full|bonus|trailer</episodeType>
+        ?<episodeTime>hours:minutes:seconds</episodeTime>
+        <peter>
+            *<rank>string</rank>
+        </peter>
+        <ilona>
+            *<rank>string</rank>
+        </ilona>
+    </boestof>
+    -->
 </root>

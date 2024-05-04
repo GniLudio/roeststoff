@@ -1,3 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
+    <!--
+    *<sponsor>
+        <name>string</name>
+        <image>string</image>
+        ?<appearances>
+            *<appearance>
+                <episode>number</episode>
+                ?<episodeType>full|bonus|trailer</episodeType>
+                ?<episodeTime>hours:minutes:seconds</episodeTime>
+            </appearance>
+        </appearances>
+    </sponsor>
+    -->
 </root>

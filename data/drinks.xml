@@ -1,3 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
+    <!--
+    *<drink>
+        <name>string</name>
+        <description>string<description>
+        <price>string</price>
+        <image>string</image>
+        ?<appearances>
+            *<appearance>
+                <episode>number</episode>
+                ?<episodeType>full|bonus|trailer</episodeType>
+                ?<episodeTime>hours:minutes:seconds</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    -->
 </root>

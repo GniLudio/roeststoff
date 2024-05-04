@@ -1,3 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
+    <!--
+    *<restaurant>
+        <name>string</name>
+        <description>string</description>
+        <image>string</image>
+        ?<team>
+            *<member>string</member>
+        </team>
+        ?<appearances>
+            *<appearance>
+                <episode>number</episode>
+                ?<episodeType>full|bonus|trailer</episodeType>
+                ?<episodeTime>hours:minutes:seconds</episodeTime>
+            </appearance>
+        </appearances>
+        ?<characteristics>
+            *<characteristic>
+                <description>string</description>
+                <episode>number</episode>
+                ?<episodeType>full|bonus|trailer</episodeType>
+                ?<episodeTime>hours:minutes:seconds</episodeTime>
+            </characteristics>
+        </characteristics>
+    </restaurant>
+    -->
 </root>
