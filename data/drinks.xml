@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
+    <drink>
+        <name>Aurore Casanova Champagner aus Puisieulx</name>
+        <description></description>
+        <price>79€ / 0.75l</price>
+        <image>images/drinks/aurore_casanova_champagner_puisieulx.webp</image>
+        <appearances>
+            <appearance>
+                <episode>1</episode>
+                <episodeTime>00:23:49</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
     <!--
     *<drink>
         <name>string</name>
-        <description>string<description>
+        <description>string</description>
         <price>string</price>
         <image>string</image>
         ?<appearances>

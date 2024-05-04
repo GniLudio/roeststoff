@@ -12,6 +12,7 @@ interface Person {
     name: string,
     description: string,
     image: string,
+    hateQuestion?: HateQuestion,
     isHost?: boolean,
     appearances?: Timestamp[],
     characteristics?: Characteristic[],
@@ -61,6 +62,10 @@ interface MiscEntry extends Timestamp {
 
 interface Characteristic extends Timestamp { 
     description: string 
+}
+
+interface HateQuestion extends Timestamp {
+    description: string
 }
 
 interface Timestamp extends EpisodeID { 

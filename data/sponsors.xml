@@ -1,5 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
+    <sponsor>
+        <name>MikeWorldWide</name>
+        <image>images/sponsors/mike_worldwide.jpg</image>
+        <appearances>
+            <appearance>
+                <episode>1</episode>
+                <episodeTime>1:37:53</episodeTime>
+            </appearance>
+        </appearances>
+    </sponsor>
+    <sponsor>
+        <name>Ebay</name>
+        <image>images/sponsors/ebay.svg</image>
+        <appearances>
+            <appearance>
+                <episode>1</episode>
+                <episodeTime>00:31:33</episodeTime>
+            </appearance>
+        </appearances>
+    </sponsor>
+    <sponsor>
+        <name>Mercedes-Benz EQV</name>
+        <image>images/sponsors/mercedes_benz_eqv.jpg</image>
+        <appearances>
+            <appearance>
+                <episode>1</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
+        </appearances>
+    </sponsor>
     <!--
     *<sponsor>
         <name>string</name>

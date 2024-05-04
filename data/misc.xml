@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
+    <entry>
+        <name>Once Upon a Time in Shaolin</name>
+        <description>Ein Album vom Wu-Tang Clan, von dem nur ein physisches Exemplar existiert.</description>
+        <image>images/misc/once_upon_a_time_in_shaolin.jpg</image>
+        <episode>1</episode>
+        <episodeTime>1:17:18</episodeTime>
+    </entry>
+    <entry>
+        <name>Lukull Hollondaise</name>
+        <description>Eine sehr gute Fertig-Hollondaise, die von sehr vielen Köchen gefeiert wird. (laut Ilona Scholl)</description>
+        <image>images/misc/lukull_hollondaise.png</image>
+        <episode>1</episode>
+        <episodeTime>01:16:40</episodeTime>
+    </entry>
+    <entry>
+        <name>Kochen für Helden</name>
+        <description><![CDATA[Eine Graswurzelbewegung von Gastronomen in Zeiten der Corona-Krise, bei der Menschen in Funktionsberufen mit Mahlzeiten versorgt werden. ]]></description>
+        <image>images/misc/kochen_fuer_helden.svg</image>
+        <episode>1</episode>
+        <episodeTime>00:27:42</episodeTime>
+    </entry>
     <!--
     *<entry>
         <name>string</name>

@@ -35,6 +35,7 @@ export function parsePerson(element: Element): Person {
     return {
         name: parseMandatory(parseString, element, 'name'),
         description: parseMandatory(parseString, element, 'description'),
+        hateQuestion: parseOptional(parseHateQuestion, element, 'hateQuestion'),
         image: parseMandatory(parseString, element, 'image'),
         isHost: parseOptional(parseBoolean, element, 'isHost'),
         appearances: parseOptionalArray(parseTimestamp, element, 'appearances', 'appearance'),
@@ -92,7 +93,8 @@ export function parseMiscEntry(element: Element): MiscEntry {
     return {
         ...parseTimestamp(element),
         name: parseMandatory(parseString, element, 'name'),
-        description: parseMandatory(parseString, element, 'name'),
+        description: parseMandatory(parseString, element, 'description'),
+        image: parseOptional(parseString, element, 'image')
     };
 }
 
@@ -110,6 +112,12 @@ function parseTimestamp(element: Element): Timestamp {
         ...parseEpisodeID(element),
         episodeTime: parseMandatory(parseTime, element, 'episodeTime'),
     };
+}
+function parseHateQuestion(element: Element): HateQuestion {
+    return {
+        ...parseTimestamp(element),
+        description: parseMandatory(parseString, element, 'description'),
+    }
 }
 
 function parseTime(element: Element): Time {

@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
+    <boestof>
+        <name>Diskriminierungsfreie Beleidigungen</name>
+        <episode>1</episode>
+        <episodeTime>01:59:13</episodeTime>
+        <peter>
+            <rank>Wichser</rank>
+            <rank>Arschloch</rank>
+            <rank><![CDATA[<s>Vollidiot</s>]]></rank>
+            <rank><![CDATA[<s>Hurensohn</s>]]></rank>
+        </peter>
+        <ilona>
+            <rank>Tümpel</rank>
+            <rank>Lappen</rank>
+            <rank>Wurm / Gratin</rank>
+            <rank>blickdichtes Knicklicht</rank>
+            <rank>Fickfehler</rank>
+            <rank><![CDATA[<s>Spritzbeutel</s>]]></rank>
+        </ilona>
+    </boestof>
     <!--
     *<boestof>
         <name>string</name>

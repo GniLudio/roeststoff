@@ -1,5 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
+    <restaurant>
+        <name>Tim Raue</name>
+        <description></description>
+        <image>images/restaurants/time_raue.png</image>
+        <team>
+            <member>Tim Raue</member>
+        </team>
+        <appearances>
+            <appearance>
+                <episode>1</episode>
+                <episodeTime>2:34:38</episodeTime>
+            </appearance>
+        </appearances>
+    </restaurant>
+    <restaurant>
+        <name>MS Marone</name>
+        <description></description>
+        <image>images/restaurants/ms_marone.jpg</image>
+        <appearances>
+            <appearance>
+                <episode>1</episode>
+                <episodeTime>1:17:18</episodeTime>
+            </appearance>
+        </appearances>
+        <characteristics>
+            <characteristic>
+                <description>macht unglaublich leckere Hollandaise-Sauce</description>
+                <episode>1</episode>
+                <episodeTime>1:17:18</episodeTime>
+            </characteristic>
+        </characteristics>
+    </restaurant>
+    <restaurant>
+        <name>tulus lotrek</name>
+        <description></description>
+        <image>images/restaurants/tulus_lotrek.jpg</image>
+        <team>
+            <member>Ilona Scholl</member>
+            <member>Max Strohe</member>
+            <member>Felix Fuchs</member>
+        </team>
+        <appearances>
+            <appearance>
+                <episode>1</episode>
+                <episodeTime>00:01:40</episodeTime>
+            </appearance>
+        </appearances>
+        <characteristics>
+            <characteristic>
+                <description>bestes Serviceteam 2022 vom Feinschmecker</description>
+                <episode>1</episode>
+                <episodeTime>00:20:52</episodeTime>
+            </characteristic>
+            <characteristic>
+                <description>ganz viele Hauben vom Gault Milleau</description>
+                <episode>1</episode>
+                <episodeTime>00:14:37</episodeTime>
+            </characteristic>
+            <characteristic>
+                <description>1x Stern vom Guide Michelin</description>
+                <episode>1</episode>
+                <episodeTime>00:14:37</episodeTime>
+            </characteristic>
+            <characteristic>
+                <description>2015 von Ilona Scholl und Max Strohe gegründet</description>
+                <episode>1</episode>
+                <episodeTime>00:13:46</episodeTime>
+            </characteristic>
+        </characteristics>
+    </restaurant>
     <!--
     *<restaurant>
         <name>string</name>
@@ -21,7 +91,7 @@
                 <episode>number</episode>
                 ?<episodeType>full|bonus|trailer</episodeType>
                 <episodeTime>hours:minutes:seconds</episodeTime>
-            </characteristics>
+            </characteristic>
         </characteristics>
     </restaurant>
     -->

@@ -17,6 +17,12 @@
     <name>string</name>
     <description>string</description>
     <image>string</image>
+    ?<hateQuestion>
+        <description>string</description>
+        <episode>number</episode>
+        ?<episodeType>full|bonus|trailer</episodeType>
+        <episodeTime>hours:minutes:seconds</episodeTime>
+    </hateQuestion>
     ?<isHost>true|false</isHost>
     ?<appearances>
         *<appearance>
@@ -31,7 +37,7 @@
             <episode>number</episode>
             ?<episodeType>full|bonus|trailer</episodeType>
             <episodeTime>hours:minutes:seconds</episodeTime>
-        </characteristics>
+        </characteristic>
     </characteristics>
 </person>
 ```
@@ -91,7 +97,7 @@
             <episode>number</episode>
             ?<episodeType>full|bonus|trailer</episodeType>
             <episodeTime>hours:minutes:seconds</episodeTime>
-        </characteristics>
+        </characteristic>
     </characteristics>
 </restaurant>
 ```
@@ -136,3 +142,5 @@
 
 ## TODOs
 * Bilder für Folgen
+* Sprüche-Tab
+* Inhalte nach Zeitpunkt sortieren (nicht nur nach Folge)

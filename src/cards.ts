@@ -25,13 +25,13 @@ export function getEpisodeCardInfo(episode: Episode, allContent: AllContent): Ca
             title: episode.name + " (" + episode.episode + ")",
             content: {
                 "Episode": episode.episode.toFixed(),
-                'Veröffentlichung': episode.pubDate ? dateToString(episode.pubDate, true) : '-',
-                "Böst-Of": boestOf ? boestOf.name + (boestOf.episodeTime ? ' - ' + timeToString(boestOf.episodeTime) : '') : '-',
+                'Veröffentlichung': episode.pubDate ? dateToString(episode.pubDate, true) : undefined,
+                "Böst-Of": boestOf ? boestOf.name + (boestOf.episodeTime ? ' - ' + timeToString(boestOf.episodeTime) : '') : undefined,
                 "Gäste": mapToFilteredNames(allContent.people.filter(person => !person.isHost), episode, true),
                 "Trinkstoff": mapToFilteredNames(allContent.drinks, episode, true),
                 "Restaurants": mapToFilteredNames(allContent.restaurants, episode, true),
                 "Sponsoren": mapToFilteredNames(allContent.sponsors, episode, true),
-                'Dauer': episode.duration ? '~' + timeToString(episode.duration) : '-',
+                'Dauer': episode.duration ? '~' + timeToString(episode.duration) : undefined,
                 'Audio': episode.enclosure ? `<audio controls preload="none" class="w-75 rounded-3" src="${episode.enclosure.url}"></audio>` : '',
                 'Beschreibung': episode.description
             }
@@ -49,6 +49,7 @@ export function getPersonCardInfo(person: Person, allContent: AllContent): CardI
             title: person.name,
             content: {
                 "Folgen": person.appearances ? mapToEpisodeNames(person.appearances, allContent.episodes, true) : undefined,
+                "Hass-Frage": person.hateQuestion?.description,
                 "Merkmale": person.characteristics?.map(c => c.description)
             }
         }
@@ -74,7 +75,7 @@ export function getDrinkCardInfo(drink: Drink, allContent: AllContent): CardInfo
 export function getBoestOfCardInfo(boestOf: BoestOf, allContent: AllContent): CardInfo {
     return {
         title: boestOf.name,
-        subtitle: "TODO",
+        subtitle: createBoestOfTable(boestOf),
     }
 }
 
@@ -130,15 +131,15 @@ function createCard(info: CardInfo): HTMLElement {
     const card = document.createElement('div');
     card.classList.add('col');
 
-    const cardImage = info.image ? `<img src="${info.image}" class="card-img-top p-1 rounded-3" alt="Foto ${info.title}">` : '';
+    const cardImage = info.image ? `<img src="${info.image}" class="img-top rounded-3 pb-1 my-auto" alt="Foto ${toHTMLID(info.title)}">` : '';
     const additionalInfo = createAdditionalInfo(info);
 
     card.innerHTML = `
         <div class="card bg-light border-warning border-3 h-100 overflow-auto">
-            ${cardImage}
-            <div class="card-body d-flex flex-column h-100">
-                <h5 class="card-title">${info.title}</h5>
-                <h6 class="card-subtitle m-auto py-2">${info.subtitle ?? ""}</h5>
+            <div class="card-body d-flex flex-column h-100 p-1">
+                ${cardImage}
+                <h5 class="card-title m-auto py-1">${info.title}</h5>
+                <h6 class="card-subtitle m-auto py-1">${info.subtitle ?? ""}</h5>
                 ${additionalInfo[0]}
             </div>
         </div>
@@ -151,9 +152,14 @@ function createAdditionalInfo(info: CardInfo): [button: string, modal: string] {
     if (!info.additionalInfo) return ["", ""];
     const id = toHTMLID('modal_' + info.additionalInfo.id);
 
-    const button = `<button class="btn btn-outline-warning bg-secondary text-white mx-auto" data-bs-toggle="modal" data-bs-target="#${id}">Info</button>`;
+    const button = `
+        <div class="m-auto py-1">
+            <button class="btn btn-outline-warning bg-secondary text-white" data-bs-toggle="modal" data-bs-target="#${id}">
+                Info
+            </button>
+        </div>`;
     const content = Object.entries(info.additionalInfo.content).map(([header, item]) => {
-        if (item == undefined) return createAdditionalInfoBlock(header, '-');
+        if (item == undefined) '';
         else if (typeof(item) == 'object') return createAdditionalInfoListBlock(header, item);
         else return createAdditionalInfoBlock(header, item);
     }).join("");
@@ -183,10 +189,31 @@ function createAdditionalInfoBlock(header: string, content: string): string {
 }
 
 function createAdditionalInfoListBlock(header: string, content: string[]): string {
-    if (content.length == 0) content = ['-'];
+    if (content.length == 0) return '';
     content = content.map(item => `<li class="list-group-item bg-transparent">${item}</li>`);
     return createAdditionalInfoBlock(
         header, 
         `<ul class="list-group list-group-flush" style='display:inline-block'>${content.join("")}</ul>`
     );
+}
+
+function createBoestOfTable(boestOf: BoestOf): string {
+    let ranking: [ilona: string | undefined, peter: string | undefined][] = new Array(Math.max(boestOf.ilona.length, boestOf.peter.length));
+    ranking = ranking.fill(undefined!).map((_, i) => [boestOf.ilona[i], boestOf.peter[i]]);
+    return `
+            <table class="table table-hover w-100 m-auto">
+                <thead>
+                    <tr>
+                        <th scope="col" class="bg-transparent">Ilona</th>
+                        <th scope="col" class="bg-transparent">Peter</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    ${ranking.map(([ilona, peter], i) => `<tr>
+                        <td class="bg-transparent">${ilona ?? "-"}</td>
+                        <td class="bg-transparent">${peter ?? "-"}</td>
+                    </tr>`).join("")}
+                </tbod>
+            </table>
+        `
 }

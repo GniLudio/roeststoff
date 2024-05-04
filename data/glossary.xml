@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
+    <entry>
+        <name>Tüttefell</name>
+        <description>Niederrheinisches Wort für Gänsehaut.</description>
+        <episode>1</episode>
+        <episodeTime>02:30:34</episodeTime>
+    </entry>
+    <entry>
+        <name>Wal (Gaming)</name>
+        <description>Eine Person, die bereit ist für ein Spiel sehr viel Geld auszubegen.</description>
+        <episode>1</episode>
+        <episodeTime>02:15:44</episodeTime>
+    </entry>
+    <entry>
+        <name>Fetter Wein</name>
+        <description>Ein sehr geschmacksintensiver oder hochprozentiger Wein.</description>
+        <episode>1</episode>
+        <episodeTime>00:47:05</episodeTime>
+    </entry>
+    <entry>
+        <name>Champagner</name>
+        <description>Ein Schaumwein aus dem nordfranzösischen Gebiet der Champagne.</description>
+        <episode>1</episode>
+        <episodeTime>00:23:25</episodeTime>
+    </entry>
     <!--
     *<entry>
         <name>string</name>
