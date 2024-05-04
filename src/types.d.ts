@@ -1,11 +1,11 @@
 // ---------- CONTENT TYPES ----------
 interface Episode extends EpisodeID {
     name: string,
-    subtitle?: string,
-    description?: string,
-    pubDate?: Date,
-    duration?: Time,
-    enclosure?: EpisodeEnclosure
+    subtitle: string,
+    description: string,
+    pubDate: Date,
+    duration: Time,
+    enclosure: EpisodeEnclosure
 }
 
 interface Person {

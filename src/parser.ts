@@ -17,17 +17,17 @@ export function parseXML<T>(rawXML: string, rootPath: string[], entryName: strin
 // ---------- CONTENT TYPES ----------
 
 export function parseEpisode(element: Element): Episode {
-    const duration = parseOptional(parseNumber, element, 'duration')
+    const duration = parseMandatory(parseNumber, element, 'duration')
     // FIXME: Use full tag names (with 'prefix:...')
     return {
         episodeType: parseOptional(parseEpisodeType, element, 'episodeType'),
         episode: parseMandatory(parseNumber, element, 'episode'),
         name: parseMandatory(parseString, element, 'title'),
-        subtitle: parseOptional(parseString, element, 'subtitle'),
-        description: parseOptional(parseString, element, 'encoded'),
-        pubDate: parseOptional(parseDate, element, 'pubDate'),
-        duration: duration ? secondsToTime(duration) : undefined,
-        enclosure: parseOptional(parseEpisodeEnclosure, element, 'enclosure'),
+        subtitle: parseMandatory(parseString, element, 'subtitle'),
+        description: parseMandatory(parseString, element, 'encoded'),
+        pubDate: parseMandatory(parseDate, element, 'pubDate'),
+        duration: secondsToTime(duration),
+        enclosure: parseMandatory(parseEpisodeEnclosure, element, 'enclosure'),
     }
 }
 
