@@ -115,9 +115,9 @@ function parseTimestamp(element: Element): Timestamp {
 function parseTime(element: Element): Time {
     const text = parseString(element).split(":");
     return {
-        seconds: parseInt(text[0]) ?? 0,
+        hours: parseInt(text[0]) ?? 0,
         minutes: parseInt(text[1]) ?? 0,
-        hours: parseInt(text[2]) ?? 0,
+        seconds: parseInt(text[2]) ?? 0,
     };
 }
 
