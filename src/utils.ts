@@ -5,6 +5,7 @@ export function assert<T>(value: T, message?: string): NonNullable<T> {
     return value;
 }
 
+// ---------- STRING CONVERSION ----------
 export function secondsToTime(seconds: number): Time {
     const hours = Math.floor(seconds / 60 / 60);
     seconds -= hours * 60 * 60;
@@ -44,6 +45,15 @@ export function toHTMLID(id: string): string {
     return id.replace(/\W/g, '_');;
 }
 
+export function timeToString(time: Time): string {
+    return `${time.hours.toFixed().padStart(2, '0')}:${time.minutes.toFixed().padStart(2, '0')}:${time.seconds.toFixed().padStart(2, '0')}`;
+}
+
+export function dateToString(date: Date, withTime: boolean): string {
+    return date.toLocaleString('de', { timeZone: 'Europe/Berlin', dateStyle: 'full', timeStyle: withTime ? 'short' : undefined });
+}
+
+// ---------- SEARCH FUNCTIONS ----------
 export function hasEpisode(episodes: EpisodeID[] | undefined, episode: EpisodeID) {
     if (!episodes) return false;
     return episodes.find(e => isEpisodeEqual(e, episode));
@@ -57,10 +67,41 @@ export function isEpisodeTypeEqual(a: EpisodeType | undefined, b: EpisodeType | 
     return a == b || (a == 'full' && b == undefined) || (a == undefined && b == 'full');
 }
 
-export function timeToString(time: Time): string {
-    return `${time.hours.toFixed().padStart(2, '0')}:${time.minutes.toFixed().padStart(2, '0')}:${time.seconds.toFixed().padStart(2, '0')}`;
+// ---------- SORTING ----------
+export function compareDates(a: Date | undefined, b: Date | undefined): number {
+    if (a == b) return 0;
+    else if (a == undefined) return -1;
+    else if (b == undefined) return 1;
+    else if (a < b) return -1;
+    else if (a > b) return 1;
+    else return 0;
 }
 
-export function dateToString(date: Date, withTime: boolean): string {
-    return date.toLocaleString('de', { timeZone: 'Europe/Berlin', dateStyle: 'full', timeStyle: withTime ? 'short' : undefined });
+export function compareEpisode(a: Episode | undefined, b: Episode | undefined): number {
+    return compareDates(a?.pubDate, b?.pubDate);
+}
+
+export function compareEpisodeID(a: EpisodeID | undefined, b: EpisodeID | undefined, episodes: Episode[]): number {
+    if (a == b) return 0;
+    else if (a == undefined) return -1;
+    else if (b == undefined) return 1;
+    const aEpisode = episodes.find(e => isEpisodeEqual(a,e));
+    const bEpisode = episodes.find(e => isEpisodeEqual(b,e));
+    return compareEpisode(aEpisode, bEpisode);
+}
+
+export function compareEpisodeIDs(a: EpisodeID[] | undefined, b: EpisodeID[] | undefined, episodes: Episode[]): number {
+    if (a == b) return 0;
+    else if (a == undefined) return -1;
+    else if (b == undefined) return 1;
+    else if (a.length == 0 && b.length == 0) return 0;
+    else if (a.length == 0) return -1;
+    else if (b.length == 0) return 1;
+    const aLastEpisode = max(a, (e1,e2) => compareEpisodeID(e1, e2, episodes));
+    const bLastEpisode = max(b, (e1,e2) => compareEpisodeID(e1, e2, episodes));
+    return compareEpisodeID(aLastEpisode, bLastEpisode, episodes);
+}
+
+function max<T>(elements: T[], compare: (a: T, b: T) => number = (a,b) => a < b ? -1 : a == b ? 0 : 1): T {
+    return elements.reduce((a,b) => compare(a,b) >= 0 ? a : b);
 }

@@ -9,7 +9,7 @@ import glossaryRaw from '../data/glossary.xml';
 import miscRaw from '../data/misc.xml';
 import * as parser from './parser';
 import * as cards from './cards';
-
+import { compareDates, compareEpisodeID, compareEpisode, compareEpisodeIDs } from './utils';
 
 // PARSING
 console.log("PARSING")
@@ -25,6 +25,14 @@ const allContent: AllContent = {episodes, people, drinks, boestOfs, restaurants,
 
 // SORTING
 console.log("SORTING");
+episodes.sort(compareEpisode).reverse();
+people.sort((a,b) => compareEpisodeIDs(a.appearances, b.appearances, allContent.episodes)).reverse();
+drinks.sort((a,b) => compareEpisodeIDs(a.appearances, b.appearances, allContent.episodes)).reverse();
+boestOfs.sort((a,b) => compareEpisodeID(a, b, allContent.episodes)).reverse();
+restaurants.sort((a,b) => compareEpisodeIDs(a.appearances, b.appearances, allContent.episodes)).reverse();
+sponsors.sort((a,b) => compareEpisodeIDs(a.appearances, b.appearances, allContent.episodes)).reverse();
+glossary.sort((a,b) => a.name.localeCompare(b.name));
+misc.sort((a,b) => compareEpisodeID(a, b, allContent.episodes));
 
 // CREATE AND INSERT HTML ELEMENTS
 console.log("CREATING");
