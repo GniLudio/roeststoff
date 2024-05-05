@@ -26,7 +26,7 @@ export function getEpisodeCardInfo(episode: Episode, allContent: AllContent): Ca
             content: {
                 "Episode": episode.episode.toFixed(),
                 'Veröffentlichung': episode.pubDate ? dateToString(episode.pubDate, true) : undefined,
-                "Böst-Of": boestOf ? boestOf.name + (boestOf.episodeTime ? ' - ' + timeToString(boestOf.episodeTime) : '') : undefined,
+                "Böst of Röststoff": boestOf ? boestOf.name + (boestOf.episodeTime ? ' - ' + timeToString(boestOf.episodeTime) : '') : undefined,
                 "Gäste": mapToFilteredNames(allContent.people.filter(person => !person.isHost), episode, true),
                 "Trinkstoff": mapToFilteredNames(allContent.drinks, episode, true),
                 "Restaurants": mapToFilteredNames(allContent.restaurants, episode, true),
@@ -75,7 +75,13 @@ export function getDrinkCardInfo(drink: Drink, allContent: AllContent): CardInfo
 export function getBoestOfCardInfo(boestOf: BoestOf, allContent: AllContent): CardInfo {
     return {
         title: boestOf.name,
-        subtitle: createBoestOfTable(boestOf),
+        additionalInfo: {
+            id: boestOf.name,
+            title: boestOf.name,
+            content: {
+                "Böst of Röststoff": createBoestOfTable(boestOf)
+            }
+        }
     }
 }
 
@@ -131,7 +137,7 @@ function createCard(info: CardInfo): HTMLElement {
     const card = document.createElement('div');
     card.classList.add('col');
 
-    const cardImage = info.image ? `<img src="${info.image}" class="img-top rounded-3 pb-1 my-auto" alt="Foto ${toHTMLID(info.title)}">` : '';
+    const cardImage = info.image ? `<img src="${info.image}" class="img-top rounded-3 pb-1 my-auto" alt="${info.image}">` : '';
     const additionalInfo = createAdditionalInfo(info);
 
     card.innerHTML = `
@@ -159,7 +165,7 @@ function createAdditionalInfo(info: CardInfo): [button: string, modal: string] {
             </button>
         </div>`;
     const content = Object.entries(info.additionalInfo.content).map(([header, item]) => {
-        if (item == undefined) '';
+        if (item == undefined || item == '') '';
         else if (typeof(item) == 'object') return createAdditionalInfoListBlock(header, item);
         else return createAdditionalInfoBlock(header, item);
     }).join("");
@@ -193,7 +199,7 @@ function createAdditionalInfoListBlock(header: string, content: string[]): strin
     content = content.map(item => `<li class="list-group-item bg-transparent">${item}</li>`);
     return createAdditionalInfoBlock(
         header, 
-        `<ul class="list-group list-group-flush" style='display:inline-block'>${content.join("")}</ul>`
+        `<ul class="list-group list-group-flush d-inline-block">${content.join("")}</ul>`
     );
 }
 
@@ -201,7 +207,7 @@ function createBoestOfTable(boestOf: BoestOf): string {
     let ranking: [ilona: string | undefined, peter: string | undefined][] = new Array(Math.max(boestOf.ilona.length, boestOf.peter.length));
     ranking = ranking.fill(undefined!).map((_, i) => [boestOf.ilona[i], boestOf.peter[i]]);
     return `
-            <table class="table table-hover w-100 m-auto">
+        <table class="table table-hover w-auto mx-auto">
                 <thead>
                     <tr>
                         <th scope="col" class="bg-transparent">Ilona</th>
@@ -214,6 +220,6 @@ function createBoestOfTable(boestOf: BoestOf): string {
                         <td class="bg-transparent">${peter ?? "-"}</td>
                     </tr>`).join("")}
                 </tbod>
-            </table>
+        </table>
         `
 }

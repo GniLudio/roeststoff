@@ -1,6 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
     <entry>
+        <name>Bistroes</name>
+        <description>Kleines Restaurant mit einfacher Küche.</description>
+        <episode>2</episode>
+        <episodeTime>2:55:53</episodeTime>
+    </entry>
+    <entry>
+        <name>Sommelière / Sommelier</name>
+        <description>Eine Expertin / Ein Experte für Wein, bzw. generell für das Getränkesortiment.</description>
+        <episode>2</episode>
+        <episodeTime>2:07:40</episodeTime>
+    </entry>
+    <entry>
+        <name>Wein atmen lassen</name>
+        <description>Die Belüftung eines Weines, um der Alterungsprozess des Weines durch den Sauerstoff beschleunigt wird. Somit ist das auch nur bei jungen Weinen empfohlen. </description>
+        <episode>2</episode>
+        <episodeTime>1:10:02</episodeTime>
+    </entry>
+    <entry>
+        <name>Retronasale Aromawahrnehmung</name>
+        <description>Belüftung des Weines im Mund, damit die Aromen auch zu den Rezeptoren des Nasenraums transportiert werden.</description>
+        <episode>2</episode>
+        <episodeTime>1:09:12</episodeTime>
+    </entry>
+    <entry>
+        <name>Pescetarier</name>
+        <description>Jemand, der bei der Ernährung auf Fleisch (nicht aber Fisch) verzichtet.</description>
+        <episode>2</episode>
+        <episodeTime>49:00</episodeTime>
+    </entry>
+    <entry>
+        <name>à la carte</name>
+        <description>Die freie Auswahl der Speisen aus einer Speisekarte.</description>
+        <episode>2</episode>
+        <episodeTime>49:00</episodeTime>
+    </entry>
+    <entry>
+        <name>Vegetarisch</name>
+        <description>Jemand, der bei der Ernährung auf getötete Tiere verzichtet.</description>
+        <episode>2</episode>
+        <episodeTime>49:00</episodeTime>
+    </entry>
+    <entry>
+        <name>Vegan</name>
+        <description>Jemand, der bei der Ernährung auf alle Nahrungsmittel tierischem Ursprungs verzichtet.</description>
+        <episode>2</episode>
+        <episodeTime>48:47</episodeTime>
+    </entry>
+    <entry>
+        <name>Omnivore</name>
+        <description>Jemand, der bei der Ernährung auf kein Lebensmittel verzichtet. Synonym: Allesesser</description>
+        <episode>2</episode>
+        <episodeTime>48:47</episodeTime>
+    </entry>
+    <entry>
+        <name>No-Show</name>
+        <description>Angemeldete Gäste kommen nicht zum ausgemachten Termin.</description>
+        <episode>2</episode>
+        <episodeTime>25:07</episodeTime>
+    </entry>
+    <entry>
+        <name>Mise en place</name>
+        <description>Vorbereitung (des Arbeitsplatzes) vor dem Kochen.</description>
+        <episode>2</episode>
+        <episodeTime>12:28</episodeTime>
+    </entry>
+    <entry>
+        <name>Prep-Schicht</name>
+        <description>Schicht, in der Dinge vorbereitet werden.</description>
+        <episode>2</episode>
+        <episodeTime>12:28</episodeTime>
+    </entry>
+    <entry>
+        <name>Fermentation</name>
+        <description>Umwandlung organischer Stoffe in Säure, Gase oder Alkohol.</description>
+        <episode>2</episode>
+        <episodeTime>00:07:31</episodeTime>
+    </entry>
+    <entry>
+        <name>Most</name>
+        <description>Durch Pressen gewonnener Fruchtsaft, nachdem der Gärvorgang begonnen hat.</description>
+        <episode>2</episode>
+        <episodeTime>00:06:52</episodeTime>
+    </entry>
+    <entry>
         <name>Tüttefell</name>
         <description>Niederrheinisches Wort für Gänsehaut.</description>
         <episode>1</episode>

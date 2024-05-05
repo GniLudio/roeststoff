@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
     <person>
+        <name>? Friede</name>
+        <description>ehemaliger? Koch im tulus lotrek</description>
+        <image></image>
+        <characteristics>
+            <characteristic>
+                <description>ehemaliger? Koch im tulus lotrek</description>
+                <episode>2</episode>
+                <episodeTime>00:12:28</episodeTime>
+            </characteristic>
+        </characteristics>
+    </person>
+    <person>
         <name>Felix Fuchs</name>
         <description>Sommelier des tulus lotrek.</description>
         <image>images/people/felix_fuchs.jpg</image>
@@ -54,6 +66,10 @@
             <episodeTime>2:29:53</episodeTime>
         </hateQuestion>
         <appearances>
+            <appearance>
+                <episode>2</episode>
+                <episodeTime>00:00:30</episodeTime>
+            </appearance>
             <appearance>
                 <episode>1</episode>
                 <episodeTime>00:00:30</episodeTime>
@@ -109,11 +125,20 @@
         <isHost>true</isHost>
         <appearances>
             <appearance>
+                <episode>2</episode>
+                <episodeTime>00:00:30</episodeTime>
+            </appearance>
+            <appearance>
                 <episode>1</episode>
                 <episodeTime>00:00:30</episodeTime>
             </appearance>
         </appearances>
         <characteristics>
+            <characteristic>
+                <description>hat eine leichte Austernunverträglichkeit</description>
+                <episode>2</episode>
+                <episodeTime>1:30:00</episodeTime>
+            </characteristic>
             <characteristic>
                 <description>mit dem Bundesverdienstkreuz ausgezeichnet</description>
                 <episode>1</episode>

@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
     <boestof>
+        <name>Backwaren</name>
+        <episode>2</episode>
+        <episodeTime>2:38:04</episodeTime>
+        <peter>
+            <rank>Käsebrötchen</rank>
+            <rank>Weizenbrot (mit Vorteig von Honey)</rank>
+            <rank>Brötchen / Semmel / Schrippe</rank>
+            <rank>Sauerteigbrot (aus dem Brixx)</rank>
+            <rank>Osterzopf / Weckmann(mit Rosinen)</rank>
+        </peter>
+        <ilona>
+            <rank>Pastéis de Nata aus Belém (Lissabon)</rank>
+            <rank>Brotwagen im Steirereck</rank>
+            <rank>Quarktrudel aus der Kühltruhe</rank>
+            <rank><![CDATA[pâte feuilletée von Lenôtre aus dem KaDeWe /<br>Baklava von der Damaskus Konditorei]]></rank>
+            <rank>Brioche vom Feinbäcker Arnd Erbel aus Dachsbach</rank>
+        </ilona>
+    </boestof>
+    <boestof>
         <name>Diskriminierungsfreie Beleidigungen</name>
         <episode>1</episode>
         <episodeTime>01:59:13</episodeTime>

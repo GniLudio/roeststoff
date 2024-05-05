@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
     <drink>
+        <name>Saalwächter Silvaner Grauer Stein 2020</name>
+        <description></description>
+        <price></price>
+        <image>images/drinks/saalwaechter_silvaner_grauer_stein_2020.jpg</image>
+        <appearances>
+            <appearance>
+                <episode>2</episode>
+                <episodeTime>1:14:47</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
+        <name>Peter Jakob Kühn Riesling trocken 2019</name>
+        <description></description>
+        <price>aus dem Rheingau</price>
+        <image>images/drinks/peter_jakob_kuehn_riesling_2019.jpg</image>
+        <appearances>
+            <appearance>
+                <episode>2</episode>
+                <episodeTime>1:11:37</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
+        <name>Wachstum König BirnNat Kirsche 2021</name>
+        <description></description>
+        <price></price>
+        <image>images/drinks/wachstum_koenig_2021.jpg</image>
+        <appearances>
+            <appearance>
+                <episode>2</episode>
+                <episodeTime>00:04:30</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
         <name>Aurore Casanova Champagner aus Puisieulx</name>
         <description></description>
         <price>79€ / 0.75l</price>
@@ -26,5 +62,7 @@
             </appearance>
         </appearances>
     </drink>
+    Riesling
+    1:06:10
     -->
 </root>

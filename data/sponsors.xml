@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
     <sponsor>
+        <name>Ricola</name>
+        <image>images/sponsors/ricola.svg</image>
+        <appearances>
+            <appearance>
+                <episode>2</episode>
+                <episodeTime>46:15</episodeTime>
+            </appearance>
+        </appearances>
+    </sponsor>
+    <sponsor>
+        <name>Facebook</name>
+        <image>images/sponsors/facebook.png</image>
+        <appearances>
+            <appearance>
+                <episode>2</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
+        </appearances>
+    </sponsor>
+    <sponsor>
         <name>MikeWorldWide</name>
         <image>images/sponsors/mike_worldwide.jpg</image>
         <appearances>

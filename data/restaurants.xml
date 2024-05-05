@@ -40,6 +40,7 @@
             <member>Ilona Scholl</member>
             <member>Max Strohe</member>
             <member>Felix Fuchs</member>
+            <member><![CDATA[<s>? Friede</s>]]></member>
         </team>
         <appearances>
             <appearance>
@@ -48,6 +49,11 @@
             </appearance>
         </appearances>
         <characteristics>
+            <characteristic>
+                <description>Restaurant Nr. 1 in Berlin 2022 vom Ehepaar Smits</description>
+                <episode>2</episode>
+                <episodeTime>21:14</episodeTime>
+            </characteristic>
             <characteristic>
                 <description>bestes Serviceteam 2022 vom Feinschmecker</description>
                 <episode>1</episode>

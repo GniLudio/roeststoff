@@ -123,9 +123,9 @@ function parseHateQuestion(element: Element): HateQuestion {
 function parseTime(element: Element): Time {
     const text = parseString(element).split(":");
     return {
-        hours: parseInt(text[0]) ?? 0,
-        minutes: parseInt(text[1]) ?? 0,
-        seconds: parseInt(text[2]) ?? 0,
+        hours: parseInt(text[text.length-3]) || 0,
+        minutes: parseInt(text[text.length-2]) || 0,
+        seconds: parseInt(text[text.length-1]) || 0,
     };
 }
 
@@ -160,7 +160,7 @@ function parseDate(element: Element): Date {
 
 // ----------PRIMITIVES----------
 function parseNumber(element: Element): number {
-    return parseInt(parseString(element)) ?? 0;
+    return parseInt(parseString(element)) || 0;
 }
 
 function parseString(element: Element): string {
