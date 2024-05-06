@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
     <drink>
+        <name>Battenfeld Spanier Mölsheim Riesling 2016</name>
+        <description><![CDATA[Bild aus 2022]]></description>
+        <price></price>
+        <image>images/drinks/battenfeld_spanier_moelsheim_riesling_2022.webp</image>
+        <appearances>
+            <appearance>
+                <episode>1</episode>
+                <episodeType>bonus</episodeType>
+                <episodeTime>00:13:30</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
         <name>Saalwächter Silvaner Grauer Stein 2020</name>
         <description></description>
         <price></price>
@@ -62,7 +75,5 @@
             </appearance>
         </appearances>
     </drink>
-    Riesling
-    1:06:10
     -->
 </root>

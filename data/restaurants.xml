@@ -1,6 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
     <restaurant>
+        <name>Café Frieda</name>
+        <description></description>
+        <image>images/restaurants/cafe_frieda.jpg</image>
+        <team>
+            <member>Samina Raza</member>
+            <member>Ben Zviel</member>
+        </team>
+        <appearances>
+            <appearance>
+                <episode>1</episode>
+                <episodeType>bonus</episodeType>
+                <episodeTime>00:11:54</episodeTime>
+            </appearance>
+            <appearance>
+                <episode>1</episode>
+                <episodeType>bonus</episodeType>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
+        </appearances>
+        <characteristics>
+            <characteristic>
+                <description>Zweitprojekt der Gründer des Mrs Robinson's</description>
+                <episode>1</episode>
+                <episodeType>bonus</episodeType>
+                <episodeTime>00:06:31</episodeTime>
+            </characteristic>
+            <characteristic>
+                <description>offene Küche</description>
+                <episode>1</episode>
+                <episodeType>bonus</episodeType>
+                <episodeTime>00:06:10</episodeTime>
+            </characteristic>
+        </characteristics>
+    </restaurant>
+    <restaurant>
         <name>Tim Raue</name>
         <description></description>
         <image>images/restaurants/time_raue.png</image>

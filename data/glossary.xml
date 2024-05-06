@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
     <entry>
-        <name>Bistroes</name>
+        <name>Pesce Crudo</name>
+        <description>Roh servierter Fisch.</description>
+        <episode>1</episode>
+        <episodeType>bonus</episodeType>
+        <episodeTime>20:13</episodeTime>
+    </entry>
+    <entry>
+        <name>Bistro</name>
         <description>Kleines Restaurant mit einfacher Küche.</description>
         <episode>2</episode>
         <episodeTime>2:55:53</episodeTime>
