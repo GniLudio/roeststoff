@@ -26,11 +26,10 @@ export function getEpisodeCardInfo(episode: Episode, allContent: AllContent): Ca
             content: {
                 "Episode": episode.episode.toFixed(),
                 'Veröffentlichung': episode.pubDate ? dateToString(episode.pubDate, true) : undefined,
-                "Böst of Röststoff": boestOf ? boestOf.name + (boestOf.episodeTime ? ' - ' + timeToString(boestOf.episodeTime) : '') : undefined,
-                "Gäste": mapToFilteredNames(allContent.people.filter(person => !person.isHost), episode, true),
-                "Trinkstoff": mapToFilteredNames(allContent.drinks, episode, true),
-                "Restaurants": mapToFilteredNames(allContent.restaurants, episode, true),
-                "Sponsoren": mapToFilteredNames(allContent.sponsors, episode, true),
+                "Böst of Röststoff": boestOf?.name,
+                "Gäste": mapToFilteredNames(allContent.people.filter(person => !person.isHost), episode, false),
+                "Trinkstoff": mapToFilteredNames(allContent.drinks, episode, false),
+                "Restaurants": mapToFilteredNames(allContent.restaurants, episode, false),
                 'Dauer': episode.duration ? '~' + timeToString(episode.duration) : undefined,
                 'Audio': episode.enclosure ? `<audio controls preload="none" class="w-75 rounded-3" src="${episode.enclosure.url}"></audio>` : '',
                 'Beschreibung': episode.description
@@ -48,7 +47,7 @@ export function getPersonCardInfo(person: Person, allContent: AllContent): CardI
             id: `person_${person.name}`,
             title: person.name,
             content: {
-                "Folgen": person.appearances ? mapToEpisodeNames(person.appearances, allContent.episodes, true) : undefined,
+                "Folgen": person.appearances ? mapToEpisodeNames(person.appearances, allContent.episodes, false) : undefined,
                 "Hass-Frage": person.hateQuestion?.description,
                 "Merkmale": person.characteristics?.map(c => c.description)
             }
@@ -66,7 +65,7 @@ export function getDrinkCardInfo(drink: Drink, allContent: AllContent): CardInfo
             title: drink.name,
             content: {
                 "Preis": drink.price,
-                "Folgen": drink.appearances ? mapToEpisodeNames(drink.appearances, allContent.episodes, true): undefined,
+                "Folgen": drink.appearances ? mapToEpisodeNames(drink.appearances, allContent.episodes, false): undefined,
             }
         }
     }
@@ -95,7 +94,7 @@ export function getRestaurantCardInfo(restaurant: Restaurant, allContent: AllCon
             title: restaurant.name,
             content: {
                 "Team": restaurant.team,
-                "Folgen": restaurant.appearances ? mapToEpisodeNames(restaurant.appearances, allContent.episodes, true) : undefined,
+                "Folgen": restaurant.appearances ? mapToEpisodeNames(restaurant.appearances, allContent.episodes, false) : undefined,
                 "Merkmale": restaurant.characteristics?.map(c => c.description)
             }
         }
@@ -110,7 +109,7 @@ export function getSponsorCardInfo(sponsor: Sponsor, allContent: AllContent): Ca
             id: `sponsor_${sponsor.name}`,
             title: sponsor.name,
             content: {
-                "Folgen": sponsor.appearances ? mapToEpisodeNames(sponsor.appearances, allContent.episodes, true) : undefined,
+                "Folgen": sponsor.appearances ? mapToEpisodeNames(sponsor.appearances, allContent.episodes, false) : undefined,
             }
         }
     }

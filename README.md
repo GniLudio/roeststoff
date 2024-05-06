@@ -102,21 +102,6 @@
 </restaurant>
 ```
 
-### Sponsoren (sponsors.xml)
-```xml
-*<sponsor>
-    <name>string</name>
-    <image>string</image>
-    ?<appearances>
-        *<appearance>
-            <episode>number</episode>
-            ?<episodeType>full|bonus|trailer</episodeType>
-            <episodeTime>hours:minutes:seconds</episodeTime>
-        </appearance>
-    </appearances>
-</sponsor>
-```
-
 ### Lehrstoff (glossary.xml)
 ```xml
 *<entry>
@@ -139,6 +124,26 @@
     <episodeTime>hours:minutes:seconds</episodeTime>
 </entry>
 ```
+
+### Sponsoren (sponsors.xml)
+> Da Werbung dynamisch eingebunden wird, wird dies nicht weiter erfasst.
+
+```xml
+*<sponsor>
+    <name>string</name>
+    <image>string</image>
+    ?<appearances>
+        *<appearance>
+            <episode>number</episode>
+            ?<episodeType>full|bonus|trailer</episodeType>
+            <episodeTime>hours:minutes:seconds</episodeTime>
+        </appearance>
+    </appearances>
+</sponsor>
+```
+
+## Anmerkungen
+Timestamps können nur ungenau sein, da Werbung dynamisch in die Folgen eingebunden werden.
 
 ## TODOs
 * Bilder für Folgen

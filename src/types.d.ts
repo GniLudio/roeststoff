@@ -114,7 +114,6 @@ interface AllContent {
     drinks: Drink[],
     boestOfs: BoestOf[],
     restaurants: Restaurant[],
-    sponsors: Sponsor[],
     glossary: GlossaryEntry[],
     misc: MiscEntry[]
 }
