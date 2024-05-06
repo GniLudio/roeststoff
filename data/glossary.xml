@@ -109,7 +109,7 @@
         <episodeTime>00:23:25</episodeTime>
     </entry>
     <!--
-    *<entry>
+    <entry>
         <name>string</name>
         <description>string</description>
         <episode>number</episode>

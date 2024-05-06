@@ -51,7 +51,7 @@
         </appearances>
     </sponsor>
     <!--
-    *<sponsor>
+    <sponsor>
         <name>string</name>
         <image>string</image>
         ?<appearances>

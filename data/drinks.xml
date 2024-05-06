@@ -14,8 +14,8 @@
     </drink>
     <drink>
         <name>Peter Jakob Kühn Riesling trocken 2019</name>
-        <description></description>
-        <price>aus dem Rheingau</price>
+        <description>aus dem Rheingau</description>
+        <price></price>
         <image>images/drinks/peter_jakob_kuehn_riesling_2019.jpg</image>
         <appearances>
             <appearance>
@@ -49,7 +49,7 @@
         </appearances>
     </drink>
     <!--
-    *<drink>
+    <drink>
         <name>string</name>
         <description>string</description>
         <price>string</price>

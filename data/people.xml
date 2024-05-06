@@ -177,7 +177,7 @@
         </characteristics>
     </person>
     <!--
-    *<person>
+    <person>
         <name>string</name>
         <description>string</description>
         <image>string</image>

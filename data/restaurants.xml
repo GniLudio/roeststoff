@@ -77,7 +77,7 @@
         </characteristics>
     </restaurant>
     <!--
-    *<restaurant>
+    <restaurant>
         <name>string</name>
         <description>string</description>
         <image>string</image>

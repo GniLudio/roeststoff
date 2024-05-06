@@ -39,7 +39,7 @@
         </ilona>
     </boestof>
     <!--
-    *<boestof>
+    <boestof>
         <name>string</name>
         <episode>number</episode>
         ?<episodeType>full|bonus|trailer</episodeType>
