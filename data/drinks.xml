@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
     <drink>
+        <name>Fürstenberg Pilsener</name>
+        <description></description>
+        <price></price>
+        <image>images\drinks\fuerstenberg_pilsener.jpg</image>
+        <appearances>
+            <appearance>
+                <episode>3</episode>
+                <episodeTime>37:26</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
+        <name>Sauvignon Blanc Terra Rossa Weedenborn 2020</name>
+        <description></description>
+        <price></price>
+        <image>images\drinks\sauvignon_blanc_terra_rossa_weedenborn_2020.jpg</image>
+        <appearances>
+            <appearance>
+                <episode>3</episode>
+                <episodeTime>6:23</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
         <name>Battenfeld Spanier Mölsheim Riesling 2016</name>
         <description></description>
         <price></price>

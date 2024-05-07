@@ -130,8 +130,8 @@ function createCard(info: CardInfo): HTMLElement {
     card.classList.add('col');
 
     const cardImage = info.image && info.image != "" ? `<img src="${info.image}" class="img-top rounded-3 my-auto" alt="${info.image}">` : '';
-    const cardTitle = info.title && info.title != "" ? `<h5 class="card-title m-auto py-2">${info.title}</h5>` : ''
-    const cardSubtitle = info.subtitle && info.subtitle != "" ? `<h6 class="card-subtitle m-auto py-2">${info.subtitle}</h5>` : '';
+    const cardTitle = info.title && info.title != "" ? `<h5 class="card-title m-auto px-1 py-2">${info.title}</h5>` : ''
+    const cardSubtitle = info.subtitle && info.subtitle != "" ? `<h6 class="card-subtitle m-auto px-1 py-2">${info.subtitle}</h5>` : '';
     const additionalInfo = createAdditionalInfo(info);
 
     card.innerHTML = `

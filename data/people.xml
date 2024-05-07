@@ -20,6 +20,11 @@
         </appearances>
         <characteristics>
             <characteristic>
+                <description><![CDATA[Instagram: <a href="https://www.instagram.com/gluecksfuchs/">@gluecksfuchs</a>]]></description>
+                <episode>3</episode>
+                <episodeTime>15:58</episodeTime>
+            </characteristic>
+            <characteristic>
                 <description>Sommelier des tulus lotrek.</description>
                 <episode>1</episode>
                 <episodeTime>00:19:05</episodeTime>
@@ -30,9 +35,23 @@
         <name>Max Strohe</name>
         <description></description>
         <image>images/people/max_strohe.jpg</image>
+        <hateQuestion>
+            <description>Was ist deine Lieblingszutat?</description>
+            <episode>3</episode>
+            <episodeTime>1:23:30</episodeTime>
+        </hateQuestion>
         <appearances>
+            <appearance>
+                <episode>3</episode>
+                <episodeTime>1:20:51</episodeTime>
+            </appearance>
         </appearances>
         <characteristics>
+            <characteristic>
+                <description><![CDATA[hat Buch <i>Kochen am offenen Herzen</i> geschrieben]]></description>
+                <episode>3</episode>
+                <episodeTime>2:45:14</episodeTime>
+            </characteristic>
             <characteristic>
                 <description>mit dem Bundesverdienstkreuz ausgezeichnet</description>
                 <episode>1</episode>
@@ -44,7 +63,7 @@
                 <episodeTime>00:22:04</episodeTime>
             </characteristic>
             <characteristic>
-                <description>War bei Kitchen Impossible.</description>
+                <description>war bei Kitchen Impossible.</description>
                 <episode>1</episode>
                 <episodeTime>00:17:23</episodeTime>
             </characteristic>

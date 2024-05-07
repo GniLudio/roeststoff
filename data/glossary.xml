@@ -1,6 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
     <entry>
+        <name>Abhängen (Fleisch)</name>
+        <description>Aufhängen eines toten Tieres bis die Muskelfasern aufgelöst sind.</description>
+        <episode>3</episode>
+        <episodeTime>2:39:15</episodeTime>
+    </entry>
+    <entry>
+        <name>Patissier</name>
+        <description>Koch für Süßspeisen.</description>
+        <episode>3</episode>
+        <episodeTime>2:07:45</episodeTime>
+    </entry>
+    <entry>
+        <name>Sous Chef</name>
+        <description>Stellvertreter des Chef de Cuisine.</description>
+        <episode>3</episode>
+        <episodeTime>1:56:30</episodeTime>
+    </entry>
+    <entry>
+        <name>Chef de Cuisine</name>
+        <description>Koch, der Gerichte kreiert.</description>
+        <episode>3</episode>
+        <episodeTime>1:56:21</episodeTime>
+    </entry>
+    <entry>
+        <name>Gardemanger</name>
+        <description>Koch für der kalte Speisen.</description>
+        <episode>3</episode>
+        <episodeTime>1:56:09</episodeTime>
+    </entry>
+    <entry>
+        <name>Küchenbrigade</name>
+        <description>Mitarbeiter einer großen Küche, bei der die Aufgaben auf unterschiedliche Posten aufgeteilt sind.</description>
+        <episode>3</episode>
+        <episodeTime>1:55:29</episodeTime>
+    </entry>
+    <entry>
+        <name>Poissonnier</name>
+        <description>Koch für Fisch.</description>
+        <episode>3</episode>
+        <episodeTime>1:26:49</episodeTime>
+    </entry>
+    <entry>
+        <name>Saucier</name>
+        <description>Koch für Saucen.</description>
+        <episode>3</episode>
+        <episodeTime>1:26:49</episodeTime>
+    </entry>
+    <entry>
+        <name>Entremetier</name>
+        <description>Koch für Beilagen.</description>
+        <episode>3</episode>
+        <episodeTime>1:26:49</episodeTime>
+    </entry>
+    <entry>
         <name>Pesce Crudo</name>
         <description>Roh servierter Fisch.</description>
         <episode>1</episode>

@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
     <boestof>
+        <name>Überschätzte Lebensmittel</name>
+        <episode>3</episode>
+        <episodeTime>41:25</episodeTime>
+        <peter>
+            <rank>Schokolade</rank>
+            <rank>Filet</rank>
+            <rank>Eis</rank>
+            <rank>Hummus</rank>
+            <rank>Popcorn</rank>
+        </peter>
+        <ilona>
+            <rank>Tofu</rank>
+            <rank>Rote Paprika</rank>
+            <rank>Verarbeitete Erdbeeren</rank>
+            <rank>Banane</rank>
+            <rank>Dosenmais</rank>
+        </ilona>
+    </boestof>
+    <boestof>
         <name>Backwaren</name>
         <episode>2</episode>
         <episodeTime>2:38:04</episodeTime>
@@ -9,7 +28,7 @@
             <rank>Weizenbrot (mit Vorteig von Honey)</rank>
             <rank>Brötchen / Semmel / Schrippe</rank>
             <rank>Sauerteigbrot (aus dem Brixx)</rank>
-            <rank>Osterzopf / Weckmann(mit Rosinen)</rank>
+            <rank>Osterzopf / Weckmann (mit Rosinen)</rank>
         </peter>
         <ilona>
             <rank>Pastéis de Nata aus Belém (Lissabon)</rank>

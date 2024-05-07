@@ -38,11 +38,15 @@
     <restaurant>
         <name>Tim Raue</name>
         <description></description>
-        <image>images/restaurants/time_raue.png</image>
+        <image>images/restaurants/tim_raue.png</image>
         <team>
             <member>Tim Raue</member>
         </team>
         <appearances>
+            <appearance>
+                <episode>3</episode>
+                <episodeTime>3:12:00</episodeTime>
+            </appearance>
             <appearance>
                 <episode>1</episode>
                 <episodeTime>2:34:38</episodeTime>
