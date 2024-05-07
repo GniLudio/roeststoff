@@ -73,14 +73,6 @@ export function parseRestaurant(element: Element): Restaurant {
     };
 }
 
-export function parseSponsor(element: Element): Sponsor {
-    return {
-        name: parseMandatory(parseString, element, 'name'),
-        image: parseMandatory(parseString, element, 'image'),
-        appearances: parseOptionalArray(parseTimestamp, element, 'appearances', 'appearance'),
-    };
-}
-
 export function parseGlossaryEntry(element: Element): GlossaryEntry {
     return {
         ...parseTimestamp(element),

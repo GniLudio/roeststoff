@@ -101,20 +101,6 @@ export function getRestaurantCardInfo(restaurant: Restaurant, allContent: AllCon
     }
 }
 
-export function getSponsorCardInfo(sponsor: Sponsor, allContent: AllContent): CardInfo {
-    return {
-        image: sponsor.image,
-        title: sponsor.name,
-        additionalInfo: {
-            id: `sponsor_${sponsor.name}`,
-            title: sponsor.name,
-            content: {
-                "Folgen": sponsor.appearances ? mapToEpisodeNames(sponsor.appearances, allContent.episodes, false) : undefined,
-            }
-        }
-    }
-}
-
 export function getGlossaryEntryCardInfo(entry: GlossaryEntry, allContent: AllContent): CardInfo {
     return {
         title: entry.name,
@@ -136,15 +122,16 @@ function createCard(info: CardInfo): HTMLElement {
     const card = document.createElement('div');
     card.classList.add('col');
 
-    const cardImage = info.image ? `<img src="${info.image}" class="img-top rounded-3 pb-1 my-auto" alt="${info.image}">` : '';
+    const cardImage = info.image ? `<img src="${info.image}" class="img-top rounded-3 my-auto" alt="${info.image}">` : '';
+    const cardSubtitle = info.subtitle ? `<h6 class="card-subtitle m-auto py-2">${info.subtitle}</h5>` : "";
     const additionalInfo = createAdditionalInfo(info);
 
     card.innerHTML = `
         <div class="card bg-light border-warning border-3 h-100 overflow-auto">
             <div class="card-body d-flex flex-column h-100 p-1">
                 ${cardImage}
-                <h5 class="card-title m-auto py-1">${info.title}</h5>
-                <h6 class="card-subtitle m-auto py-1">${info.subtitle ?? ""}</h5>
+                <h5 class="card-title m-auto py-2">${info.title}</h5>
+                ${cardSubtitle}
                 ${additionalInfo[0]}
             </div>
         </div>
@@ -158,7 +145,7 @@ function createAdditionalInfo(info: CardInfo): [button: string, modal: string] {
     const id = toHTMLID('modal_' + info.additionalInfo.id);
 
     const button = `
-        <div class="m-auto py-1">
+        <div class="m-auto py-2">
             <button class="btn btn-outline-warning bg-secondary text-white" data-bs-toggle="modal" data-bs-target="#${id}">
                 Info
             </button>

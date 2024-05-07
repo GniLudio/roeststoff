@@ -41,12 +41,6 @@ interface Restaurant {
     characteristics?: Characteristic[],
 }
 
-interface Sponsor {
-    name: string,
-    image: string,
-    appearances?: Timestamp[],
-}
-
 interface GlossaryEntry extends Timestamp {
     name: string,
     description: string,

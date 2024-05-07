@@ -2,9 +2,9 @@
 <root>
     <drink>
         <name>Battenfeld Spanier Mölsheim Riesling 2016</name>
-        <description><![CDATA[Bild aus 2022]]></description>
+        <description></description>
         <price></price>
-        <image>images/drinks/battenfeld_spanier_moelsheim_riesling_2022.webp</image>
+        <image>images/drinks/battenfeld_spanier_moelsheim_riesling_2016.jpg</image>
         <appearances>
             <appearance>
                 <episode>1</episode>
