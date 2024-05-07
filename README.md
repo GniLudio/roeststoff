@@ -4,9 +4,9 @@
 ## Daten
 > XML-Dateien im `data`-Ordner.
 
-### Syntax
-* Element kann mehrmals verwendet werden: `*<tag>`
-* Element ist optional: `?<tag>`
+### Syntax (in der README)
+* `*<tag>` - Element kann mehrmals verwendet werden
+* `?<tag>` - Element ist optional
 
 ### Folgen (episodes.xml)
 > [RSS](https://feeds.megaphone.fm/TWG3193347111)
