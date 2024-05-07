@@ -46,6 +46,10 @@ interface GlossaryEntry extends Timestamp {
     description: string,
 }
 
+interface Saying extends Timestamp {
+    description: string
+}
+
 interface MiscEntry extends Timestamp {
     name: string,
     description: string,
@@ -109,6 +113,7 @@ interface AllContent {
     boestOfs: BoestOf[],
     restaurants: Restaurant[],
     glossary: GlossaryEntry[],
+    sayings: Saying[],
     misc: MiscEntry[]
 }
 

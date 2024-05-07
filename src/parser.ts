@@ -81,6 +81,13 @@ export function parseGlossaryEntry(element: Element): GlossaryEntry {
     };
 }
 
+export function parseSaying(element: Element): Saying {
+    return {
+        ...parseTimestamp(element),
+        description: parseMandatory(parseString, element, 'description'),
+    }
+}
+
 export function parseMiscEntry(element: Element): MiscEntry {
     return {
         ...parseTimestamp(element),

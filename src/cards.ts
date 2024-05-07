@@ -101,6 +101,13 @@ export function getRestaurantCardInfo(restaurant: Restaurant, allContent: AllCon
     }
 }
 
+export function getSayingCardInfo(saying: Saying, allContent: AllContent): CardInfo {
+    return {
+        title: "",
+        subtitle: saying.description
+    }
+}
+
 export function getGlossaryEntryCardInfo(entry: GlossaryEntry, allContent: AllContent): CardInfo {
     return {
         title: entry.name,
@@ -122,15 +129,16 @@ function createCard(info: CardInfo): HTMLElement {
     const card = document.createElement('div');
     card.classList.add('col');
 
-    const cardImage = info.image ? `<img src="${info.image}" class="img-top rounded-3 my-auto" alt="${info.image}">` : '';
-    const cardSubtitle = info.subtitle ? `<h6 class="card-subtitle m-auto py-2">${info.subtitle}</h5>` : "";
+    const cardImage = info.image && info.image != "" ? `<img src="${info.image}" class="img-top rounded-3 my-auto" alt="${info.image}">` : '';
+    const cardTitle = info.title && info.title != "" ? `<h5 class="card-title m-auto py-2">${info.title}</h5>` : ''
+    const cardSubtitle = info.subtitle && info.subtitle != "" ? `<h6 class="card-subtitle m-auto py-2">${info.subtitle}</h5>` : '';
     const additionalInfo = createAdditionalInfo(info);
 
     card.innerHTML = `
         <div class="card bg-light border-warning border-3 h-100 overflow-auto">
             <div class="card-body d-flex flex-column h-100 p-1">
                 ${cardImage}
-                <h5 class="card-title m-auto py-2">${info.title}</h5>
+                ${cardTitle}
                 ${cardSubtitle}
                 ${additionalInfo[0]}
             </div>

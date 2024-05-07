@@ -64,6 +64,11 @@
                     </li>
                     <li class="nav-item m-1" role="presentation">
                         <button class="nav-link border border-3 border-primary fw-bold p-1 p-lg-2 rounded-5"
+                            id="sayings-tab" data-bs-toggle="tab" data-bs-target="#sayings" type="button" role="tab"
+                            aria-controls="sayings" aria-selected="true">Sprüche</button>
+                    </li>
+                    <li class="nav-item m-1" role="presentation">
+                        <button class="nav-link border border-3 border-primary fw-bold p-1 p-lg-2 rounded-5"
                             id="misc-tab" data-bs-toggle="tab" data-bs-target="#misc" type="button" role="tab"
                             aria-controls="misc" aria-selected="true">Sonstiges</button>
                     </li>
@@ -124,6 +129,15 @@
             <div class="tab-pane fade show" id="glossary" role="tabpanel" aria-labelledby="glossary-tab">
                 <div class="container">
                     <div id="glossary_content"
+                        class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 row-cols-xxl-5 g-2 g-md-3 g-xl-4">
+                        <!-- Content is inserted by script -->
+                    </div>
+                </div>
+            </div>
+            <!-- Sayings / Sprueche -->
+            <div class="tab-pane fade show" id="sayings" role="tabpanel" aria-labelledby="sayings-tab">
+                <div class="container">
+                    <div id="sayings_content"
                         class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 row-cols-xxl-5 g-2 g-md-3 g-xl-4">
                         <!-- Content is inserted by script -->
                     </div>

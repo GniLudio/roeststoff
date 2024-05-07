@@ -59,7 +59,7 @@
 </drink>
 ```
 
-### Böst-Ofs (boestof.xml)
+### Böst of (boestof.xml)
 ```xml
 *<boestof>
     <name>string</name>
@@ -113,6 +113,16 @@
 </entry>
 ```
 
+### Sprüche (sayings.xml)
+```xml
+*<saying>
+    <description>string</description>
+    <episode>number</episode>
+    ?<episodeType>full|bonus|trailer</episodeType>
+    <episodeTime>hours:minutes:seconds</episodeTime>
+</saying>
+```
+
 ### Sonstiges (misc.xml)
 ```xml
 *<entry>
@@ -123,23 +133,6 @@
     ?<episodeType>full|bonus|trailer</episodeType>
     <episodeTime>hours:minutes:seconds</episodeTime>
 </entry>
-```
-
-### Sponsoren (sponsors.xml)
-> Da Werbung dynamisch eingebunden wird, wird dies nicht weiter erfasst.
-
-```xml
-*<sponsor>
-    <name>string</name>
-    <image>string</image>
-    ?<appearances>
-        *<appearance>
-            <episode>number</episode>
-            ?<episodeType>full|bonus|trailer</episodeType>
-            <episodeTime>hours:minutes:seconds</episodeTime>
-        </appearance>
-    </appearances>
-</sponsor>
 ```
 
 ## Anmerkungen
