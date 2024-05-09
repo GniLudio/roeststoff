@@ -1,21 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
     <drink>
-        <name>En L'Enfer 2018</name>
-        <description><![CDATA[<small class="text-muted">links im Bild</small>]]></description>
-        <price></price>
-        <image>images\drinks\freundeskreis_2018_gelber_muskateller_2021_en_lenfer_2018.jpg</image>
-        <appearances>
-            <appearance>
-                <episode>4</episode>
-                <episodeTime>3:55:31</episodeTime>
-            </appearance>
-        </appearances>
-    </drink>
-    <drink>
         <name>Gelber Muskateller 2021</name>
         <description><![CDATA[<small class="text-muted">mitte im Bild</small>]]></description>
-        <price></price>
         <image>images\drinks\freundeskreis_2018_gelber_muskateller_2021_en_lenfer_2018.jpg</image>
         <appearances>
             <appearance>
@@ -27,7 +14,6 @@
     <drink>
         <name>Freundeskreis 2018 vom Sekthaus Krack</name>
         <description><![CDATA[<small class="text-muted">rechts im Bild</small>]]></description>
-        <price></price>
         <image>images\drinks\freundeskreis_2018_gelber_muskateller_2021_en_lenfer_2018.jpg</image>
         <appearances>
             <appearance>
@@ -39,7 +25,6 @@
     <drink>
         <name>Fürstenberg Pilsener</name>
         <description></description>
-        <price></price>
         <image>images\drinks\fuerstenberg_pilsener.jpg</image>
         <appearances>
             <appearance>
@@ -51,7 +36,6 @@
     <drink>
         <name>Sauvignon Blanc Terra Rossa Weedenborn 2020</name>
         <description></description>
-        <price></price>
         <image>images\drinks\sauvignon_blanc_terra_rossa_weedenborn_2020.jpg</image>
         <appearances>
             <appearance>
@@ -63,7 +47,6 @@
     <drink>
         <name>Battenfeld Spanier Mölsheim Riesling 2016</name>
         <description></description>
-        <price></price>
         <image>images/drinks/battenfeld_spanier_moelsheim_riesling_2016.jpg</image>
         <appearances>
             <appearance>
@@ -76,7 +59,6 @@
     <drink>
         <name>Saalwächter Silvaner Grauer Stein 2020</name>
         <description></description>
-        <price></price>
         <image>images/drinks/saalwaechter_silvaner_grauer_stein_2020.jpg</image>
         <appearances>
             <appearance>
@@ -88,7 +70,6 @@
     <drink>
         <name>Peter Jakob Kühn Riesling trocken 2019</name>
         <description>aus dem Rheingau</description>
-        <price></price>
         <image>images/drinks/peter_jakob_kuehn_riesling_2019.jpg</image>
         <appearances>
             <appearance>
@@ -100,7 +81,6 @@
     <drink>
         <name>Wachstum König BirnNat Kirsche 2021</name>
         <description></description>
-        <price></price>
         <image>images/drinks/wachstum_koenig_2021.jpg</image>
         <appearances>
             <appearance>
@@ -125,7 +105,6 @@
     <drink>
         <name>string</name>
         <description>string</description>
-        <price>string</price>
         <image>string</image>
         ?<appearances>
             *<appearance>
