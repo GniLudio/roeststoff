@@ -95,6 +95,15 @@
         </hateQuestion>
         <appearances>
             <appearance>
+                <episode>4</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
+            <appearance>
+                <episode>1</episode>
+                <episodeType>bonus</episodeType>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
+            <appearance>
                 <episode>2</episode>
                 <episodeTime>00:00:30</episodeTime>
             </appearance>
@@ -152,6 +161,15 @@
         <image>images/people/ilona_scholl.jpg</image>
         <isHost>true</isHost>
         <appearances>
+            <appearance>
+                <episode>4</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
+            <appearance>
+                <episode>1</episode>
+                <episodeType>bonus</episodeType>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
             <appearance>
                 <episode>2</episode>
                 <episodeTime>00:00:30</episodeTime>
