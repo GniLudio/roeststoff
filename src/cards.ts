@@ -17,6 +17,7 @@ export function createCards<T>(containerID: string, items: T[], getCardInfo: (e:
 
 export function getEpisodeCardInfo(episode: Episode, allContent: AllContent): CardInfo {
     const boestOf = allContent.boestOfs.find(boestOf => isEpisodeEqual(boestOf, episode));
+    const episodeType = episode.episodeType && episode.episodeType != "full" ? ` (${episode.episodeType.charAt(0).toUpperCase() + episode.episodeType.slice(1)})` : '';
     return {
         title: episode.name,
         subtitle: episode.subtitle,
@@ -24,7 +25,7 @@ export function getEpisodeCardInfo(episode: Episode, allContent: AllContent): Ca
             id: `episode_${episode.name}`,
             title: episode.name + " (" + episode.episode + ")",
             content: {
-                "Episode": episode.episode.toFixed(),
+                "Episode": episode.episode.toFixed() + episodeType,
                 'Veröffentlichung': episode.pubDate ? dateToString(episode.pubDate, true) : undefined,
                 "Böst of Röststoff": boestOf?.name,
                 "Gäste": mapToFilteredNames(allContent.people.filter(person => !person.isHost), episode, false),
@@ -64,7 +65,6 @@ export function getDrinkCardInfo(drink: Drink, allContent: AllContent): CardInfo
             id: `drink_${drink.name}`,
             title: drink.name,
             content: {
-                "Preis": drink.price,
                 "Folgen": drink.appearances ? mapToEpisodeNames(drink.appearances, allContent.episodes, false): undefined,
             }
         }

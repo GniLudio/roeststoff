@@ -45,11 +45,23 @@ cards.createCards('glossary_content', glossary, cards.getGlossaryEntryCardInfo, 
 cards.createCards('sayings_content', sayings, cards.getSayingCardInfo, allContent);
 cards.createCards('misc_content', misc, cards.getMiscEntryCardInfo, allContent);
 
-// AUTOMATICALLY STOP OTHER AUDIO
+// AUDIO CONTROLS
+let lastPlayed: HTMLMediaElement | null = null;
 document.addEventListener('play', function(e) {
+    console.log('play', e.target);
     for (const audio of document.querySelectorAll("audio")) {
-        if (audio != e.target) {
-            audio.pause()
+        if (audio != e.target && !audio.paused) {
+            audio.pause();
         }
+    }
+    lastPlayed = e.target as HTMLMediaElement;
+}, true);
+document.addEventListener('keyup', function(e) {
+    if (lastPlayed == null) return;
+    if (e.key != " " && e.key != "Space") return;
+    if (lastPlayed.paused) {
+        lastPlayed.play();
+    } else {
+        lastPlayed.pause();
     }
 }, true);

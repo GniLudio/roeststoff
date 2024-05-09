@@ -21,7 +21,6 @@ interface Person {
 interface Drink {
     name: string,
     description: string,
-    price: string,
     image: string,
     appearances?: Timestamp[],
 }

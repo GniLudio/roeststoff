@@ -47,7 +47,6 @@
 *<drink>
     <name>string</name>
     <description>string<description>
-    <price>string</price>
     <image>string</image>
     ?<appearances>
         *<appearance>
@@ -140,5 +139,4 @@ Timestamps können nur ungenau sein, da Werbung dynamisch in die Folgen eingebun
 
 ## TODOs
 * Bilder für Folgen
-* Sprüche-Tab
 * Inhalte nach Zeitpunkt sortieren (nicht nur nach Folge)
