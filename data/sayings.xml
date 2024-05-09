@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
     <saying>
+        <description>Make Sommelier a Dienstleister again.</description>
+        <episode>4</episode>
+        <episodeTime>3:09:58</episodeTime>
+    </saying>
+    <saying>
+        <description><![CDATA[<b>Ess</b>capaden]]></description>
+        <episode>4</episode>
+        <episodeTime>12:20</episodeTime>
+    </saying>
+    <saying>
         <description>Wer nichts wird, wird Wirt.</description>
         <episode>1</episode>
         <episodeTime>2:27:57</episodeTime>

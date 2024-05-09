@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
     <boestof>
+        <name>Überschätzte Getränke</name>
+        <episode>4</episode>
+        <episodeTime>1:05:25</episodeTime>
+        <peter>
+            <rank>Tee</rank>
+            <rank>Cocktails</rank>
+            <rank>Caffee</rank>
+            <rank>Champagner</rank>
+            <rank>Craftbeer</rank>
+        </peter>
+        <ilona>
+            <rank>Aperol Spritz</rank>
+            <rank>Bier</rank>
+            <rank>Gin Tonic</rank>
+            <rank>Club-Mate</rank>
+            <rank>Milch</rank>
+        </ilona>
+    </boestof>
+    <boestof>
         <name>Überschätzte Lebensmittel</name>
         <episode>3</episode>
         <episodeTime>41:25</episodeTime>

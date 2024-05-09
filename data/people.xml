@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
     <person>
-        <name>? Friede</name>
-        <description>ehemaliger? Koch im tulus lotrek</description>
+        <name>Friede</name>
+        <description>ehemaliger Passmann im tulus lotrek</description>
         <image></image>
         <characteristics>
             <characteristic>
-                <description>ehemaliger? Koch im tulus lotrek</description>
+                <description>ehemaliger Passmann im tulus lotrek</description>
+                <episode>4</episode>
+                <episodeTime>1:50</episodeTime>
+            </characteristic>
+            <characteristic>
+                <description>Koch im tulus lotrek</description>
                 <episode>2</episode>
                 <episodeTime>00:12:28</episodeTime>
             </characteristic>
@@ -17,6 +22,10 @@
         <description>Sommelier des tulus lotrek.</description>
         <image>images/people/felix_fuchs.jpg</image>
         <appearances>
+            <appearance>
+                <episode>4</episode>
+                <episodeTime>1:59:45</episodeTime>
+            </appearance>
         </appearances>
         <characteristics>
             <characteristic>

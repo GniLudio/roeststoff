@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
     <drink>
+        <name>En L'Enfer 2018</name>
+        <description><![CDATA[<small class="text-muted">links im Bild</small>]]></description>
+        <price></price>
+        <image>images\drinks\freundeskreis_2018_gelber_muskateller_2021_en_lenfer_2018.jpg</image>
+        <appearances>
+            <appearance>
+                <episode>4</episode>
+                <episodeTime>3:55:31</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
+        <name>Gelber Muskateller 2021</name>
+        <description><![CDATA[<small class="text-muted">mitte im Bild</small>]]></description>
+        <price></price>
+        <image>images\drinks\freundeskreis_2018_gelber_muskateller_2021_en_lenfer_2018.jpg</image>
+        <appearances>
+            <appearance>
+                <episode>4</episode>
+                <episodeTime>2:01:50</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
+        <name>Freundeskreis 2018 vom Sekthaus Krack</name>
+        <description><![CDATA[<small class="text-muted">rechts im Bild</small>]]></description>
+        <price></price>
+        <image>images\drinks\freundeskreis_2018_gelber_muskateller_2021_en_lenfer_2018.jpg</image>
+        <appearances>
+            <appearance>
+                <episode>4</episode>
+                <episodeTime>50:41</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
         <name>Fürstenberg Pilsener</name>
         <description></description>
         <price></price>

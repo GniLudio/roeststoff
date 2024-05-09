@@ -1,6 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
     <entry>
+        <name>Cuvée</name>
+        <description>Ein Verschnitt von verschiedenen Weinen.</description>
+        <episode>4</episode>
+        <episodeTime>3:56:03</episodeTime>
+    </entry>
+    <entry>
+        <name>Blanc de Noirs</name>
+        <description>Rotwein, der aus gekelterten weißem Wein hergestellt wurde.</description>
+        <episode>4</episode>
+        <episodeTime>2:36:35</episodeTime>
+    </entry>
+    <entry>
+        <name>Klon</name>
+        <description>Die Vermehrung identischer Reben.</description>
+        <episode>4</episode>
+        <episodeTime>2:12:08</episodeTime>
+    </entry>
+    <entry>
+        <name>Rebsorte</name>
+        <description>Eine Planzenart, aus deren Früchten Wein gewonnen wird.</description>
+        <episode>4</episode>
+        <episodeTime>2:09:55</episodeTime>
+    </entry>
+    <entry>
+        <name>Terroir</name>
+        <description>Umstände und Umgebung, in der ein Wein entsteht.</description>
+        <episode>4</episode>
+        <episodeTime>2:07:40</episodeTime>
+    </entry>
+    <entry>
+        <name>Straffer Wein</name>
+        <description></description>
+        <episode>4</episode>
+        <episodeTime>2:02:50</episodeTime>
+    </entry>
+    <entry>
+        <name>Bouillabaisse</name>
+        <description>Fischsuppe aus Marseille.</description>
+        <episode>4</episode>
+        <episodeTime>18:03</episodeTime>
+    </entry>
+    <entry>
+        <name>Pâté en croûte</name>
+        <description>(Eingebackene) Pastete im Teigmantel.</description>
+        <episode>4</episode>
+        <episodeTime>17:15</episodeTime>
+    </entry>
+    <entry>
+        <name>Coq au Vin</name>
+        <description>Hünchen mit Wein.</description>
+        <episode>4</episode>
+        <episodeTime>14:10</episodeTime>
+    </entry>
+    <entry>
+        <name>Boeuf Bourguignon</name>
+        <description>Ein Schmorgericht mit Rindfleisch und Burgunderwein.</description>
+        <episode>4</episode>
+        <episodeTime>14:00</episodeTime>
+    </entry>
+    <entry>
+        <name>Pass</name>
+        <description>Ort, an dem Gerichte aus der Küche dem Service übergeben werden.</description>
+        <episode>4</episode>
+        <episodeTime>1:50</episodeTime>
+    </entry>
+    <entry>
         <name>Abhängen (Fleisch)</name>
         <description>Aufhängen eines toten Tieres bis die Muskelfasern aufgelöst sind.</description>
         <episode>3</episode>

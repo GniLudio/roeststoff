@@ -1,6 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
     <restaurant>
+        <name>Frühstück 3000</name>
+        <description></description>
+        <image>images/restaurants/fruestueck_3000.jpg</image>
+        <appearances>
+            <appearance>
+                <episode>4</episode>
+                <episodeTime>4:06:25</episodeTime>
+            </appearance>
+        </appearances>
+    </restaurant>
+    <restaurant>
+        <name>PHP</name>
+        <description></description>
+        <image>images/restaurants/php.jpeg</image>
+        <appearances>
+            <appearance>
+                <episode>4</episode>
+                <episodeTime>35:10</episodeTime>
+            </appearance>
+        </appearances>
+    </restaurant>
+    <restaurant>
+        <name>Zollpackhof</name>
+        <description>Peter's Lieblings-Biergarten.</description>
+        <image>images/restaurants/zollpackhof.png</image>
+        <appearances>
+            <appearance>
+                <episode>4</episode>
+                <episodeTime>18:34</episodeTime>
+            </appearance>
+        </appearances>
+        <characteristics>
+            <characteristic>
+                <description>Peter's Lieblings-Biergarten</description>
+                <episode>4</episode>
+                <episodeTime>18:34</episodeTime>
+            </characteristic>
+        </characteristics>
+    </restaurant>
+    <restaurant>
         <name>Café Frieda</name>
         <description></description>
         <image>images/restaurants/cafe_frieda.jpg</image>
