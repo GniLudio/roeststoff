@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
     <saying>
+        <description>Friteusen können nur Friteusen.</description>
+        <episode>5</episode>
+        <episodeTime>3:16:36</episodeTime>
+    </saying>
+    <saying>
+        <description>Am Sonntag hatte ich die Welt im Döschen.</description>
+        <episode>5</episode>
+        <episodeTime>9:03</episodeTime>
+    </saying>
+    <saying>
         <description>Make Sommelier a Dienstleister again.</description>
         <episode>4</episode>
         <episodeTime>3:09:58</episodeTime>

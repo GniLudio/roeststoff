@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
     <drink>
+        <name>Ürziger Würzgarten Riesling Kabinett 2021 vom Weingut Dr. Hermann</name>
+        <description><![CDATA[<small class="text-muted">links im Bild</small>]]></description>
+        <image>images\drinks\hermann_2021_hilda_2017.jpg</image>
+        <appearances>
+            <appearance>
+                <episode>5</episode>
+                <episodeTime>1:19:10</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
+        <name>Hilda 2017</name>
+        <description><![CDATA[<small class="text-muted">rechts im Bild</small>]]></description>
+        <image>images\drinks\hermann_2021_hilda_2017.jpg</image>
+        <appearances>
+            <appearance>
+                <episode>5</episode>
+                <episodeTime>1:19:10</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
         <name>Gelber Muskateller 2021</name>
         <description><![CDATA[<small class="text-muted">mitte im Bild</small>]]></description>
         <image>images\drinks\freundeskreis_2018_gelber_muskateller_2021_en_lenfer_2018.jpg</image>

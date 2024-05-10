@@ -1,6 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
     <entry>
+        <name>en gros</name>
+        <description>Im Großen und Ganzen.</description>
+        <episode>5</episode>
+        <episodeTime>1:58:30</episodeTime>
+    </entry>
+    <entry>
+        <name>Eiswein</name>
+        <description>Ein Wein, der aus gefrorenen Trauben hergestellt wird.</description>
+        <episode>5</episode>
+        <episodeTime>1:23:14</episodeTime>
+    </entry>
+    <entry>
+        <name>Kabinett</name>
+        <description>Die erste Stufe des deutschen Prädikatsweinsystems.</description>
+        <episode>5</episode>
+        <episodeTime>1:23:14</episodeTime>
+    </entry>
+    <entry>
+        <name>Spätlese</name>
+        <description>Die zweite Stufe des deutschen Prädikatsweinsystems.</description>
+        <episode>5</episode>
+        <episodeTime>1:23:14</episodeTime>
+    </entry>
+        <entry>
+        <name>Prädikatswein</name>
+        <description><![CDATA[Die höchste Qualitätsstufe von deutschen Weinen, bei der abhängig des Zuckergehalts der Trauben noch weiter unterteilt wird.]]></description>
+        <episode>5</episode>
+        <episodeTime>1:23:14</episodeTime>
+    </entry>
+    <entry>
+        <name>Hauben (Gault Millau)</name>
+        <description><![CDATA[
+            <table>
+                <tr><td>1x</td><td>Ambitionierte Küche</td></tr>
+                <tr><td>2x</td><td>Sehr gute Küche</td></tr>
+                <tr><td>3x</td><td>Kochkunst, Kreativität und Qualität</td></tr>
+                <tr><td>4x</td><td>Prägende Küche</td></tr>
+                <tr><td>5x</td><td>Weltbestes Restaurant</td></tr>
+            </table>
+            ]]></description>
+        <episode>5</episode>
+        <episodeTime>1:06:05</episodeTime>
+    </entry>
+    <entry>
+        <name>Sterne (Guide Michelin)</name>
+        <description><![CDATA[
+            <table>
+                <tr><td>&#x2605;</td><td>Ein Stopp Wert.</td></tr>
+                <tr><td>&#x2605;&#x2605;</td><td>Einen Umweg Wert.</td></tr>
+                <tr><td>&#x2605;&#x2605;&#x2605;</td><td>Eine Reise Wert.</td></tr>
+            </table>
+            ]]></description>
+        <episode>5</episode>
+        <episodeTime>1:06:05</episodeTime>
+    </entry>
+    <entry>
         <name>Cuvée</name>
         <description>Ein Verschnitt von verschiedenen Weinen.</description>
         <episode>4</episode>

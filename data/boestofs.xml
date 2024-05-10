@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
     <boestof>
+        <name>Gerichte aus der Kindheit</name>
+        <episode>5</episode>
+        <episodeTime>2:35:00</episodeTime>
+        <peter>
+            <rank>Schaschlik à la Peter's Papa</rank>
+            <rank>Eierpfannekuchen mit Zwiebelmettwurst</rank>
+            <rank>Pommes mit Frikandel Spezial (Fleischrolle)</rank>
+            <rank><![CDATA[
+                Menü (1.ter Weihnachtstag): <ul>
+                <li>Rindfleischbrühe</li>
+                <li>Tafelspitz mit eingelegten Gurken und selbstgemachten Remouladensauce</li>
+                <li><s>Rehragout mit Kroketten und Rosenkohl</s></li>
+                <li>Herrencreme</li>
+                </ul>
+            ]]></rank>
+            <rank>Reis mit halben Pfirsichen und Cordon Bleu</rank>
+        </peter>
+        <ilona>
+            <rank><![CDATA[
+                Weihnachtsmarktessen:<ul>
+                <li>Gebrannte Mandeln</li>
+                <li>Pilzpfanne</li>
+                <li>Langos</li>
+                <li>Kandierte Äpfel</li>
+                <li>Schokolierte Bananen</li>
+                <li>Grühpunsch / Kinderpunsch</li>
+                <li>Maronen</li>
+                </ul>
+            ]]></rank>
+            <rank>Beilagensalat (im schwäbischen Landgasthof)</rank>
+            <rank>Wiener Kartoffelsalat (Heiligabend)</rank>
+            <rank>Leberknödelsuppe der Großmutter</rank>
+            <rank><![CDATA[Käsespätzle der Mutter<br>Sonntagsbraten vom Vater]]></rank>
+        </ilona>
+    </boestof>
+    <boestof>
         <name>Überschätzte Getränke</name>
         <episode>4</episode>
         <episodeTime>1:05:25</episodeTime>

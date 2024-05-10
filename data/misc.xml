@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
     <entry>
+        <name>Gault-Millau</name>
+        <description>Ein Restaurantführer, der nach seinen Gründern Henri Gault und Christian Millau benannt ist.</description>
+        <image>images/misc/gault_millau.svg</image>
+        <episode>5</episode>
+        <episodeTime>1:06:05</episodeTime>
+    </entry>
+    <entry>
+        <name>Guide Michelin</name>
+        <description>Ein Hotel- und Reiseführer, der vom Reifenhersteller Michelin geführt wird.</description>
+        <image>images/misc/guide_michelin.svg</image>
+        <episode>5</episode>
+        <episodeTime>25:40</episodeTime>
+    </entry>
+    <entry>
         <name>Once Upon a Time in Shaolin</name>
         <description>Ein Album vom Wu-Tang Clan, von dem nur ein physisches Exemplar existiert.</description>
         <image>images/misc/once_upon_a_time_in_shaolin.jpg</image>
