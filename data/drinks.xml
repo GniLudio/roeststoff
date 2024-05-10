@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
     <drink>
+        <name>Pinot Noir 2017 von Friedrich Becker</name>
+        <description></description>
+        <image>images/drinks/pinot_noir_friedrich_becker.webp</image>
+        <appearances>
+            <appearance>
+                <episode>6</episode>
+                <episodeTime>9:00</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
+        <name>Merlot trocken Hainfelder Kapelle 2019 vom Weingut Kastanienberg</name>
+        <description></description>
+        <image>images/drinks/merlot_trocken_kastanienberg.png</image>
+        <appearances>
+            <appearance>
+                <episode>6</episode>
+                <episodeTime>3:15</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
         <name>Ürziger Würzgarten Riesling Kabinett 2021 vom Weingut Dr. Hermann</name>
         <description><![CDATA[<small class="text-muted">links im Bild</small>]]></description>
         <image>images\drinks\hermann_2021_hilda_2017.jpg</image>

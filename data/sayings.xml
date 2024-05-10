@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
     <saying>
+        <description>Essen ist der Sex des Alltags.</description>
+        <episode>6</episode>
+        <episodeTime>1:15:34</episodeTime>
+    </saying>
+    <saying>
         <description>Friteusen können nur Friteusen.</description>
         <episode>5</episode>
         <episodeTime>3:16:36</episodeTime>

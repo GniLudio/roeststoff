@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
     <boestof>
+        <name>Essen in Medien</name>
+        <episode>6</episode>
+        <episodeTime>1:00:00</episodeTime>
+        <peter>
+            <rank>Kitchen Impossible</rank>
+            <rank>Binging with Babish</rank>
+            <rank>The Taste</rank>
+            <rank>Chef (2014)</rank>
+            <rank>Hannibal</rank>
+        </peter>
+        <ilona>
+            <rank>The Bear: King of the Kitchen</rank>
+            <rank>Walter Moers</rank>
+            <rank>Sideways</rank>
+            <rank>Schlemmen mit Gérard Depardieu</rank>
+            <rank>Chocolat</rank>
+        </ilona>
+    </boestof>
+    <boestof>
         <name>Gerichte aus der Kindheit</name>
         <episode>5</episode>
         <episodeTime>2:35:00</episodeTime>
