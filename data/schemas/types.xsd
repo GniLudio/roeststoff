@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<xs:schema
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="roeststoff"
+    xmlns="roeststoff"
+    elementFormDefault="qualified">
+    <!-- CONTENT TYPES -->
+
+    <xs:complexType name="Person">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string" />
+            <xs:element name="description" type="xs:string" />
+            <xs:element name="image" type="xs:string" />
+            <xs:element name="isHost" type="Boolean" minOccurs="0"></xs:element>
+            <xs:element name="hateQuestion" type="TextWithTimestamp" minOccurs="0" />
+            <xs:element name="appearances" type="AppearanceArray" minOccurs="0" />
+            <xs:element name="characteristics" type="CharacteristicArray" minOccurs="0" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="Drink">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string" />
+            <xs:element name="description" type="xs:string" />
+            <xs:element name="image" type="xs:string" />
+            <xs:element name="appearances" type="AppearanceArray" minOccurs="0" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="BoestOf">
+        <xs:complexContent>
+            <xs:extension base="Timestamp">
+                <xs:sequence>
+                    <xs:element name="name" type="xs:string" />
+                    <xs:element name="peter" type="RankingArray" />
+                    <xs:element name="ilona" type="RankingArray" />
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="Restaurant">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string" />
+            <xs:element name="image" type="xs:string" />
+            <xs:element name="description" type="xs:string" />
+            <xs:element name="members" type="MemberArray" minOccurs="0"/>
+            <xs:element name="appearances" type="AppearanceArray"  minOccurs="0"/>
+            <xs:element name="characteristics" type="CharacteristicArray" minOccurs="0" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="GlossaryEntry">
+        <xs:complexContent>
+            <xs:extension base="Timestamp">
+                <xs:sequence>
+                    <xs:element name="name" type="xs:string" />
+                    <xs:element name="description" type="xs:string" />
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="MiscEntry">
+        <xs:complexContent>
+            <xs:extension base="Timestamp">
+                <xs:sequence>
+                    <xs:element name="name" type="xs:string" />
+                    <xs:element name="description" type="xs:string" />
+                    <xs:element name="image" type="xs:string" minOccurs="0" />
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <!-- NESTED & CONTENT TYPES -->
+    <xs:complexType name="TextWithTimestamp">
+        <xs:complexContent>
+            <xs:extension base="Timestamp">
+                <xs:sequence>
+                    <xs:element name="description" type="xs:string" />
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <!-- ARRAYS -->
+    <xs:complexType name="AppearanceArray">
+        <xs:sequence>
+            <xs:element name="appearance" type="Timestamp" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="CharacteristicArray">
+        <xs:sequence>
+            <xs:element name="characteristics" type="TextWithTimestamp" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="RankingArray">
+        <xs:sequence>
+            <xs:element name="rank" type="xs:string" minOccurs="0" maxOccurs="unbounded" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="MemberArray">
+        <xs:sequence>
+            <xs:element name="member" type="xs:string" minOccurs="0" maxOccurs="unbounded" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- NESTED TYPES -->
+    <xs:complexType name="Timestamp">
+        <xs:complexContent>
+            <xs:extension base="EpisodeID">
+                <xs:sequence>
+                    <xs:element name="episodeTime" type="EpisodeTime" />
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:simpleType name="EpisodeTime">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="([0-9]?[0-9]:)?([0-9]?[0-9]:)?([0-9]?[0-9])" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="EpisodeID">
+        <xs:sequence>
+            <xs:element name="episode" type="xs:decimal"></xs:element>
+            <xs:element name="episodeType" type="EpisodeType" minOccurs="0" default="full" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:simpleType name="EpisodeType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="full" />
+            <xs:enumeration value="trailer" />
+            <xs:enumeration value="bonus" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- PRIMITIVES -->
+    <xs:simpleType name="Boolean">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="true" />
+            <xs:enumeration value="false" />
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

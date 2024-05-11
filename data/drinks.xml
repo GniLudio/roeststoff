@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root>
+<root
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="roeststoff" 
+    xsi:schemaLocation="roeststoff schemas/drinks.xsd">
     <drink>
         <name>Pinot Noir 2017 von Friedrich Becker</name>
         <description></description>
@@ -136,7 +139,6 @@
     <drink>
         <name>Aurore Casanova Champagner aus Puisieulx</name>
         <description></description>
-        <price>79€ / 0.75l</price>
         <image>images/drinks/aurore_casanova_champagner_puisieulx.webp</image>
         <appearances>
             <appearance>
@@ -145,18 +147,4 @@
             </appearance>
         </appearances>
     </drink>
-    <!--
-    <drink>
-        <name>string</name>
-        <description>string</description>
-        <image>string</image>
-        ?<appearances>
-            *<appearance>
-                <episode>number</episode>
-                ?<episodeType>full|bonus|trailer</episodeType>
-                <episodeTime>hours:minutes:seconds</episodeTime>
-            </appearance>
-        </appearances>
-    </drink>
-    -->
 </root>

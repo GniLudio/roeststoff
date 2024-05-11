@@ -1,48 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root>
+<root
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="roeststoff"
+    xsi:schemaLocation="roeststoff schemas/misc.xsd">
     <entry>
+        <episode>5</episode>
+        <episodeTime>1:06:05</episodeTime>
         <name>Gault-Millau</name>
         <description>Ein Restaurantführer, der nach seinen Gründern Henri Gault und Christian Millau benannt ist.</description>
         <image>images/misc/gault_millau.svg</image>
-        <episode>5</episode>
-        <episodeTime>1:06:05</episodeTime>
     </entry>
     <entry>
+        <episode>5</episode>
+        <episodeTime>25:40</episodeTime>
         <name>Guide Michelin</name>
         <description>Ein Hotel- und Reiseführer, der vom Reifenhersteller Michelin geführt wird.</description>
         <image>images/misc/guide_michelin.svg</image>
-        <episode>5</episode>
-        <episodeTime>25:40</episodeTime>
     </entry>
     <entry>
+        <episode>1</episode>
+        <episodeTime>1:17:18</episodeTime>
         <name>Once Upon a Time in Shaolin</name>
         <description>Ein Album vom Wu-Tang Clan, von dem nur ein physisches Exemplar existiert.</description>
         <image>images/misc/once_upon_a_time_in_shaolin.jpg</image>
-        <episode>1</episode>
-        <episodeTime>1:17:18</episodeTime>
     </entry>
     <entry>
+        <episode>1</episode>
+        <episodeTime>01:16:40</episodeTime>
         <name>Lukull Hollondaise</name>
         <description>Eine sehr gute Fertig-Hollondaise, die von sehr vielen Köchen gefeiert wird. (laut Ilona Scholl)</description>
         <image>images/misc/lukull_hollondaise.png</image>
-        <episode>1</episode>
-        <episodeTime>01:16:40</episodeTime>
     </entry>
     <entry>
+        <episode>1</episode>
+        <episodeTime>00:27:42</episodeTime>
         <name>Kochen für Helden</name>
         <description><![CDATA[Eine Graswurzelbewegung von Gastronomen in Zeiten der Corona-Krise, bei der Menschen in Funktionsberufen mit Mahlzeiten versorgt werden. ]]></description>
         <image>images/misc/kochen_fuer_helden.svg</image>
-        <episode>1</episode>
-        <episodeTime>00:27:42</episodeTime>
     </entry>
-    <!--
-    <entry>
-        <name>string</name>
-        <description>string</description>
-        ?<image>string</image>
-        <episode>number</episode>
-        ?<episodeType>full|bonus|trailer</episodeType>
-        <episodeTime>hours:minutes:seconds</episodeTime>
-    </entry>
-    -->
 </root>

@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root>
+<root
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="roeststoff" 
+    xsi:schemaLocation="roeststoff schemas/boestofs.xsd">
     <boestof>
-        <name>Essen in Medien</name>
         <episode>6</episode>
         <episodeTime>1:00:00</episodeTime>
+        <name>Essen in Medien</name>
         <peter>
             <rank>Kitchen Impossible</rank>
             <rank>Binging with Babish</rank>
@@ -20,9 +23,9 @@
         </ilona>
     </boestof>
     <boestof>
-        <name>Gerichte aus der Kindheit</name>
         <episode>5</episode>
         <episodeTime>2:35:00</episodeTime>
+        <name>Gerichte aus der Kindheit</name>
         <peter>
             <rank>Schaschlik à la Peter's Papa</rank>
             <rank>Eierpfannekuchen mit Zwiebelmettwurst</rank>
@@ -56,9 +59,9 @@
         </ilona>
     </boestof>
     <boestof>
-        <name>Überschätzte Getränke</name>
         <episode>4</episode>
         <episodeTime>1:05:25</episodeTime>
+        <name>Überschätzte Getränke</name>
         <peter>
             <rank>Tee</rank>
             <rank>Cocktails</rank>
@@ -75,9 +78,9 @@
         </ilona>
     </boestof>
     <boestof>
-        <name>Überschätzte Lebensmittel</name>
         <episode>3</episode>
         <episodeTime>41:25</episodeTime>
+        <name>Überschätzte Lebensmittel</name>
         <peter>
             <rank>Schokolade</rank>
             <rank>Filet</rank>
@@ -94,9 +97,9 @@
         </ilona>
     </boestof>
     <boestof>
-        <name>Backwaren</name>
         <episode>2</episode>
         <episodeTime>2:38:04</episodeTime>
+        <name>Backwaren</name>
         <peter>
             <rank>Käsebrötchen</rank>
             <rank>Weizenbrot (mit Vorteig von Honey)</rank>
@@ -113,9 +116,9 @@
         </ilona>
     </boestof>
     <boestof>
-        <name>Diskriminierungsfreie Beleidigungen</name>
         <episode>1</episode>
         <episodeTime>01:59:13</episodeTime>
+        <name>Diskriminierungsfreie Beleidigungen</name>
         <peter>
             <rank>Wichser</rank>
             <rank>Arschloch</rank>
@@ -131,18 +134,4 @@
             <rank><![CDATA[<s>Spritzbeutel</s>]]></rank>
         </ilona>
     </boestof>
-    <!--
-    <boestof>
-        <name>string</name>
-        <episode>number</episode>
-        ?<episodeType>full|bonus|trailer</episodeType>
-        <episodeTime>hours:minutes:seconds</episodeTime>
-        <peter>
-            *<rank>string</rank>
-        </peter>
-        <ilona>
-            *<rank>string</rank>
-        </ilona>
-    </boestof>
-    -->
 </root>

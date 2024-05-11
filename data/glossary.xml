@@ -1,42 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root>
+<root
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="roeststoff"
+    xsi:schemaLocation="roeststoff schemas/glossary.xsd">
     <entry>
+        <episode>5</episode>
+        <episodeTime>1:58:30</episodeTime>
         <name>Pinot Noir</name>
         <description>EIne Rotweinsorte, die auch Spät- Blau- und Schwarzburgunder genannt wird.</description>
-        <episode>5</episode>
-        <episodeTime>1:58:30</episodeTime>
     </entry>
     <entry>
+        <episode>5</episode>
+        <episodeTime>1:58:30</episodeTime>
         <name>en gros</name>
         <description>Im Großen und Ganzen.</description>
-        <episode>5</episode>
-        <episodeTime>1:58:30</episodeTime>
     </entry>
     <entry>
+        <episode>5</episode>
+        <episodeTime>1:23:14</episodeTime>
         <name>Eiswein</name>
         <description>Ein Wein, der aus gefrorenen Trauben hergestellt wird.</description>
-        <episode>5</episode>
-        <episodeTime>1:23:14</episodeTime>
     </entry>
     <entry>
+        <episode>5</episode>
+        <episodeTime>1:23:14</episodeTime>
         <name>Kabinett</name>
         <description>Die erste Stufe des deutschen Prädikatsweinsystems.</description>
-        <episode>5</episode>
-        <episodeTime>1:23:14</episodeTime>
     </entry>
     <entry>
+        <episode>5</episode>
+        <episodeTime>1:23:14</episodeTime>
         <name>Spätlese</name>
         <description>Die zweite Stufe des deutschen Prädikatsweinsystems.</description>
-        <episode>5</episode>
-        <episodeTime>1:23:14</episodeTime>
-    </entry>
-        <entry>
-        <name>Prädikatswein</name>
-        <description><![CDATA[Die höchste Qualitätsstufe von deutschen Weinen, bei der abhängig des Zuckergehalts der Trauben noch weiter unterteilt wird.]]></description>
-        <episode>5</episode>
-        <episodeTime>1:23:14</episodeTime>
     </entry>
     <entry>
+        <episode>5</episode>
+        <episodeTime>1:23:14</episodeTime>
+        <name>Prädikatswein</name>
+        <description><![CDATA[Die höchste Qualitätsstufe von deutschen Weinen, bei der abhängig des Zuckergehalts der Trauben noch weiter unterteilt wird.]]></description>
+    </entry>
+    <entry>
+        <episode>5</episode>
+        <episodeTime>1:06:05</episodeTime>
         <name>Hauben (Gault Millau)</name>
         <description><![CDATA[
             <table>
@@ -47,10 +52,10 @@
                 <tr><td>5x</td><td>Weltbestes Restaurant</td></tr>
             </table>
             ]]></description>
-        <episode>5</episode>
-        <episodeTime>1:06:05</episodeTime>
     </entry>
     <entry>
+        <episode>5</episode>
+        <episodeTime>1:06:05</episodeTime>
         <name>Sterne (Guide Michelin)</name>
         <description><![CDATA[
             <table>
@@ -59,251 +64,240 @@
                 <tr><td>&#x2605;&#x2605;&#x2605;</td><td>Eine Reise Wert.</td></tr>
             </table>
             ]]></description>
-        <episode>5</episode>
-        <episodeTime>1:06:05</episodeTime>
     </entry>
     <entry>
-        <name>Cuvée</name>
-        <description>Ein Verschnitt von verschiedenen Weinen.</description>
         <episode>4</episode>
         <episodeTime>3:56:03</episodeTime>
+        <name>Cuvée</name>
+        <description>Ein Verschnitt von verschiedenen Weinen.</description>
     </entry>
     <entry>
-        <name>Blanc de Noirs</name>
-        <description>Rotwein, der aus gekelterten weißem Wein hergestellt wurde.</description>
         <episode>4</episode>
         <episodeTime>2:36:35</episodeTime>
+        <name>Blanc de Noirs</name>
+        <description>Rotwein, der aus gekelterten weißem Wein hergestellt wurde.</description>
     </entry>
     <entry>
-        <name>Klon</name>
-        <description>Die Vermehrung identischer Reben.</description>
         <episode>4</episode>
         <episodeTime>2:12:08</episodeTime>
+        <name>Klon</name>
+        <description>Die Vermehrung identischer Reben.</description>
     </entry>
     <entry>
-        <name>Rebsorte</name>
-        <description>Eine Planzenart, aus deren Früchten Wein gewonnen wird.</description>
         <episode>4</episode>
         <episodeTime>2:09:55</episodeTime>
+        <name>Rebsorte</name>
+        <description>Eine Planzenart, aus deren Früchten Wein gewonnen wird.</description>
     </entry>
     <entry>
-        <name>Terroir</name>
-        <description>Umstände und Umgebung, in der ein Wein entsteht.</description>
         <episode>4</episode>
         <episodeTime>2:07:40</episodeTime>
+        <name>Terroir</name>
+        <description>Umstände und Umgebung, in der ein Wein entsteht.</description>
     </entry>
     <entry>
-        <name>Straffer Wein</name>
-        <description></description>
         <episode>4</episode>
         <episodeTime>2:02:50</episodeTime>
+        <name>Straffer Wein</name>
+        <description></description>
     </entry>
     <entry>
-        <name>Bouillabaisse</name>
-        <description>Fischsuppe aus Marseille.</description>
         <episode>4</episode>
         <episodeTime>18:03</episodeTime>
+        <name>Bouillabaisse</name>
+        <description>Fischsuppe aus Marseille.</description>
     </entry>
     <entry>
-        <name>Pâté en croûte</name>
-        <description>(Eingebackene) Pastete im Teigmantel.</description>
         <episode>4</episode>
         <episodeTime>17:15</episodeTime>
+        <name>Pâté en croûte</name>
+        <description>(Eingebackene) Pastete im Teigmantel.</description>
     </entry>
     <entry>
-        <name>Coq au Vin</name>
-        <description>Hünchen mit Wein.</description>
         <episode>4</episode>
         <episodeTime>14:10</episodeTime>
+        <name>Coq au Vin</name>
+        <description>Hünchen mit Wein.</description>
     </entry>
     <entry>
-        <name>Boeuf Bourguignon</name>
-        <description>Ein Schmorgericht mit Rindfleisch und Burgunderwein.</description>
         <episode>4</episode>
         <episodeTime>14:00</episodeTime>
+        <name>Boeuf Bourguignon</name>
+        <description>Ein Schmorgericht mit Rindfleisch und Burgunderwein.</description>
     </entry>
     <entry>
-        <name>Pass</name>
-        <description>Ort, an dem Gerichte aus der Küche dem Service übergeben werden.</description>
         <episode>4</episode>
         <episodeTime>1:50</episodeTime>
+        <name>Pass</name>
+        <description>Ort, an dem Gerichte aus der Küche dem Service übergeben werden.</description>
     </entry>
     <entry>
-        <name>Abhängen (Fleisch)</name>
-        <description>Aufhängen eines toten Tieres bis die Muskelfasern aufgelöst sind.</description>
         <episode>3</episode>
         <episodeTime>2:39:15</episodeTime>
+        <name>Abhängen (Fleisch)</name>
+        <description>Aufhängen eines toten Tieres bis die Muskelfasern aufgelöst sind.</description>
     </entry>
     <entry>
-        <name>Patissier</name>
-        <description>Koch für Süßspeisen.</description>
         <episode>3</episode>
         <episodeTime>2:07:45</episodeTime>
+        <name>Patissier</name>
+        <description>Koch für Süßspeisen.</description>
     </entry>
     <entry>
-        <name>Sous Chef</name>
-        <description>Stellvertreter des Chef de Cuisine.</description>
         <episode>3</episode>
         <episodeTime>1:56:30</episodeTime>
+        <name>Sous Chef</name>
+        <description>Stellvertreter des Chef de Cuisine.</description>
     </entry>
     <entry>
-        <name>Chef de Cuisine</name>
-        <description>Koch, der Gerichte kreiert.</description>
         <episode>3</episode>
         <episodeTime>1:56:21</episodeTime>
+        <name>Chef de Cuisine</name>
+        <description>Koch, der Gerichte kreiert.</description>
     </entry>
     <entry>
-        <name>Gardemanger</name>
-        <description>Koch für der kalte Speisen.</description>
         <episode>3</episode>
         <episodeTime>1:56:09</episodeTime>
+        <name>Gardemanger</name>
+        <description>Koch für der kalte Speisen.</description>
     </entry>
     <entry>
-        <name>Küchenbrigade</name>
-        <description>Mitarbeiter einer großen Küche, bei der die Aufgaben auf unterschiedliche Posten aufgeteilt sind.</description>
         <episode>3</episode>
         <episodeTime>1:55:29</episodeTime>
+        <name>Küchenbrigade</name>
+        <description>Mitarbeiter einer großen Küche, bei der die Aufgaben auf unterschiedliche Posten aufgeteilt sind.</description>
     </entry>
     <entry>
+        <episode>3</episode>
+        <episodeTime>1:26:49</episodeTime>
         <name>Poissonnier</name>
         <description>Koch für Fisch.</description>
-        <episode>3</episode>
-        <episodeTime>1:26:49</episodeTime>
     </entry>
     <entry>
+        <episode>3</episode>
+        <episodeTime>1:26:49</episodeTime>
         <name>Saucier</name>
         <description>Koch für Saucen.</description>
-        <episode>3</episode>
-        <episodeTime>1:26:49</episodeTime>
     </entry>
     <entry>
+        <episode>3</episode>
+        <episodeTime>1:26:49</episodeTime>
         <name>Entremetier</name>
         <description>Koch für Beilagen.</description>
-        <episode>3</episode>
-        <episodeTime>1:26:49</episodeTime>
     </entry>
     <entry>
-        <name>Pesce Crudo</name>
-        <description>Roh servierter Fisch.</description>
         <episode>1</episode>
         <episodeType>bonus</episodeType>
         <episodeTime>20:13</episodeTime>
+        <name>Pesce Crudo</name>
+        <description>Roh servierter Fisch.</description>
     </entry>
     <entry>
-        <name>Bistro</name>
-        <description>Kleines Restaurant mit einfacher Küche.</description>
         <episode>2</episode>
         <episodeTime>2:55:53</episodeTime>
+        <name>Bistro</name>
+        <description>Kleines Restaurant mit einfacher Küche.</description>
     </entry>
     <entry>
-        <name>Sommelière / Sommelier</name>
-        <description>Eine Expertin / Ein Experte für Wein, bzw. generell für das Getränkesortiment.</description>
         <episode>2</episode>
         <episodeTime>2:07:40</episodeTime>
+        <name>Sommelière / Sommelier</name>
+        <description>Eine Expertin / Ein Experte für Wein, bzw. generell für das Getränkesortiment.</description>
     </entry>
     <entry>
-        <name>Wein atmen lassen</name>
-        <description>Die Belüftung eines Weines, um der Alterungsprozess des Weines durch den Sauerstoff beschleunigt wird. Somit ist das auch nur bei jungen Weinen empfohlen. </description>
         <episode>2</episode>
         <episodeTime>1:10:02</episodeTime>
+        <name>Wein atmen lassen</name>
+        <description>Die Belüftung eines Weines, um der Alterungsprozess des Weines durch den Sauerstoff beschleunigt wird. Somit ist das auch nur bei jungen Weinen empfohlen. </description>
     </entry>
     <entry>
-        <name>Retronasale Aromawahrnehmung</name>
-        <description>Belüftung des Weines im Mund, damit die Aromen auch zu den Rezeptoren des Nasenraums transportiert werden.</description>
         <episode>2</episode>
         <episodeTime>1:09:12</episodeTime>
+        <name>Retronasale Aromawahrnehmung</name>
+        <description>Belüftung des Weines im Mund, damit die Aromen auch zu den Rezeptoren des Nasenraums transportiert werden.</description>
     </entry>
     <entry>
+        <episode>2</episode>
+        <episodeTime>49:00</episodeTime>
         <name>Pescetarier</name>
         <description>Jemand, der bei der Ernährung auf Fleisch (nicht aber Fisch) verzichtet.</description>
-        <episode>2</episode>
-        <episodeTime>49:00</episodeTime>
     </entry>
     <entry>
+        <episode>2</episode>
+        <episodeTime>49:00</episodeTime>
         <name>à la carte</name>
         <description>Die freie Auswahl der Speisen aus einer Speisekarte.</description>
-        <episode>2</episode>
-        <episodeTime>49:00</episodeTime>
     </entry>
     <entry>
+        <episode>2</episode>
+        <episodeTime>49:00</episodeTime>
         <name>Vegetarisch</name>
         <description>Jemand, der bei der Ernährung auf getötete Tiere verzichtet.</description>
-        <episode>2</episode>
-        <episodeTime>49:00</episodeTime>
     </entry>
     <entry>
+        <episode>2</episode>
+        <episodeTime>48:47</episodeTime>
         <name>Vegan</name>
         <description>Jemand, der bei der Ernährung auf alle Nahrungsmittel tierischem Ursprungs verzichtet.</description>
-        <episode>2</episode>
-        <episodeTime>48:47</episodeTime>
     </entry>
     <entry>
+        <episode>2</episode>
+        <episodeTime>48:47</episodeTime>
         <name>Omnivore</name>
         <description>Jemand, der bei der Ernährung auf kein Lebensmittel verzichtet. Synonym: Allesesser</description>
-        <episode>2</episode>
-        <episodeTime>48:47</episodeTime>
     </entry>
     <entry>
-        <name>No-Show</name>
-        <description>Angemeldete Gäste kommen nicht zum ausgemachten Termin.</description>
         <episode>2</episode>
         <episodeTime>25:07</episodeTime>
+        <name>No-Show</name>
+        <description>Angemeldete Gäste kommen nicht zum ausgemachten Termin.</description>
     </entry>
     <entry>
+        <episode>2</episode>
+        <episodeTime>12:28</episodeTime>
         <name>Mise en place</name>
         <description>Vorbereitung (des Arbeitsplatzes) vor dem Kochen.</description>
-        <episode>2</episode>
-        <episodeTime>12:28</episodeTime>
     </entry>
     <entry>
+        <episode>2</episode>
+        <episodeTime>12:28</episodeTime>
         <name>Prep-Schicht</name>
         <description>Schicht, in der Dinge vorbereitet werden.</description>
-        <episode>2</episode>
-        <episodeTime>12:28</episodeTime>
     </entry>
     <entry>
-        <name>Fermentation</name>
-        <description>Umwandlung organischer Stoffe in Säure, Gase oder Alkohol.</description>
         <episode>2</episode>
         <episodeTime>00:07:31</episodeTime>
+        <name>Fermentation</name>
+        <description>Umwandlung organischer Stoffe in Säure, Gase oder Alkohol.</description>
     </entry>
     <entry>
-        <name>Most</name>
-        <description>Durch Pressen gewonnener Fruchtsaft, nachdem der Gärvorgang begonnen hat.</description>
         <episode>2</episode>
         <episodeTime>00:06:52</episodeTime>
+        <name>Most</name>
+        <description>Durch Pressen gewonnener Fruchtsaft, nachdem der Gärvorgang begonnen hat.</description>
     </entry>
     <entry>
-        <name>Tüttefell</name>
-        <description>Niederrheinisches Wort für Gänsehaut.</description>
         <episode>1</episode>
         <episodeTime>02:30:34</episodeTime>
+        <name>Tüttefell</name>
+        <description>Niederrheinisches Wort für Gänsehaut.</description>
     </entry>
     <entry>
-        <name>Wal (Gaming)</name>
-        <description>Eine Person, die bereit ist für ein Spiel sehr viel Geld auszubegen.</description>
         <episode>1</episode>
         <episodeTime>02:15:44</episodeTime>
+        <name>Wal (Gaming)</name>
+        <description>Eine Person, die bereit ist für ein Spiel sehr viel Geld auszubegen.</description>
     </entry>
     <entry>
-        <name>Fetter Wein</name>
-        <description>Ein sehr geschmacksintensiver oder hochprozentiger Wein.</description>
         <episode>1</episode>
         <episodeTime>00:47:05</episodeTime>
+        <name>Fetter Wein</name>
+        <description>Ein sehr geschmacksintensiver oder hochprozentiger Wein.</description>
     </entry>
     <entry>
-        <name>Champagner</name>
-        <description>Ein Schaumwein aus dem nordfranzösischen Gebiet der Champagne.</description>
         <episode>1</episode>
         <episodeTime>00:23:25</episodeTime>
+        <name>Champagner</name>
+        <description>Ein Schaumwein aus dem nordfranzösischen Gebiet der Champagne.</description>
     </entry>
-    <!--
-    <entry>
-        <name>string</name>
-        <description>string</description>
-        <episode>number</episode>
-        ?<episodeType>full|bonus|trailer</episodeType>
-        <episodeTime>hours:minutes:seconds</episodeTime>
-    </entry>
-    -->
 </root>
