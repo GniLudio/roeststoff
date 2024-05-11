@@ -155,29 +155,4 @@
             </characteristic>
         </characteristics>
     </restaurant>
-    <!--
-    <restaurant>
-        <name>string</name>
-        <description>string</description>
-        <image>string</image>
-        ?<team>
-            *<member>string</member>
-        </team>
-        ?<appearances>
-            *<appearance>
-                <episode>number</episode>
-                ?<episodeType>full|bonus|trailer</episodeType>
-                <episodeTime>hours:minutes:seconds</episodeTime>
-            </appearance>
-        </appearances>
-        ?<characteristics>
-            *<characteristic>
-                <description>string</description>
-                <episode>number</episode>
-                ?<episodeType>full|bonus|trailer</episodeType>
-                <episodeTime>hours:minutes:seconds</episodeTime>
-            </characteristic>
-        </characteristics>
-    </restaurant>
-    -->
 </root>

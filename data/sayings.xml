@@ -30,12 +30,4 @@
         <episode>1</episode>
         <episodeTime>2:27:57</episodeTime>
     </saying>
-    <!--
-    <saying>
-        <description>string</description>
-        <episode>number</episode>
-        ?<episodeType>full|bonus|trailer</episodeType>
-        <episodeTime>hours:minutes:seconds</episodeTime>
-    </saying>
-    -->
 </root>

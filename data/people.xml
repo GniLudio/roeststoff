@@ -238,33 +238,4 @@
             </characteristic>
         </characteristics>
     </person>
-    <!--
-    <person>
-        <name>string</name>
-        <description>string</description>
-        <image>string</image>
-        ?<hateQuestion>
-            <description>string</description>
-            <episode>number</episode>
-            ?<episodeType>full|bonus|trailer</episodeType>
-            <episodeTime>hours:minutes:seconds</episodeTime>
-        </hateQuestion>
-        ?<isHost>true|false</isHost>
-        ?<appearances>
-            *<appearance>
-                <episode>number</episode>
-                ?<episodeType>full|bonus|trailer</episodeType>
-                <episodeTime>hours:minutes:seconds</episodeTime>
-            </appearance>
-        </appearances>
-        ?<characteristics>
-            *<characteristic>
-                <description>string</description>
-                <episode>number</episode>
-                ?<episodeType>full|bonus|trailer</episodeType>
-                <episodeTime>hours:minutes:seconds</episodeTime>
-            </characteristic>
-        </characteristics>
-    </person>
-    -->
 </root>
