@@ -101,7 +101,7 @@ export function getRestaurantCardInfo(restaurant: Restaurant, allContent: AllCon
     }
 }
 
-export function getSayingCardInfo(saying: Saying, allContent: AllContent): CardInfo {
+export function getSayingCardInfo(saying: TextWithTimestamp, allContent: AllContent): CardInfo {
     return {
         title: "",
         subtitle: saying.description

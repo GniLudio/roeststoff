@@ -20,7 +20,7 @@ const boestOfs: BoestOf[] = parser.parseXML(boestOfsRaw, ['root'], 'boestof', pa
 const restaurants: Restaurant[] = parser.parseXML(restaurantsRaw, ['root'], 'restaurant', parser.parseRestaurant);
 const glossary: GlossaryEntry[] = parser.parseXML(glossaryRaw, ['root'], 'entry', parser.parseGlossaryEntry);
 const misc: MiscEntry[] = parser.parseXML(miscRaw, ['root'], 'entry', parser.parseMiscEntry);
-const sayings: Saying[] = parser.parseXML(sayingsRaw, ['root'], 'saying', parser.parseSaying);
+const sayings: TextWithTimestamp[] = parser.parseXML(sayingsRaw, ['root'], 'saying', parser.parseTextWithTimestamp);
 const allContent: AllContent = {episodes, people, drinks, boestOfs, restaurants, glossary, sayings, misc};
 
 // SORTING

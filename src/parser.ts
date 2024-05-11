@@ -35,11 +35,11 @@ export function parsePerson(element: Element): Person {
     return {
         name: parseMandatory(parseString, element, 'name'),
         description: parseMandatory(parseString, element, 'description'),
-        hateQuestion: parseOptional(parseHateQuestion, element, 'hateQuestion'),
+        hateQuestion: parseOptional(parseTextWithTimestamp, element, 'hateQuestion'),
         image: parseMandatory(parseString, element, 'image'),
         isHost: parseOptional(parseBoolean, element, 'isHost'),
         appearances: parseOptionalArray(parseTimestamp, element, 'appearances', 'appearance'),
-        characteristics: parseOptionalArray(parseCharacteristic, element, 'characteristics', 'characteristic'),
+        characteristics: parseOptionalArray(parseTextWithTimestamp, element, 'characteristics', 'characteristic'),
     };
 }
 
@@ -68,7 +68,7 @@ export function parseRestaurant(element: Element): Restaurant {
         image: parseMandatory(parseString, element, 'image'),
         team: parseOptionalArray(parseString, element, 'team', 'member'),
         appearances: parseOptionalArray(parseTimestamp, element, 'appearances', 'appearance'),
-        characteristics: parseOptionalArray(parseCharacteristic, element, 'characteristics', 'characteristic'),
+        characteristics: parseOptionalArray(parseTextWithTimestamp, element, 'characteristics', 'characteristic'),
     };
 }
 
@@ -80,13 +80,6 @@ export function parseGlossaryEntry(element: Element): GlossaryEntry {
     };
 }
 
-export function parseSaying(element: Element): Saying {
-    return {
-        ...parseTimestamp(element),
-        description: parseMandatory(parseString, element, 'description'),
-    }
-}
-
 export function parseMiscEntry(element: Element): MiscEntry {
     return {
         ...parseTimestamp(element),
@@ -96,26 +89,22 @@ export function parseMiscEntry(element: Element): MiscEntry {
     };
 }
 
-// ---------- NESTED TYPES ----------
+// ---------- NESTED & CONTENT TYPES ----------
 
-function parseCharacteristic(element: Element): Characteristic {
+export function parseTextWithTimestamp(element: Element): TextWithTimestamp {
     return {
         ...parseTimestamp(element),
         description: parseMandatory(parseString, element, 'description'),
     };
 }
+
+// ---------- NESTED TYPES ----------
 
 function parseTimestamp(element: Element): Timestamp {
     return {
         ...parseEpisodeID(element),
         episodeTime: parseMandatory(parseTime, element, 'episodeTime'),
     };
-}
-function parseHateQuestion(element: Element): HateQuestion {
-    return {
-        ...parseTimestamp(element),
-        description: parseMandatory(parseString, element, 'description'),
-    }
 }
 
 function parseTime(element: Element): Time {

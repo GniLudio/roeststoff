@@ -12,10 +12,10 @@ interface Person {
     name: string,
     description: string,
     image: string,
-    hateQuestion?: HateQuestion,
+    hateQuestion?: TextWithTimestamp,
     isHost?: boolean,
     appearances?: Timestamp[],
-    characteristics?: Characteristic[],
+    characteristics?: TextWithTimestamp[],
 }
 
 interface Drink {
@@ -37,16 +37,12 @@ interface Restaurant {
     description: string,
     team?: string[],
     appearances?: Timestamp[],
-    characteristics?: Characteristic[],
+    characteristics?: TextWithTimestamp[],
 }
 
 interface GlossaryEntry extends Timestamp {
     name: string,
     description: string,
-}
-
-interface Saying extends Timestamp {
-    description: string
 }
 
 interface MiscEntry extends Timestamp {
@@ -57,12 +53,8 @@ interface MiscEntry extends Timestamp {
 
 // ---------- NESTED TYPES ----------
 
-interface Characteristic extends Timestamp { 
+interface TextWithTimestamp extends Timestamp { 
     description: string 
-}
-
-interface HateQuestion extends Timestamp {
-    description: string
 }
 
 interface Timestamp extends EpisodeID { 
@@ -112,7 +104,7 @@ interface AllContent {
     boestOfs: BoestOf[],
     restaurants: Restaurant[],
     glossary: GlossaryEntry[],
-    sayings: Saying[],
+    sayings: TextWithTimestamp[],
     misc: MiscEntry[]
 }
 
