@@ -78,6 +78,7 @@ export function getBoestOfCardInfo(boestOf: BoestOf, allContent: AllContent): Ca
             id: boestOf.name,
             title: boestOf.name,
             content: {
+                "Folge": mapToEpisodeNames([boestOf], allContent.episodes, false),
                 "Böst of Röststoff": createBoestOfTable(boestOf)
             }
         }
