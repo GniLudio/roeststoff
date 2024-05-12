@@ -4,6 +4,24 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff schemas/glossary.xsd">
     <entry>
+        <episode>7</episode>
+        <episodeTime>2:58:02</episodeTime>
+        <name>Wagyu</name>
+        <description>Bezeichnung mehrerer Rinderrassen japanischen Ursprungs. Vor allem für das Kobe-Rind bekannt.</description>
+    </entry>
+    <entry>
+        <episode>7</episode>
+        <episodeTime>2:36:00</episodeTime>
+        <name>Schäufele</name>
+        <description>Schweinekrustenbraten von der Schulter.</description>
+    </entry>
+    <entry>
+        <episode>7</episode>
+        <episodeTime>38:12</episodeTime>
+        <name>Brut Nature (Zero Dosage)</name>
+        <description>Ein Schaumwein mit sehr wenig Zucker (sehr trocken, unter 3 g/l).</description>
+    </entry>
+    <entry>
         <episode>5</episode>
         <episodeTime>1:58:30</episodeTime>
         <name>Pinot Noir</name>

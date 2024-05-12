@@ -4,6 +4,29 @@
     xmlns="roeststoff" 
     xsi:schemaLocation="roeststoff schemas/boestofs.xsd">
     <boestof>
+        <episode>7</episode>
+        <episodeTime>40:45</episodeTime>
+        <name>Henkersmahlzeit</name>
+        <peter>
+            <rank>Eisbein (à la Tim Raue)</rank>
+            <rank>T-Bone Steak medium rare vom Grill</rank>
+            <rank>Duroc Schwein (à la Katz Orange)</rank>
+            <rank>Dirty Hands &amp; Happy Soul (à la Picture of Pantry)</rank>
+            <rank>Knochenmarkrisotto (à la Max Strohe)</rank>
+        </peter>
+        <ilona>
+            <rank><![CDATA[Lebensgroßes Champagnerglas<ul>
+                <li>in dem Dita Van Teese gebadet hat</li>
+                <li>gefüllt mit Plenitude 2000 von Dom Perignon</li>
+                <li>mit Olive drin</li>
+                </ul>]]></rank>
+            <rank>Soft Serve / Softeis (à la Le Pristine)</rank>
+            <rank>Flugmango</rank>
+            <rank>Bouillabaisse (à la Max Strohe)</rank>
+            <rank>Root Beer und Camel Light (à la  Kurt Cobain)</rank>
+        </ilona>
+    </boestof>
+    <boestof>
         <episode>6</episode>
         <episodeTime>1:00:00</episodeTime>
         <name>Essen in Medien</name>

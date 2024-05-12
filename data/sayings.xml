@@ -4,6 +4,11 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff schemas/sayings.xsd">
     <saying>
+        <episode>7</episode>
+        <episodeTime>1:45:22</episodeTime>
+        <description>Das Superlativ von Brasserie ist Krasserie.</description>
+    </saying>
+    <saying>
         <episode>6</episode>
         <episodeTime>1:15:34</episodeTime>
         <description>Essen ist der Sex des Alltags.</description>

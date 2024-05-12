@@ -4,6 +4,29 @@
     xmlns="roeststoff" 
     xsi:schemaLocation="roeststoff schemas/drinks.xsd">
     <drink>
+        <name>Weisser Burgunder 2015 von Bernhard Huber</name>
+        <description></description>
+        <image>images\drinks\weisser_burgunder_2015_bernhardt_huber.jpg</image>
+        <appearances>
+            <appearance>
+                <episode>7</episode>
+                <episodeTime>2:32:55</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
+        <name>Avec Pläsier Le Grande Cuvée 2017 vom Weingut Schloss Sommerhausen</name>
+        <description></description>
+        <image>images\drinks\avec_plaesier_le_grande_cuvee_2017.jpg</image>
+        <appearances>
+            <appearance>
+                <episode>7</episode>
+                <episodeType>full</episodeType>
+                <episodeTime>36:00</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
         <name>Pinot Noir 2017 von Friedrich Becker</name>
         <description></description>
         <image>images/drinks/missing_image.png</image>

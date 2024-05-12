@@ -4,6 +4,17 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff schemas/restaurants.xsd">
     <restaurant>
+        <name>Traube Tonbach</name>
+        <description></description>
+        <image>images/restaurants/traube_tonbach.svg</image>
+        <appearances>
+            <appearance>
+                <episode>7</episode>
+                <episodeTime>2:46:05</episodeTime>
+            </appearance>
+        </appearances>
+    </restaurant>
+    <restaurant>
         <name>Frühstück 3000</name>
         <description></description>
         <image>images/restaurants/fruestueck_3000.jpg</image>
