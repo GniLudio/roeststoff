@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root>
+<root
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="roeststoff"
+    xsi:schemaLocation="roeststoff schemas/restaurants.xsd">
     <restaurant>
         <name>Frühstück 3000</name>
         <description></description>
@@ -34,9 +37,9 @@
         </appearances>
         <characteristics>
             <characteristic>
-                <description>Peter's Lieblings-Biergarten</description>
                 <episode>4</episode>
                 <episodeTime>18:34</episodeTime>
+                <description>Peter's Lieblings-Biergarten</description>
             </characteristic>
         </characteristics>
     </restaurant>
@@ -62,16 +65,16 @@
         </appearances>
         <characteristics>
             <characteristic>
-                <description>Zweitprojekt der Gründer des Mrs Robinson's</description>
                 <episode>1</episode>
                 <episodeType>bonus</episodeType>
                 <episodeTime>00:06:31</episodeTime>
+                <description>Zweitprojekt der Gründer des Mrs Robinson's</description>
             </characteristic>
             <characteristic>
-                <description>offene Küche</description>
                 <episode>1</episode>
                 <episodeType>bonus</episodeType>
                 <episodeTime>00:06:10</episodeTime>
+                <description>offene Küche</description>
             </characteristic>
         </characteristics>
     </restaurant>
@@ -105,9 +108,9 @@
         </appearances>
         <characteristics>
             <characteristic>
-                <description>macht unglaublich leckere Hollandaise-Sauce</description>
                 <episode>1</episode>
                 <episodeTime>1:17:18</episodeTime>
+                <description>macht unglaublich leckere Hollandaise-Sauce</description>
             </characteristic>
         </characteristics>
     </restaurant>
@@ -129,29 +132,29 @@
         </appearances>
         <characteristics>
             <characteristic>
-                <description>Restaurant Nr. 1 in Berlin 2022 vom Ehepaar Smits</description>
                 <episode>2</episode>
                 <episodeTime>21:14</episodeTime>
+                <description>Restaurant Nr. 1 in Berlin 2022 vom Ehepaar Smits</description>
             </characteristic>
             <characteristic>
-                <description>bestes Serviceteam 2022 vom Feinschmecker</description>
                 <episode>1</episode>
                 <episodeTime>00:20:52</episodeTime>
+                <description>bestes Serviceteam 2022 vom Feinschmecker</description>
             </characteristic>
             <characteristic>
+                <episode>1</episode>
+                <episodeTime>00:14:37</episodeTime>
                 <description>ganz viele Hauben vom Gault Milleau</description>
-                <episode>1</episode>
-                <episodeTime>00:14:37</episodeTime>
             </characteristic>
             <characteristic>
+                <episode>1</episode>
+                <episodeTime>00:14:37</episodeTime>
                 <description>1x Stern vom Guide Michelin</description>
-                <episode>1</episode>
-                <episodeTime>00:14:37</episodeTime>
             </characteristic>
             <characteristic>
-                <description>2015 von Ilona Scholl und Max Strohe gegründet</description>
                 <episode>1</episode>
                 <episodeTime>00:13:46</episodeTime>
+                <description>2015 von Ilona Scholl und Max Strohe gegründet</description>
             </characteristic>
         </characteristics>
     </restaurant>

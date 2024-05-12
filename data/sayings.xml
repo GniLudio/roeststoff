@@ -1,33 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root>
+<root
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="roeststoff"
+    xsi:schemaLocation="roeststoff schemas/sayings.xsd">
     <saying>
-        <description>Essen ist der Sex des Alltags.</description>
         <episode>6</episode>
         <episodeTime>1:15:34</episodeTime>
+        <description>Essen ist der Sex des Alltags.</description>
     </saying>
     <saying>
-        <description>Friteusen können nur Friteusen.</description>
         <episode>5</episode>
         <episodeTime>3:16:36</episodeTime>
+        <description>Friteusen können nur Friteusen.</description>
     </saying>
     <saying>
-        <description>Am Sonntag hatte ich die Welt im Döschen.</description>
         <episode>5</episode>
         <episodeTime>9:03</episodeTime>
+        <description>Am Sonntag hatte ich die Welt im Döschen.</description>
     </saying>
     <saying>
-        <description>Make Sommelier a Dienstleister again.</description>
         <episode>4</episode>
         <episodeTime>3:09:58</episodeTime>
+        <description>Make Sommelier a Dienstleister again.</description>
     </saying>
     <saying>
-        <description><![CDATA[<b>Ess</b>capaden]]></description>
         <episode>4</episode>
         <episodeTime>12:20</episodeTime>
+        <description><![CDATA[<b>Ess</b>capaden]]></description>
     </saying>
     <saying>
-        <description>Wer nichts wird, wird Wirt.</description>
         <episode>1</episode>
         <episodeTime>2:27:57</episodeTime>
+        <description>Wer nichts wird, wird Wirt.</description>
     </saying>
 </root>
