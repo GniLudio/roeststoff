@@ -10,7 +10,7 @@
         <xs:sequence>
             <xs:element name="name" type="xs:string" />
             <xs:element name="description" type="xs:string" />
-            <xs:element name="image" type="xs:string" />
+            <xs:element name="image" type="xs:string" default="images/people/name.ext"/>
             <xs:element name="isHost" type="Boolean" minOccurs="0"></xs:element>
             <xs:element name="hateQuestion" type="TextWithTimestamp" minOccurs="0" />
             <xs:element name="appearances" type="AppearanceArray" minOccurs="0" />
@@ -22,7 +22,7 @@
         <xs:sequence>
             <xs:element name="name" type="xs:string" />
             <xs:element name="description" type="xs:string" />
-            <xs:element name="image" type="xs:string" />
+            <xs:element name="image" type="xs:string" default="images/drinks/name.ext" />
             <xs:element name="appearances" type="AppearanceArray" minOccurs="0" />
         </xs:sequence>
     </xs:complexType>
@@ -42,7 +42,7 @@
     <xs:complexType name="Restaurant">
         <xs:sequence>
             <xs:element name="name" type="xs:string" />
-            <xs:element name="image" type="xs:string" />
+            <xs:element name="image" type="xs:string" default="images/restaurants/name.ext" />
             <xs:element name="description" type="xs:string" />
             <xs:element name="members" type="MemberArray" minOccurs="0"/>
             <xs:element name="appearances" type="AppearanceArray"  minOccurs="0"/>
@@ -67,7 +67,7 @@
                 <xs:sequence>
                     <xs:element name="name" type="xs:string" />
                     <xs:element name="description" type="xs:string" />
-                    <xs:element name="image" type="xs:string" minOccurs="0" />
+                    <xs:element name="image" type="xs:string" minOccurs="0" default="images/misc/name.ext"/>
                 </xs:sequence>
             </xs:extension>
         </xs:complexContent>
@@ -93,7 +93,7 @@
 
     <xs:complexType name="CharacteristicArray">
         <xs:sequence>
-            <xs:element name="characteristics" type="TextWithTimestamp" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element name="characteristic" type="TextWithTimestamp" minOccurs="0" maxOccurs="unbounded"/>
         </xs:sequence>
     </xs:complexType>
 
@@ -129,7 +129,7 @@
     <xs:complexType name="EpisodeID">
         <xs:sequence>
             <xs:element name="episode" type="xs:decimal"></xs:element>
-            <xs:element name="episodeType" type="EpisodeType" minOccurs="0" default="full" />
+            <xs:element name="episodeType" type="EpisodeType" minOccurs="0" />
         </xs:sequence>
     </xs:complexType>
 

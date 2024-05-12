@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root>
+<root
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="roeststoff"
+    xsi:schemaLocation="roeststoff schemas/people.xsd">
     <person>
         <name>Friede</name>
         <description>ehemaliger Passmann im tulus lotrek</description>
         <image></image>
         <characteristics>
             <characteristic>
-                <description>ehemaliger Passmann im tulus lotrek</description>
                 <episode>4</episode>
                 <episodeTime>1:50</episodeTime>
+                <description>ehemaliger Passmann im tulus lotrek</description>
             </characteristic>
             <characteristic>
-                <description>Koch im tulus lotrek</description>
                 <episode>2</episode>
                 <episodeTime>00:12:28</episodeTime>
+                <description>Koch im tulus lotrek</description>
             </characteristic>
         </characteristics>
     </person>
@@ -29,14 +32,14 @@
         </appearances>
         <characteristics>
             <characteristic>
-                <description><![CDATA[Instagram: <a href="https://www.instagram.com/gluecksfuchs/">@gluecksfuchs</a>]]></description>
                 <episode>3</episode>
                 <episodeTime>15:58</episodeTime>
+                <description><![CDATA[Instagram: <a href="https://www.instagram.com/gluecksfuchs/">@gluecksfuchs</a>]]></description>
             </characteristic>
             <characteristic>
-                <description>Sommelier des tulus lotrek.</description>
                 <episode>1</episode>
                 <episodeTime>00:19:05</episodeTime>
+                <description>Sommelier des tulus lotrek.</description>
             </characteristic>
         </characteristics>
     </person>
@@ -45,9 +48,9 @@
         <description></description>
         <image>images/people/max_strohe.jpg</image>
         <hateQuestion>
-            <description>Was ist deine Lieblingszutat?</description>
             <episode>3</episode>
             <episodeTime>1:23:30</episodeTime>
+            <description>Was ist deine Lieblingszutat?</description>
         </hateQuestion>
         <appearances>
             <appearance>
@@ -57,29 +60,29 @@
         </appearances>
         <characteristics>
             <characteristic>
-                <description><![CDATA[hat Buch <i>Kochen am offenen Herzen</i> geschrieben]]></description>
                 <episode>3</episode>
                 <episodeTime>2:45:14</episodeTime>
+                <description><![CDATA[hat Buch <i>Kochen am offenen Herzen</i> geschrieben]]></description>
             </characteristic>
             <characteristic>
-                <description>mit dem Bundesverdienstkreuz ausgezeichnet</description>
                 <episode>1</episode>
                 <episodeTime>00:32:49</episodeTime>
+                <description>mit dem Bundesverdienstkreuz ausgezeichnet</description>
             </characteristic>
             <characteristic>
-                <description>Spitzname: Ströh</description>
                 <episode>1</episode>
                 <episodeTime>00:22:04</episodeTime>
+                <description>Spitzname: Ströh</description>
             </characteristic>
             <characteristic>
-                <description>war bei Kitchen Impossible.</description>
                 <episode>1</episode>
                 <episodeTime>00:17:23</episodeTime>
+                <description>war bei Kitchen Impossible.</description>
             </characteristic>
             <characteristic>
-                <description>Gründer vom tulus lotrek.</description>
                 <episode>1</episode>
                 <episodeTime>00:13:46</episodeTime>
+                <description>Gründer vom tulus lotrek.</description>
             </characteristic>
         </characteristics>
     </person>
@@ -89,9 +92,9 @@
         <image>images/people/peter_smits.jpg</image>
         <isHost>true</isHost>
         <hateQuestion>
-            <description>Und damit kann man Geld verdienen?</description>
             <episode>1</episode>
             <episodeTime>2:29:53</episodeTime>
+            <description>Und damit kann man Geld verdienen?</description>
         </hateQuestion>
         <appearances>
             <appearance>
@@ -122,52 +125,52 @@
         </appearances>
         <characteristics>
             <characteristic>
-                <description><![CDATA[war als Kind ein Topf-Kucker<br/><small>(Gemüt hängt vom Essen im Topf ab)</small>]]></description>
                 <episode>1</episode>
                 <episodeTime>01:14:00</episodeTime>
+                <description><![CDATA[war als Kind ein Topf-Kucker<br/><small>(Gemüt hängt vom Essen im Topf ab)</small>]]></description>
             </characteristic>
             <characteristic>
-                <description>kein großer Champagner-Fan</description>
                 <episode>1</episode>
                 <episodeTime>00:45:01</episodeTime>
+                <description>kein großer Champagner-Fan</description>
             </characteristic>
             <characteristic>
-                <description>hatte Pietsmiet-Burger bei Mc-Donalds</description>
                 <episode>1</episode>
                 <episodeTime>00:41:47</episodeTime>
+                <description>hatte Pietsmiet-Burger bei Mc-Donalds</description>
             </characteristic>
             <characteristic>
-                <description>hat eine Koch-Show "PietSmiet kocht" und Kochbuch</description>
                 <episode>1</episode>
                 <episodeTime>00:11:16</episodeTime>
+                <description>hat eine Koch-Show "PietSmiet kocht" und Kochbuch</description>
             </characteristic>
             <characteristic>
-                <description>führt das Unternehmen "PietSmiet" welches Bewegtbild produziert </description>
                 <episode>1</episode>
                 <episodeTime>00:08:50</episodeTime>
+                <description>führt das Unternehmen "PietSmiet" welches Bewegtbild produziert </description>
             </characteristic>
             <characteristic>
-                <description>Content-Producer / Influencer / Gamer</description>
                 <episode>1</episode>
                 <episodeTime>00:08:35</episodeTime>
+                <description>Content-Producer / Influencer / Gamer</description>
             </characteristic>
             <characteristic>
-                <description><![CDATA[Instagram: <a href="https://www.instagram.com/realpietsmiet/">@realpietsmiet</a>]]></description>
                 <episode>1</episode>
                 <episodeTime>00:06:00</episodeTime>
+                <description><![CDATA[Instagram: <a href="https://www.instagram.com/realpietsmiet/">@realpietsmiet</a>]]></description>
             </characteristic>
         </characteristics>
     </person>
     <person>
         <name>Ilona Scholl</name>
         <description>Die Professionelle.</description>
-        <hateQuestion>
-            <description>Was machst du sonst noch?</description>
-            <episode>1</episode>
-            <episodeTime>2:26:52</episodeTime>
-        </hateQuestion>
         <image>images/people/ilona_scholl.jpg</image>
         <isHost>true</isHost>
+        <hateQuestion>
+            <episode>1</episode>
+            <episodeTime>2:26:52</episodeTime>
+            <description>Was machst du sonst noch?</description>
+        </hateQuestion>
         <appearances>
             <appearance>
                 <episode>6</episode>
@@ -197,44 +200,44 @@
         </appearances>
         <characteristics>
             <characteristic>
-                <description>hat eine leichte Austernunverträglichkeit</description>
                 <episode>2</episode>
                 <episodeTime>1:30:00</episodeTime>
+                <description>hat eine leichte Austernunverträglichkeit</description>
             </characteristic>
             <characteristic>
-                <description>mit dem Bundesverdienstkreuz ausgezeichnet</description>
                 <episode>1</episode>
                 <episodeTime>00:32:49</episodeTime>
+                <description>mit dem Bundesverdienstkreuz ausgezeichnet</description>
             </characteristic>
             <characteristic>
-                <description>zieht eine Schaumwein- einer Wein-Begleitung vor</description>
                 <episode>1</episode>
                 <episodeTime>00:23:25</episodeTime>
+                <description>zieht eine Schaumwein- einer Wein-Begleitung vor</description>
             </characteristic>
             <characteristic>
-                <description>Gastgeberin des Jahres 2021 vom Gault Milleau</description>
                 <episode>1</episode>
                 <episodeTime>00:20:46</episodeTime>
+                <description>Gastgeberin des Jahres 2021 vom Gault Milleau</description>
             </characteristic>
             <characteristic>
-                <description>Gastgeberin des Jahres 2017 von den Berliner Meisterköchen</description>
                 <episode>1</episode>
                 <episodeTime>00:20:20</episodeTime>
+                <description>Gastgeberin des Jahres 2017 von den Berliner Meisterköchen</description>
             </characteristic>
             <characteristic>
-                <description>hat Literaturwissenschaften studiert</description>
                 <episode>1</episode>
                 <episodeTime>00:14:10</episodeTime>
+                <description>hat Literaturwissenschaften studiert</description>
             </characteristic>
             <characteristic>
-                <description>Gründerin vom tulus lotrek</description>
                 <episode>1</episode>
                 <episodeTime>00:13:46</episodeTime>
+                <description>Gründerin vom tulus lotrek</description>
             </characteristic>
             <characteristic>
-                <description><![CDATA[Instagram: <a href="https://www.instagram.com/ilona_scholl_tulus_lotrek/">@ilona_scholl_tulus_lotrek</a>]]></description>
                 <episode>1</episode>
                 <episodeTime>00:06:00</episodeTime>
+                <description><![CDATA[Instagram: <a href="https://www.instagram.com/ilona_scholl_tulus_lotrek/">@ilona_scholl_tulus_lotrek</a>]]></description>
             </characteristic>
         </characteristics>
     </person>
