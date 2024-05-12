@@ -53,6 +53,10 @@ export function dateToString(date: Date, withTime: boolean): string {
     return date.toLocaleString('de', { timeZone: 'Europe/Berlin', dateStyle: 'full', timeStyle: withTime ? 'short' : undefined });
 }
 
+export function episodeIDToString(episode: EpisodeID): string {
+    return ('episode_' + episode.episode.toFixed()) + (episode.episodeType != undefined && episode.episodeType != 'full' ? '_' + episode.episodeType : '');
+}
+
 // ---------- SEARCH FUNCTIONS ----------
 export function hasEpisode(episodes: EpisodeID[] | undefined, episode: EpisodeID) {
     if (!episodes) return false;

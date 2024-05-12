@@ -1,4 +1,4 @@
-import { mapToEpisodeNames, toHTMLID } from "./utils";
+import { episodeIDToString, mapToEpisodeNames, toHTMLID } from "./utils";
 import { timeToString } from "./utils";
 import { dateToString } from "./utils";
 import { isEpisodeEqual } from "./utils";
@@ -19,6 +19,7 @@ export function getEpisodeCardInfo(episode: Episode, allContent: AllContent): Ca
     const boestOf = allContent.boestOfs.find(boestOf => isEpisodeEqual(boestOf, episode));
     const episodeType = episode.episodeType && episode.episodeType != "full" ? ` (${episode.episodeType.charAt(0).toUpperCase() + episode.episodeType.slice(1)})` : '';
     return {
+        image: `images/episodes/${episodeIDToString(episode)}.jpg`,
         title: episode.name,
         subtitle: episode.subtitle,
         additionalInfo: {
