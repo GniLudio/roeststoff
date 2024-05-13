@@ -4,6 +4,66 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff schemas/people.xsd">
     <person>
+        <name>Viktoria Fuchs</name>
+        <description></description>
+        <image>images/people/viktoria_fuchs.jpg</image>
+        <hateQuestion>
+            <episode>8</episode>
+            <episodeTime>2:10:25</episodeTime>
+            <description>Wie ist es als Frau zu kochen?</description>
+        </hateQuestion>
+        <appearances>
+            <appearance>
+                <episode>8</episode>
+                <episodeTime>1:29:57</episodeTime>
+            </appearance>
+        </appearances>
+        <characteristics>
+            <characteristic>
+                <episode>8</episode>
+                <episodeTime>4:01:19</episodeTime>
+                <description>Lieblingsduft: frisch gebackener Brioche</description>
+            </characteristic>
+            <characteristic>
+                <episode>8</episode>
+                <episodeTime>3:55:50</episodeTime>
+                <description>hasst Kokusnuss- und Vanilledüfte (Parfum, E-Zigaretten)</description>
+            </characteristic>
+            <characteristic>
+                <episode>8</episode>
+                <episodeTime>2:59:00</episodeTime>
+                <description>war bei Kitchen Impossible</description>
+            </characteristic>
+            <characteristic>
+                <episode>8</episode>
+                <episodeTime>1:30:45</episodeTime>
+                <description>vom Restaurant und Hotel Spielweg</description>
+            </characteristic>
+        </characteristics>
+    </person>
+    <person>
+        <name>Kraans de Lutin</name>
+        <description>Produzent des Intros</description>
+        <image>images/people/kraans_de_lutin.jpg"</image>
+        <characteristics>
+            <characteristic>
+                <episode>8</episode>
+                <episodeTime>2:57</episodeTime>
+                <description>wahnsinnig krasser Musikproduzent</description>
+            </characteristic>
+            <characteristic>
+                <episode>8</episode>
+                <episodeTime>2:50</episodeTime>
+                <description>gerngeseher Gast im tulus lotrek</description>
+            </characteristic>
+            <characteristic>
+                <episode>8</episode>
+                <episodeTime>1:58</episodeTime>
+                <description>Produzent des Intros</description>
+            </characteristic>
+        </characteristics>
+    </person>
+    <person>
         <name>Friede</name>
         <description>ehemaliger Passmann im tulus lotrek</description>
         <image>images/people/missing_image.png</image>
@@ -102,6 +162,10 @@
         </hateQuestion>
         <appearances>
             <appearance>
+                <episode>8</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
+            <appearance>
                 <episode>7</episode>
                 <episodeTime>00:00:00</episodeTime>
             </appearance>
@@ -180,6 +244,10 @@
             <description>Was machst du sonst noch?</description>
         </hateQuestion>
         <appearances>
+            <appearance>
+                <episode>8</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
             <appearance>
                 <episode>7</episode>
                 <episodeTime>00:00:00</episodeTime>

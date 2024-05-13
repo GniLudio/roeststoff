@@ -4,6 +4,19 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff schemas/glossary.xsd">
     <entry>
+        <episode>8</episode>
+        <episodeType>full</episodeType>
+        <episodeTime>3:33:30</episodeTime>
+        <name>Sous-Vide Becken</name>
+        <description>Vakuumgaren von Fleisch in einem temperaturgesteuertem Becken.</description>
+    </entry>
+    <entry>
+        <episode>8</episode>
+        <episodeTime>3:33:28</episodeTime>
+        <name>Pacojet</name>
+        <description>Ein Küchengerät, was tiefgefrorene Lebensmittel ohne Austauen mikropüriert und zu ultrafeinen Texturen verarbeitet.</description>
+    </entry>
+    <entry>
         <episode>7</episode>
         <episodeTime>2:58:02</episodeTime>
         <name>Wagyu</name>

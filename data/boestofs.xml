@@ -4,6 +4,25 @@
     xmlns="roeststoff" 
     xsi:schemaLocation="roeststoff schemas/boestofs.xsd">
     <boestof>
+        <episode>8</episode>
+        <episodeTime>53:28</episodeTime>
+        <name>No-Gos beim ersten Date</name>
+        <peter>
+            <rank>Leichenschmaus</rank>
+            <rank>Schulkiosk (mit 25 oder älter)</rank>
+            <rank>Krankenhauscafé</rank>
+            <rank>Hähnchenbude auf dem Baumarktparkplatz</rank>
+            <rank>Drive-Through be McDonalds</rank>
+        </peter>
+        <ilona>
+            <rank>Für andere Person bestellen (ohne zu fragen)</rank>
+            <rank>Vernuftfood (Salat oder anderes gesundes)</rank>
+            <rank>Feige</rank>
+            <rank>Irgendwas mit Mohn</rank>
+            <rank>5h Menü</rank>
+        </ilona>
+    </boestof>
+    <boestof>
         <episode>7</episode>
         <episodeTime>40:45</episodeTime>
         <name>Henkersmahlzeit</name>

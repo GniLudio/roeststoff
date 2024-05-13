@@ -4,6 +4,35 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff schemas/restaurants.xsd">
     <restaurant>
+        <name>Eatrenalin</name>
+        <description></description>
+        <image>images/restaurants/eatrenalin.svg</image>
+        <appearances>
+            <appearance>
+                <episode>8</episode>
+                <episodeTime>13:57</episodeTime>
+            </appearance>
+        </appearances>
+        <characteristics>
+            <characteristic>
+                <episode>8</episode>
+                <episodeTime>14:08</episodeTime>
+                <description>Restaurant im Europa-Park</description>
+            </characteristic>
+        </characteristics>
+    </restaurant>
+    <restaurant>
+        <name>Café Wien Sylt</name>
+        <description></description>
+        <image>images/restaurants/cafe_wien_sylt.svg</image>
+        <appearances>
+            <appearance>
+                <episode>8</episode>
+                <episodeTime>7:42</episodeTime>
+            </appearance>
+        </appearances>
+    </restaurant>
+    <restaurant>
         <name>Traube Tonbach</name>
         <description></description>
         <image>images/restaurants/traube_tonbach.svg</image>

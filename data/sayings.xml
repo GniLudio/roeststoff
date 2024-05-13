@@ -4,6 +4,36 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff schemas/sayings.xsd">
     <saying>
+        <episode>8</episode>
+        <episodeTime>3:19:03</episodeTime>
+        <description>Nich lang schnacken, Kopp in Nacken.</description>
+    </saying>
+    <saying>
+        <episode>8</episode>
+        <episodeTime>3:18:22</episodeTime>
+        <description>Fehler verzeiht der Gast. Fehlverhalten verzeiht er nicht.</description>
+    </saying>
+    <saying>
+        <episode>8</episode>
+        <episodeTime>3:18:15</episodeTime>
+        <description>Schnelle Hände schnelles Ende.</description>
+    </saying>
+    <saying>
+        <episode>8</episode>
+        <episodeTime>3:18:15</episodeTime>
+        <description>Viele Hände schnelles Ende.</description>
+    </saying>
+    <saying>
+        <episode>8</episode>
+        <episodeTime>3:17:48</episodeTime>
+        <description>Keine leeren Gänge.</description>
+    </saying>
+    <saying>
+        <episode>8</episode>
+        <episodeTime>1:42:15</episodeTime>
+        <description>Die Vergangheitsform von genießen ist genossen.</description>
+    </saying>
+    <saying>
         <episode>7</episode>
         <episodeTime>1:45:22</episodeTime>
         <description>Das Superlativ von Brasserie ist Krasserie.</description>
