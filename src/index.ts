@@ -31,8 +31,8 @@ drinks.sort((a,b) => compareEpisodeIDs(a.appearances, b.appearances, allContent.
 boestOfs.sort((a,b) => compareEpisodeID(a, b, allContent.episodes)).reverse();
 restaurants.sort((a,b) => compareEpisodeIDs(a.appearances, b.appearances, allContent.episodes)).reverse();
 glossary.sort((a,b) => a.name.localeCompare(b.name));
-sayings.sort((a,b) => compareEpisodeID(a, b, episodes));
-misc.sort((a,b) => compareEpisodeID(a, b, allContent.episodes));
+sayings.sort((a,b) => compareEpisodeID(a, b, episodes)).reverse();
+misc.sort((a,b) => compareEpisodeID(a, b, allContent.episodes)).reverse();
 
 // CREATE AND INSERT HTML ELEMENTS
 console.log("CREATING");
