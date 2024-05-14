@@ -13,7 +13,7 @@
             <xs:element name="image" type="xs:string" default="images/people/name.ext"/>
             <xs:element name="isHost" type="Boolean" minOccurs="0"></xs:element>
             <xs:element name="hateQuestion" type="TextWithTimestamp" minOccurs="0" />
-            <xs:element name="appearances" type="AppearanceArray" minOccurs="0" />
+            <xs:element name="appearances" type="AppearanceArray" />
             <xs:element name="characteristics" type="CharacteristicArray" minOccurs="0" />
         </xs:sequence>
     </xs:complexType>
@@ -23,7 +23,7 @@
             <xs:element name="name" type="xs:string" />
             <xs:element name="description" type="xs:string" />
             <xs:element name="image" type="xs:string" default="images/drinks/name.ext" />
-            <xs:element name="appearances" type="AppearanceArray" minOccurs="0" />
+            <xs:element name="appearances" type="AppearanceArray" />
         </xs:sequence>
     </xs:complexType>
 
@@ -45,7 +45,7 @@
             <xs:element name="description" type="xs:string" />
             <xs:element name="image" type="xs:string" default="images/restaurants/name.ext" />
             <xs:element name="team" type="MemberArray" minOccurs="0"/>
-            <xs:element name="appearances" type="AppearanceArray"  minOccurs="0"/>
+            <xs:element name="appearances" type="AppearanceArray"/>
             <xs:element name="characteristics" type="CharacteristicArray" minOccurs="0" />
         </xs:sequence>
     </xs:complexType>
@@ -87,25 +87,25 @@
     <!-- ARRAYS -->
     <xs:complexType name="AppearanceArray">
         <xs:sequence>
-            <xs:element name="appearance" type="Timestamp" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element name="appearance" type="Timestamp" minOccurs="1" maxOccurs="unbounded"/>
         </xs:sequence>
     </xs:complexType>
 
     <xs:complexType name="CharacteristicArray">
         <xs:sequence>
-            <xs:element name="characteristic" type="TextWithTimestamp" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element name="characteristic" type="TextWithTimestamp" minOccurs="1" maxOccurs="unbounded"/>
         </xs:sequence>
     </xs:complexType>
 
     <xs:complexType name="RankingArray">
         <xs:sequence>
-            <xs:element name="rank" type="xs:string" minOccurs="0" maxOccurs="unbounded" />
+            <xs:element name="rank" type="xs:string" minOccurs="1" maxOccurs="unbounded" />
         </xs:sequence>
     </xs:complexType>
 
     <xs:complexType name="MemberArray">
         <xs:sequence>
-            <xs:element name="member" type="xs:string" minOccurs="0" maxOccurs="unbounded" />
+            <xs:element name="member" type="xs:string" minOccurs="1" maxOccurs="unbounded" />
         </xs:sequence>
     </xs:complexType>
 

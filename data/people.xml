@@ -45,6 +45,12 @@
         <name>Kraans de Lutin</name>
         <description>Produzent des Intros</description>
         <image>images/people/kraans_de_lutin.jpg"</image>
+        <appearances>
+            <appearance>
+                <episode>8</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
+        </appearances>
         <characteristics>
             <characteristic>
                 <episode>8</episode>
@@ -60,23 +66,6 @@
                 <episode>8</episode>
                 <episodeTime>1:58</episodeTime>
                 <description>Produzent des Intros</description>
-            </characteristic>
-        </characteristics>
-    </person>
-    <person>
-        <name>Friede</name>
-        <description>ehemaliger Passmann im tulus lotrek</description>
-        <image>images/people/missing_image.png</image>
-        <characteristics>
-            <characteristic>
-                <episode>4</episode>
-                <episodeTime>1:50</episodeTime>
-                <description>ehemaliger Passmann im tulus lotrek</description>
-            </characteristic>
-            <characteristic>
-                <episode>2</episode>
-                <episodeTime>00:12:28</episodeTime>
-                <description>Koch im tulus lotrek</description>
             </characteristic>
         </characteristics>
     </person>

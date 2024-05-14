@@ -10,19 +10,19 @@ interface Episode extends EpisodeID {
 
 interface Person {
     name: string,
-    description: string,
     image: string,
+    description?: string,
     hateQuestion?: TextWithTimestamp,
     isHost?: boolean,
-    appearances?: Timestamp[],
-    characteristics?: TextWithTimestamp[],
+    appearances: Timestamp[],
+    characteristics: TextWithTimestamp[],
 }
 
 interface Drink {
     name: string,
-    description: string,
     image: string,
-    appearances?: Timestamp[],
+    description?: string,
+    appearances: Timestamp[],
 }
 
 interface BoestOf extends Timestamp {
@@ -34,9 +34,9 @@ interface BoestOf extends Timestamp {
 interface Restaurant {
     name: string,
     image: string,
-    description: string,
+    description?: string,
+    appearances: Timestamp[],
     team?: string[],
-    appearances?: Timestamp[],
     characteristics?: TextWithTimestamp[],
 }
 
@@ -81,7 +81,7 @@ type EpisodeType = "full" | "trailer" | "bonus";
 
 // ---------- CARDS ----------
 interface CardInfo {
-    title: string,
+    title?: string,
     image?: string,
     subtitle?: string,
     additionalInfo?: ModalInfo

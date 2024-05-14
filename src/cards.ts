@@ -27,13 +27,13 @@ export function getEpisodeCardInfo(episode: Episode, allContent: AllContent): Ca
             title: episode.name + " (" + episode.episode + ")",
             content: {
                 "Episode": episode.episode.toFixed() + episodeType,
-                'Veröffentlichung': episode.pubDate ? dateToString(episode.pubDate, true) : undefined,
+                'Veröffentlichung': dateToString(episode.pubDate, true),
                 "Böst of Röststoff": boestOf?.name,
                 "Gäste": mapToFilteredNames(allContent.people.filter(person => !person.isHost), episode, false),
                 "Trinkstoff": mapToFilteredNames(allContent.drinks, episode, false),
                 "Restaurants": mapToFilteredNames(allContent.restaurants, episode, false),
-                'Dauer': episode.duration ? '~' + timeToString(episode.duration) : undefined,
-                'Audio': episode.enclosure ? `<audio controls preload="none" class="w-75 rounded-3" src="${episode.enclosure.url}"></audio>` : '',
+                'Dauer': '~' + timeToString(episode.duration),
+                'Audio': `<audio controls preload="none" class="w-75 rounded-3" src="${episode.enclosure.url}"></audio>`,
                 'Beschreibung': episode.description
             }
         }
@@ -49,9 +49,9 @@ export function getPersonCardInfo(person: Person, allContent: AllContent): CardI
             id: `person_${person.name}`,
             title: person.name,
             content: {
-                "Folgen": person.appearances ? mapToEpisodeNames(person.appearances, allContent.episodes, false) : undefined,
+                "Folgen": mapToEpisodeNames(person.appearances, allContent.episodes, false),
                 "Hass-Frage": person.hateQuestion?.description,
-                "Merkmale": person.characteristics?.map(c => c.description)
+                "Merkmale": person.characteristics.map(c => c.description)
             }
         }
     }
@@ -66,7 +66,7 @@ export function getDrinkCardInfo(drink: Drink, allContent: AllContent): CardInfo
             id: `drink_${drink.name}`,
             title: drink.name,
             content: {
-                "Folgen": drink.appearances ? mapToEpisodeNames(drink.appearances, allContent.episodes, false): undefined,
+                "Folgen": mapToEpisodeNames(drink.appearances, allContent.episodes, false),
             }
         }
     }
@@ -96,7 +96,7 @@ export function getRestaurantCardInfo(restaurant: Restaurant, allContent: AllCon
             title: restaurant.name,
             content: {
                 "Team": restaurant.team,
-                "Folgen": restaurant.appearances ? mapToEpisodeNames(restaurant.appearances, allContent.episodes, false) : undefined,
+                "Folgen": mapToEpisodeNames(restaurant.appearances, allContent.episodes, false),
                 "Merkmale": restaurant.characteristics?.map(c => c.description)
             }
         }
@@ -105,7 +105,6 @@ export function getRestaurantCardInfo(restaurant: Restaurant, allContent: AllCon
 
 export function getSayingCardInfo(saying: TextWithTimestamp, allContent: AllContent): CardInfo {
     return {
-        title: "",
         subtitle: saying.description
     }
 }
@@ -131,15 +130,15 @@ function createCard(info: CardInfo): HTMLElement {
     const card = document.createElement('div');
     card.classList.add('col');
 
-    const cardImage = info.image && info.image != "" ? `<img src="${info.image}" class="img-top rounded-3 my-auto" alt="${info.image}">` : '';
-    const cardTitle = info.title && info.title != "" ? `<h5 class="card-title m-auto px-1 py-2">${info.title}</h5>` : ''
-    const cardSubtitle = info.subtitle && info.subtitle != "" ? `<h6 class="card-subtitle m-auto px-1 py-2">${info.subtitle}</h5>` : '';
+    const cardImage = info.image && info.image != "" ? `<img src="${info.image}" class="img-top rounded-3 m-1" alt="${info.image}">` : '';
+    const cardTitle = info.title && info.title != "" ? `<h5 class="card-title m-auto p-1">${info.title}</h5>` : ''
+    const cardSubtitle = info.subtitle && info.subtitle != "" ? `<h6 class="card-subtitle m-auto p-1">${info.subtitle}</h5>` : '';
     const additionalInfo = createAdditionalInfo(info);
 
     card.innerHTML = `
         <div class="card bg-light border-warning border-3 h-100 overflow-auto">
-            <div class="card-body d-flex flex-column h-100 p-1">
-                ${cardImage}
+            ${cardImage}
+            <div class="card-body d-flex flex-column h-100 p-2">
                 ${cardTitle}
                 ${cardSubtitle}
                 ${additionalInfo[0]}
@@ -155,7 +154,7 @@ function createAdditionalInfo(info: CardInfo): [button: string, modal: string] {
     const id = toHTMLID('modal_' + info.additionalInfo.id);
 
     const button = `
-        <div class="m-auto py-2">
+        <div class="p-1">
             <button class="btn btn-outline-warning bg-secondary text-white" data-bs-toggle="modal" data-bs-target="#${id}">
                 Info
             </button>

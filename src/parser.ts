@@ -17,16 +17,15 @@ export function parseXML<T>(rawXML: string, rootPath: string[], entryName: strin
 // ---------- CONTENT TYPES ----------
 
 export function parseEpisode(element: Element): Episode {
-    const duration = parseMandatory(parseNumber, element, 'duration')
     // FIXME: Use full tag names (with 'prefix:...')
     return {
-        episodeType: parseOptional(parseEpisodeType, element, 'episodeType'),
+        episodeType: parseMandatory(parseEpisodeType, element, 'episodeType'),
         episode: parseMandatory(parseNumber, element, 'episode'),
         name: parseMandatory(parseString, element, 'title'),
         subtitle: parseMandatory(parseString, element, 'subtitle'),
         description: parseMandatory(parseString, element, 'encoded'),
         pubDate: parseMandatory(parseDate, element, 'pubDate'),
-        duration: secondsToTime(duration),
+        duration: secondsToTime(parseMandatory(parseNumber, element, 'duration')),
         enclosure: parseMandatory(parseEpisodeEnclosure, element, 'enclosure'),
     }
 }
@@ -34,21 +33,21 @@ export function parseEpisode(element: Element): Episode {
 export function parsePerson(element: Element): Person {
     return {
         name: parseMandatory(parseString, element, 'name'),
-        description: parseMandatory(parseString, element, 'description'),
-        hateQuestion: parseOptional(parseTextWithTimestamp, element, 'hateQuestion'),
         image: parseMandatory(parseString, element, 'image'),
+        description: parseOptional(parseString, element, 'description'),
         isHost: parseOptional(parseBoolean, element, 'isHost'),
-        appearances: parseOptionalArray(parseTimestamp, element, 'appearances', 'appearance'),
-        characteristics: parseOptionalArray(parseTextWithTimestamp, element, 'characteristics', 'characteristic'),
+        hateQuestion: parseOptional(parseTextWithTimestamp, element, 'hateQuestion'),
+        appearances: parseMandatoryArray(parseTimestamp, element, 'appearances', 'appearance'),
+        characteristics: parseMandatoryArray(parseTextWithTimestamp, element, 'characteristics', 'characteristic'),
     };
 }
 
 export function parseDrink(element: Element): Drink {
     return {
         name: parseMandatory(parseString, element, 'name'),
-        description: parseMandatory(parseString, element, 'description'),
         image: parseMandatory(parseString, element, 'image'),
-        appearances: parseOptionalArray(parseTimestamp, element, 'appearances', 'appearance'),
+        description: parseOptional(parseString, element, 'description'),
+        appearances: parseMandatoryArray(parseTimestamp, element, 'appearances', 'appearance'),
     };
 }
 
@@ -64,10 +63,10 @@ export function parseBoestOf(element: Element): BoestOf {
 export function parseRestaurant(element: Element): Restaurant {
     return {
         name: parseMandatory(parseString, element, 'name'),
-        description: parseMandatory(parseString, element, 'description'),
+        description: parseOptional(parseString, element, 'description'),
         image: parseMandatory(parseString, element, 'image'),
         team: parseOptionalArray(parseString, element, 'team', 'member'),
-        appearances: parseOptionalArray(parseTimestamp, element, 'appearances', 'appearance'),
+        appearances: parseMandatoryArray(parseTimestamp, element, 'appearances', 'appearance'),
         characteristics: parseOptionalArray(parseTextWithTimestamp, element, 'characteristics', 'characteristic'),
     };
 }
@@ -160,19 +159,16 @@ function parseBoolean(element: Element): boolean {
 
 // ----------HELPER----------
 function parseMandatoryArray<T>(parser: (entry: Element) => T, element: Element, name: string, entryName: string): T[] {
-    const parent = assert(element.querySelector(`:scope ${name}`), `Couldn't find array: ${name}`);
-    return Array.from(parent.querySelectorAll(`:scope ${entryName}`)).map(parser);
+    return assert(parseOptionalArray(parser, element, name, entryName), `Couldn't find array: ${name}`);
 }
 
 function parseOptionalArray<T>(parser: (entry: Element) => T, element: Element, name: string, entryName: string): T[] | undefined {
     const parent = element.querySelector(`:scope ${name}`);
-    if (parent == null) return undefined;
-    return Array.from(parent.querySelectorAll(`:scope ${entryName}`)).map(parser);
+    return parent ? Array.from(parent.querySelectorAll(`:scope ${entryName}`)).map(parser) : undefined;
 }
 
 function parseMandatory<T>(parser: (e: Element) => T, element: Element, name: string): T {
-    const parent = assert(element.querySelector(`:scope ${name}`), `Couldn't find field: ${name}`);
-    return parser(parent);
+    return assert(parseOptional(parser, element, name), `Couldn't find field: ${name}`);
 }
 
 
