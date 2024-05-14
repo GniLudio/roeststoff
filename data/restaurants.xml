@@ -4,6 +4,57 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/restaurants.xsd">
     <restaurant>
+        <name>Jardin de Sens</name>
+        <description></description>
+        <image>images\restaurants\jardin_des_sens.svg</image>
+        <appearances>
+            <appearance>
+                <episode>9</episode>
+                <episodeTime>2:19:05</episodeTime>
+            </appearance>
+        </appearances>
+        <characteristics>
+            <characteristic>
+                <episode>9</episode>
+                <episodeTime>2:23:15</episodeTime>
+                <description>deutsch: Garten der Sinne</description>
+            </characteristic>
+        </characteristics>
+    </restaurant>
+    <restaurant>
+        <name>Jan</name>
+        <description></description>
+        <image>images/restaurants/jan_hartwig.png</image>
+        <appearances>
+            <appearance>
+                <episode>9</episode>
+                <episodeTime>1:33:53</episodeTime>
+            </appearance>
+        </appearances>
+    </restaurant>
+    <restaurant>
+        <name>Irma la Douce</name>
+        <description></description>
+        <image>images\restaurants\irma_la_douce.jpg</image>
+        <appearances>
+            <appearance>
+                <episode>9</episode>
+                <episodeTime>1:14:15</episodeTime>
+            </appearance>
+        </appearances>
+    </restaurant>
+    <restaurant>
+        <name>CODA</name>
+        <description>Fine Dining mit ausschließlich Desserts und Cocktails</description>
+        <image>images/restaurants/coda_berlin.svg</image>
+        <appearances>
+            <appearance>
+                <episode>9</episode>
+                <episodeTime>00:06:25</episodeTime>
+            </appearance>
+        </appearances>
+    </restaurant>
+    <restaurant>
         <name>Eatrenalin</name>
         <description></description>
         <image>images/restaurants/eatrenalin.svg</image>

@@ -4,6 +4,25 @@
     xmlns="roeststoff" 
     xsi:schemaLocation="roeststoff ../schemas/boestofs.xsd">
     <boestof>
+        <episode>9</episode>
+        <episodeTime>2:34:50</episodeTime>
+        <name>Ekligste Nahrungsmittel</name>
+        <peter>
+            <rank>Andouilette</rank>
+            <rank>Balut-Eier</rank>
+            <rank>Frittierte Vogelspinne</rank>
+            <rank>Tako Sashimi (Zanachi?)</rank>
+            <rank>Stinkefrucht / Durian / Zibetbaum</rank>
+        </peter>
+        <ilona>
+            <rank>Fishmäc (Filet-o-Fish)</rank>
+            <rank>Frühstücksbrei jeglicher Art (Milchreis, etc.)</rank>
+            <rank>Andouilette</rank>
+            <rank>BiFi</rank>
+            <rank>Bubble Tea</rank>
+        </ilona>
+    </boestof>
+    <boestof>
         <episode>8</episode>
         <episodeTime>53:28</episodeTime>
         <name>No-Gos beim ersten Date</name>

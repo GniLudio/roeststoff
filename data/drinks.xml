@@ -4,6 +4,28 @@
     xmlns="roeststoff" 
     xsi:schemaLocation="roeststoff ../schemas/drinks.xsd">
     <drink>
+        <name>Meursault 1er Cru Les Charmes 2018 von Xavier Monnot</name>
+        <description></description>
+        <image>images\drinks\drinks_9_meursault_xavier_monnot.jpg</image>
+        <appearances>
+            <appearance>
+                <episode>9</episode>
+                <episodeTime>1:08:45</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
+        <name>Remordimiento vom Weingut Bodega Cerrón</name>
+        <description></description>
+        <image>images\drinks\drinks_9_remordimiento_bodega_cerron.jpg</image>
+        <appearances>
+            <appearance>
+                <episode>9</episode>
+                <episodeTime>1:04:58</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
         <name>Luddite Shiraz 2010</name>
         <description></description>
         <image>images/drinks/drinks_8_luddite_shiraz_2010.jpg</image>

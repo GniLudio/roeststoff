@@ -4,6 +4,18 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/glossary.xsd">
     <entry>
+        <episode>9</episode>
+        <episodeTime>3:05:52</episodeTime>
+        <name>Dépendance</name>
+        <description>französisch für Zweigstelle / Niederlassung</description>
+    </entry>
+    <entry>
+        <episode>9</episode>
+        <episodeTime>1:33:30</episodeTime>
+        <name>Ménage-à-trois</name>
+        <description>Eine Dreiecksbeziehung.</description>
+    </entry>
+    <entry>
         <episode>8</episode>
         <episodeType>full</episodeType>
         <episodeTime>3:33:30</episodeTime>

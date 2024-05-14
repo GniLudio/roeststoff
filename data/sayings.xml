@@ -4,6 +4,16 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/sayings.xsd">
     <saying>
+        <episode>9</episode>
+        <episodeTime>2:40:27</episodeTime>
+        <description>An den höchsten Gipfeln ballen sich immer die Wolken.</description>
+    </saying>
+    <saying>
+        <episode>9</episode>
+        <episodeTime>1:57:27</episodeTime>
+        <description>Jeder Fight braucht 'nen Punch, jeder Teller 'nen Crunch.</description>
+    </saying>
+    <saying>
         <episode>8</episode>
         <episodeTime>3:19:03</episodeTime>
         <description>Nich lang schnacken, Kopp in Nacken.</description>

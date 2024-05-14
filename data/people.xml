@@ -141,7 +141,7 @@
     </person>
     <person>
         <name>Peter Smits</name>
-        <description>Der Dullie.</description>
+        <description>Der Dullie vom Dienst.</description>
         <image>images/people/peter_smits.jpg</image>
         <isHost>true</isHost>
         <hateQuestion>
@@ -150,6 +150,10 @@
             <description>Und damit kann man Geld verdienen?</description>
         </hateQuestion>
         <appearances>
+            <appearance>
+                <episode>9</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
             <appearance>
                 <episode>8</episode>
                 <episodeTime>00:00:00</episodeTime>
@@ -233,6 +237,10 @@
             <description>Was machst du sonst noch?</description>
         </hateQuestion>
         <appearances>
+            <appearance>
+                <episode>9</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
             <appearance>
                 <episode>8</episode>
                 <episodeTime>00:00:00</episodeTime>
