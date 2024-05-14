@@ -2,7 +2,7 @@
 <root
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns="roeststoff" 
-    xsi:schemaLocation="roeststoff schemas/boestofs.xsd">
+    xsi:schemaLocation="roeststoff ../schemas/boestofs.xsd">
     <boestof>
         <episode>8</episode>
         <episodeTime>53:28</episodeTime>

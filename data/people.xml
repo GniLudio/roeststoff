@@ -2,7 +2,7 @@
 <root
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns="roeststoff"
-    xsi:schemaLocation="roeststoff schemas/people.xsd">
+    xsi:schemaLocation="roeststoff ../schemas/people.xsd">
     <person>
         <name>Viktoria Fuchs</name>
         <description></description>

@@ -2,7 +2,7 @@
 <root
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns="roeststoff" 
-    xsi:schemaLocation="roeststoff schemas/drinks.xsd">
+    xsi:schemaLocation="roeststoff ../schemas/drinks.xsd">
     <drink>
         <name>Luddite Shiraz 2010</name>
         <description></description>

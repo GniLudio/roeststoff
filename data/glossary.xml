@@ -2,7 +2,7 @@
 <root
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns="roeststoff"
-    xsi:schemaLocation="roeststoff schemas/glossary.xsd">
+    xsi:schemaLocation="roeststoff ../schemas/glossary.xsd">
     <entry>
         <episode>8</episode>
         <episodeType>full</episodeType>
