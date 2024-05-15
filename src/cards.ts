@@ -135,7 +135,7 @@ function createCard(info: CardInfo): HTMLElement {
     const cardImage = info.image && info.image != "" ? `<img src="${info.image}" class="img-top rounded-3 m-1" alt="${info.image}">` : '';
     const cardTitle = info.title && info.title != "" ? `<h5 class="card-title m-auto p-1">${info.title}</h5>` : ''
     const cardSubtitle = info.subtitle && info.subtitle != "" ? `<h6 class="card-subtitle m-auto p-1">${info.subtitle}</h5>` : '';
-    const cardIndex = info.index != '' ? 
+    const cardIndex = info.index && info.index != '' ? 
         `<div class="position-absolute bottom-0 m-1 px-1 rounded-2 bg-secondary-subtle"><small>${info.index}</small></div>` : '';
     const additionalInfo = createAdditionalInfo(info);
 
