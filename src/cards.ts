@@ -1,4 +1,4 @@
-import { episodeIDToString, mapToEpisodeNames, toHTMLID } from "./utils";
+import { episodeIDToShortString, episodeIDToString, mapToEpisodeNames, toHTMLID } from "./utils";
 import { timeToString } from "./utils";
 import { dateToString } from "./utils";
 import { isEpisodeEqual } from "./utils";
@@ -17,11 +17,12 @@ export function createCards<T>(containerID: string, items: T[], getCardInfo: (e:
 
 export function getEpisodeCardInfo(episode: Episode, allContent: AllContent): CardInfo {
     const boestOf = allContent.boestOfs.find(boestOf => isEpisodeEqual(boestOf, episode));
-    const episodeType = episode.episodeType && episode.episodeType != "full" ? ` (${episode.episodeType.charAt(0).toUpperCase() + episode.episodeType.slice(1)})` : '';
+    const episodeType = episode.episodeType != "full" ? ` (${episode.episodeType.charAt(0).toUpperCase() + episode.episodeType.slice(1)})` : '';
     return {
         image: `images/episodes/${episodeIDToString(episode)}.jpg`,
         title: episode.name,
         subtitle: episode.subtitle,
+        index: episodeIDToShortString(episode),
         additionalInfo: {
             id: `episode_${episode.name}`,
             title: episode.name + " (" + episode.episode + ")",
@@ -75,6 +76,7 @@ export function getDrinkCardInfo(drink: Drink, allContent: AllContent): CardInfo
 export function getBoestOfCardInfo(boestOf: BoestOf, allContent: AllContent): CardInfo {
     return {
         title: boestOf.name,
+        index: episodeIDToShortString(boestOf),
         additionalInfo: {
             id: boestOf.name,
             title: boestOf.name,
@@ -133,10 +135,13 @@ function createCard(info: CardInfo): HTMLElement {
     const cardImage = info.image && info.image != "" ? `<img src="${info.image}" class="img-top rounded-3 m-1" alt="${info.image}">` : '';
     const cardTitle = info.title && info.title != "" ? `<h5 class="card-title m-auto p-1">${info.title}</h5>` : ''
     const cardSubtitle = info.subtitle && info.subtitle != "" ? `<h6 class="card-subtitle m-auto p-1">${info.subtitle}</h5>` : '';
+    const cardIndex = info.index != '' ? 
+        `<div class="position-absolute bottom-0 m-1 px-1 rounded-2 bg-secondary-subtle"><small>${info.index}</small></div>` : '';
     const additionalInfo = createAdditionalInfo(info);
 
     card.innerHTML = `
         <div class="card bg-light border-warning border-3 h-100 overflow-auto">
+            ${cardIndex}
             ${cardImage}
             <div class="card-body d-flex flex-column h-100 p-2">
                 ${cardTitle}

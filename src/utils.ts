@@ -54,7 +54,11 @@ export function dateToString(date: Date, withTime: boolean): string {
 }
 
 export function episodeIDToString(episode: EpisodeID): string {
-    return ('episode_' + episode.episode.toFixed()) + (episode.episodeType != undefined && episode.episodeType != 'full' ? '_' + episode.episodeType : '');
+    return ('episode_' + episode.episode.toFixed()) + (episode.episodeType != 'full' ? '_' + episode.episodeType : '');
+}
+
+export function episodeIDToShortString(episode: EpisodeID): string {
+    return (episode.episodeType != 'full' ? episode.episodeType.charAt(0).toUpperCase() : '') + episode.episode.toFixed();
 }
 
 // ---------- SEARCH FUNCTIONS ----------
@@ -64,11 +68,7 @@ export function hasEpisode(episodes: EpisodeID[] | undefined, episode: EpisodeID
 }
 
 export function isEpisodeEqual(a: EpisodeID, b: EpisodeID): boolean {
-    return isEpisodeTypeEqual(a.episodeType, b.episodeType) && a.episode == b.episode;
-}
-
-export function isEpisodeTypeEqual(a: EpisodeType | undefined, b: EpisodeType | undefined): boolean {
-    return a == b || (a == 'full' && b == undefined) || (a == undefined && b == 'full');
+    return a.episodeType == b.episodeType && a.episode == b.episode;
 }
 
 // ---------- SORTING ----------

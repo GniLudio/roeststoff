@@ -117,7 +117,7 @@ function parseTime(element: Element): Time {
 
 function parseEpisodeID(element: Element): EpisodeID {
     return {
-        episodeType: parseOptional(parseEpisodeType, element, 'episodeType'),
+        episodeType: parseOptional(parseEpisodeType, element, 'episodeType') ?? 'full',
         episode: parseMandatory(parseNumber, element, 'episode'),
     };
 }

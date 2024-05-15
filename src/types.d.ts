@@ -68,7 +68,7 @@ interface Time {
 }
 
 interface EpisodeID { 
-    episodeType?: EpisodeType, 
+    episodeType: EpisodeType, 
     episode: number 
 }
 
@@ -84,6 +84,7 @@ interface CardInfo {
     title?: string,
     image?: string,
     subtitle?: string,
+    index?: string,
     additionalInfo?: ModalInfo
 }
 
