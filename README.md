@@ -13,3 +13,4 @@
 * Leertaste (Unpause) öffnet Fenster der Folge
 * Sortierung der Inhalte
     * nach Zeitpunkt (und nicht nur nach Episode)
+* Titel zeigt laufende Folge
