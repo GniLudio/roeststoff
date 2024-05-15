@@ -11,5 +11,5 @@
 ## TODOs
 * Links zu spezifischen Inhalten
 * Leertaste (Unpause) öffnet Fenster der Folge
-* Sortierung der Inhalt
+* Sortierung der Inhalte
     * nach Zeitpunkt (und nicht nur nach Episode)
