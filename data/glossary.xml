@@ -4,6 +4,24 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/glossary.xsd">
     <entry>
+        <episode>10</episode>
+        <episodeTime>1:36:29</episodeTime>
+        <name>Cremiger Wein</name>
+        <description>Ein Wein, der durch z.B. Trockenextrakt oder Hefestandzeit eine gewisse Buttrigkeit bzw. Sahnigkeit bekommen hat.</description>
+    </entry>
+    <entry>
+        <episode>10</episode>
+        <episodeTime>1:06:35</episodeTime>
+        <name>Reverse Searing (Rückwärtsgaren)</name>
+        <description>Erst garen und dann angebraten.</description>
+    </entry>
+    <entry>
+        <episode>10</episode>
+        <episodeTime>55:12</episodeTime>
+        <name>puttanesca (Spaghetti alla puttanesca)</name>
+        <description>Spaghetti nach Hurenart</description>
+    </entry>
+    <entry>
         <episode>9</episode>
         <episodeTime>3:05:52</episodeTime>
         <name>Dépendance</name>

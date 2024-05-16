@@ -4,6 +4,37 @@
     xmlns="roeststoff" 
     xsi:schemaLocation="roeststoff ../schemas/boestofs.xsd">
     <boestof>
+        <episode>10</episode>
+        <episodeTime>48:20</episodeTime>
+        <name>Gerichte, die Restaurants oft verhauen</name>
+        <peter>
+            <rank>Kartoffeln</rank>
+            <rank>Lasagne</rank>
+            <rank>Frühstück</rank>
+            <rank><![CDATA[<small class="text-muted">Ranking von Max</small>]]></rank>
+        </peter>
+        <ilona>
+            <rank>Trüffelpasta</rank>
+            <rank>Calamari</rank>
+            <rank>Steak</rank>
+        </ilona>
+    </boestof>
+    <boestof>
+        <episode>10</episode>
+        <episodeTime>45:06</episodeTime>
+        <name>Dinge, die jeder zu Hause machen kann</name>
+        <peter>
+            <rank>Steak (vor allem mit Fleischtermometer)</rank>
+            <rank>Brot (selber backen)</rank>
+            <rank><![CDATA[Penne amatriciana (<s>Penne all' arrabbiata</s>)]]></rank>
+            <rank>ganzes Hänchen</rank>
+        </peter>
+        <ilona>
+            <rank>-</rank>
+        </ilona>
+        
+    </boestof>
+    <boestof>
         <episode>9</episode>
         <episodeTime>2:34:50</episodeTime>
         <name>Ekligste Nahrungsmittel</name>

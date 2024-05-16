@@ -4,6 +4,26 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/sayings.xsd">
     <saying>
+        <episode>10</episode>
+        <episodeTime>1:39:15</episodeTime>
+        <description>What grows together goes together.</description>
+    </saying>
+    <saying>
+        <episode>10</episode>
+        <episodeTime>1:16:47</episodeTime>
+        <description><![CDATA[Arnold Schwarzen<b>egg</b>er]]></description>
+    </saying>
+    <saying>
+        <episode>10</episode>
+        <episodeTime>1:05:35</episodeTime>
+        <description>In der Ruhe liegt der Saft.</description>
+    </saying>
+    <saying>
+        <episode>10</episode>
+        <episodeTime>1:01:20</episodeTime>
+        <description>Der Sauerteig namens Klaus Kinski.</description>
+    </saying>
+    <saying>
         <episode>9</episode>
         <episodeTime>2:40:27</episodeTime>
         <description>An den höchsten Gipfeln ballen sich immer die Wolken.</description>

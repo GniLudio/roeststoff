@@ -4,6 +4,17 @@
     xmlns="roeststoff" 
     xsi:schemaLocation="roeststoff ../schemas/drinks.xsd">
     <drink>
+        <name>Cuvée de Réserve 2022 von Pierre Péters</name>
+        <description></description>
+        <image>images/drinks/missing_image.png</image>
+        <appearances>
+            <appearance>
+                <episode>10</episode>
+                <episodeTime>1:30:30</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
         <name>Meursault 1er Cru Les Charmes 2018 von Xavier Monnot</name>
         <description></description>
         <image>images\drinks\drinks_9_meursault_xavier_monnot.jpg</image>

@@ -47,21 +47,23 @@ cards.createCards('misc_content', misc, cards.getMiscEntryCardInfo, allContent);
 
 // AUDIO CONTROLS
 let lastPlayed: HTMLMediaElement | null = null;
-document.addEventListener('play', function(e) {
-    console.log('play', e.target);
-    for (const audio of document.querySelectorAll("audio")) {
-        if (audio != e.target && !audio.paused) {
-            audio.pause();
-        }
-    }
-    lastPlayed = e.target as HTMLMediaElement;
-}, true);
-document.addEventListener('keyup', function(e) {
-    if (lastPlayed == null) return;
-    if (e.key != " " && e.key != "Space") return;
+let lastControlledTime: number = -1;
+const audio_elements = document.querySelectorAll("audio");
+for (const audio of audio_elements) {
+    audio.addEventListener('play', function(_) {
+        lastPlayed = audio;
+        lastControlledTime = Date.now();
+    });
+
+}
+document.addEventListener('keydown', function(e) {
+    if (e.key != 'Space' && e.key != ' ' && e.keyCode != 32) return;
+    if (!lastPlayed) return;
+    if (lastControlledTime + 100 >= Date.now()) return;
+    lastControlledTime = Date.now();
     if (lastPlayed.paused) {
         lastPlayed.play();
     } else {
         lastPlayed.pause();
     }
-}, true);
+});

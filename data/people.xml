@@ -75,6 +75,10 @@
         <image>images/people/felix_fuchs.jpg</image>
         <appearances>
             <appearance>
+                <episode>10</episode>
+                <episodeTime>1:30:05</episodeTime>
+            </appearance>
+            <appearance>
                 <episode>4</episode>
                 <episodeTime>1:59:45</episodeTime>
             </appearance>
@@ -102,6 +106,10 @@
             <description>Was ist deine Lieblingszutat?</description>
         </hateQuestion>
         <appearances>
+            <appearance>
+                <episode>10</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
             <appearance>
                 <episode>7</episode>
                 <episodeTime>1:39:20</episodeTime>
@@ -150,6 +158,10 @@
             <description>Und damit kann man Geld verdienen?</description>
         </hateQuestion>
         <appearances>
+            <appearance>
+                <episode>10</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
             <appearance>
                 <episode>9</episode>
                 <episodeTime>00:00:00</episodeTime>
@@ -237,6 +249,10 @@
             <description>Was machst du sonst noch?</description>
         </hateQuestion>
         <appearances>
+            <appearance>
+                <episode>10</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
             <appearance>
                 <episode>9</episode>
                 <episodeTime>00:00:00</episodeTime>
