@@ -9,9 +9,9 @@
     <xs:complexType name="Person">
         <xs:sequence>
             <xs:element name="name" type="xs:string" />
-            <xs:element name="description" type="xs:string" />
+            <xs:element name="description" type="xs:string" minOccurs="0" />
             <xs:element name="image" type="xs:string" default="images/people/name.ext"/>
-            <xs:element name="isHost" type="Boolean" minOccurs="0"></xs:element>
+            <xs:element name="isHost" type="Boolean" minOccurs="0"/>
             <xs:element name="hateQuestion" type="TextWithTimestamp" minOccurs="0" />
             <xs:element name="appearances" type="AppearanceArray" />
             <xs:element name="characteristics" type="CharacteristicArray" minOccurs="0" />
@@ -21,7 +21,7 @@
     <xs:complexType name="Drink">
         <xs:sequence>
             <xs:element name="name" type="xs:string" />
-            <xs:element name="description" type="xs:string" />
+            <xs:element name="description" type="xs:string" minOccurs="0"/>
             <xs:element name="image" type="xs:string" default="images/drinks/name.ext" />
             <xs:element name="appearances" type="AppearanceArray" />
         </xs:sequence>
@@ -42,7 +42,7 @@
     <xs:complexType name="Restaurant">
         <xs:sequence>
             <xs:element name="name" type="xs:string" />
-            <xs:element name="description" type="xs:string" />
+            <xs:element name="description" type="xs:string" minOccurs="0" />
             <xs:element name="image" type="xs:string" default="images/restaurants/name.ext" />
             <xs:element name="team" type="MemberArray" minOccurs="0"/>
             <xs:element name="appearances" type="AppearanceArray"/>
@@ -128,7 +128,7 @@
 
     <xs:complexType name="EpisodeID">
         <xs:sequence>
-            <xs:element name="episode" type="xs:decimal"></xs:element>
+            <xs:element name="episode" type="xs:decimal"/>
             <xs:element name="episodeType" type="EpisodeType" minOccurs="0" />
         </xs:sequence>
     </xs:complexType>

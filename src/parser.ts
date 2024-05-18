@@ -38,7 +38,7 @@ export function parsePerson(element: Element): Person {
         isHost: parseOptional(parseBoolean, element, 'isHost'),
         hateQuestion: parseOptional(parseTextWithTimestamp, element, 'hateQuestion'),
         appearances: parseMandatoryArray(parseTimestamp, element, 'appearances', 'appearance'),
-        characteristics: parseMandatoryArray(parseTextWithTimestamp, element, 'characteristics', 'characteristic'),
+        characteristics: parseOptionalArray(parseTextWithTimestamp, element, 'characteristics', 'characteristic'),
     };
 }
 

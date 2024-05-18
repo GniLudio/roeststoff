@@ -15,7 +15,7 @@ interface Person {
     hateQuestion?: TextWithTimestamp,
     isHost?: boolean,
     appearances: Timestamp[],
-    characteristics: TextWithTimestamp[],
+    characteristics?: TextWithTimestamp[],
 }
 
 interface Drink {

@@ -52,7 +52,7 @@ export function getPersonCardInfo(person: Person, allContent: AllContent): CardI
             content: {
                 "Folgen": mapToEpisodeNames(person.appearances, allContent.episodes, false),
                 "Hass-Frage": person.hateQuestion?.description,
-                "Merkmale": person.characteristics.map(c => c.description)
+                "Merkmale": person.characteristics?.map(c => c.description)
             }
         }
     }

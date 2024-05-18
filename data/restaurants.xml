@@ -6,7 +6,6 @@
     <!-- 54:05 -->
     <restaurant>
         <name>Epicure (Paris)</name>
-        <description></description>
         <image>images\restaurants\epicure_paris.jpg</image>
         <appearances>
             <appearance>
@@ -28,7 +27,6 @@
     </restaurant>
     <restaurant>
         <name>Jardin de Sens</name>
-        <description></description>
         <image>images\restaurants\jardin_des_sens.svg</image>
         <appearances>
             <appearance>
@@ -46,7 +44,6 @@
     </restaurant>
     <restaurant>
         <name>Jan</name>
-        <description></description>
         <image>images/restaurants/jan_hartwig.png</image>
         <appearances>
             <appearance>
@@ -57,7 +54,6 @@
     </restaurant>
     <restaurant>
         <name>Irma la Douce</name>
-        <description></description>
         <image>images\restaurants\irma_la_douce.jpg</image>
         <appearances>
             <appearance>
@@ -79,7 +75,6 @@
     </restaurant>
     <restaurant>
         <name>Eatrenalin</name>
-        <description></description>
         <image>images/restaurants/eatrenalin.svg</image>
         <appearances>
             <appearance>
@@ -97,7 +92,6 @@
     </restaurant>
     <restaurant>
         <name>Café Wien Sylt</name>
-        <description></description>
         <image>images/restaurants/cafe_wien_sylt.svg</image>
         <appearances>
             <appearance>
@@ -108,7 +102,6 @@
     </restaurant>
     <restaurant>
         <name>Traube Tonbach</name>
-        <description></description>
         <image>images/restaurants/traube_tonbach.svg</image>
         <appearances>
             <appearance>
@@ -119,7 +112,6 @@
     </restaurant>
     <restaurant>
         <name>Frühstück 3000</name>
-        <description></description>
         <image>images/restaurants/fruestueck_3000.jpg</image>
         <appearances>
             <appearance>
@@ -130,7 +122,6 @@
     </restaurant>
     <restaurant>
         <name>PHP</name>
-        <description></description>
         <image>images/restaurants/php.jpeg</image>
         <appearances>
             <appearance>
@@ -159,7 +150,6 @@
     </restaurant>
     <restaurant>
         <name>Café Frieda</name>
-        <description></description>
         <image>images/restaurants/cafe_frieda.jpg</image>
         <team>
             <member>Samina Raza</member>
@@ -194,7 +184,6 @@
     </restaurant>
     <restaurant>
         <name>Tim Raue</name>
-        <description></description>
         <image>images/restaurants/tim_raue.png</image>
         <team>
             <member>Tim Raue</member>
@@ -216,7 +205,6 @@
     </restaurant>
     <restaurant>
         <name>MS Marone</name>
-        <description></description>
         <image>images/restaurants/ms_marone.jpg</image>
         <appearances>
             <appearance>
@@ -234,7 +222,6 @@
     </restaurant>
     <restaurant>
         <name>tulus lotrek</name>
-        <description></description>
         <image>images/restaurants/tulus_lotrek.jpg</image>
         <team>
             <member>Ilona Scholl</member>

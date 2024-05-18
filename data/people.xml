@@ -5,7 +5,6 @@
     xsi:schemaLocation="roeststoff ../schemas/people.xsd">
     <person>
         <name>Viktoria Fuchs</name>
-        <description></description>
         <image>images/people/viktoria_fuchs.jpg</image>
         <hateQuestion>
             <episode>8</episode>
@@ -98,7 +97,6 @@
     </person>
     <person>
         <name>Max Strohe</name>
-        <description></description>
         <image>images/people/max_strohe.jpg</image>
         <hateQuestion>
             <episode>3</episode>
