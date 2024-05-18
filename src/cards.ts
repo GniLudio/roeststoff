@@ -63,6 +63,7 @@ export function getDrinkCardInfo(drink: Drink, allContent: AllContent): CardInfo
         image: drink.image,
         title: drink.name,
         subtitle: drink.description,
+        index: episodeIDToShortString(drink.appearances[0]),
         additionalInfo: {
             id: `drink_${drink.name}`,
             title: drink.name,
