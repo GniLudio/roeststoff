@@ -4,6 +4,25 @@
     xmlns="roeststoff" 
     xsi:schemaLocation="roeststoff ../schemas/boestofs.xsd">
     <boestof>
+        <episode>11</episode>
+        <episodeTime>2:15:57</episodeTime>
+        <name>Kater-Essen</name>
+        <peter>
+            <rank>Zwiebelmettwurst mit Brötchen und rohen Zwiebeln</rank>
+            <rank>Sardinen (auf Toast)</rank>
+            <rank>Gyrosteller</rank>
+            <rank>Grilled Cheese Sandwich</rank>
+            <rank>McDonalds</rank>
+        </peter>
+        <ilona>
+            <rank>Einmal alles (Frühstück mit allem)</rank>
+            <rank>Bibimbap (mit mariniertem Rindfleisch)</rank>
+            <rank>Gazzo Pizza (Berlin)</rank>
+            <rank>Weißwurstfrühstück</rank>
+            <rank>Mac and Cheese</rank>
+        </ilona>
+    </boestof>
+    <boestof>
         <episode>10</episode>
         <episodeTime>48:20</episodeTime>
         <name>Gerichte, die Restaurants oft verhauen</name>

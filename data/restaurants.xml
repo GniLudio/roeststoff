@@ -3,6 +3,29 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/restaurants.xsd">
+    <!-- 54:05 -->
+    <restaurant>
+        <name>Epicure (Paris)</name>
+        <description></description>
+        <image>images\restaurants\epicure_paris.jpg</image>
+        <appearances>
+            <appearance>
+                <episode>11</episode>
+                <episodeTime>54:05</episodeTime>
+            </appearance>
+        </appearances>
+    </restaurant>
+    <restaurant>
+        <name>Schwerelos (Dresden)</name>
+        <description>Das Achterbahnrestaurant</description>
+        <image>images\restaurants\schwerelos_dresden.png</image>
+        <appearances>
+            <appearance>
+                <episode>11</episode>
+                <episodeTime>24:50</episodeTime>
+            </appearance>
+        </appearances>
+    </restaurant>
     <restaurant>
         <name>Jardin de Sens</name>
         <description></description>
@@ -177,6 +200,10 @@
             <member>Tim Raue</member>
         </team>
         <appearances>
+            <appearance>
+                <episode>11</episode>
+                <episodeTime>3:01:00</episodeTime>
+            </appearance>
             <appearance>
                 <episode>3</episode>
                 <episodeTime>3:12:00</episodeTime>

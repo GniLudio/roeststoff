@@ -4,6 +4,33 @@
     xmlns="roeststoff" 
     xsi:schemaLocation="roeststoff ../schemas/drinks.xsd">
     <drink>
+        <name>Fleur de Pinot 2020 von Sylvain Pataille</name>
+        <description>Ilona's Lieblings-Rose</description>
+        <image>images\drinks\missing_image.png</image>
+        <appearances>
+            <appearance>
+                <episode>11</episode>
+                <episodeTime>41:45</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <!-- TODO: Name?
+        Rose, aus der Provonce, La rolen, 2022
+    <drink>
+        <name></name>
+        <description></description>
+        <image>images\drinks\missing_image.png</image>
+        <appearances>
+            <appearance>
+                <episode>11</episode>
+                <episodeTime>35:05</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+
+    -->
+
+    <drink>
         <name>Cuvée de Réserve 2022 von Pierre Péters</name>
         <description></description>
         <image>images/drinks/missing_image.png</image>
