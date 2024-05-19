@@ -44,11 +44,9 @@
             </appearance>
         </appearances>
     </drink>
-    <!-- TODO: Name?
-        Rose, aus der Provonce, La rolen, 2022
     <drink>
-        <name></name>
-        <description></description>
+        <name>?</name>
+        <description>(Rose, aus der Provonce, La rolen, 2022)</description>
         <image></image>
         <appearances>
             <appearance>
@@ -57,9 +55,6 @@
             </appearance>
         </appearances>
     </drink>
-
-    -->
-
     <drink>
         <name>Cuvée de Réserve 2022 von Pierre Péters</name>
         <image></image>
