@@ -5,7 +5,7 @@
     xsi:schemaLocation="roeststoff ../schemas/drinks.xsd">
     <drink>
         <name>Ombre d'Ambra 2020 vom Weingut Pialli</name>
-        <image>images\drinks\missing_image.png</image>
+        <image></image>
         <appearances>
             <appearance>
                 <episode>12</episode>
@@ -15,7 +15,7 @@
     </drink>
     <drink>
         <name>Silvaner Orangewine 2021 vom Weingut Reis &amp; Luff</name>
-        <image>images\drinks\missing_image.png</image>
+        <image></image>
         <appearances>
             <appearance>
                 <episode>12</episode>
@@ -25,7 +25,7 @@
     </drink>
     <drink>
         <name>Karambolage 2020 von Jonas Dostert</name>
-        <image>images\drinks\missing_image.png</image>
+        <image></image>
         <appearances>
             <appearance>
                 <episode>12</episode>
@@ -36,7 +36,7 @@
     <drink>
         <name>Fleur de Pinot 2020 von Sylvain Pataille</name>
         <description>Ilona's Lieblings-Rose</description>
-        <image>images\drinks\missing_image.png</image>
+        <image></image>
         <appearances>
             <appearance>
                 <episode>11</episode>
@@ -49,7 +49,7 @@
     <drink>
         <name></name>
         <description></description>
-        <image>images\drinks\missing_image.png</image>
+        <image></image>
         <appearances>
             <appearance>
                 <episode>11</episode>
@@ -62,7 +62,7 @@
 
     <drink>
         <name>Cuvée de Réserve 2022 von Pierre Péters</name>
-        <image>images/drinks/missing_image.png</image>
+        <image></image>
         <appearances>
             <appearance>
                 <episode>10</episode>
@@ -133,7 +133,7 @@
     </drink>
     <drink>
         <name>Pinot Noir 2017 von Friedrich Becker</name>
-        <image>images/drinks/missing_image.png</image>
+        <image></image>
         <appearances>
             <appearance>
                 <episode>6</episode>
@@ -143,7 +143,7 @@
     </drink>
     <drink>
         <name>Merlot trocken Hainfelder Kapelle 2019 vom Weingut Kastanienberg</name>
-        <image>images/drinks/missing_image.png</image>
+        <image></image>
         <appearances>
             <appearance>
                 <episode>6</episode>
@@ -259,7 +259,7 @@
     </drink>
     <drink>
         <name>Aurore Casanova Champagner aus Puisieulx</name>
-        <image>images/drinks/missing_image.png</image>
+        <image></image>
         <appearances>
             <appearance>
                 <episode>1</episode>

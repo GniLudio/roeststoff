@@ -5,7 +5,7 @@
     xsi:schemaLocation="roeststoff ../schemas/people.xsd">
     <person>
         <name>Alexander Herrmann</name>
-        <image></image>
+        <image>images\people\alexander_herrmann.jpg</image>
         <hateQuestion>
             <episode>12</episode>
             <episodeTime>1:29:14</episodeTime>
