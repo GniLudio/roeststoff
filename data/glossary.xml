@@ -4,6 +4,12 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/glossary.xsd">
     <entry>
+        <episode>12</episode>
+        <episodeTime>1:33:27</episodeTime>
+        <name>Orange Wein (Ember White)</name>
+        <description>Gepresste weiße Trauben, die relativ lange mit der Meische zusammen bleiben.</description>
+    </entry>
+    <entry>
         <episode>10</episode>
         <episodeTime>1:36:29</episodeTime>
         <name>Cremiger Wein</name>

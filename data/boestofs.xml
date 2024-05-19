@@ -4,6 +4,25 @@
     xmlns="roeststoff" 
     xsi:schemaLocation="roeststoff ../schemas/boestofs.xsd">
     <boestof>
+        <episode>12</episode>
+        <episodeTime>2:12:05</episodeTime>
+        <name>Unterbewertete Lebensmittel</name>
+        <peter>
+            <rank>Grüne Paprika</rank>
+            <rank>Schweinefleisch</rank>
+            <rank>Sauerkraut</rank>
+            <rank>Rosenkohl</rank>
+            <rank>Tiefkühlgemüse</rank>
+        </peter>
+        <ilona>
+            <rank>Butter</rank>
+            <rank>Nüsse</rank>
+            <rank>Zwiebeln</rank>
+            <rank>Joghurt</rank>
+            <rank>Essiggurke</rank>
+        </ilona>
+    </boestof>
+    <boestof>
         <episode>11</episode>
         <episodeTime>2:15:57</episodeTime>
         <name>Kater-Essen</name>

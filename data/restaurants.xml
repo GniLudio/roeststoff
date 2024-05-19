@@ -4,6 +4,21 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/restaurants.xsd">
     <restaurant>
+        <name>AURA</name>
+        <description>von Alexander Herrmann und Tobias Baetz</description>
+        <image>images\restaurants\aura_alexander_herrmann_tobias_baetz.svg</image>
+        <team>
+            <member>Alexander Herrmann</member>
+            <member>Tobias Baetz</member>
+        </team>
+        <appearances>
+            <appearance>
+                <episode>12</episode>
+                <episodeTime>2:44</episodeTime>
+            </appearance>
+        </appearances>
+    </restaurant>
+    <restaurant>
         <name>Epicure (Paris)</name>
         <image>images\restaurants\epicure_paris.jpg</image>
         <appearances>

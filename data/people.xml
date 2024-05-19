@@ -4,6 +4,33 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/people.xsd">
     <person>
+        <name>Alexander Herrmann</name>
+        <image></image>
+        <hateQuestion>
+            <episode>12</episode>
+            <episodeTime>1:29:14</episodeTime>
+            <description><![CDATA[Was ist dein Lieblingsessen?<br/>Was gibt es zu Weihna    chten?]]></description>
+        </hateQuestion>
+        <appearances>
+            <appearance>
+                <episode>12</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
+        </appearances>
+        <characteristics>
+            <characteristic>
+                <episode>12</episode>
+                <episodeTime>2:39</episodeTime>
+                <description>Restaurant AURA (2 Sterne)</description>
+            </characteristic>
+            <characteristic>
+                <episode>12</episode>
+                <episodeTime>2:39</episodeTime>
+                <description>Posthotel Alexander Herrmann</description>
+            </characteristic>
+        </characteristics>
+    </person>
+    <person>
         <name>Viktoria Fuchs</name>
         <image>images/people/viktoria_fuchs.jpg</image>
         <hateQuestion>
@@ -157,6 +184,10 @@
         </hateQuestion>
         <appearances>
             <appearance>
+                <episode>12</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
+            <appearance>
                 <episode>11</episode>
                 <episodeTime>00:00:00</episodeTime>
             </appearance>
@@ -251,6 +282,10 @@
             <description>Was machst du sonst noch?</description>
         </hateQuestion>
         <appearances>
+            <appearance>
+                <episode>12</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
             <appearance>
                 <episode>11</episode>
                 <episodeTime>00:00:00</episodeTime>

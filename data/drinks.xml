@@ -4,6 +4,36 @@
     xmlns="roeststoff" 
     xsi:schemaLocation="roeststoff ../schemas/drinks.xsd">
     <drink>
+        <name>Ombre d'Ambra 2020 vom Weingut Pialli</name>
+        <image>images\drinks\missing_image.png</image>
+        <appearances>
+            <appearance>
+                <episode>12</episode>
+                <episodeTime>1:46:52</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
+        <name>Silvaner Orangewine 2021 vom Weingut Reis &amp; Luff</name>
+        <image>images\drinks\missing_image.png</image>
+        <appearances>
+            <appearance>
+                <episode>12</episode>
+                <episodeTime>1:43:00</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
+        <name>Karambolage 2020 von Jonas Dostert</name>
+        <image>images\drinks\missing_image.png</image>
+        <appearances>
+            <appearance>
+                <episode>12</episode>
+                <episodeTime>1:32:50</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
         <name>Fleur de Pinot 2020 von Sylvain Pataille</name>
         <description>Ilona's Lieblings-Rose</description>
         <image>images\drinks\missing_image.png</image>
