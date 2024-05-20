@@ -6,6 +6,8 @@
  
 * Episoden: [RSS Feed](https://feeds.megaphone.fm/TWG3193347111)
     * Ohne XML Schema
+* Restaurants nur, wenn über Besuch gesprochen wird.
+* Personen nur, wenn sie als Gast in der Folge sind.
 * Timestamps nur ungenau, da die Werbung dynamisch eingespielt wird.
 
 ## TODOs
