@@ -99,34 +99,7 @@
             </characteristic>
         </characteristics>
     </person>
-    <person>
-        <name>Kraans de Lutin</name>
-        <description>Produzent des Intros</description>
-        <image>images/people/kraans_de_lutin.jpg"</image>
-        <appearances>
-            <appearance>
-                <episode>8</episode>
-                <episodeTime>00:00:00</episodeTime>
-            </appearance>
-        </appearances>
-        <characteristics>
-            <characteristic>
-                <episode>8</episode>
-                <episodeTime>2:57</episodeTime>
-                <description>wahnsinnig krasser Musikproduzent</description>
-            </characteristic>
-            <characteristic>
-                <episode>8</episode>
-                <episodeTime>2:50</episodeTime>
-                <description>gerngeseher Gast im tulus lotrek</description>
-            </characteristic>
-            <characteristic>
-                <episode>8</episode>
-                <episodeTime>1:58</episodeTime>
-                <description>Produzent des Intros</description>
-            </characteristic>
-        </characteristics>
-    </person>
+
     <person>
         <name>Felix Fuchs</name>
         <description>Sommelier des tulus lotrek.</description>
