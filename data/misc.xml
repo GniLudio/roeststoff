@@ -4,6 +4,63 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/misc.xsd">
     <entry>
+        <episode>13</episode>
+        <episodeTime>1:37:30</episodeTime>
+        <name>Sour Grapes</name>
+        <description><![CDATA[Doku über einen krassen Weinfälscher.<br/><small>Leider nicht mehr auf YouTube verfügbar.</small> ]]></description>
+        <image></image>
+    </entry>
+    <entry>
+        <episode>13</episode>
+        <episodeTime>1:12:20</episodeTime>
+        <name>Ilona's Autokraten-Tassen Sammlung</name>
+        <description>
+            <![CDATA[ 
+            <ul>
+                <li>Trump</li><!-- 13 1:12:20 -->
+                <li>Kim Jong-un</li><!-- 13 1:12:20 -->
+            </ul>
+            ]]>
+        </description>
+        <image></image>
+    </entry>
+    <entry>
+        <episode>13</episode>
+        <episodeTime>00:00:00</episodeTime>
+        <name>Vogel Wortspiele</name>
+        <description>
+            <![CDATA[
+            <small><ul>
+                <li>Hobby-Ornithologe</li><!-- 0:20 -->
+                <li>Vollmeise</li><!-- 0:20 -->
+                <li>Storchenbeinen</li><!-- 0:20 -->
+                <li>halbe Hähnchen</li><!-- 0:20 -->
+                <li>Nachteule</li><!-- 0:20 -->
+                <li>Frühe Vogel</li><!-- 0:20 -->
+                <li>Verrückte Hühner</li><!-- 0:20 -->
+                <li>Eidler Gockel</li><!-- 0:20 -->
+                <li>Paradiesvögel</li><!-- 0:20 -->
+                <li>Vogelwild</li><!-- 0:20 -->
+                <li>Taubenschlag</li><!-- 51:35 -->
+                <li>einen zwitschern</li><!-- 1:16:40 -->
+                <li>(Felix) Fuchs, du hast die Gans gestohlen.</li><!-- 1:41:50 -->
+                <li>Der frühe Vogel fängt den Wurm.</li><!-- 1:03:10 -->
+                <li>Nachtigall ick hör dir trapsen.</li><!-- 1:03:10 -->
+                <li>Rosinen aus der Vergangenheit picken</li>
+                <li>Der Philipp hat 'ne Meise.</li><!-- 2:43:30 -->
+                <li>Vogelperspektive</li><!-- 2:52:10 -->
+                <li>Duckface Berlin's</li><!-- 3:21:00 -->
+                <li>geflügeltes Wort</li><!-- 3:22:50 -->
+                <li>Bordsteinschwalbe</li><!-- 3:25:45 -->
+                <li>wo der noch Federn hätte lassen können</li><!-- 3:26:50 -->
+                <li>Hühnchen rupfen</li><!-- 3:27:30 -->
+                <li>das Hühnchen ist dem Vogel zum Opfer gefallen</li><!-- 3:27:30 -->
+                <li>Wildvogelstation des Naturschutzbundes</li><!-- 3:28:00 -->
+            </ul><small>
+            ]]>
+        </description>
+    </entry>
+    <entry>
         <episode>10</episode>
         <episodeTime>1:00:02</episodeTime>
         <name>Brot backen in Perfektion mit Hefe</name>

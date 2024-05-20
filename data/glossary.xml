@@ -4,6 +4,12 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/glossary.xsd">
     <entry>
+        <episode>13</episode>
+        <episodeTime>2:15</episodeTime>
+        <name>Boutique Hotel</name>
+        <description>Kleines und feines Hotel. (nicht geschützt)</description>
+    </entry>
+    <entry>
         <episode>12</episode>
         <episodeTime>1:33:27</episodeTime>
         <name>Orange Wein (Ember White)</name>

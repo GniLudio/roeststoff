@@ -4,6 +4,36 @@
     xmlns="roeststoff" 
     xsi:schemaLocation="roeststoff ../schemas/drinks.xsd">
     <drink>
+        <name>? 2000 aus Côtes de Beaune</name>
+        <image></image>
+        <appearances>
+            <appearance>
+                <episode>13</episode>
+                <episodeTime>1:33:20</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
+        <name>? Grand Cru 2017 vom Weingut Marchand Tawse</name>
+        <image></image>
+        <appearances>
+            <appearance>
+                <episode>13</episode>
+                <episodeTime>1:28:50</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
+        <name>Kapellenberg Spätburgunder 2018 vom Weingut Klostermühle Odernheim</name>
+        <image></image>
+        <appearances>
+            <appearance>
+                <episode>13</episode>
+                <episodeTime>1:22:30</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
         <name>Ombre d'Ambra 2020 vom Weingut Pialli</name>
         <image></image>
         <appearances>

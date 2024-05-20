@@ -4,6 +4,31 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/sayings.xsd">
     <saying>
+        <episode>13</episode>
+        <episodeTime>1:13:30</episodeTime>
+        <description>Geht runter wie Öl.</description>
+    </saying>
+    <saying>
+        <episode>13</episode>
+        <episodeTime>52:20</episodeTime>
+        <description>Gottfried, heute hast du wieder für zwei gearbeitet. Ich glaub ich bin der liebe Gott.</description>
+    </saying>
+    <saying>
+        <episode>13</episode>
+        <episodeTime>52:20</episodeTime>
+        <description>Was willst du von einem Schwein erwarten außer grunzen.</description>
+    </saying>
+    <saying>
+        <episode>13</episode>
+        <episodeTime>52:20</episodeTime>
+        <description>Wenn der Bauer nicht schwimmen kann, liegt es an der Badehose.</description>
+    </saying>
+    <saying>
+        <episode>13</episode>
+        <episodeTime>52:20</episodeTime>
+        <description>Nimm den Finger ausm Arsch.</description>
+    </saying>
+    <saying>
         <episode>12</episode>
         <episodeTime>1:06:50</episodeTime>
         <description>Wissen Sie eigentlich wer ich bin?</description>
