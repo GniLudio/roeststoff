@@ -4,6 +4,23 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/restaurants.xsd">
     <restaurant>
+        <name>Chef's Table at Brooklyn Fare</name>
+        <image>images\restaurants\chefs_table_brooklyn_fare.jpg</image>
+        <appearances>
+            <appearance>
+                <episode>15</episode>
+                <episodeTime>44:55</episodeTime>
+            </appearance>
+        </appearances>
+        <characteristics>
+            <characteristic>
+                <episode>15</episode>
+                <episodeTime>45:50</episodeTime>
+                <description>hat 3 Sterne</description>
+            </characteristic>
+        </characteristics>
+    </restaurant>
+    <restaurant>
         <name>AURA</name>
         <description>von Alexander Herrmann und Tobias Baetz</description>
         <image>images\restaurants\aura_alexander_herrmann_tobias_baetz.svg</image>
@@ -244,6 +261,10 @@
             <member><![CDATA[<s>? Friede</s>]]></member>
         </team>
         <appearances>
+            <appearance>
+                <episode>15</episode>
+                <episodeTime>2:09:00</episodeTime>
+            </appearance>
             <appearance>
                 <episode>1</episode>
                 <episodeTime>00:01:40</episodeTime>

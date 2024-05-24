@@ -4,6 +4,13 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/misc.xsd">
     <entry>
+        <episode>15</episode>
+        <episodeTime>33:25</episodeTime>
+        <name>Flipperautomat</name>
+        <description>Wunschgeschenk von Max.</description>
+        <image>images\misc\flipperautomat.jpg</image>
+    </entry>
+    <entry>
         <episode>14</episode>
         <episodeTime>51:10</episodeTime>
         <name>Chipsfrisch Peperoni</name>

@@ -4,6 +4,33 @@
     xmlns="roeststoff" 
     xsi:schemaLocation="roeststoff ../schemas/boestofs.xsd">
     <boestof>
+        <episode>15</episode>
+        <episodeTime>52:25</episodeTime>
+        <name>Schlechte Foodtrends</name>
+        <!-- TODO: Max 
+            <rank>Vornamenpolitik</rank>
+            <rank>Fermentation (für die Haltbarkeit)</rank>
+            <rank>Perfekte Dinge anzupassen</rank>
+            <rank>Acai Drinks / Smoothies</rank>
+            <rank>Kuchenklassiker zum Dessert</rank>
+
+        -->
+        <peter>
+            <rank>Kumpir-Kartoffeln</rank>
+            <rank>Voll belegte Donuts (hohes Essen)</rank>
+            <rank>Blattgold</rank>
+            <rank>Macarons</rank>
+            <rank><![CDATA[ <s>Bowl</s>]]></rank>
+        </peter>
+        <ilona>
+            <rank>Latte Art</rank>
+            <rank>Dessertsinnloskeiten: Minzblatt, Basilikumblatt, Erdbeersauce, Physalis</rank>
+            <rank>Aufgeschlagene Butter</rank>
+            <rank>Matcha</rank>
+            <rank>Bowl</rank>
+        </ilona>
+    </boestof>
+    <boestof>
         <episode>14</episode>
         <episodeTime>44:30</episodeTime>
         <name>Guilty Pleasures</name>

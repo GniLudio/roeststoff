@@ -4,6 +4,18 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/glossary.xsd">
     <entry>
+        <episode>15</episode>
+        <episodeTime>1:10:35</episodeTime>
+        <name>Chai</name>
+        <description>Ein Gewürztee.</description>
+    </entry>
+    <entry>
+        <episode>15</episode>
+        <episodeTime>39:55</episodeTime>
+        <name>Arosieren</name>
+        <description>Begießen von z.B. Fleisch mit dem eigenen Saft während des Garprozesses.</description>
+    </entry>
+    <entry>
         <episode>14</episode>
         <episodeTime>37:45</episodeTime>
         <name>Deviance</name>

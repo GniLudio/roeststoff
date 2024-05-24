@@ -4,6 +4,16 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/sayings.xsd">
     <saying>
+        <episode>15</episode>
+        <episodeTime>31:15</episodeTime>
+        <description>Man sollte nie geizig mit dem Eigentum anderer sein.</description>
+    </saying>
+    <saying>
+        <episode>15</episode>
+        <episodeTime>31:15</episodeTime>
+        <description>Jedem das Seine, mir das meiste.</description>
+    </saying>
+    <saying>
         <episode>14</episode>
         <episodeTime>1:48:02</episodeTime>
         <description>Verkauft sich ja wie Sauerbier.</description>

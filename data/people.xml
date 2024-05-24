@@ -159,6 +159,10 @@
         </hateQuestion>
         <appearances>
             <appearance>
+                <episode>15</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
+            <appearance>
                 <episode>10</episode>
                 <episodeTime>00:00:00</episodeTime>
             </appearance>
@@ -210,6 +214,10 @@
             <description>Und damit kann man Geld verdienen?</description>
         </hateQuestion>
         <appearances>
+            <appearance>
+                <episode>15</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
             <appearance>
                 <episode>14</episode>
                 <episodeTime>00:00:00</episodeTime>
@@ -270,6 +278,11 @@
         </appearances>
         <characteristics>
             <characteristic>
+                <episode>15</episode>
+                <episodeTime>13:59</episodeTime>
+                <description>mag kein Gin</description>
+            </characteristic>
+            <characteristic>
                 <episode>1</episode>
                 <episodeTime>01:14:00</episodeTime>
                 <description><![CDATA[war als Kind ein Topf-Kucker<br/><small>(Gemüt hängt vom Essen im Topf ab)</small>]]></description>
@@ -317,6 +330,10 @@
             <description>Was machst du sonst noch?</description>
         </hateQuestion>
         <appearances>
+            <appearance>
+                <episode>15</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
             <appearance>
                 <episode>14</episode>
                 <episodeTime>00:00:00</episodeTime>
