@@ -4,6 +4,13 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/misc.xsd">
     <entry>
+        <episode>17</episode>
+        <episodeTime>2:00:56</episodeTime>
+        <name>Rolling Pin Convention</name>
+        <description></description>
+        <image>images\misc\rolling_pin_convention.jpg</image>
+    </entry>
+    <entry>
         <episode>15</episode>
         <episodeTime>33:25</episodeTime>
         <name>Flipperautomat</name>

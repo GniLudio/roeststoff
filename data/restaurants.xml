@@ -4,6 +4,26 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/restaurants.xsd">
     <restaurant>
+        <name>Jordnær</name>
+        <image></image>
+        <appearances>
+            <appearance>
+                <episode>17</episode>
+                <episodeTime>50:30</episodeTime>
+            </appearance>
+        </appearances>
+    </restaurant>
+    <restaurant>
+        <name>Alchemist</name>
+        <image>images\restaurants\alchemist.png</image>
+        <appearances>
+            <appearance>
+                <episode>17</episode>
+                <episodeTime>50:30</episodeTime>
+            </appearance>
+        </appearances>
+    </restaurant>
+    <restaurant>
         <name>Dachgarten-Restaurant</name>
         <description>Restaurant im Bundestag</description>
         <image>images\restaurants\dachgarten.png</image>

@@ -182,6 +182,10 @@
         </hateQuestion>
         <appearances>
             <appearance>
+                <episode>17</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
+            <appearance>
                 <episode>15</episode>
                 <episodeTime>00:00:00</episodeTime>
             </appearance>
@@ -237,6 +241,10 @@
             <description>Und damit kann man Geld verdienen?</description>
         </hateQuestion>
         <appearances>
+            <appearance>
+                <episode>17</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
             <appearance>
                 <episode>17</episode>
                 <episodeTime>00:00:00</episodeTime>
@@ -357,6 +365,10 @@
             <description>Was machst du sonst noch?</description>
         </hateQuestion>
         <appearances>
+            <appearance>
+                <episode>17</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
             <appearance>
                 <episode>16</episode>
                 <episodeTime>00:00:00</episodeTime>

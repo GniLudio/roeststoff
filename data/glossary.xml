@@ -4,6 +4,18 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/glossary.xsd">
     <entry>
+        <episode>17</episode>
+        <episodeTime>16:30</episodeTime>
+        <name>German Angst</name>
+        <description>Furcht davor, dass es alles noch viel schlimmer kommen könnte.</description>
+    </entry>
+    <entry>
+        <episode>17</episode>
+        <episodeTime>3:25</episodeTime>
+        <name>Supper Club</name>
+        <description>Mehr oder weniger offizielle Gastronomieangebote, die meist in Küchen, Wohn- und Esszimmern des Kochs zu Hause stattfinden.</description>
+    </entry>
+    <entry>
         <episode>16</episode>
         <episodeTime>3:06:53</episodeTime>
         <name>Parker Punkte</name>

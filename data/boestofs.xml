@@ -4,6 +4,32 @@
     xmlns="roeststoff" 
     xsi:schemaLocation="roeststoff ../schemas/boestofs.xsd">
     <boestof>
+        <episode>17</episode>
+        <episodeTime>2:39:00</episodeTime>
+        <name>Essen, was man als Kind hasste, mittlerweile aber mag.</name>
+        <!-- TODO: Max
+            <rank>Dill</rank 
+            <rank>Haribo (indirekt)</rank 
+            <rank>Blauschimmelkäse</rank 
+            <rank>Scharf</rank 
+            <rank>Fisch</rank 
+        -->
+        <peter>
+            <rank>Tomaten</rank>
+            <rank>Spargel</rank>
+            <rank>Blutwurst &amp; Sülze</rank>
+            <rank>Fisch &amp; Meeresfrüchte</rank>
+            <rank>Kohle (Grünkohl und Rosenkohl)</rank>
+        </peter>
+        <ilona>
+            <rank>Pudding (Haut ist heute noch schwierig)</rank>
+            <rank>Fleisch</rank>
+            <rank>Limburger</rank>
+            <rank>Mayonnaise (aves Sarmonellen)</rank>
+            <rank>Pommes (avec Wespe)</rank>
+        </ilona>
+    </boestof>
+    <boestof>
         <episode>15</episode>
         <episodeTime>52:25</episodeTime>
         <name>Schlechte Foodtrends</name>
@@ -13,7 +39,6 @@
             <rank>Perfekte Dinge anzupassen</rank>
             <rank>Acai Drinks / Smoothies</rank>
             <rank>Kuchenklassiker zum Dessert</rank>
-
         -->
         <peter>
             <rank>Kumpir-Kartoffeln</rank>

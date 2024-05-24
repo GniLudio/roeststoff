@@ -4,6 +4,16 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/sayings.xsd">
     <saying>
+        <episode>17</episode>
+        <episodeTime>3:13:42</episodeTime>
+        <description>Hart am Dill.</description>
+    </saying>
+    <saying>
+        <episode>17</episode>
+        <episodeTime>2:39:48</episodeTime>
+        <description>Das macht den Kohl auch nicht fett.</description>
+    </saying>
+    <saying>
         <episode>15</episode>
         <episodeTime>31:15</episodeTime>
         <description>Man sollte nie geizig mit dem Eigentum anderer sein.</description>

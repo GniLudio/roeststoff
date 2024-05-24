@@ -4,6 +4,28 @@
     xmlns="roeststoff" 
     xsi:schemaLocation="roeststoff ../schemas/drinks.xsd">
     <drink>
+        <name>Las Higueras Vineyard Cabernet Franc Lot 2019 von Garage Wine</name>
+        <description><![CDATA[<small>rechts im Bild</small>]]></description>
+        <image>images\drinks\drinks_17.jpg</image>
+        <appearances>
+            <appearance>
+                <episode>17</episode>
+                <episodeTime>1:56:05</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
+        <name>Le Clos Guillot Chinon 2017</name>
+        <description><![CDATA[<small>links im Bild</small>]]></description>
+        <image>images\drinks\drinks_17.jpg</image>
+        <appearances>
+            <appearance>
+                <episode>17</episode>
+                <episodeTime>1:46:43</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
         <name>Rutz Rebell 2019</name>
         <image></image>
         <appearances>
