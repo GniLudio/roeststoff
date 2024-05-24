@@ -3,7 +3,13 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/misc.xsd">
-
+    <entry>
+        <episode>14</episode>
+        <episodeTime>51:10</episodeTime>
+        <name>Chipsfrisch Peperoni</name>
+        <description><![CDATA[Die besten Chips, die es überhaupt gibt. (laut Peter Smits)]]></description>
+        <image>images\misc\chipsfrisch_peperoni.png</image>
+    </entry>
     <entry>
         <episode>13</episode>
         <episodeTime>1:37:30</episodeTime>

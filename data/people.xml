@@ -4,6 +4,28 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/people.xsd">
     <person>
+        <name>Katharina Kurz</name>
+        <image>images\people\katharina_kurz.jpg</image>
+        <hateQuestion>
+            <episode>14</episode>
+            <episodeTime>3:41:05</episodeTime>
+            <description><![CDATA[Wie spricht man Brlo aus?<br/>Wie länge dürft ihr noch am Gleisdreieck bleiben?]]></description>
+        </hateQuestion>
+        <appearances>
+            <appearance>
+                <episode>14</episode>
+                <episodeTime>1:19:00</episodeTime>
+            </appearance>
+        </appearances>
+        <characteristics>
+            <characteristic>
+                <episode>14</episode>
+                <episodeTime>1:19:00</episodeTime>
+                <description>Gründering von Brlo</description>
+            </characteristic>
+        </characteristics>
+    </person>
+    <person>
         <name>Philipp Vogel</name>
         <image>images\people\philipp_vogel.jpg</image>
         <hateQuestion>
@@ -189,6 +211,10 @@
         </hateQuestion>
         <appearances>
             <appearance>
+                <episode>14</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
+            <appearance>
                 <episode>13</episode>
                 <episodeTime>00:00:00</episodeTime>
             </appearance>
@@ -291,6 +317,10 @@
             <description>Was machst du sonst noch?</description>
         </hateQuestion>
         <appearances>
+            <appearance>
+                <episode>14</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
             <appearance>
                 <episode>13</episode>
                 <episodeTime>00:00:00</episodeTime>

@@ -4,6 +4,11 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/sayings.xsd">
     <saying>
+        <episode>14</episode>
+        <episodeTime>1:48:02</episodeTime>
+        <description>Verkauft sich ja wie Sauerbier.</description>
+    </saying>
+    <saying>
         <episode>13</episode>
         <episodeTime>1:13:30</episodeTime>
         <description>Geht runter wie Öl.</description>

@@ -4,6 +4,25 @@
     xmlns="roeststoff" 
     xsi:schemaLocation="roeststoff ../schemas/boestofs.xsd">
     <boestof>
+        <episode>14</episode>
+        <episodeTime>44:30</episodeTime>
+        <name>Guilty Pleasures</name>
+        <peter>
+            <rank>McDonalds: Cheese- und Chickenburger</rank>
+            <rank>Weizentoast</rank>
+            <rank>Gänsestopfleber</rank>
+            <rank>Bauchspeck</rank>
+            <rank>Chips</rank>
+        </peter>
+        <ilona>
+            <rank>1x ganzes Glas Nougatcreme</rank>
+            <rank>Fertig-Feinkostsalate (Eiersalat, Krabbencocktail, Kartoffelsalat)</rank>
+            <rank>Käsetortellini mit Käsesauce und Käse überbacken</rank>
+            <rank>Ben &amp; Jerry's New York Super Fudge Chunk Ice Cream</rank>
+            <rank>Saures Gummizeugs (muss hart sein)</rank>
+        </ilona>
+    </boestof>
+    <boestof>
         <episode>12</episode>
         <episodeTime>2:12:05</episodeTime>
         <name>Unterbewertete Lebensmittel</name>
