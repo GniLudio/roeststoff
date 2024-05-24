@@ -4,6 +4,44 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/restaurants.xsd">
     <restaurant>
+        <name>Dachgarten-Restaurant</name>
+        <description>Restaurant im Bundestag</description>
+        <image>images\restaurants\dachgarten.png</image>
+        <appearances>
+            <appearance>
+                <episode>16</episode>
+                <episodeTime>1:52:20</episodeTime>
+            </appearance>
+        </appearances>
+        <characteristics>
+            <characteristic>
+                <episode>16</episode>
+                <episodeTime>1:55:03</episodeTime>
+                <description>nur deutscher Wein</description>
+            </characteristic>
+        </characteristics>
+    </restaurant>
+    <restaurant>
+        <name>Rutz</name>
+        <image>images\restaurants\rutz.png</image>
+        <team>
+            <member>Nancy Großmann</member>
+        </team>
+        <appearances>
+            <appearance>
+                <episode>16</episode>
+                <episodeTime>1:32:15</episodeTime>
+            </appearance>
+        </appearances>
+        <characteristics>
+            <characteristic>
+                <episode>16</episode>
+                <episodeTime>1:32:15</episodeTime>
+                <description>3 Sterne</description>
+            </characteristic>
+        </characteristics>
+    </restaurant>
+    <restaurant>
         <name>Chef's Table at Brooklyn Fare</name>
         <image>images\restaurants\chefs_table_brooklyn_fare.jpg</image>
         <appearances>

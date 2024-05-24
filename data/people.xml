@@ -4,6 +4,29 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/people.xsd">
     <person>
+        <name>Nancy Großmann</name>
+        <description>Sommelière im Rutz</description>
+        <image>images\people\nancy_großmann.jpg</image>
+        <hateQuestion>
+            <episode>16</episode>
+            <episodeTime>1:59:30</episodeTime>
+            <description>-</description>
+        </hateQuestion>
+        <appearances>
+            <appearance>
+                <episode>16</episode>
+                <episodeTime>1:31:00</episodeTime>
+            </appearance>
+        </appearances>
+        <characteristics>
+            <characteristic>
+                <episode>16</episode>
+                <episodeTime>1:32:20</episodeTime>
+                <description>Sommelière des Jahres 2023 vom Feinschmecker</description>
+            </characteristic>
+        </characteristics>
+    </person>
+    <person>
         <name>Katharina Kurz</name>
         <image>images\people\katharina_kurz.jpg</image>
         <hateQuestion>
@@ -215,6 +238,10 @@
         </hateQuestion>
         <appearances>
             <appearance>
+                <episode>17</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
+            <appearance>
                 <episode>15</episode>
                 <episodeTime>00:00:00</episodeTime>
             </appearance>
@@ -330,6 +357,10 @@
             <description>Was machst du sonst noch?</description>
         </hateQuestion>
         <appearances>
+            <appearance>
+                <episode>16</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
             <appearance>
                 <episode>15</episode>
                 <episodeTime>00:00:00</episodeTime>

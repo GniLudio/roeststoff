@@ -4,6 +4,36 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/glossary.xsd">
     <entry>
+        <episode>16</episode>
+        <episodeTime>3:06:53</episodeTime>
+        <name>Parker Punkte</name>
+        <description>Weinbewertung von Robert Parker.</description>
+    </entry>
+    <entry>
+        <episode>16</episode>
+        <episodeTime>1:42:40</episodeTime>
+        <name>Korkgeld</name>
+        <description>Entgelt in Gaststätten für den Konsum selbst mitgebrachter Getränke, um den Gewinnausfall auszugleichen.</description>
+    </entry>
+    <entry>
+        <episode>16</episode>
+        <episodeTime>1:57:23</episodeTime>
+        <name>Vinifikation</name>
+        <description>Die Verarbeitung von Trauben zu Wein.</description>
+    </entry>
+    <entry>
+        <episode>16</episode>
+        <episodeTime>1:45:45</episodeTime>
+        <name>Guéridon</name>
+        <description>Ein Beistelltisch der beweglich ist und Rollen hat.</description>
+    </entry>
+    <entry>
+        <episode>16</episode>
+        <episodeTime>1:45:45</episodeTime>
+        <name>Tranchieren</name>
+        <description>Das kunstgerechte Zerlegen von Fleisch, Fisch und Geflügel.</description>
+    </entry>
+    <entry>
         <episode>15</episode>
         <episodeTime>1:10:35</episodeTime>
         <name>Chai</name>

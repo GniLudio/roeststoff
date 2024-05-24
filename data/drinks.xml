@@ -4,6 +4,16 @@
     xmlns="roeststoff" 
     xsi:schemaLocation="roeststoff ../schemas/drinks.xsd">
     <drink>
+        <name>Rutz Rebell 2019</name>
+        <image></image>
+        <appearances>
+            <appearance>
+                <episode>16</episode>
+                <episodeTime>1:32:40</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
         <name>? von Brlo</name>
         <image></image>
         <appearances>
