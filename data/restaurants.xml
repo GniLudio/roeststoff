@@ -4,8 +4,55 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/restaurants.xsd">
     <restaurant>
+        <name>SodaZitron</name>
+        <image>images\restaurants\sodazitron.jpg</image>
+        <appearances>
+            <appearance>
+                <episode>18</episode>
+                <episodeTime>3:20:52</episodeTime>
+            </appearance>
+        </appearances>
+    </restaurant>
+    <restaurant>
+        <name>La Societe</name>
+        <image>images\restaurants\la_societe.png</image>
+        <appearances>
+            <appearance>
+                <episode>18</episode>
+                <episodeTime>19:24</episodeTime>
+            </appearance>
+        </appearances>
+    </restaurant>
+    <restaurant>
+        <name>Kölner Wasserturm</name>
+        <image>images\restaurants\wasserturm_koeln.svg</image>
+        <appearances>
+            <appearance>
+                <episode>18</episode>
+                <episodeTime>18:40</episodeTime>
+            </appearance>
+        </appearances>
+    </restaurant>
+    <restaurant>
+        <name>Gasthaus Assenmacher</name>
+        <image>images\restaurants\assenmacher_gasthaus.png</image>
+        <appearances>
+            <appearance>
+                <episode>18</episode>
+                <episodeTime>9:45</episodeTime>
+            </appearance>
+        </appearances>
+        <characteristics>
+            <characteristic>
+                <episode>18</episode>
+                <episodeTime>9:45</episodeTime>
+                <description>hat Bib Gourmand</description>
+            </characteristic>
+        </characteristics>
+    </restaurant>
+    <restaurant>
         <name>Jordnær</name>
-        <image></image>
+        <image>images\restaurants\jordaer.png</image>
         <appearances>
             <appearance>
                 <episode>17</episode>

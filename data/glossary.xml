@@ -4,6 +4,24 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/glossary.xsd">
     <entry>
+        <episode>18</episode>
+        <episodeTime>3:01:28</episodeTime>
+        <name>Couvert</name>
+        <description>Das Gedeck / Besteck.</description>
+    </entry>
+    <entry>
+        <episode>18</episode>
+        <episodeTime>1:58:25</episodeTime>
+        <name>Weingrünes Glas</name>
+        <description>Vorbereitung/Behandlung eines Behältnisses, wie Fässern und Gläsern, auf den Wein.</description>
+    </entry>
+    <entry>
+        <episode>18</episode>
+        <episodeTime>10:20</episodeTime>
+        <name>Bib Gourmand</name>
+        <description>Auszeichnung vom Guide Michellin für gutes Essen für einen sehr fairen Preis.</description>
+    </entry>
+    <entry>
         <episode>17</episode>
         <episodeTime>16:30</episodeTime>
         <name>German Angst</name>

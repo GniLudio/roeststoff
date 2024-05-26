@@ -4,6 +4,43 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/people.xsd">
     <person>
+        <name>Bernhard Moser</name>
+        <image>images\people\bernhard_moser.webp</image>
+        <hateQuestion>
+            <episode>18</episode>
+            <episodeTime>3:18:18</episodeTime>
+            <description>Was ist dein Lieblingsevent / Wein?</description>
+        </hateQuestion>
+        <appearances>
+            <appearance>
+                <episode>18</episode>
+                <episodeTime>1:25:00</episodeTime>
+            </appearance>
+        </appearances>
+        <characteristics>
+            <characteristic>
+                <episode>18</episode>
+                <episodeTime>1:25:25</episodeTime>
+                <description>war beim Gault Milleau im Weinresour federführend</description>
+            </characteristic>
+            <characteristic>
+                <episode>18</episode>
+                <episodeTime>1:25:37</episodeTime>
+                <description>Gründer der Eat Berlin</description>
+            </characteristic>
+            <characteristic>
+                <episode>18</episode>
+                <episodeTime>1:25:45</episodeTime>
+                <description>Vorsitzender der Fachgruppe flagship in der DEHOGA</description>
+            </characteristic>
+            <characteristic>
+                <episode>18</episode>
+                <episodeTime>1:27:07</episodeTime>
+                <description>war Tester</description>
+            </characteristic>
+        </characteristics>
+    </person>
+    <person>
         <name>Nancy Großmann</name>
         <description>Sommelière im Rutz</description>
         <image>images\people\nancy_großmann.jpg</image>
@@ -242,6 +279,10 @@
         </hateQuestion>
         <appearances>
             <appearance>
+                <episode>18</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
+            <appearance>
                 <episode>17</episode>
                 <episodeTime>00:00:00</episodeTime>
             </appearance>
@@ -365,6 +406,10 @@
             <description>Was machst du sonst noch?</description>
         </hateQuestion>
         <appearances>
+            <appearance>
+                <episode>18</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
             <appearance>
                 <episode>17</episode>
                 <episodeTime>00:00:00</episodeTime>

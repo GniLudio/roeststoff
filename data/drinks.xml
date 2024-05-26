@@ -4,6 +4,40 @@
     xmlns="roeststoff" 
     xsi:schemaLocation="roeststoff ../schemas/drinks.xsd">
     <drink>
+        <name>Mitchell Sparkling Peppertree shiraz</name>
+        <image></image>
+        <appearances>
+            <appearance>
+                <episode>18</episode>
+                <episodeTime>2:49:07</episodeTime>
+            </appearance>
+            <appearance>
+                <episode>18</episode>
+                <episodeTime>1:58:57</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
+        <name>Fritz Wieniger Rosengartle</name>
+        <image></image>
+        <appearances>
+            <appearance>
+                <episode>18</episode>
+                <episodeTime>2:35:17</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
+        <name>Rutz Rebell 2013 Pinot Blanc Brut Natur vom Weingut Raumland</name>
+        <image></image>
+        <appearances>
+            <appearance>
+                <episode>18</episode>
+                <episodeTime>35:45</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
         <name>Las Higueras Vineyard Cabernet Franc Lot 2019 von Garage Wine</name>
         <description><![CDATA[<small>rechts im Bild</small>]]></description>
         <image>images\drinks\drinks_17.jpg</image>

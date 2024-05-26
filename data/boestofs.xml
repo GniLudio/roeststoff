@@ -4,6 +4,25 @@
     xmlns="roeststoff" 
     xsi:schemaLocation="roeststoff ../schemas/boestofs.xsd">
     <boestof>
+        <episode>18</episode>
+        <episodeTime>50:20</episodeTime>
+        <name>Unangenehme Tischgesprächsthemen</name>
+        <peter>
+            <rank>Menschen, die einen nicht mögen</rank>
+            <rank>Sektenbeitritt</rank>
+            <rank>egal was mit betrunkeren Personen</rank>
+            <rank>Geld</rank>
+            <rank>Beziehungsstreit</rank>
+        </peter>
+        <ilona>
+            <rank>Feminismus</rank>
+            <rank>Religion &amp; Politik</rank>
+            <rank>Haustiere</rank>
+            <rank>Altersvorsorge</rank>
+            <rank>Rapdiskussion</rank>
+        </ilona>
+    </boestof>
+    <boestof>
         <episode>17</episode>
         <episodeTime>2:39:00</episodeTime>
         <name>Essen, was man als Kind hasste, mittlerweile aber mag.</name>
