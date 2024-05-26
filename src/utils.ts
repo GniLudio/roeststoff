@@ -32,7 +32,10 @@ export function mapToEpisodeNames(items: Timestamp[], episodes: Episode[], withT
     for (const item of items) {
         const episode = episodes.find(e => isEpisodeEqual(item, e));
         if (episode) {
-            names.push(episode.name + (withTime && item.episodeTime ? ' - ' + timeToString(item.episodeTime) : ''));
+            const name = episode.name + (withTime && item.episodeTime ? ' - ' + timeToString(item.episodeTime) : '');
+            if (!names.includes(name)) {
+                names.push(name);
+            }
         }
         else {
             names.push(`Not found: ${item.episodeType} - ${item.episode}`);
