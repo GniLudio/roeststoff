@@ -163,8 +163,8 @@ function parseMandatoryArray<T>(parser: (entry: Element) => T, element: Element,
 }
 
 function parseOptionalArray<T>(parser: (entry: Element) => T, element: Element, name: string, entryName: string): T[] | undefined {
-    const parent = element.querySelector(`:scope ${name}`);
-    return parent ? Array.from(parent.querySelectorAll(`:scope ${entryName}`)).map(parser) : undefined;
+    const parent = element.querySelector(`:scope > ${name}`);
+    return parent ? Array.from(parent.querySelectorAll(`:scope > ${entryName}`)).map(parser) : undefined;
 }
 
 function parseMandatory<T>(parser: (e: Element) => T, element: Element, name: string): T {
@@ -173,6 +173,6 @@ function parseMandatory<T>(parser: (e: Element) => T, element: Element, name: st
 
 
 function parseOptional<T>(parser: (e: Element) => T, parent: Element, name: string): T | undefined {
-    const element = parent.querySelector(`:scope ${name}`);
+    const element = parent.querySelector(`:scope > ${name}`);
     return element ? parser(element) : undefined;
 }
