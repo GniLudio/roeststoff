@@ -4,6 +4,34 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/people.xsd">
     <person>
+        <name>Anton Schmaus</name>
+        <description>Koch der Nationalelf</description>
+        <image>images\people\anton_schmaus.jpg</image>
+        <hateQuestion>
+            <episode>19</episode>
+            <episodeTime>1:52:18</episodeTime>
+            <description><![CDATA[ Was ist eigentlich Thomas Müller?<br>Wer ist der nerdigste Spieler?]]></description>
+        </hateQuestion>
+        <appearances>
+            <appearance>
+                <episode>19</episode>
+                <episodeTime>1:28:50</episodeTime>
+            </appearance>
+        </appearances>
+        <characteristics>
+            <characteristic>
+                <episode>19</episode>
+                <episodeTime>1:19:10</episodeTime>
+                <description>hat 4 Restaurants (2x mit Sternen)</description>
+            </characteristic>
+            <characteristic>
+                <episode>19</episode>
+                <episodeTime>1:29:30</episodeTime>
+                <description>bekocht die Nationalelf</description>
+            </characteristic>
+        </characteristics>
+    </person>
+    <person>
         <name>Bernhard Moser</name>
         <image>images\people\bernhard_moser.webp</image>
         <hateQuestion>
@@ -279,6 +307,10 @@
         </hateQuestion>
         <appearances>
             <appearance>
+                <episode>19</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
+            <appearance>
                 <episode>18</episode>
                 <episodeTime>00:00:00</episodeTime>
             </appearance>
@@ -406,6 +438,10 @@
             <description>Was machst du sonst noch?</description>
         </hateQuestion>
         <appearances>
+            <appearance>
+                <episode>19</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
             <appearance>
                 <episode>18</episode>
                 <episodeTime>00:00:00</episodeTime>

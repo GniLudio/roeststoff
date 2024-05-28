@@ -4,6 +4,36 @@
     xmlns="roeststoff" 
     xsi:schemaLocation="roeststoff ../schemas/drinks.xsd">
     <drink>
+        <name>? Cabernet Sauvignon 2013</name>
+        <image></image>
+        <appearances>
+            <appearance>
+                <episode>19</episode>
+                <episodeTime>56:48</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
+        <name>High Roller Cabernet Sauvignon 2020</name>
+        <image></image>
+        <appearances>
+            <appearance>
+                <episode>19</episode>
+                <episodeTime>51:32</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
+        <name>Cabernet Sauvignon 2018 Weingut Walter am Gardasee</name>
+        <image></image>
+        <appearances>
+            <appearance>
+                <episode>19</episode>
+                <episodeTime>42:03</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
         <name>Mitchell Sparkling Peppertree shiraz</name>
         <image></image>
         <appearances>

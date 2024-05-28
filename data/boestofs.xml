@@ -4,6 +4,25 @@
     xmlns="roeststoff" 
     xsi:schemaLocation="roeststoff ../schemas/boestofs.xsd">
     <boestof>
+        <episode>19</episode>
+        <episodeTime>1:08:49</episodeTime>
+        <name>Schlimme Süßigkeiten</name>
+        <peter>
+            <rank>Bounty</rank>
+            <rank>Haribo Colorado</rank>
+            <rank>Marzipan</rank>
+            <rank>Mäusespecke</rank>
+            <rank>Reiswaffeln</rank>
+        </peter>
+        <ilona>
+            <rank>Bounty</rank>
+            <rank>After Eight</rank>
+            <rank>Eiskonfekt</rank>
+            <rank>Mäusespecke</rank>
+            <rank>Erfrischungsstäbchen</rank>
+        </ilona>
+    </boestof>
+    <boestof>
         <episode>18</episode>
         <episodeTime>50:20</episodeTime>
         <name>Unangenehme Tischgesprächsthemen</name>

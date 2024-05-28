@@ -4,6 +4,16 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/restaurants.xsd">
     <restaurant>
+        <name>The Oberoi Beach Resort Mauritius</name>
+        <image>images\restaurants\oberoi_mauritius.png</image>
+        <appearances>
+            <appearance>
+                <episode>19</episode>
+                <episodeTime>3:30</episodeTime>
+            </appearance>
+        </appearances>
+    </restaurant>
+    <restaurant>
         <name>SodaZitron</name>
         <image>images\restaurants\sodazitron.jpg</image>
         <appearances>

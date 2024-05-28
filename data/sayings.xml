@@ -4,6 +4,16 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/sayings.xsd">
     <saying>
+        <episode>19</episode>
+        <episodeTime>42:10</episodeTime>
+        <description>Es ist Wine-Time.</description>
+    </saying>
+    <saying>
+        <episode>19</episode>
+        <episodeTime>1:22</episodeTime>
+        <description>Das Runde muss ins Eckige, wie Pizzakartons.</description>
+    </saying>
+    <saying>
         <episode>18</episode>
         <episodeTime>2:08:50</episodeTime>
         <description>Schnapsidee</description>

@@ -4,6 +4,30 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/glossary.xsd">
     <entry>
+        <episode>19</episode>
+        <episodeTime>1:37:30</episodeTime>
+        <name>à la minute</name>
+        <description>Zubereitung von Speisen direkt vor dem Servieren.</description>
+    </entry>
+    <entry>
+        <episode>19</episode>
+        <episodeTime>52:23</episodeTime>
+        <name>Alte Reben</name>
+        <description><![CDATA[<p>Je älter ein Rebstock wird, desto weniger wird der Ertrag und desto tiefer wird das Wurzelwerk, was zu dichteren Aromen führt.</p><p>Ein Rebstock hat frühstens nach 3 Jahren Trauben und wird nach ~40 Jahren alte Rebe genannt.</p> ]]></description>
+    </entry>
+    <entry>
+        <episode>19</episode>
+        <episodeTime>50:45</episodeTime>
+        <name>Kabi</name>
+        <description>Abkürzung für Riesling Kabinett</description>
+    </entry>
+    <entry>
+        <episode>19</episode>
+        <episodeTime>45:20</episodeTime>
+        <name>Grüner Wein</name>
+        <description>Ein noch junger und unreifer Wein, der seinen Geschmack noch entwickeln kann.</description>
+    </entry>
+    <entry>
         <episode>18</episode>
         <episodeTime>3:01:28</episodeTime>
         <name>Couvert</name>
