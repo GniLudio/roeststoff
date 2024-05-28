@@ -5,7 +5,6 @@
     xsi:schemaLocation="roeststoff ../schemas/people.xsd">
     <person>
         <name>Anton Schmaus</name>
-        <description>Koch der Nationalelf</description>
         <image>images\people\anton_schmaus.jpg</image>
         <hateQuestion>
             <episode>19</episode>
@@ -70,7 +69,6 @@
     </person>
     <person>
         <name>Nancy Großmann</name>
-        <description>Sommelière im Rutz</description>
         <image>images\people\nancy_großmann.jpg</image>
         <hateQuestion>
             <episode>16</episode>
@@ -212,7 +210,6 @@
 
     <person>
         <name>Felix Fuchs</name>
-        <description>Sommelier des tulus lotrek.</description>
         <image>images/people/felix_fuchs.jpg</image>
         <appearances>
             <appearance>
