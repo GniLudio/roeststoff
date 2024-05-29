@@ -4,6 +4,35 @@
     xmlns="roeststoff" 
     xsi:schemaLocation="roeststoff ../schemas/boestofs.xsd">
     <boestof>
+        <episode>20</episode>
+        <episodeTime>2:16:23</episodeTime>
+        <name>Bescheurte Convenience-Produkte</name>
+        <!-- 
+        <max>
+            <rank>Stangenei</rank>
+            <rank>Knack und Back</rank>
+            <rank>Toasty</rank>
+            <rank>5 Minuten Terrine</rank>
+            <rank>Geschälte, vorgekochte Eier im Glas in Lake</rank>
+        </max>
+        -->
+        <peter>
+            <rank>Dosenbrot</rank>
+            <rank>Stangenei</rank>
+            <rank>Toasty</rank>
+            <rank>Weiswurstpizza</rank>
+            <rank>Eingeschweiste, geschälte Bananen</rank>
+            <rank>Geschälte, vorgekochte Kartoffeln im Glas</rank>
+        </peter>
+        <ilona>
+            <rank>Fertig-Frikadelle</rank>
+            <rank>Champignon-Baguette</rank>
+            <rank>Erbsensuppe aus der Dose</rank>
+            <rank>Bastard-Pizza (Pizza mit etwas zusammen, was eigentlich geil ist, aber nicht auf Pizza passt)</rank>
+            <rank>Dosenravioli</rank>
+        </ilona>
+    </boestof>
+    <boestof>
         <episode>19</episode>
         <episodeTime>1:08:49</episodeTime>
         <name>Schlimme Süßigkeiten</name>

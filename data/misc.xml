@@ -4,6 +4,23 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/misc.xsd">
     <entry>
+        <episode>20</episode>
+        <episodeTime>1:19:37</episodeTime>
+        <name>Traubensaft Riesling von Jonas Borkowski</name>
+        <description></description>
+        <image></image>
+    </entry>
+    <entry>
+        <episode>20</episode>
+        <episodeTime>31:02</episodeTime>
+        <name>Thermomix</name>
+        <description><![CDATA[
+            <p>Eine große Küchenmaschine zum Zerkleinern, Mixen und Erhitzen von Lebensmitteln.</p>
+            <p>Zum Bedauern von Max Strohe nicht in Fernsehshows zu sehen.</p>
+            ]]></description>
+        <image>images\misc\thermomix.jpg</image>
+    </entry>
+    <entry>
         <episode>18</episode>
         <episodeTime>2:02:37</episodeTime>
         <name>eat! berlin</name>

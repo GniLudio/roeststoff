@@ -4,6 +4,17 @@
     xmlns="roeststoff" 
     xsi:schemaLocation="roeststoff ../schemas/drinks.xsd">
     <drink>
+        <name>Traubensaft Riesling von Jonas Borkowski</name>
+        <description></description>
+        <image></image>
+        <appearances>
+            <appearance>
+                <episode>20</episode>
+                <episodeTime>1:19:37</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
         <name>? Cabernet Sauvignon 2013</name>
         <image></image>
         <appearances>

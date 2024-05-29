@@ -4,6 +4,36 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/glossary.xsd">
     <entry>
+        <episode>20</episode>
+        <episodeTime>1:10:50</episodeTime>
+        <name>Verjus</name>
+        <description>Ein Saft aus grün gelesenen (unreifen) Trauben.</description>
+    </entry>
+    <entry>
+        <episode>20</episode>
+        <episodeTime>1:06:25</episodeTime>
+        <name>Kefir</name>
+        <description>Ein dickflüssiges Suaermilchprodukt mit einen geringen Gehalt an Kohlensäure und Alkohol.</description>
+    </entry>
+    <entry>
+        <episode>20</episode>
+        <episodeTime>1:06:25</episodeTime>
+        <name>Jun (Tee)</name>
+        <description>Ein prickelndes fermentiertes Getränk aus grünem Tee und Honig.</description>
+    </entry>
+    <entry>
+        <episode>20</episode>
+        <episodeTime>1:06:25</episodeTime>
+        <name>Kombucha</name>
+        <description>Ein Gärgetränk aus der Fermentierung von gesüßtem koffeinhaltigem Tee und einer Kombuchakultur.</description>
+    </entry>
+    <entry>
+        <episode>20</episode>
+        <episodeTime>30:02</episodeTime>
+        <name>Butterschmalz (Geklärte Butter)</name>
+        <description>Butter bei der Wasser und Milchbestandteile entfernt wurden.</description>
+    </entry>
+    <entry>
         <episode>19</episode>
         <episodeTime>1:37:30</episodeTime>
         <name>à la minute</name>
