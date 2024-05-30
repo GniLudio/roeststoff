@@ -4,6 +4,25 @@
     xmlns="roeststoff" 
     xsi:schemaLocation="roeststoff ../schemas/boestofs.xsd">
     <boestof>
+        <episode>21</episode>
+        <episodeTime>47:29</episodeTime>
+        <name>Beste Flüssigkeiten aus Finger schießen</name>
+        <peter>
+            <rank>Druckerpatrone</rank>
+            <rank>Knochenmark-Tee</rank>
+            <rank>Bier</rank>
+            <rank>Gemüsebrühe</rank>
+            <rank>Wasser (mit Sprudel)</rank>
+        </peter>
+        <ilona>
+            <rank>Blut</rank>
+            <rank>Druckerpatrone</rank>
+            <rank>Champagner</rank>
+            <rank>Senf</rank>
+            <rank>Wasser</rank>
+        </ilona>
+    </boestof>
+    <boestof>
         <episode>20</episode>
         <episodeTime>2:16:23</episodeTime>
         <name>Bescheurte Convenience-Produkte</name>

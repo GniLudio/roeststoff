@@ -4,6 +4,33 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/people.xsd">
     <person>
+        <name>Mona Schrader</name>
+        <image>images\people\mona_schrader.jpg</image>
+        <hateQuestion>
+            <episode>21</episode>
+            <episodeTime>4:10:12</episodeTime>
+            <description>Woher haben Sie Ihr (schwarzes) Toilettenpapier?</description>
+        </hateQuestion>
+        <appearances>
+            <appearance>
+                <episode>21</episode>
+                <episodeTime>1:06:58</episodeTime>
+            </appearance>
+        </appearances>
+        <characteristics>
+            <characteristic>
+                <episode>21</episode>
+                <episodeTime>1:49:37</episodeTime>
+                <description>Platz 19 der Sommelière 2023 vom Rolling Pin</description>
+            </characteristic>
+            <characteristic>
+                <episode>21</episode>
+                <episodeTime>1:49:25</episodeTime>
+                <description>Service-Award 2023 vom Michellin</description>
+            </characteristic>
+        </characteristics>
+    </person>
+    <person>
         <name>Anton Schmaus</name>
         <image>images\people\anton_schmaus.jpg</image>
         <hateQuestion>
@@ -308,6 +335,10 @@
         </hateQuestion>
         <appearances>
             <appearance>
+                <episode>21</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
+            <appearance>
                 <episode>20</episode>
                 <episodeTime>00:00:00</episodeTime>
             </appearance>
@@ -443,6 +474,10 @@
             <description>Was machst du sonst noch?</description>
         </hateQuestion>
         <appearances>
+            <appearance>
+                <episode>21</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
             <appearance>
                 <episode>20</episode>
                 <episodeTime>00:00:00</episodeTime>

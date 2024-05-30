@@ -4,6 +4,36 @@
     xmlns="roeststoff" 
     xsi:schemaLocation="roeststoff ../schemas/drinks.xsd">
     <drink>
+        <name>? 2012 aus Bodega Numanthia</name>
+        <image></image>
+        <appearances>
+            <appearance>
+                <episode>21</episode>
+                <episodeTime>1:41:29</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
+        <name>? von Joan Rubió</name>
+        <image></image>
+        <appearances>
+            <appearance>
+                <episode>21</episode>
+                <episodeTime>1:31:10</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
+        <name>Gramona Cava »III Lustros« 2013</name>
+        <image></image>
+        <appearances>
+            <appearance>
+                <episode>21</episode>
+                <episodeTime>1:09:53</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
         <name>Traubensaft Riesling von Jonas Borkowski</name>
         <description></description>
         <image></image>
