@@ -4,6 +4,34 @@
     xmlns="roeststoff" 
     xsi:schemaLocation="roeststoff ../schemas/boestofs.xsd">
     <boestof>
+        <episode>22</episode>
+        <episodeTime>1:01:48</episodeTime>
+        <name>Weihnachtsbräuche</name>
+        <!-- 
+        <max>
+            <rank>Gemütlichkeit</rank>
+            <rank>Schenken (oder Schinken)</rank>
+            <rank>Weihnachtsmarkt</rank>
+            <rank>Nelken(geruch) in Mandarinen</rank>
+            <rank>Chrismas Time von Bryan Adams (Einläuten der Weihnachtszeit)</rank>
+        </max>
+        -->
+        <peter>
+            <rank>Familie</rank>
+            <rank>Pfännekes</rank>
+            <rank>Bier</rank>
+            <rank>Weihnachtsbaum</rank>
+            <rank>Adventskalender</rank>
+        </peter>
+        <ilona>
+            <rank>Zeit haben</rank>
+            <rank>Kapitalismus</rank>
+            <rank>Medienweihnachten</rank>
+            <rank>Weihnachtsgerüche</rank>
+            <rank>Weihnachtswichteln im tulus</rank>
+        </ilona>
+    </boestof>
+    <boestof>
         <episode>21</episode>
         <episodeTime>47:29</episodeTime>
         <name>Beste Flüssigkeiten aus Finger schießen</name>

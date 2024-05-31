@@ -4,6 +4,12 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/glossary.xsd">
     <entry>
+        <episode>22</episode>
+        <episodeTime>11:00</episodeTime>
+        <name>Lumumba (Kakao mit Schuss)</name>
+        <description>Benannt nach afrikanischem Politiker Patrice Lulumba, der erschossen wurde.</description>
+    </entry>
+    <entry>
         <episode>20</episode>
         <episodeTime>1:10:50</episodeTime>
         <name>Verjus</name>

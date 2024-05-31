@@ -4,6 +4,21 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/sayings.xsd">
     <saying>
+        <episode>22</episode>
+        <episodeTime>1:17:48</episodeTime>
+        <description>Das Leben ist wie ein Sack Mandarinen.</description>
+    </saying>
+    <saying>
+        <episode>22</episode>
+        <episodeTime>1:15:40</episodeTime>
+        <description><![CDATA[<b>gans</b> spezifisch]]></description>
+    </saying>
+    <saying>
+        <episode>22</episode>
+        <episodeTime>20:40</episodeTime>
+        <description>Lieblingstier: Zapfhahn</description>
+    </saying>
+    <saying>
         <episode>20</episode>
         <episodeTime>2:16:05</episodeTime>
         <description>Manche Leute sehen aus wie restaurierte Gemälde.</description>
