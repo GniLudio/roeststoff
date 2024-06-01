@@ -191,8 +191,10 @@ function createAdditionalInfo(info: CardInfo): [button: string, modal: string] {
 function createAdditionalInfoBlock(header: string, content: string): string {
     return `
         <div class='rounded-5 m-3 p-2 border border-2 border-warning-subtle bg-light'>
-            <h5>${header}</h5>
-            ${content}
+            <div class="overflow-scroll">
+                <h5>${header}</h5>
+                ${content}
+            </div>
         </div>`
 }
 
