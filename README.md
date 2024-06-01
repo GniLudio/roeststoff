@@ -1,5 +1,5 @@
 # Röststoff Wiki
-> Wiki-Webseite über den Röststoff Podcast.
+> Wiki über den Röststoff Podcast: [roeststoff.wiki](https://roeststoff.wiki)
 
 ## Daten
 > Die XML-Dateien im `data` Ordner.
