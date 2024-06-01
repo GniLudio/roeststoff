@@ -134,7 +134,7 @@ function createCard(info: CardInfo): HTMLElement {
     card.classList.add('col');
 
     const cardImage = info.image && info.image != "" ? 
-        `<img src="${info.image}" class="img-top rounded-3 m-1" alt="${info.image}" alt="" onerror="console.log('Missing image ${info.image.replace(`\\`, '\\\\')}');this.style.display='none'">` : '';
+        `<img src="${info.image}" class="img-top rounded-3 m-1" alt="${info.image}" alt="" onerror="console.log('Missing image ${info.image}');this.style.display='none'">` : '';
     const cardTitle = info.title && info.title != "" ? `<h5 class="card-title m-auto p-1">${info.title}</h5>` : ''
     const cardSubtitle = info.subtitle && info.subtitle != "" ? `<h6 class="card-subtitle m-auto p-1">${info.subtitle}</h5>` : '';
     const cardIndex = info.index && info.index != '' ? 
