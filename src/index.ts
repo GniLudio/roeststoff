@@ -9,7 +9,7 @@ import sayingsRaw from '../data/sayings.xml';
 import miscRaw from '../data/misc.xml';
 import * as parser from './parser';
 import * as cards from './cards';
-import { compareEpisodeID, compareEpisode, compareEpisodeIDs } from './utils';
+import { compareEpisodeID, compareEpisode, compareEpisodeIDs, compareIsHost } from './utils';
 
 // PARSING
 console.log("PARSING")
@@ -26,13 +26,13 @@ const allContent: AllContent = {episodes, people, drinks, boestOfs, restaurants,
 // SORTING
 console.log("SORTING");
 episodes.sort(compareEpisode).reverse();
-people.sort((a,b) => compareEpisodeIDs(a.appearances, b.appearances, allContent.episodes)).reverse();
-drinks.sort((a,b) => compareEpisodeIDs(a.appearances, b.appearances, allContent.episodes)).reverse();
-boestOfs.sort((a,b) => compareEpisodeID(a, b, allContent.episodes)).reverse();
-restaurants.sort((a,b) => compareEpisodeIDs(a.appearances, b.appearances, allContent.episodes)).reverse();
+people.sort((a,b) => -compareEpisodeIDs(a.appearances, b.appearances, allContent.episodes)).sort((a,b) => -compareIsHost(a, b));
+drinks.sort((a,b) => -compareEpisodeIDs(a.appearances, b.appearances, allContent.episodes));
+boestOfs.sort((a,b) => -compareEpisodeID(a, b, allContent.episodes));
+restaurants.sort((a,b) => -compareEpisodeIDs(a.appearances, b.appearances, allContent.episodes));
 glossary.sort((a,b) => a.name.localeCompare(b.name));
-sayings.sort((a,b) => compareEpisodeID(a, b, episodes)).reverse();
-misc.sort((a,b) => compareEpisodeID(a, b, allContent.episodes)).reverse();
+sayings.sort((a,b) => -compareEpisodeID(a, b, episodes));
+misc.sort((a,b) => -compareEpisodeID(a, b, allContent.episodes));
 
 // CREATE AND INSERT HTML ELEMENTS
 console.log("CREATING");

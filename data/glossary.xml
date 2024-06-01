@@ -4,6 +4,24 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/glossary.xsd">
     <entry>
+        <episode>24</episode>
+        <episodeTime>2:09:55</episodeTime>
+        <name>Maltodextrin</name>
+        <description><![CDATA[<p>Kann Öle absorbieren und wird von Wasser aufgelöst.</p><p>Kann also beim Essen für eine ölige Textur sorgen.</p>]]></description>
+    </entry>
+    <entry>
+        <episode>24</episode>
+        <episodeTime>2:06:05</episodeTime>
+        <name>Emulgator</name>
+        <description>Ein Zusatzstoff, der das Verbinden von heterogenen Substanzen (z.B. Fett und Wasser) ermöglicht.</description>
+    </entry>
+    <entry>
+        <episode>24</episode>
+        <episodeTime>1:50:45</episodeTime>
+        <name>Molekularküche</name>
+        <description><![CDATA[<p>Eine Küche, in der sich mit biochemischen und physikalischen Prozessen befasst wird.</p><p><small>Meist eine sehr analytische Küche.</small></p>]]></description>
+    </entry>
+    <entry>
         <episode>22</episode>
         <episodeTime>11:00</episodeTime>
         <name>Lumumba (Kakao mit Schuss)</name>

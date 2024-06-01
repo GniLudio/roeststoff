@@ -4,6 +4,33 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/people.xsd">
     <person>
+        <name>Dominik Keppler</name>
+        <image>images/people/dominik_kaeppeler.jpg</image>
+        <hateQuestion>
+            <episode>24</episode>
+            <episodeTime>3:15:00</episodeTime>
+            <description>Wie kommst du auf solche Kombinationen?</description>
+        </hateQuestion>
+        <appearances>
+            <appearance>
+                <episode>24</episode>
+                <episodeTime>1:39:54</episodeTime>
+            </appearance>
+        </appearances>
+        <characteristics>
+            <characteristic>
+                <episode>24</episode>
+                <episodeTime>1:43:15</episodeTime>
+                <description>Küchenchef vom Showroom</description>
+            </characteristic>
+            <characteristic>
+                <episode>24</episode>
+                <episodeTime>1:40:14</episodeTime>
+                <description>wurde schon einmal mit einem Fleischstück (Rinderlende) umgehauen</description>
+            </characteristic>
+        </characteristics>
+    </person>
+    <person>
         <name>Hasko Baumann</name>
         <image>images/people/hasko_baumann.jpg</image>
         <hateQuestion>
@@ -391,6 +418,10 @@
         </hateQuestion>
         <appearances>
             <appearance>
+                <episode>24</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
+            <appearance>
                 <episode>23</episode>
                 <episodeTime>00:00:00</episodeTime>
             </appearance>
@@ -538,6 +569,10 @@
             <description>Was machst du sonst noch?</description>
         </hateQuestion>
         <appearances>
+            <appearance>
+                <episode>24</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
             <appearance>
                 <episode>23</episode>
                 <episodeTime>00:00:00</episodeTime>

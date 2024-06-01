@@ -4,6 +4,20 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/misc.xsd">
     <entry>
+        <episode>24</episode>
+        <episodeTime>3:38:30</episodeTime>
+        <name>The Bear: King of the Kitchen</name>
+        <description>Serie, in der ein Sternekoch eine Sandwich-Bude übernimmt.</description>
+        <image>images/misc/the_bear_king_of_the_kitchen.png</image>
+    </entry>
+    <entry>
+        <episode>24</episode>
+        <episodeTime>2:11:38</episodeTime>
+        <name>Texturas Albert y Ferran Adrià</name>
+        <description><![CDATA[<p>Serie für Gelier und Bindemittel von Ferran Adrià.</p><p><small>Hat Produkte der Molekularküche dem Markt verfügbar gemacht</small></p>]]></description>
+        <image>images/misc/texturas.jpg</image>
+    </entry>
+    <entry>
         <episode>23</episode>
         <episodeTime>2:19:00</episodeTime>
         <name>Mr. Hitchcock, wie haben Sie das gemacht? (Buch)</name>

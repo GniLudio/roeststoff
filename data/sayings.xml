@@ -4,6 +4,26 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/sayings.xsd">
     <saying>
+        <episode>24</episode>
+        <episodeTime>2:45:29</episodeTime>
+        <description>Das war schon immer so.</description>
+    </saying>
+    <saying>
+        <episode>24</episode>
+        <episodeTime>2:28:01</episodeTime>
+        <description>Wie Kraut und Rüben</description>
+    </saying>
+    <saying>
+        <episode>24</episode>
+        <episodeTime>2:26:35</episodeTime>
+        <description>So wie auf dem Arbeitsbrett eines Kochs, so auch in seinem Kopf.</description>
+    </saying>
+    <saying>
+        <episode>24</episode>
+        <episodeTime>2:08:25</episodeTime>
+        <description>Schäumchen und Kerbel macht den Teller schön.</description>
+    </saying>
+    <saying>
         <episode>23</episode>
         <episodeTime>1:06:00</episodeTime>
         <description>Das Gelbe vom Ei.</description>

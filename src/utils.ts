@@ -109,6 +109,11 @@ export function compareEpisodeIDs(a: EpisodeID[] | undefined, b: EpisodeID[] | u
     return compareEpisodeID(aLastEpisode, bLastEpisode, episodes);
 }
 
+export function compareIsHost(a: Person, b: Person): number {
+    if (a.isHost == b.isHost) return 0;
+    return a.isHost ? 1 : -1;
+}
+
 function max<T>(elements: T[], compare: (a: T, b: T) => number = (a,b) => a < b ? -1 : a == b ? 0 : 1): T {
     return elements.reduce((a,b) => compare(a,b) >= 0 ? a : b);
 }

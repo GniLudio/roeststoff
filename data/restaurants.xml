@@ -4,6 +4,33 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/restaurants.xsd">
     <restaurant>
+        <name>Showroom</name>
+        <image>images/restaurants/showroom.jpg</image>
+        <team>
+            <member>Dominik Keppler</member>
+        </team>
+        <appearances>
+            <appearance>
+                <episode>24</episode>
+                <episodeTime>2:31:15</episodeTime>
+            </appearance>
+            <appearance>
+                <episode>24</episode>
+                <episodeTime>1:43:15</episodeTime>
+            </appearance>
+        </appearances>
+    </restaurant>
+    <restaurant>
+        <name>Les Valseuse</name>
+        <image>images/restaurants/les_valseuse.jpg</image>
+        <appearances>
+            <appearance>
+                <episode>24</episode>
+                <episodeTime>25:50</episodeTime>
+            </appearance>
+        </appearances>
+    </restaurant>
+    <restaurant>
         <name>Gästehaus Klaus Erfort</name>
         <image>images/restaurants/klaus_erfort.svg</image>
         <appearances>

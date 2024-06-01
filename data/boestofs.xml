@@ -4,6 +4,25 @@
     xmlns="roeststoff" 
     xsi:schemaLocation="roeststoff ../schemas/boestofs.xsd">
     <boestof>
+        <episode>24</episode>
+        <episodeTime>18:50</episodeTime>
+        <name>Restaurant-Abfucker</name>
+        <peter>
+            <rank>amerikanisierter Service</rank>
+            <rank>schlechte Akustik (mit großem Tisch und lauter Musik)</rank>
+            <rank>Loungemöbel</rank>
+            <rank>zu nahe Bestuhlung</rank>
+            <rank>Fürs Essen aufstehen müssen</rank>
+        </peter>
+        <ilona>
+            <rank>zu viel (unnötiges) Service-Gelaber</rank>
+            <rank>andere rücksichtlose Gäste</rank>
+            <rank>Fahrstulmusik</rank>
+            <rank>Kälte (Temperatur und Kargheit)</rank>
+            <rank>Gestank / zu starke Gerüche</rank>
+        </ilona>
+    </boestof>
+    <boestof>
         <episode>23</episode>
         <episodeTime>43:05</episodeTime>
         <name>Kulinarische Erlebnisse 2023</name>
