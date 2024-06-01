@@ -5,7 +5,7 @@
     xsi:schemaLocation="roeststoff ../schemas/restaurants.xsd">
     <restaurant>
         <name>Gästehaus Klaus Erfort</name>
-        <image>images\restaurants\klaus_erfort.svg</image>
+        <image>images/restaurants/klaus_erfort.svg</image>
         <appearances>
             <appearance>
                 <episode>23</episode>
@@ -15,7 +15,7 @@
     </restaurant>
     <restaurant>
         <name>Steirereck</name>
-        <image>images\restaurants\steirereck.jpg</image>
+        <image>images/restaurants/steirereck.jpg</image>
         <appearances>
             <appearance>
                 <episode>23</episode>
@@ -25,7 +25,7 @@
     </restaurant>
     <restaurant>
         <name>Fischers Fritz Berlin</name>
-        <image>images\restaurants\fischers_fritz.png</image>
+        <image>images/restaurants/fischers_fritz.png</image>
         <appearances>
             <appearance>
                 <episode>23</episode>
@@ -35,7 +35,7 @@
     </restaurant>
     <restaurant>
         <name>Henne Kirkeby Kro</name>
-        <image>images\restaurants\henne_kirkeby_kro.jpg</image>
+        <image>images/restaurants/henne_kirkeby_kro.jpg</image>
         <appearances>
             <appearance>
                 <episode>23</episode>
@@ -45,7 +45,7 @@
     </restaurant>
     <restaurant>
         <name>Ikarus - Hangar-7</name>
-        <image>images\restaurants\ikarus_hangar_7.png</image>
+        <image>images/restaurants/ikarus_hangar_7.png</image>
         <appearances>
             <appearance>
                 <episode>23</episode>
@@ -55,7 +55,7 @@
     </restaurant>
     <restaurant>
         <name>Pakta</name>
-        <image>images\restaurants\pakta.jpg</image>
+        <image>images/restaurants/pakta.jpg</image>
         <appearances>
             <appearance>
                 <episode>23</episode>
@@ -65,7 +65,7 @@
     </restaurant>
     <restaurant>
         <name>The Oberoi Beach Resort Mauritius</name>
-        <image>images\restaurants\oberoi_mauritius.png</image>
+        <image>images/restaurants/oberoi_mauritius.png</image>
         <appearances>
             <appearance>
                 <episode>19</episode>
@@ -75,7 +75,7 @@
     </restaurant>
     <restaurant>
         <name>SodaZitron</name>
-        <image>images\restaurants\sodazitron.jpg</image>
+        <image>images/restaurants/sodazitron.jpg</image>
         <appearances>
             <appearance>
                 <episode>18</episode>
@@ -85,7 +85,7 @@
     </restaurant>
     <restaurant>
         <name>La Societe</name>
-        <image>images\restaurants\la_societe.png</image>
+        <image>images/restaurants/la_societe.png</image>
         <appearances>
             <appearance>
                 <episode>18</episode>
@@ -95,7 +95,7 @@
     </restaurant>
     <restaurant>
         <name>Kölner Wasserturm</name>
-        <image>images\restaurants\wasserturm_koeln.svg</image>
+        <image>images/restaurants/wasserturm_koeln.svg</image>
         <appearances>
             <appearance>
                 <episode>18</episode>
@@ -105,7 +105,7 @@
     </restaurant>
     <restaurant>
         <name>Gasthaus Assenmacher</name>
-        <image>images\restaurants\assenmacher_gasthaus.png</image>
+        <image>images/restaurants/assenmacher_gasthaus.png</image>
         <appearances>
             <appearance>
                 <episode>18</episode>
@@ -122,7 +122,7 @@
     </restaurant>
     <restaurant>
         <name>Jordnær</name>
-        <image>images\restaurants\jordaer.png</image>
+        <image>images/restaurants/jordaer.png</image>
         <appearances>
             <appearance>
                 <episode>17</episode>
@@ -132,7 +132,7 @@
     </restaurant>
     <restaurant>
         <name>Alchemist</name>
-        <image>images\restaurants\alchemist.png</image>
+        <image>images/restaurants/alchemist.png</image>
         <appearances>
             <appearance>
                 <episode>17</episode>
@@ -143,7 +143,7 @@
     <restaurant>
         <name>Dachgarten-Restaurant</name>
         <description>Restaurant im Bundestag</description>
-        <image>images\restaurants\dachgarten.png</image>
+        <image>images/restaurants/dachgarten.png</image>
         <appearances>
             <appearance>
                 <episode>16</episode>
@@ -160,7 +160,7 @@
     </restaurant>
     <restaurant>
         <name>Rutz</name>
-        <image>images\restaurants\rutz.png</image>
+        <image>images/restaurants/rutz.png</image>
         <team>
             <member>Nancy Großmann</member>
         </team>
@@ -180,7 +180,7 @@
     </restaurant>
     <restaurant>
         <name>Chef's Table at Brooklyn Fare</name>
-        <image>images\restaurants\chefs_table_brooklyn_fare.png</image>
+        <image>images/restaurants/chefs_table_brooklyn_fare.png</image>
         <appearances>
             <appearance>
                 <episode>15</episode>
@@ -198,7 +198,7 @@
     <restaurant>
         <name>AURA</name>
         <description>von Alexander Herrmann und Tobias Baetz</description>
-        <image>images\restaurants\aura_alexander_herrmann_tobias_baetz.svg</image>
+        <image>images/restaurants/aura_alexander_herrmann_tobias_baetz.svg</image>
         <team>
             <member>Alexander Herrmann</member>
             <member>Tobias Baetz</member>
@@ -212,7 +212,7 @@
     </restaurant>
     <restaurant>
         <name>Epicure (Paris)</name>
-        <image>images\restaurants\epicure_paris.jpg</image>
+        <image>images/restaurants/epicure_paris.jpg</image>
         <appearances>
             <appearance>
                 <episode>11</episode>
@@ -223,7 +223,7 @@
     <restaurant>
         <name>Schwerelos (Dresden)</name>
         <description>Das Achterbahnrestaurant</description>
-        <image>images\restaurants\schwerelos_dresden.png</image>
+        <image>images/restaurants/schwerelos_dresden.png</image>
         <appearances>
             <appearance>
                 <episode>11</episode>
@@ -233,7 +233,7 @@
     </restaurant>
     <restaurant>
         <name>Jardin de Sens</name>
-        <image>images\restaurants\jardin_des_sens.svg</image>
+        <image>images/restaurants/jardin_des_sens.svg</image>
         <appearances>
             <appearance>
                 <episode>9</episode>
@@ -260,7 +260,7 @@
     </restaurant>
     <restaurant>
         <name>Irma la Douce</name>
-        <image>images\restaurants\irma_la_douce.jpg</image>
+        <image>images/restaurants/irma_la_douce.jpg</image>
         <appearances>
             <appearance>
                 <episode>9</episode>

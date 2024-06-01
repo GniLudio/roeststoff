@@ -5,7 +5,7 @@
     xsi:schemaLocation="roeststoff ../schemas/people.xsd">
     <person>
         <name>Hasko Baumann</name>
-        <image>images\people\hasko_baumann.jpg</image>
+        <image>images/people/hasko_baumann.jpg</image>
         <hateQuestion>
             <episode>23</episode>
             <episodeTime>1:49:40</episodeTime>
@@ -57,7 +57,7 @@
     </person>
     <person>
         <name>Mona Schrader</name>
-        <image>images\people\mona_schrader.jpg</image>
+        <image>images/people/mona_schrader.jpg</image>
         <hateQuestion>
             <episode>21</episode>
             <episodeTime>4:10:12</episodeTime>
@@ -84,7 +84,7 @@
     </person>
     <person>
         <name>Anton Schmaus</name>
-        <image>images\people\anton_schmaus.jpg</image>
+        <image>images/people/anton_schmaus.jpg</image>
         <hateQuestion>
             <episode>19</episode>
             <episodeTime>1:52:18</episodeTime>
@@ -111,7 +111,7 @@
     </person>
     <person>
         <name>Bernhard Moser</name>
-        <image>images\people\bernhard_moser.webp</image>
+        <image>images/people/bernhard_moser.webp</image>
         <hateQuestion>
             <episode>18</episode>
             <episodeTime>3:18:18</episodeTime>
@@ -148,7 +148,7 @@
     </person>
     <person>
         <name>Nancy Großmann</name>
-        <image>images\people\nancy_großmann.jpg</image>
+        <image>images/people/nancy_großmann.jpg</image>
         <hateQuestion>
             <episode>16</episode>
             <episodeTime>1:59:30</episodeTime>
@@ -170,7 +170,7 @@
     </person>
     <person>
         <name>Katharina Kurz</name>
-        <image>images\people\katharina_kurz.jpg</image>
+        <image>images/people/katharina_kurz.jpg</image>
         <hateQuestion>
             <episode>14</episode>
             <episodeTime>3:41:05</episodeTime>
@@ -192,7 +192,7 @@
     </person>
     <person>
         <name>Philipp Vogel</name>
-        <image>images\people\philipp_vogel.jpg</image>
+        <image>images/people/philipp_vogel.jpg</image>
         <hateQuestion>
             <episode>13</episode>
             <episodeTime>3:07:15</episodeTime>
@@ -224,7 +224,7 @@
     </person>
     <person>
         <name>Alexander Herrmann</name>
-        <image>images\people\alexander_herrmann.jpg</image>
+        <image>images/people/alexander_herrmann.jpg</image>
         <hateQuestion>
             <episode>12</episode>
             <episodeTime>1:29:14</episodeTime>
