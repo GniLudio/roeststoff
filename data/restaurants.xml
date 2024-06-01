@@ -4,6 +4,66 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/restaurants.xsd">
     <restaurant>
+        <name>Gästehaus Klaus Erfort</name>
+        <image>images\restaurants\klaus_erfort.svg</image>
+        <appearances>
+            <appearance>
+                <episode>23</episode>
+                <episodeTime>3:49:07</episodeTime>
+            </appearance>
+        </appearances>
+    </restaurant>
+    <restaurant>
+        <name>Steirereck</name>
+        <image>images\restaurants\steirereck.jpg</image>
+        <appearances>
+            <appearance>
+                <episode>23</episode>
+                <episodeTime>3:42:38</episodeTime>
+            </appearance>
+        </appearances>
+    </restaurant>
+    <restaurant>
+        <name>Fischers Fritz Berlin</name>
+        <image>images\restaurants\fischers_fritz.png</image>
+        <appearances>
+            <appearance>
+                <episode>23</episode>
+                <episodeTime>3:41:40</episodeTime>
+            </appearance>
+        </appearances>
+    </restaurant>
+    <restaurant>
+        <name>Henne Kirkeby Kro</name>
+        <image>images\restaurants\henne_kirkeby_kro.jpg</image>
+        <appearances>
+            <appearance>
+                <episode>23</episode>
+                <episodeTime>3:40:00</episodeTime>
+            </appearance>
+        </appearances>
+    </restaurant>
+    <restaurant>
+        <name>Ikarus - Hangar-7</name>
+        <image>images\restaurants\ikarus_hangar_7.png</image>
+        <appearances>
+            <appearance>
+                <episode>23</episode>
+                <episodeTime>3:39:13</episodeTime>
+            </appearance>
+        </appearances>
+    </restaurant>
+    <restaurant>
+        <name>Pakta</name>
+        <image>images\restaurants\pakta.jpg</image>
+        <appearances>
+            <appearance>
+                <episode>23</episode>
+                <episodeTime>3:37:35</episodeTime>
+            </appearance>
+        </appearances>
+    </restaurant>
+    <restaurant>
         <name>The Oberoi Beach Resort Mauritius</name>
         <image>images\restaurants\oberoi_mauritius.png</image>
         <appearances>

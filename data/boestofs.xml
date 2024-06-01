@@ -4,6 +4,25 @@
     xmlns="roeststoff" 
     xsi:schemaLocation="roeststoff ../schemas/boestofs.xsd">
     <boestof>
+        <episode>23</episode>
+        <episodeTime>43:05</episodeTime>
+        <name>Kulinarische Erlebnisse 2023</name>
+        <peter>
+            <rank>Küche von Max Strohe</rank>
+            <rank>Menü im La Societe in Köln</rank>
+            <rank>Käsewagen in der Schwarzwaldstube</rank>
+            <rank>Besuch mit Ilona und Max bei Raue</rank>
+            <rank>T-Bone-Steak mit Familie (selbst gemacht)</rank>
+        </peter>
+        <ilona>
+            <rank>Pizza von Andrew Tate</rank>
+            <rank>Personalweihnachtsfeier</rank>
+            <rank>Schmetterling oder Omelett aus dem Alchemist</rank>
+            <rank>Ravioli du Dauphine in Paris</rank>
+            <rank>Kopfsalat aus dem CODA</rank>
+        </ilona>
+    </boestof>
+    <boestof>
         <episode>22</episode>
         <episodeTime>1:01:48</episodeTime>
         <name>Weihnachtsbräuche</name>

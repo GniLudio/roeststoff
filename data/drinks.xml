@@ -4,6 +4,16 @@
     xmlns="roeststoff" 
     xsi:schemaLocation="roeststoff ../schemas/drinks.xsd">
     <drink>
+        <name>?</name>
+        <image></image>
+        <appearances>
+            <appearance>
+                <episode>23</episode>
+                <episodeTime>3:03:21</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
         <name>? Rotwein 2018 vom Weingut Vinyes de la Dot</name>
         <image></image>
         <appearances>

@@ -4,6 +4,13 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/misc.xsd">
     <entry>
+        <episode>23</episode>
+        <episodeTime>2:19:00</episodeTime>
+        <name>Mr. Hitchcock, wie haben Sie das gemacht? (Buch)</name>
+        <description><![CDATA[<p>Der Urknall von allem (laut Hasko Baumann).</p><p><small>Buch von François Truffaut</small></>]]></description>
+        <image>images\misc\hitchcock_fracois_truffaut.jpg</image>
+    </entry>
+    <entry>
         <episode>20</episode>
         <episodeTime>31:02</episodeTime>
         <name>Thermomix</name>

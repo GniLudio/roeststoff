@@ -4,6 +4,11 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/sayings.xsd">
     <saying>
+        <episode>23</episode>
+        <episodeTime>1:06:00</episodeTime>
+        <description>Das Gelbe vom Ei.</description>
+    </saying>
+    <saying>
         <episode>22</episode>
         <episodeTime>1:17:48</episodeTime>
         <description>Das Leben ist wie ein Sack Mandarinen.</description>

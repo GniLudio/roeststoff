@@ -4,6 +4,58 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/people.xsd">
     <person>
+        <name>Hasko Baumann</name>
+        <image>images\people\hasko_baumann.jpg</image>
+        <hateQuestion>
+            <episode>23</episode>
+            <episodeTime>1:49:40</episodeTime>
+            <description>Was ist deine Lieblingsfolge von "Durch die Nacht mit"?</description>
+        </hateQuestion>
+        <appearances>
+            <appearance>
+                <episode>23</episode>
+                <episodeTime>1:32:33</episodeTime>
+            </appearance>
+        </appearances>
+        <characteristics>
+            <characteristic>
+                <episode>23</episode>
+                <episodeTime>1:33:00</episodeTime>
+                <description>Grimmepreis 2006 für "Durch die Nacht mit"</description>
+            </characteristic>
+            <characteristic>
+                <episode>23</episode>
+                <episodeTime>1:33:00</episodeTime>
+                <description>Kitchen Impossible</description>
+            </characteristic>
+            <characteristic>
+                <episode>23</episode>
+                <episodeTime>1:33:00</episodeTime>
+                <description>Raue der Restauranttester</description>
+            </characteristic>
+            <characteristic>
+                <episode>23</episode>
+                <episodeTime>1:33:00</episodeTime>
+                <description>Roadtrip Amerika - drei Spitzenköche auf vier Rädern</description>
+            </characteristic>
+            <characteristic>
+                <episode>23</episode>
+                <episodeTime>1:33:00</episodeTime>
+                <description>Mälzer und Hennsler liefern ab / Fuchs und Strohe liefern ab</description>
+            </characteristic>
+            <characteristic>
+                <episode>23</episode>
+                <episodeTime>1:33:00</episodeTime>
+                <description>die besten Köche zu Besuch im Ikarus </description>
+            </characteristic>
+            <characteristic>
+                <episode>23</episode>
+                <episodeTime>1:33:00</episodeTime>
+                <description>Beef für Männer mit Geschmack</description>
+            </characteristic>
+        </characteristics>
+    </person>
+    <person>
         <name>Mona Schrader</name>
         <image>images\people\mona_schrader.jpg</image>
         <hateQuestion>
@@ -339,6 +391,10 @@
         </hateQuestion>
         <appearances>
             <appearance>
+                <episode>23</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
+            <appearance>
                 <episode>22</episode>
                 <episodeTime>00:00:00</episodeTime>
             </appearance>
@@ -482,6 +538,10 @@
             <description>Was machst du sonst noch?</description>
         </hateQuestion>
         <appearances>
+            <appearance>
+                <episode>23</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
             <appearance>
                 <episode>22</episode>
                 <episodeTime>00:00:00</episodeTime>
