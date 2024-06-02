@@ -19,7 +19,7 @@ export function getEpisodeCardInfo(episode: Episode, allContent: AllContent): Ca
     const boestOf = allContent.boestOfs.find(boestOf => isEpisodeEqual(boestOf, episode));
     const episodeType = episode.episodeType != "full" ? ` (${episode.episodeType.charAt(0).toUpperCase() + episode.episodeType.slice(1)})` : '';
     return {
-        image: `images/episodes/${episodeIDToString(episode)}.jpg`,
+        image: `images/episodes/${episodeIDToString(episode)}.jpeg`,
         title: episode.name,
         subtitle: episode.subtitle,
         index: episodeIDToShortString(episode),
