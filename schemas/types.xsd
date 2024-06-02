@@ -34,6 +34,7 @@
                     <xs:element name="name" type="xs:string" />
                     <xs:element name="peter" type="RankingArray" />
                     <xs:element name="ilona" type="RankingArray" />
+                    <xs:element name="max" type="RankingArray" minOccurs="0" />
                 </xs:sequence>
             </xs:extension>
         </xs:complexContent>

@@ -29,6 +29,7 @@ interface BoestOf extends Timestamp {
     name: string,
     peter: string[],
     ilona: string[],
+    max?: string[],
 }
 
 interface Restaurant {

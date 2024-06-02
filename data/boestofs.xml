@@ -64,15 +64,6 @@
         <episode>22</episode>
         <episodeTime>1:01:48</episodeTime>
         <name>Weihnachtsbräuche</name>
-        <!-- 
-        <max>
-            <rank>Gemütlichkeit</rank>
-            <rank>Schenken (oder Schinken)</rank>
-            <rank>Weihnachtsmarkt</rank>
-            <rank>Nelken(geruch) in Mandarinen</rank>
-            <rank>Chrismas Time von Bryan Adams (Einläuten der Weihnachtszeit)</rank>
-        </max>
-        -->
         <peter>
             <rank>Familie</rank>
             <rank>Pfännekes</rank>
@@ -87,6 +78,13 @@
             <rank>Weihnachtsgerüche</rank>
             <rank>Weihnachtswichteln im tulus</rank>
         </ilona>
+        <max>
+            <rank>Gemütlichkeit</rank>
+            <rank>Schenken (oder Schinken)</rank>
+            <rank>Weihnachtsmarkt</rank>
+            <rank>Nelken(geruch) in Mandarinen</rank>
+            <rank>Chrismas Time von Bryan Adams (Einläuten der Weihnachtszeit)</rank>
+        </max>
     </boestof>
     <boestof>
         <episode>21</episode>
@@ -111,15 +109,6 @@
         <episode>20</episode>
         <episodeTime>2:16:23</episodeTime>
         <name>Bescheuerte Convenience-Produkte</name>
-        <!-- 
-        <max>
-            <rank>Stangenei</rank>
-            <rank>Knack und Back</rank>
-            <rank>Toasty</rank>
-            <rank>5 Minuten Terrine</rank>
-            <rank>Geschälte, vorgekochte Eier im Glas in Lake</rank>
-        </max>
-        -->
         <peter>
             <rank>Dosenbrot</rank>
             <rank>Stangenei</rank>
@@ -135,6 +124,13 @@
             <rank>Bastard-Pizza (Pizza mit etwas zusammen, was eigentlich geil ist, aber nicht auf Pizza passt)</rank>
             <rank>Dosenravioli</rank>
         </ilona>
+        <max>
+            <rank>Stangenei</rank>
+            <rank>Knack und Back</rank>
+            <rank>Toasty</rank>
+            <rank>5 Minuten Terrine</rank>
+            <rank>Geschälte, vorgekochte Eier im Glas in Lake</rank>
+        </max>
     </boestof>
     <boestof>
         <episode>19</episode>
@@ -178,13 +174,6 @@
         <episode>17</episode>
         <episodeTime>2:39:00</episodeTime>
         <name>Essen, was man als Kind hasste, mittlerweile aber mag.</name>
-        <!-- TODO: Max
-            <rank>Dill</rank 
-            <rank>Haribo (indirekt)</rank 
-            <rank>Blauschimmelkäse</rank 
-            <rank>Scharf</rank 
-            <rank>Fisch</rank 
-        -->
         <peter>
             <rank>Tomaten</rank>
             <rank>Spargel</rank>
@@ -199,18 +188,18 @@
             <rank>Mayonnaise (aves Sarmonellen)</rank>
             <rank>Pommes (avec Wespe)</rank>
         </ilona>
+        <max>
+            <rank>Dill</rank>
+            <rank>Haribo (indirekt)</rank> 
+            <rank>Blauschimmelkäse</rank>
+            <rank>Scharf</rank>
+            <rank>Fisch</rank>
+        </max>
     </boestof>
     <boestof>
         <episode>15</episode>
         <episodeTime>52:25</episodeTime>
         <name>Schlechte Foodtrends</name>
-        <!-- TODO: Max 
-            <rank>Vornamenpolitik</rank>
-            <rank>Fermentation (für die Haltbarkeit)</rank>
-            <rank>Perfekte Dinge anzupassen</rank>
-            <rank>Acai Drinks / Smoothies</rank>
-            <rank>Kuchenklassiker zum Dessert</rank>
-        -->
         <peter>
             <rank>Kumpir-Kartoffeln</rank>
             <rank>Voll belegte Donuts (hohes Essen)</rank>
@@ -225,6 +214,13 @@
             <rank>Matcha</rank>
             <rank>Bowl</rank>
         </ilona>
+        <max>
+            <rank>Vornamenpolitik</rank>
+            <rank>Fermentation (für die Haltbarkeit)</rank>
+            <rank>Perfekte Dinge anzupassen</rank>
+            <rank>Acai Drinks / Smoothies</rank>
+            <rank>Kuchenklassiker zum Dessert</rank>
+        </max>
     </boestof>
     <boestof>
         <episode>14</episode>

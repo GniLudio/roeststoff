@@ -57,6 +57,7 @@ export function parseBoestOf(element: Element): BoestOf {
         name: parseMandatory(parseString, element, 'name'),
         peter: parseMandatoryArray(parseString, element, 'peter', 'rank'),
         ilona: parseMandatoryArray(parseString, element, 'ilona', 'rank'),
+        max: parseOptionalArray(parseString, element, 'max', 'rank'),
     }
 }
 

@@ -133,11 +133,11 @@ function createCard(info: CardInfo): HTMLElement {
     const card = document.createElement('div');
     card.classList.add('col');
 
-    const cardImage = info.image && info.image != "" ? 
+    const cardImage = info.image && info.image != "" ?
         `<img src="${info.image}" class="img-top rounded-3 m-1" alt="${info.image}" alt="" onerror="console.log('Missing image ${info.image}');this.style.display='none'">` : '';
     const cardTitle = info.title && info.title != "" ? `<h5 class="card-title m-auto p-1">${info.title}</h5>` : ''
     const cardSubtitle = info.subtitle && info.subtitle != "" ? `<h6 class="card-subtitle m-auto p-1">${info.subtitle}</h5>` : '';
-    const cardIndex = info.index && info.index != '' ? 
+    const cardIndex = info.index && info.index != '' ?
         `<div class="position-absolute bottom-0 m-1 px-1 rounded-2 bg-secondary-subtle"><small>${info.index}</small></div>` : '';
     const additionalInfo = createAdditionalInfo(info);
 
@@ -168,10 +168,10 @@ function createAdditionalInfo(info: CardInfo): [button: string, modal: string] {
         </div>`;
     const content = Object.entries(info.additionalInfo.content).map(([header, item]) => {
         if (item == undefined || item == '') '';
-        else if (typeof(item) == 'object') return createAdditionalInfoListBlock(header, item);
+        else if (typeof (item) == 'object') return createAdditionalInfoListBlock(header, item);
         else return createAdditionalInfoBlock(header, item);
     }).join("");
-    
+
     const modal = `<div class="modal fade" id="${id}" tabindex="-1" aria-labelledby="${id}" aria-hidden="true">
         <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">
@@ -202,26 +202,31 @@ function createAdditionalInfoListBlock(header: string, content: string[]): strin
     if (content.length == 0) return '';
     content = content.map(item => `<li class="list-group-item bg-transparent">${item}</li>`);
     return createAdditionalInfoBlock(
-        header, 
+        header,
         `<ul class="list-group list-group-flush d-inline-block">${content.join("")}</ul>`
     );
 }
 
 function createBoestOfTable(boestOf: BoestOf): string {
-    let ranking: [ilona: string | undefined, peter: string | undefined][] = new Array(Math.max(boestOf.ilona.length, boestOf.peter.length));
-    ranking = ranking.fill(undefined!).map((_, i) => [boestOf.ilona[i], boestOf.peter[i]]);
+    let length = Math.max(boestOf.ilona.length, boestOf.peter.length, boestOf.max?.length ?? 0);
+    let ranking: string[][] = new Array(length).fill(undefined!);
+    for (let i = 0; i < length; i++) {
+        ranking[i] = [boestOf.ilona[i], boestOf.peter[i]];
+        if (boestOf.max) ranking[i].push(boestOf.max[i]);
+    }
+    console.log(boestOf.name, ranking);
     return `
         <table class="table table-hover w-auto mx-auto">
                 <thead>
                     <tr>
                         <th scope="col" class="bg-transparent">Ilona</th>
                         <th scope="col" class="bg-transparent">Peter</th>
+                        ${boestOf.max ? '<th scope="col" class="bg-transparent">Max</th>' : ''}
                     </tr>
                 </thead>
                 <tbody>
-                    ${ranking.map(([ilona, peter], i) => `<tr>
-                        <td class="bg-transparent">${ilona ?? "-"}</td>
-                        <td class="bg-transparent">${peter ?? "-"}</td>
+                    ${ranking.map((row) => `<tr>${row.map((col) => 
+                        `<td class="bg-transparent">${col ?? "-"}</td>`).join('')}
                     </tr>`).join("")}
                 </tbod>
         </table>
