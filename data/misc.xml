@@ -4,6 +4,13 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/misc.xsd">
     <entry>
+        <episode>26</episode>
+        <episodeTime>14:35</episodeTime>
+        <name>Intergastra</name>
+        <description>Innovative Gastromesse in Stuttgart.</description>
+        <image>images/misc/intergastra.svg</image>
+    </entry>
+    <entry>
         <episode>24</episode>
         <episodeTime>3:38:30</episodeTime>
         <name>The Bear: King of the Kitchen</name>

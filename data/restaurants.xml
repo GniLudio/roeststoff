@@ -312,7 +312,14 @@
         <name>CODA</name>
         <description>Fine Dining mit ausschließlich Desserts und Cocktails</description>
         <image>images/restaurants/coda_berlin.svg</image>
+        <team>
+            <member>René Frank</member>
+        </team>
         <appearances>
+            <appearance>
+                <episode>26</episode>
+                <episodeTime>1:58:25</episodeTime>
+            </appearance>
             <appearance>
                 <episode>9</episode>
                 <episodeTime>00:06:25</episodeTime>

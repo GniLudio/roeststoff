@@ -4,6 +4,46 @@
     xmlns="roeststoff" 
     xsi:schemaLocation="roeststoff ../schemas/drinks.xsd">
     <drink>
+        <name>? Sake</name>
+        <image></image>
+        <appearances>
+            <appearance>
+                <episode>26</episode>
+                <episodeTime>3:27:50</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
+        <name>Eden 2019 von Neverland Vineyards</name>
+        <image>images/drinks/drinks_26.jpeg</image>
+        <appearances>
+            <appearance>
+                <episode>26</episode>
+                <episodeTime>1:35:08</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
+        <name>Sancerre Silex 2022 von François le Saint</name>
+        <image>images/drinks/drinks_26.jpeg</image>
+        <appearances>
+            <appearance>
+                <episode>26</episode>
+                <episodeTime>1:27:30</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
+        <name>Le Ballon Sauvignon Blanc 2020</name>
+        <image>images/drinks/drinks_26.jpeg</image>
+        <appearances>
+            <appearance>
+                <episode>26</episode>
+                <episodeTime>1:18:30</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
         <name>Grüner Veltliner Black Edition 2018 von Weingut Ebner-Ebenauer</name>
         <image></image>
         <appearances>

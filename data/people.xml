@@ -4,6 +4,33 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/people.xsd">
     <person>
+        <name>René Frank</name>
+        <image>images/people/rene_frank.jpg</image>
+        <hateQuestion>
+            <episode>26</episode>
+            <episodeTime>3:37:30</episodeTime>
+            <description>Wie kommt man darauf ein Dessert-Restaurant zu eröffnen?</description>
+        </hateQuestion>
+        <appearances>
+            <appearance>
+                <episode>26</episode>
+                <episodeTime>1:57:55</episodeTime>
+            </appearance>
+        </appearances>
+        <characteristics>
+            <characteristic>
+                <episode>26</episode>
+                <episodeTime>1:57:55</episodeTime>
+                <description>Küchenchef und Miteigentümer des einzigen Dessert-Restaurant mit 2 Sternen</description>
+            </characteristic>
+            <characteristic>
+                <episode>26</episode>
+                <episodeTime>1:57:55</episodeTime>
+                <description>den besten Pâtissier der Welt</description>
+            </characteristic>
+        </characteristics>
+    </person>
+    <person>
         <name>Mathias Brandweiner</name>
         <image>images/people/mathias_brandweiner.jpg</image>
         <hateQuestion>
@@ -440,6 +467,10 @@
         </hateQuestion>
         <appearances>
             <appearance>
+                <episode>26</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
+            <appearance>
                 <episode>25</episode>
                 <episodeTime>00:00:00</episodeTime>
             </appearance>
@@ -595,6 +626,10 @@
             <description>Was machst du sonst noch?</description>
         </hateQuestion>
         <appearances>
+            <appearance>
+                <episode>26</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
             <appearance>
                 <episode>25</episode>
                 <episodeTime>00:00:00</episodeTime>

@@ -4,6 +4,25 @@
     xmlns="roeststoff" 
     xsi:schemaLocation="roeststoff ../schemas/boestofs.xsd">
     <boestof>
+        <episode>26</episode>
+        <episodeTime>45:50</episodeTime>
+        <name>Schlechte Dessert-Zutaten</name>
+        <peter>
+            <rank>Süßkartoffel und Kürbis</rank>
+            <rank>Marzipan</rank>
+            <rank>Oregano</rank>
+            <rank>Hackfleisch</rank>
+            <rank>Kaffee</rank>
+        </peter>
+        <ilona>
+            <rank>Fisch</rank>
+            <rank>Spargel</rank>
+            <rank>Schweineblut</rank>
+            <rank>Senf</rank>
+            <rank>Sojasauce</rank>
+        </ilona>
+    </boestof>
+    <boestof>
         <episode>25</episode>
         <episodeTime>31:28</episodeTime>
         <name>Wunsch-Gastrotrends 2024</name>

@@ -4,6 +4,18 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/glossary.xsd">
     <entry>
+        <episode>26</episode>
+        <episodeTime>3:31:33</episodeTime>
+        <name>Sake-Samurai</name>
+        <description>Auszeichnung für Sake-Experten.</description>
+    </entry>
+    <entry>
+        <episode>26</episode>
+        <episodeTime>30:35</episodeTime>
+        <name>blümerant</name>
+        <description>leichte Übelkeit</description>
+    </entry>
+    <entry>
         <episode>25</episode>
         <episodeTime>31:05</episodeTime>
         <name>Vegourmet</name>
