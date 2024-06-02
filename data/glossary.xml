@@ -4,6 +4,12 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/glossary.xsd">
     <entry>
+        <episode>25</episode>
+        <episodeTime>31:05</episodeTime>
+        <name>Vegourmet</name>
+        <description>Kombination des Veganers und des Gourmets. Also Menschen, die vegane Spitzenküche stehen.</description>
+    </entry>
+    <entry>
         <episode>24</episode>
         <episodeTime>2:09:55</episodeTime>
         <name>Maltodextrin</name>

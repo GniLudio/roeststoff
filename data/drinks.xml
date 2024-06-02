@@ -4,6 +4,56 @@
     xmlns="roeststoff" 
     xsi:schemaLocation="roeststoff ../schemas/drinks.xsd">
     <drink>
+        <name>Grüner Veltliner Black Edition 2018 von Weingut Ebner-Ebenauer</name>
+        <image></image>
+        <appearances>
+            <appearance>
+                <episode>25</episode>
+                <episodeTime>2:53:23</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
+        <name>Blanc des Millenairs 2007 von Charles Heidsieck</name>
+        <image></image>
+        <appearances>
+            <appearance>
+                <episode>25</episode>
+                <episodeTime>1:36:55</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
+        <name>Podere 414 2021 von Simone Castelli</name>
+        <image>images/drinks/drinks_25.jpeg</image>
+        <appearances>
+            <appearance>
+                <episode>25</episode>
+                <episodeTime>1:28:18</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
+        <name>Lugana 2021 von Capotesta</name>
+        <image>images/drinks/drinks_25.jpeg</image>
+        <appearances>
+            <appearance>
+                <episode>25</episode>
+                <episodeTime>1:20:35</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
+        <name>Lo Spettinato 2020 von Claudio Campanella</name>
+        <image>images/drinks/drinks_25.jpeg</image>
+        <appearances>
+            <appearance>
+                <episode>25</episode>
+                <episodeTime>1:10:15</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
         <name>Brunello di Montalcino vom Weingut Ridolfi</name>
         <image>images/drinks/drinks_24.jpeg</image>
         <appearances>

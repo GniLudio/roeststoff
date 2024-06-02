@@ -4,6 +4,25 @@
     xmlns="roeststoff" 
     xsi:schemaLocation="roeststoff ../schemas/boestofs.xsd">
     <boestof>
+        <episode>25</episode>
+        <episodeTime>31:28</episodeTime>
+        <name>Wunsch-Gastrotrends 2024</name>
+        <peter>
+            <rank>Wasser umsonst</rank>
+            <rank>Online-Reservierung von Tischen, Kartenzahlung und Tischzuweisung</rank>
+            <rank>In-vitro-Fleisch</rank>
+            <rank>Brutal Lokal und Local Exotics</rank>
+            <rank>Female Connoisseurs</rank>
+        </peter>
+        <ilona>
+            <rank>(gute) Restaurants für die Nacht</rank>
+            <rank>Arschlöcher, die Kellnern (als Erziehungsmaßnahme)</rank>
+            <rank>All-Female, Fastfood, Hip-Hop und Schaumweinkarte-Restaurant</rank>
+            <rank>Low- und No-Alkohol</rank>
+            <rank>Cosy Concepts</rank>
+        </ilona>
+    </boestof>
+    <boestof>
         <episode>24</episode>
         <episodeTime>18:50</episodeTime>
         <name>Restaurant-Abfucker</name>

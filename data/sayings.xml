@@ -4,6 +4,11 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/sayings.xsd">
     <saying>
+        <episode>25</episode>
+        <episodeTime>1:36:15</episodeTime>
+        <description>Wurzeln schlagen</description>
+    </saying>
+    <saying>
         <episode>24</episode>
         <episodeTime>2:45:29</episodeTime>
         <description>Das war schon immer so.</description>

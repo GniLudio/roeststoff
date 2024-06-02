@@ -4,6 +4,19 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/restaurants.xsd">
     <restaurant>
+        <name>Hafenküche</name>
+        <image>images/restaurants/hafenkueche.svg</image>
+        <team>
+            <member>Mathias Brandweiner</member>
+        </team>
+        <appearances>
+            <appearance>
+                <episode>25</episode>
+                <episodeTime>3:20:45</episodeTime>
+            </appearance>
+        </appearances>
+    </restaurant>
+    <restaurant>
         <name>Showroom</name>
         <image>images/restaurants/showroom.jpg</image>
         <team>
