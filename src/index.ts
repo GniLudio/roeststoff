@@ -44,26 +44,3 @@ cards.createCards('restaurants_content', restaurants, cards.getRestaurantCardInf
 cards.createCards('glossary_content', glossary, cards.getGlossaryEntryCardInfo, allContent);
 cards.createCards('sayings_content', sayings, cards.getSayingCardInfo, allContent);
 cards.createCards('misc_content', misc, cards.getMiscEntryCardInfo, allContent);
-
-// AUDIO CONTROLS
-let lastPlayed: HTMLMediaElement | null = null;
-let lastControlledTime: number = -1;
-const audio_elements = document.querySelectorAll("audio");
-for (const audio of audio_elements) {
-    audio.addEventListener('play', function(_) {
-        lastPlayed = audio;
-        lastControlledTime = Date.now();
-    });
-
-}
-document.addEventListener('keydown', function(e) {
-    if (e.key != 'Space' && e.key != ' ' && e.keyCode != 32) return;
-    if (!lastPlayed) return;
-    if (lastControlledTime + 100 >= Date.now()) return;
-    lastControlledTime = Date.now();
-    if (lastPlayed.paused) {
-        lastPlayed.play();
-    } else {
-        lastPlayed.pause();
-    }
-});
