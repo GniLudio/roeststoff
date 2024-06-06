@@ -341,16 +341,18 @@
         <episodeTime>48:20</episodeTime>
         <name>Gerichte, die Restaurants oft verhauen</name>
         <peter>
-            <rank>Kartoffeln</rank>
-            <rank>Lasagne</rank>
-            <rank>Frühstück</rank>
-            <rank><![CDATA[<small class="text-muted">Ranking von Max</small>]]></rank>
+            <rank>-</rank>
         </peter>
         <ilona>
             <rank>Trüffelpasta</rank>
             <rank>Calamari</rank>
             <rank>Steak</rank>
         </ilona>
+        <max>
+            <rank>Kartoffeln</rank>
+            <rank>Lasagne</rank>
+            <rank>Frühstück</rank>
+        </max>
     </boestof>
     <boestof>
         <episode>10</episode>
