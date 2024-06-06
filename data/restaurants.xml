@@ -4,6 +4,19 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/restaurants.xsd">
     <restaurant>
+        <name>Brikz</name>
+        <image>images/restaurants/brikz.jpg</image>
+        <team>
+            <member>Arne Anker</member>
+        </team>
+        <appearances>
+            <appearance>
+                <episode>27</episode>
+                <episodeTime>1:23:00</episodeTime>
+            </appearance>
+        </appearances>
+    </restaurant>
+    <restaurant>
         <name>Hafenküche</name>
         <image>images/restaurants/hafenkueche.svg</image>
         <team>

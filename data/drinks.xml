@@ -4,6 +4,36 @@
     xmlns="roeststoff" 
     xsi:schemaLocation="roeststoff ../schemas/drinks.xsd">
     <drink>
+        <name>Artemis Cabernet Sauvignon 2019</name>
+        <image></image>
+        <appearances>
+            <appearance>
+                <episode>27</episode>
+                <episodeTime>22:15</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
+        <name>? Cabernet Sauvignon aus Chile</name>
+        <image></image>
+        <appearances>
+            <appearance>
+                <episode>27</episode>
+                <episodeTime>7:30</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
+        <name>? Sauvignon Blanc aus Südafrika</name>
+        <image></image>
+        <appearances>
+            <appearance>
+                <episode>27</episode>
+                <episodeTime>5:06</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
         <name>? Sake</name>
         <image></image>
         <appearances>

@@ -4,6 +4,28 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/people.xsd">
     <person>
+        <name>Arne Anker</name>
+        <image>images/people/arne_anker.jpg</image>
+        <hateQuestion>
+            <episode>27</episode>
+            <episodeTime>3:09:45</episodeTime>
+            <description>Was ist dein Lieblingsrezept auf der Karte?</description>
+        </hateQuestion>
+        <appearances>
+            <appearance>
+                <episode>27</episode>
+                <episodeTime>1:22:40</episodeTime>
+            </appearance>
+        </appearances>
+        <characteristics>
+            <characteristic>
+                <episode>27</episode>
+                <episodeTime>1:22:40</episodeTime>
+                <description>hat Restaurant Brikz</description>
+            </characteristic>
+        </characteristics>
+    </person>
+    <person>
         <name>René Frank</name>
         <image>images/people/rene_frank.jpg</image>
         <hateQuestion>

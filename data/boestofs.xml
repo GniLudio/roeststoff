@@ -4,6 +4,25 @@
     xmlns="roeststoff" 
     xsi:schemaLocation="roeststoff ../schemas/boestofs.xsd">
     <boestof>
+        <episode>27</episode>
+        <episodeTime>46:04</episodeTime>
+        <name>Deutsche Speisen</name>
+        <peter>
+            <rank>Frühstücksei</rank>
+            <rank>Haxe (mit Kartoffeln und Sauerkraut)</rank>
+            <rank>Roulade</rank>
+            <rank>Spargel</rank>
+            <rank>Himmel und Erde</rank>
+        </peter>
+        <ilona>
+            <rank>Döner</rank>
+            <rank>Rote Grütze und Vanillesauce</rank>
+            <rank>Himmel und Erde</rank>
+            <rank>Scholle Büsumer Art</rank>
+            <rank>Zwiebelrostbraten</rank>
+        </ilona>
+    </boestof>
+    <boestof>
         <episode>26</episode>
         <episodeTime>45:50</episodeTime>
         <name>Schlechte Dessert-Zutaten</name>
