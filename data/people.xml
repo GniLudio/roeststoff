@@ -4,6 +4,28 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/people.xsd">
     <person>
+        <name>Michael Köhle</name>
+        <image>images/people/michael-koehle.jpg</image>
+        <hateQuestion>
+            <episode>28</episode>
+            <episodeTime>4:00:12</episodeTime>
+            <description>Was macht für Sie ein Spitzenwein aus? / Was ist Ihr Lieblingswein?</description>
+        </hateQuestion>
+        <appearances>
+            <appearance>
+                <episode>28</episode>
+                <episodeTime>1:31:00</episodeTime>
+            </appearance>
+        </appearances>
+        <characteristics>
+            <characteristic>
+                <episode>28</episode>
+                <episodeTime>1:38:30</episodeTime>
+                <description>betreibt Tante Fichte</description>
+            </characteristic>
+        </characteristics>
+    </person>
+    <person>
         <name>Arne Anker</name>
         <image>images/people/arne_anker.jpg</image>
         <hateQuestion>
@@ -489,6 +511,10 @@
         </hateQuestion>
         <appearances>
             <appearance>
+                <episode>28</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
+            <appearance>
                 <episode>27</episode>
                 <episodeTime>00:00:00</episodeTime>
             </appearance>
@@ -652,6 +678,10 @@
             <description>Was machst du sonst noch?</description>
         </hateQuestion>
         <appearances>
+            <appearance>
+                <episode>28</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
             <appearance>
                 <episode>27</episode>
                 <episodeTime>00:00:00</episodeTime>

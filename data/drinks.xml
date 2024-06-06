@@ -4,6 +4,46 @@
     xmlns="roeststoff" 
     xsi:schemaLocation="roeststoff ../schemas/drinks.xsd">
     <drink>
+        <name>Nonnenhorner Seehalde Chardonnay vom Weingut Kurek</name>
+        <image>images/drinks/drinks_28.jpeg</image>
+        <appearances>
+            <appearance>
+                <episode>28</episode>
+                <episodeTime>2:34:55</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
+        <name>? Schaumwein vom Weingut Aufricht</name>
+        <image></image>
+        <appearances>
+            <appearance>
+                <episode>28</episode>
+                <episodeTime>1:52:57</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
+        <name>Caus Lubis 2004</name>
+        <image>images/drinks/drinks_28.jpeg</image>
+        <appearances>
+            <appearance>
+                <episode>28</episode>
+                <episodeTime>1:17:16</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
+        <name>Merlot 2019 trocken Hainfelder Kapelle</name>
+        <image>images/drinks/drinks_28.jpeg</image>
+        <appearances>
+            <appearance>
+                <episode>28</episode>
+                <episodeTime>1:17:16</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
         <name>Artemis Cabernet Sauvignon 2019</name>
         <image></image>
         <appearances>

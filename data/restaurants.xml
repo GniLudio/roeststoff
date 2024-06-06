@@ -4,6 +4,39 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/restaurants.xsd">
     <restaurant>
+        <name>Bareiss</name>
+        <image>images/restaurants/bareiss.webp</image>
+        <appearances>
+            <appearance>
+                <episode>28</episode>
+                <episodeTime>2:51:48</episodeTime>
+            </appearance>
+        </appearances>
+    </restaurant>
+    <restaurant>
+        <name>Tante Fichte</name>
+        <image>images/restaurants/tante_fichte.png</image>
+        <team>
+            <member>Michael Köhle</member>
+        </team>
+        <appearances>
+            <appearance>
+                <episode>28</episode>
+                <episodeTime>1:38:30</episodeTime>
+            </appearance>
+        </appearances>
+    </restaurant>
+    <restaurant>
+        <name>DAR</name>
+        <image>images/restaurants/dar.png</image>
+        <appearances>
+            <appearance>
+                <episode>28</episode>
+                <episodeTime>1:13:36</episodeTime>
+            </appearance>
+        </appearances>
+    </restaurant>
+    <restaurant>
         <name>Brikz</name>
         <image>images/restaurants/brikz.jpg</image>
         <team>

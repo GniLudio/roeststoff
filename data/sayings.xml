@@ -4,6 +4,36 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/sayings.xsd">
     <saying>
+        <episode>28</episode>
+        <episodeTime>2:25:00</episodeTime>
+        <description>Wenn's dir schwarz vor Augen wird, biste eingeschlafen.</description>
+    </saying>
+    <saying>
+        <episode>28</episode>
+        <episodeTime>2:24:45</episodeTime>
+        <description>Wo kein Schnell liegt kannste rennen.</description>
+    </saying>
+    <saying>
+        <episode>28</episode>
+        <episodeTime>2:24:19</episodeTime>
+        <description>Wer dicht macht muss dicht halten.</description>
+    </saying>
+    <saying>
+        <episode>28</episode>
+        <episodeTime>2:20:42</episodeTime>
+        <description>Man siehts nur wenn man hinschaut.</description>
+    </saying>
+    <saying>
+        <episode>28</episode>
+        <episodeTime>2:17:57</episodeTime>
+        <description>Qualität kommt von quälen.</description>
+    </saying>
+    <saying>
+        <episode>28</episode>
+        <episodeTime>3:58</episodeTime>
+        <description>Die Guten ins Töpfchen, die Schlechten ins Kröpfchen.</description>
+    </saying>
+    <saying>
         <episode>27</episode>
         <episodeTime>1:40:55</episodeTime>
         <description>Das Glas ist halb voll.</description>
