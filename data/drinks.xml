@@ -4,6 +4,26 @@
     xmlns="roeststoff" 
     xsi:schemaLocation="roeststoff ../schemas/drinks.xsd">
     <drink>
+        <name>Nuala von Muri</name>
+        <image>images/drinks/drinks_29.jpeg</image>
+        <appearances>
+            <appearance>
+                <episode>29</episode>
+                <episodeTime>2:21:00</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
+        <name>Yamilé von Muri</name>
+        <image>images/drinks/drinks_29.jpeg</image>
+        <appearances>
+            <appearance>
+                <episode>29</episode>
+                <episodeTime>1:54:05</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
         <name>Nonnenhorner Seehalde Chardonnay vom Weingut Kurek</name>
         <image>images/drinks/drinks_28.jpeg</image>
         <appearances>

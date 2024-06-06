@@ -4,6 +4,13 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/misc.xsd">
     <entry>
+        <episode>29</episode>
+        <episodeTime>25:03</episodeTime>
+        <name>Epic Rap Battles of History</name>
+        <description>Ein Youtube-Kanal bei denen historische und fiktive Personen in Rap-Battles gegeneinander antreten.</description>
+        <image>images/misc/epic_rap_battles_of_history.jpg</image>
+    </entry>
+    <entry>
         <episode>27</episode>
         <episodeTime>2:35:10</episodeTime>
         <name>Sergio Herman, Fucking Perfect</name>

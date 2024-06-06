@@ -4,6 +4,25 @@
     xmlns="roeststoff" 
     xsi:schemaLocation="roeststoff ../schemas/boestofs.xsd">
     <boestof>
+        <episode>29</episode>
+        <episodeTime>1:06:20</episodeTime>
+        <name>Lebensmittel, die die Hölle zuzubereiten sind</name>
+        <peter>
+            <rank>Hummer</rank>
+            <rank>Artischocke</rank>
+            <rank>Granatapfel</rank>
+            <rank>Teig</rank>
+            <rank>Kugelfisch</rank>
+        </peter>
+        <ilona>
+            <rank>Schwarzwurzel</rank>
+            <rank>Ziwebeln und Chili</rank>
+            <rank>Hummer</rank>
+            <rank>Milch und Sahne</rank>
+            <rank>Kürbis</rank>
+        </ilona>
+    </boestof>
+    <boestof>
         <episode>27</episode>
         <episodeTime>46:04</episodeTime>
         <name>Deutsche Speisen</name>

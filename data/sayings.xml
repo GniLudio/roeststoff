@@ -4,6 +4,11 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/sayings.xsd">
     <saying>
+        <episode>29</episode>
+        <episodeTime>0:40</episodeTime>
+        <description>Trinkt der Bauer morgens Rum, werden alle Furchen krumm. Bier anscheinend, egal in welchen Mengen, voll in Ordnung als Agrarökonom.</description>
+    </saying>
+    <saying>
         <episode>28</episode>
         <episodeTime>2:25:00</episodeTime>
         <description>Wenn's dir schwarz vor Augen wird, biste eingeschlafen.</description>

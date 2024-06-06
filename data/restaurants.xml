@@ -4,6 +4,37 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/restaurants.xsd">
     <restaurant>
+        <name>Neptune</name>
+        <description>Restaurant im All</description>
+        <image></image>
+        <appearances>
+            <appearance>
+                <episode>29</episode>
+                <episodeTime>33:48</episodeTime>
+            </appearance>
+        </appearances>
+    </restaurant>
+    <restaurant>
+        <name>Zum heiligen Teufel</name>
+        <image>images/restaurants/zum_heiligen_teufel.png</image>
+        <appearances>
+            <appearance>
+                <episode>29</episode>
+                <episodeTime>30:55</episodeTime>
+            </appearance>
+        </appearances>
+    </restaurant>
+    <restaurant>
+        <name>Lohninger</name>
+        <image>images/restaurants/lohninger.png</image>
+        <appearances>
+            <appearance>
+                <episode>29</episode>
+                <episodeTime>14:05</episodeTime>
+            </appearance>
+        </appearances>
+    </restaurant>
+    <restaurant>
         <name>Bareiss</name>
         <image>images/restaurants/bareiss.webp</image>
         <appearances>
