@@ -4,6 +4,31 @@
     xmlns="roeststoff" 
     xsi:schemaLocation="roeststoff ../schemas/boestofs.xsd">
     <boestof>
+        <episode>32</episode>
+        <episodeTime>1:05:02</episodeTime>
+        <name>Sprichwörter</name>
+        <peter>
+            <rank>Die beleidigte Leberwurst.</rank>
+            <rank>Honig ums Maul schmieren.</rank>
+            <rank>In der Not frisst der Teufel Fliegen.</rank>
+            <rank>Du gehst mir auf den Keks.</rank>
+            <rank>Viele Köche verderben den Brei.</rank>
+            <rank><![CDATA[<s>Der Fisch stinkt vom Kopf her.</s>]]></rank>
+            <rank><![CDATA[<s>Lieber den Spatz in der Hand, als die Taube auf dem Dach.</s>]]></rank>
+            <rank><![CDATA[<s>Die dümmsten Bauern haben die dicksten Kartoffeln.</s>]]></rank>
+        </peter>
+        <ilona>
+            <rank>Alles in Butter.</rank>
+            <rank>Du bist dumm wie Brot.</rank>
+            <rank>Ich bin nicht auf der Brotsuppe dahergeschwommen. (orginal mit Brennsuppe) </rank>
+            <rank>Hör auf Süßholz zu raspeln.</rank>
+            <rank>Bei dir ist Hopfen und Malz verlohren.</rank>
+            <rank><![CDATA[<s>Ich habe ein Hühnchen mit dir zu rupfen.</s>]]></rank>
+            <rank><![CDATA[<s>Don't shit where you eat.</s>]]></rank>
+            <rank><![CDATA[<s>Das macht den Kohl jetzt auch nicht fett.</s>]]></rank>
+        </ilona>
+    </boestof>
+    <boestof>
         <episode>31</episode>
         <episodeTime>47:02</episodeTime>
         <name>Food-Nationen</name>

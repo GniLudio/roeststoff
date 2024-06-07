@@ -4,6 +4,11 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/sayings.xsd">
     <saying>
+        <episode>32</episode>
+        <episodeTime>0:35</episodeTime>
+        <description>Je mehr Käse, desto mehr Löcher. Je mehr Löcher, desto weniger Käse. Also je mehr Käse, desto weniger Käse.</description>
+    </saying>
+    <saying>
         <episode>31</episode>
         <episodeTime>3:08:50</episodeTime>
         <description>Mann kann alles bestellen. Mal mehr, mal weniger.</description>

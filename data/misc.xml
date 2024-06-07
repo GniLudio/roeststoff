@@ -4,6 +4,13 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/misc.xsd">
     <entry>
+        <episode>32</episode>
+        <episodeTime>12:10</episodeTime>
+        <name>Die Geheimnisse unserer Lieblingsgerichte</name>
+        <description>Serie auf SAT.1 mit Max Strohe.</description>
+        <image>images/misc/die_geheimnisse_unserer_lieblingsgerichte.avif</image>
+    </entry>
+    <entry>
         <episode>31</episode>
         <episodeTime>3:13:00</episodeTime>
         <name>Der Trost der Flipper</name>

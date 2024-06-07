@@ -4,6 +4,36 @@
     xmlns="roeststoff" 
     xsi:schemaLocation="roeststoff ../schemas/drinks.xsd">
     <drink>
+        <name>Silvaner Alte Reben Réserve 2017 von Neverland Vineyards</name>
+        <image></image>
+        <appearances>
+            <appearance>
+                <episode>32</episode>
+                <episodeTime>56:03</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
+        <name>? Grand Cru 2021 vom Weingut Horst Sauer</name>
+        <image></image>
+        <appearances>
+            <appearance>
+                <episode>32</episode>
+                <episodeTime>51:58</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
+        <name>? Silvaner 2022 vom Weingut VDP aus Saale-Unstrut</name>
+        <image></image>
+        <appearances>
+            <appearance>
+                <episode>32</episode>
+                <episodeTime>45:30</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
         <name>Dornfelder 2019 vom Weingut Kastanienberg</name>
         <image></image>
         <appearances>

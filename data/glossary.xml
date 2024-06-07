@@ -4,6 +4,18 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/glossary.xsd">
     <entry>
+        <episode>32</episode>
+        <episodeTime>53:35</episodeTime>
+        <name>Oechslegrad</name>
+        <description>Maßeinheit für das Most-Gewicht. Beschreibt die Zuckerkonzentration der Traube.</description>
+    </entry>
+    <entry>
+        <episode>32</episode>
+        <episodeTime>51:48</episodeTime>
+        <name>Grand Cru</name>
+        <description>Ein großes Gewächs.</description>
+    </entry>
+    <entry>
         <episode>30</episode>
         <episodeTime>2:16:02</episodeTime>
         <name>Chimney Effect / Kamineffekt</name>
