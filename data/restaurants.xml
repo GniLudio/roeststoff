@@ -4,6 +4,16 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/restaurants.xsd">
     <restaurant>
+        <name>Smitty's Market</name>
+        <image>images/restaurants/smittys_market.jpg</image>
+        <appearances>
+            <appearance>
+                <episode>30</episode>
+                <episodeTime>2:13:35</episodeTime>
+            </appearance>
+        </appearances>
+    </restaurant>
+    <restaurant>
         <name>Neptune</name>
         <description>Restaurant im All</description>
         <image></image>
@@ -559,6 +569,10 @@
             <member>Felix Fuchs</member>
         </team>
         <appearances>
+            <appearance>
+                <episode>30</episode>
+                <episodeTime>2:48:28</episodeTime>
+            </appearance>
             <appearance>
                 <episode>15</episode>
                 <episodeTime>2:09:00</episodeTime>

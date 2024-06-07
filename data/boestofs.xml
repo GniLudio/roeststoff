@@ -4,6 +4,25 @@
     xmlns="roeststoff" 
     xsi:schemaLocation="roeststoff ../schemas/boestofs.xsd">
     <boestof>
+        <episode>30</episode>
+        <episodeTime>1:14:30</episodeTime>
+        <name>Reisesnacks</name>
+        <peter>
+            <rank>Burger bei McDonalds</rank>
+            <rank>Stulle mit Apfelschnitze und Gemüse</rank>
+            <rank>Geflügelrollen</rank>
+            <rank>Einfaches vom Backwerk (z.B. Brötchen mit Scheibe Gouda)</rank>
+            <rank>Bier</rank>
+        </peter>
+        <ilona>
+            <rank>Kalte Pizza</rank>
+            <rank>Exquisa Käsekuchen, Bifi oder Landjäger (für Fahrer)</rank>
+            <rank>Blätterteig von Le Crobag</rank>
+            <rank>Stulle und Apfelschnitze</rank>
+            <rank>? (Vernunftfood / Marathonfood)</rank>
+        </ilona>
+    </boestof>
+    <boestof>
         <episode>29</episode>
         <episodeTime>1:06:20</episodeTime>
         <name>Lebensmittel, die die Hölle zuzubereiten sind</name>

@@ -4,6 +4,12 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/glossary.xsd">
     <entry>
+        <episode>30</episode>
+        <episodeTime>2:16:02</episodeTime>
+        <name>Chimney Effect / Kamineffekt</name>
+        <description>Beschreibt den Luftstrum, der durch die warme aufsteigende und kalte nachströmende Luft bei Feuer in einem Kamin (oder ähnliches) entsteht.</description>
+    </entry>
+    <entry>
         <episode>26</episode>
         <episodeTime>3:31:33</episodeTime>
         <name>Sake-Samurai</name>

@@ -4,6 +4,26 @@
     xmlns="roeststoff" 
     xsi:schemaLocation="roeststoff ../schemas/drinks.xsd">
     <drink>
+        <name>Dornfelder 2019 vom Weingut Kastanienberg</name>
+        <image></image>
+        <appearances>
+            <appearance>
+                <episode>30</episode>
+                <episodeTime>55:50</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
+        <name>? vom Weingut Wagner</name>
+        <image></image>
+        <appearances>
+            <appearance>
+                <episode>30</episode>
+                <episodeTime>46:24</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
         <name>Nuala von Muri</name>
         <image>images/drinks/drinks_29.jpeg</image>
         <appearances>

@@ -4,6 +4,16 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/sayings.xsd">
     <saying>
+        <episode>30</episode>
+        <episodeTime>2:39:57</episodeTime>
+        <description><![CDATA[Was ist das stärkste Tier der Welt?<br>Die Schnecke, die trägt ihr eigenes Haus.]]></description>
+    </saying>
+    <saying>
+        <episode>30</episode>
+        <episodeTime>59:08</episodeTime>
+        <description>Das Auge isst mit.  (und trinkt)</description>
+    </saying>
+    <saying>
         <episode>29</episode>
         <episodeTime>0:40</episodeTime>
         <description>Trinkt der Bauer morgens Rum, werden alle Furchen krumm. Bier anscheinend, egal in welchen Mengen, voll in Ordnung als Agrarökonom.</description>
