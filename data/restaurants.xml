@@ -215,6 +215,10 @@
         <image>images/restaurants/la_societe.png</image>
         <appearances>
             <appearance>
+                <episode>31</episode>
+                <episodeTime>1:42:03</episodeTime>
+            </appearance>
+            <appearance>
                 <episode>18</episode>
                 <episodeTime>19:24</episodeTime>
             </appearance>
@@ -547,6 +551,10 @@
         <name>MS Marone</name>
         <image>images/restaurants/ms_marone.png</image>
         <appearances>
+            <appearance>
+                <episode>31</episode>
+                <episodeTime>2:01:15</episodeTime>
+            </appearance>
             <appearance>
                 <episode>1</episode>
                 <episodeTime>1:17:18</episodeTime>

@@ -4,6 +4,25 @@
     xmlns="roeststoff" 
     xsi:schemaLocation="roeststoff ../schemas/boestofs.xsd">
     <boestof>
+        <episode>31</episode>
+        <episodeTime>47:02</episodeTime>
+        <name>Food-Nationen</name>
+        <peter>
+            <rank>Italien</rank>
+            <rank>Frankreich</rank>
+            <rank>Deutschland</rank>
+            <rank>Spanien</rank>
+            <rank>Holland</rank>
+        </peter>
+        <ilona>
+            <rank>Frankreich</rank>
+            <rank>Levante</rank>
+            <rank>Italien</rank>
+            <rank>Japan</rank>
+            <rank>Österreich</rank>
+        </ilona>
+    </boestof>
+    <boestof>
         <episode>30</episode>
         <episodeTime>1:14:30</episodeTime>
         <name>Reisesnacks</name>

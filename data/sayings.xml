@@ -4,6 +4,21 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/sayings.xsd">
     <saying>
+        <episode>31</episode>
+        <episodeTime>3:08:50</episodeTime>
+        <description>Mann kann alles bestellen. Mal mehr, mal weniger.</description>
+    </saying>
+    <saying>
+        <episode>31</episode>
+        <episodeTime>20:20</episodeTime>
+        <description>Die Klage ist des Kaufmanns Gruß.</description>
+    </saying>
+    <saying>
+        <episode>31</episode>
+        <episodeTime>4:40</episodeTime>
+        <description>Den Fisch in die Pfanne hauen.</description>
+    </saying>
+    <saying>
         <episode>30</episode>
         <episodeTime>2:39:57</episodeTime>
         <description><![CDATA[Was ist das stärkste Tier der Welt?<br>Die Schnecke, die trägt ihr eigenes Haus.]]></description>
@@ -132,6 +147,10 @@
         <episode>17</episode>
         <episodeTime>3:13:42</episodeTime>
         <description>Hart am Dill.</description>
+        <!-- 
+        <episode>31</episode>
+        <episodeTime>3:02:50</episodeTime>
+        -->
     </saying>
     <saying>
         <episode>17</episode>

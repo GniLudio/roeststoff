@@ -470,6 +470,10 @@
         </hateQuestion>
         <appearances>
             <appearance>
+                <episode>31</episode>
+                <episodeTime>1:40:15</episodeTime>
+            </appearance>
+            <appearance>
                 <episode>30</episode>
                 <episodeTime>1:40:00</episodeTime>
             </appearance>
@@ -541,6 +545,10 @@
             <description>Und damit kann man Geld verdienen?</description>
         </hateQuestion>
         <appearances>
+            <appearance>
+                <episode>31</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
             <appearance>
                 <episode>30</episode>
                 <episodeTime>00:00:00</episodeTime>
@@ -717,6 +725,10 @@
             <description>Was machst du sonst noch?</description>
         </hateQuestion>
         <appearances>
+            <appearance>
+                <episode>31</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
             <appearance>
                 <episode>30</episode>
                 <episodeTime>00:00:00</episodeTime>

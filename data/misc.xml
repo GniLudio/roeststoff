@@ -4,6 +4,27 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/misc.xsd">
     <entry>
+        <episode>31</episode>
+        <episodeTime>3:13:00</episodeTime>
+        <name>Der Trost der Flipper</name>
+        <description>Buch von Andreas Bernhard.</description>
+        <image>images/misc/der_trost_der_flipper.webp</image>
+    </entry>
+    <entry>
+        <episode>31</episode>
+        <episodeTime>2:16:18</episodeTime>
+        <name>Von Studentenbude bis Sterneküche </name>
+        <description>Kochbuch von PietSmiet in Zusammenarbeit mit Sternekoch Dominik Käppler.</description>
+        <image>images/misc/pietsmiet_buch.webp</image>
+    </entry>
+    <entry>
+        <episode>31</episode>
+        <episodeTime>10:15</episodeTime>
+        <name>Hamilton</name>
+        <description>Musical über Alexander Hamilton, einer der Gründervater der USA.</description>
+        <image>images/misc/hamilton.jpg</image>
+    </entry>
+    <entry>
         <episode>29</episode>
         <episodeTime>25:03</episodeTime>
         <name>Epic Rap Battles of History</name>
