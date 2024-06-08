@@ -4,6 +4,43 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/restaurants.xsd">
     <restaurant>
+        <name>El Califa de León</name>
+        <image>images/restaurants/el_califa_de_leon.jpg</image>
+        <appearances>
+            <appearance>
+                <episode>34</episode>
+                <episodeTime>1:37:05</episodeTime>
+            </appearance>
+        </appearances>
+    </restaurant>
+    <restaurant>
+        <name>Big Window</name>
+        <image>images/restaurants/big_window.png</image>
+        <appearances>
+            <appearance>
+                <episode>34</episode>
+                <episodeTime>1:19:35</episodeTime>
+            </appearance>
+        </appearances>
+    </restaurant>
+    <restaurant>
+        <name>Rubens</name>
+        <image>images/restaurants/rubens.png</image>
+        <appearances>
+            <appearance>
+                <episode>34</episode>
+                <episodeTime>34:25</episodeTime>
+            </appearance>
+        </appearances>
+        <characteristics>
+            <characteristic>
+                <episode>34</episode>
+                <episodeTime>36:02</episodeTime>
+                <description>Lieblingsrestaurant von Christian Stachelhaus (laut Peter Smits)</description>
+            </characteristic>
+        </characteristics>
+    </restaurant>
+    <restaurant>
         <name>Smitty's Market</name>
         <image>images/restaurants/smittys_market.jpg</image>
         <appearances>

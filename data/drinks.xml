@@ -4,6 +4,36 @@
     xmlns="roeststoff" 
     xsi:schemaLocation="roeststoff ../schemas/drinks.xsd">
     <drink>
+        <name>Grauburgunder trocken „Orangewein´´ von Max Jäck</name>
+        <image></image>
+        <appearances>
+            <appearance>
+                <episode>34</episode>
+                <episodeTime>57:25</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
+        <name>? Orange Wein von UBF</name>
+        <image></image>
+        <appearances>
+            <appearance>
+                <episode>34</episode>
+                <episodeTime>50:55</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
+        <name>Pfalz Grauer Burgunder vom Weingut Bossert</name>
+        <image></image>
+        <appearances>
+            <appearance>
+                <episode>34</episode>
+                <episodeTime>42:55</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
         <name>Silvaner Alte Reben Réserve 2017 von Neverland Vineyards</name>
         <image></image>
         <appearances>

@@ -3,7 +3,35 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/misc.xsd">
-        <entry>
+    <entry>
+        <episode>34</episode>
+        <episodeTime>1:08:28</episodeTime>
+        <name>50 Best List</name>
+        <description></description>
+        <image>images/misc/50_best.jpg</image>
+    </entry>
+    <entry>
+        <episode>34</episode>
+        <episodeTime>13:05</episodeTime>
+        <name>re:publica</name>
+        <description>Festival für die digitale Gesellschaft.</description>
+        <image>images/misc/republica.ico</image>
+    </entry>
+    <entry>
+        <episode>34</episode>
+        <episodeTime>5:15</episodeTime>
+        <name>Butter Burger</name>
+        <description><![CDATA[<p>Max Strohe geht mit einem Butter Burger auf Tour.</p> <p><a href="https://www.instagram.com/butterburgerkitchen/">@butterburgerkitchen</a></p>]]></description>
+        <image>images/misc/butter_burger.jpg</image>
+    </entry>
+    <entry>
+        <episode>34</episode>
+        <episodeTime>1:54</episodeTime>
+        <name><![CDATA[<a href="https://www.ardaudiothek.de/episode/was-die-woche-wichtig-war-der-funk-podcast/sonderfolge-was-ihr-fuer-die-europawahlen-wissen-muesst/funk/13437153/">Sonderfolge: Was ihr für die Europawahlen wissen müsst</a>]]></name>
+        <description><![CDATA[Der Podcast <em>Was die Woche wichtig war</em> erläutert die Fragen der Europawahl. Empfohlen von Ilona. ]]> </description>
+        <image>images/misc/was_die_woche_wichtig_war.png</image>
+    </entry>
+    <entry>
         <episode>33</episode>
         <episodeTime>1:53:23</episodeTime>
         <name>Belper Knolle</name>

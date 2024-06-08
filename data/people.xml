@@ -492,6 +492,10 @@
         </hateQuestion>
         <appearances>
             <appearance>
+                <episode>34</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
+            <appearance>
                 <episode>31</episode>
                 <episodeTime>1:40:15</episodeTime>
             </appearance>
@@ -567,6 +571,10 @@
             <description>Und damit kann man Geld verdienen?</description>
         </hateQuestion>
         <appearances>
+            <appearance>
+                <episode>34</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
             <appearance>
                 <episode>33</episode>
                 <episodeTime>00:00:00</episodeTime>
@@ -703,6 +711,11 @@
         </appearances>
         <characteristics>
             <characteristic>
+                <episode>34</episode>
+                <episodeTime>17:45</episodeTime>
+                <description>Preis: Goldener Blogger für Food</description>
+            </characteristic>
+            <characteristic>
                 <episode>15</episode>
                 <episodeTime>13:59</episodeTime>
                 <description>mag kein Gin</description>
@@ -755,6 +768,10 @@
             <description>Was machst du sonst noch?</description>
         </hateQuestion>
         <appearances>
+            <appearance>
+                <episode>34</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
             <appearance>
                 <episode>33</episode>
                 <episodeTime>00:00:00</episodeTime>
@@ -890,6 +907,11 @@
             </appearance>
         </appearances>
         <characteristics>
+            <characteristic>
+                <episode>34</episode>
+                <episodeTime>17:45</episodeTime>
+                <description>Preis: Goldener Blogger für Food</description>
+            </characteristic>
             <characteristic>
                 <episode>2</episode>
                 <episodeTime>1:30:00</episodeTime>
