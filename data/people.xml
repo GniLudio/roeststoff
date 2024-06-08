@@ -4,6 +4,48 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/people.xsd">
     <person>
+        <name>Kristiane Kegelmann</name>
+        <image>images/people/kristiane_kegelmann.webp</image>
+        <hateQuestion>
+            <episode>35</episode>
+            <episodeTime>2:01:40</episodeTime>
+            <description>Fragen, die auf der essbaren Kunst rumreiten und sich nicht für das dahinter interessieren.</description>
+        </hateQuestion>
+        <appearances>
+            <appearance>
+                <episode>35</episode>
+                <episodeTime>4:38</episodeTime>
+            </appearance>
+        </appearances>
+        <characteristics>
+            <characteristic>
+                <episode>35</episode>
+                <episodeTime>4:44</episodeTime>
+                <description>Konditormeisterin</description>
+            </characteristic>
+            <characteristic>
+                <episode>35</episode>
+                <episodeTime>4:44</episodeTime>
+                <description>Gastgeberin</description>
+            </characteristic>
+            <characteristic>
+                <episode>35</episode>
+                <episodeTime>4:44</episodeTime>
+                <description>Restaurantinhaberin</description>
+            </characteristic>
+            <characteristic>
+                <episode>35</episode>
+                <episodeTime>4:44</episodeTime>
+                <description>Künstlerin</description>
+            </characteristic>
+            <characteristic>
+                <episode>35</episode>
+                <episodeTime>4:44</episodeTime>
+                <description>Patissière</description>
+            </characteristic>
+        </characteristics>
+    </person>
+    <person>
         <name>Matthias Becker</name>
         <image>images/people/matthias_becker.jpg</image>
         <hateQuestion>
@@ -572,6 +614,10 @@
         </hateQuestion>
         <appearances>
             <appearance>
+                <episode>35</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
+            <appearance>
                 <episode>34</episode>
                 <episodeTime>00:00:00</episodeTime>
             </appearance>
@@ -768,6 +814,10 @@
             <description>Was machst du sonst noch?</description>
         </hateQuestion>
         <appearances>
+            <appearance>
+                <episode>35</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
             <appearance>
                 <episode>34</episode>
                 <episodeTime>00:00:00</episodeTime>

@@ -4,6 +4,17 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/restaurants.xsd">
     <restaurant>
+        <name>Pars Pralinen</name>
+        <description>Handgemachte Pralinen als Kunststücke.</description>
+        <image>images/misc/pars_pralinen.webp</image>
+        <appearances>
+            <appearance>
+                <episode>35</episode>
+                <episodeTime>7:04</episodeTime>
+            </appearance>
+        </appearances>
+    </restaurant>
+    <restaurant>
         <name>El Califa de León</name>
         <image>images/restaurants/el_califa_de_leon.jpg</image>
         <appearances>

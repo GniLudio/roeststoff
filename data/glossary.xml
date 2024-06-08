@@ -4,6 +4,12 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/glossary.xsd">
     <entry>
+        <episode>35</episode>
+        <episodeTime>36:28</episodeTime>
+        <name>Kuvertüre</name>
+        <description>Eine Schokoladenüberzugsmasse, bei der keine Fremdfette hinzugefügt wurden.</description>
+    </entry>
+    <entry>
         <episode>33</episode>
         <episodeTime>47:58</episodeTime>
         <name>Lab</name>

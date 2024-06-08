@@ -4,6 +4,11 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/sayings.xsd">
     <saying>
+        <episode>35</episode>
+        <episodeTime>0:35</episodeTime>
+        <description>Dreikäsehoch</description>
+    </saying>
+    <saying>
         <episode>33</episode>
         <episodeTime>2:19:00</episodeTime>
         <description>Da haben wir den Salat.</description>

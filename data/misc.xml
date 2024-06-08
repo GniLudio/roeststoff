@@ -5,13 +5,6 @@
     xsi:schemaLocation="roeststoff ../schemas/misc.xsd">
     <entry>
         <episode>34</episode>
-        <episodeTime>1:08:28</episodeTime>
-        <name>50 Best List</name>
-        <description></description>
-        <image>images/misc/50_best.jpg</image>
-    </entry>
-    <entry>
-        <episode>34</episode>
         <episodeTime>13:05</episodeTime>
         <name>re:publica</name>
         <description>Festival für die digitale Gesellschaft.</description>
