@@ -214,7 +214,6 @@ function createBoestOfTable(boestOf: BoestOf): string {
         ranking[i] = [boestOf.ilona[i], boestOf.peter[i]];
         if (boestOf.max) ranking[i].push(boestOf.max[i]);
     }
-    console.log(boestOf.name, ranking);
     return `
         <table class="table table-hover w-auto mx-auto">
                 <thead>
