@@ -4,6 +4,16 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/sayings.xsd">
     <saying>
+        <episode>33</episode>
+        <episodeTime>2:19:00</episodeTime>
+        <description>Da haben wir den Salat.</description>
+    </saying>
+    <saying>
+        <episode>33</episode>
+        <episodeTime>0:24</episodeTime>
+        <description>Lauchsuppe ohne L ist auch Suppe.</description>
+    </saying>
+    <saying>
         <episode>32</episode>
         <episodeTime>0:35</episodeTime>
         <description>Je mehr Käse, desto mehr Löcher. Je mehr Löcher, desto weniger Käse. Also je mehr Käse, desto weniger Käse.</description>

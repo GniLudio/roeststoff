@@ -4,6 +4,28 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/people.xsd">
     <person>
+        <name>Matthias Becker</name>
+        <image>images/people/matthias_becker.jpg</image>
+        <hateQuestion>
+            <episode>33</episode>
+            <episodeTime>2:12:18</episodeTime>
+            <description>Was ist dein Lieblingskäse?</description>
+        </hateQuestion>
+        <appearances>
+            <appearance>
+                <episode>33</episode>
+                <episodeTime>10:05</episodeTime>
+            </appearance>
+        </appearances>
+        <characteristics>
+            <characteristic>
+                <episode>33</episode>
+                <episodeTime>10:05</episodeTime>
+                <description>Cheesemonger bei Alte Milch</description>
+            </characteristic>
+        </characteristics>
+    </person>
+    <person>
         <name>Holger Schwarz</name>
         <image>images/people/holger_schwarz.jpg</image>
         <appearances>
@@ -546,6 +568,10 @@
         </hateQuestion>
         <appearances>
             <appearance>
+                <episode>33</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
+            <appearance>
                 <episode>32</episode>
                 <episodeTime>00:00:00</episodeTime>
             </appearance>
@@ -729,6 +755,10 @@
             <description>Was machst du sonst noch?</description>
         </hateQuestion>
         <appearances>
+            <appearance>
+                <episode>33</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
             <appearance>
                 <episode>32</episode>
                 <episodeTime>00:00:00</episodeTime>

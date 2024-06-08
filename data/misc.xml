@@ -3,6 +3,13 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/misc.xsd">
+        <entry>
+        <episode>33</episode>
+        <episodeTime>1:53:23</episodeTime>
+        <name>Belper Knolle</name>
+        <description>Eine Rohmilchkäsesorte aus Belp, deren Form an Trüffel erinnert. Kann über alles mögliche gehobelt werden und macht alles besser (laut Matthias Becker).</description>
+        <image>images/misc/belper_knolle.jpg</image>
+    </entry>
     <entry>
         <episode>32</episode>
         <episodeTime>12:10</episodeTime>
