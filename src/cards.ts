@@ -227,7 +227,7 @@ function createBoestOfTable(boestOf: BoestOf): string {
                     ${ranking.map((row) => `<tr>${row.map((col) => 
                         `<td class="bg-transparent">${col ?? "-"}</td>`).join('')}
                     </tr>`).join("")}
-                </tbod>
+                </tbody>
         </table>
         `
 }
