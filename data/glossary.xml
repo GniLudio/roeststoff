@@ -4,6 +4,12 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/glossary.xsd">
     <entry>
+        <episode>36</episode>
+        <episodeTime>55:22</episodeTime>
+        <name>Ampelographie</name>
+        <description>Die Rebsortenkunde, bzw. die Lehre von der Bestimmung und Beschreibung von Rebsorten.</description>
+    </entry>
+    <entry>
         <episode>35</episode>
         <episodeTime>36:28</episodeTime>
         <name>Kuvertüre</name>

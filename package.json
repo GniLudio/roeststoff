@@ -4,7 +4,6 @@
   "description": "Webseite über den Röststoff Podcast.",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack"
   },
   "keywords": [],

@@ -497,7 +497,6 @@
             </characteristic>
         </characteristics>
     </person>
-
     <person>
         <name>Felix Fuchs</name>
         <image>images/people/felix_fuchs.jpg</image>
@@ -613,6 +612,10 @@
             <description>Und damit kann man Geld verdienen?</description>
         </hateQuestion>
         <appearances>
+            <appearance>
+                <episode>36</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
             <appearance>
                 <episode>35</episode>
                 <episodeTime>00:00:00</episodeTime>
@@ -814,6 +817,10 @@
             <description>Was machst du sonst noch?</description>
         </hateQuestion>
         <appearances>
+            <appearance>
+                <episode>36</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
             <appearance>
                 <episode>35</episode>
                 <episodeTime>00:00:00</episodeTime>

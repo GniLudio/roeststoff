@@ -159,6 +159,10 @@
         </team>
         <appearances>
             <appearance>
+                <episode>36</episode>
+                <episodeTime>28:30</episodeTime>
+            </appearance>
+            <appearance>
                 <episode>24</episode>
                 <episodeTime>2:31:15</episodeTime>
             </appearance>
@@ -435,6 +439,10 @@
         <name>Jan</name>
         <image>images/restaurants/jan_hartwig.png</image>
         <appearances>
+            <appearance>
+                <episode>36</episode>
+                <episodeTime>3:00</episodeTime>
+            </appearance>
             <appearance>
                 <episode>9</episode>
                 <episodeTime>1:33:53</episodeTime>

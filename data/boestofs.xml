@@ -4,6 +4,25 @@
     xmlns="roeststoff" 
     xsi:schemaLocation="roeststoff ../schemas/boestofs.xsd">
     <boestof>
+        <episode>36</episode>
+        <episodeTime>1:35:45</episodeTime>
+        <name>Gerichte, die nicht ins Bordell passen</name>
+        <peter>
+            <rank>Schokobrunnen</rank>
+            <rank>Borschtsch</rank>
+            <rank>Chicken Wings</rank>
+            <rank>Spargel</rank>
+            <rank>Ölsardinen</rank>
+        </peter>
+        <ilona>
+            <rank>Spanferkel</rank>
+            <rank>Hartgekochte Eier (und Witze darüber)</rank>
+            <rank>Dosenthunfisch</rank>
+            <rank>Körniger Frischkäse</rank>
+            <rank>Mett</rank>
+        </ilona>
+    </boestof>
+    <boestof>
         <episode>32</episode>
         <episodeTime>1:05:02</episodeTime>
         <name>Sprichwörter</name>

@@ -4,6 +4,28 @@
     xmlns="roeststoff" 
     xsi:schemaLocation="roeststoff ../schemas/drinks.xsd">
     <drink>
+        <name>Weißburgunder 2016 vom Weingut Münzberg </name>
+        <description></description>
+        <image></image>
+        <appearances>
+            <appearance>
+                <episode>36</episode>
+                <episodeTime>1:02:00</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
+        <name>Weißburgunder Ried Kittenberg 2018 vom Weingut Gross</name>
+        <description></description>
+        <image></image>
+        <appearances>
+            <appearance>
+                <episode>36</episode>
+                <episodeTime>52:40</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
         <name>Grauburgunder trocken „Orangewein´´ von Max Jäck</name>
         <image></image>
         <appearances>
