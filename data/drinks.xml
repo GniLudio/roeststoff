@@ -4,6 +4,16 @@
     xmlns="roeststoff" 
     xsi:schemaLocation="roeststoff ../schemas/drinks.xsd">
     <drink>
+        <name>Sven Enderle Alea</name>
+        <image></image>
+        <appearances>
+            <appearance>
+                <episode>37</episode>
+                <episodeTime>28:02</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
         <name>Weißburgunder 2016 vom Weingut Münzberg </name>
         <description></description>
         <image></image>

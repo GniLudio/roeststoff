@@ -4,6 +4,38 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/people.xsd">
     <person>
+        <name>Michael Wickert</name>
+        <image>images/people/michael_wickert.jpg</image>
+        <hateQuestion>
+            <episode>37</episode>
+            <episodeTime>2:14:03</episodeTime>
+            <description><![CDATA[Was machst du Hauptberuflich?<br>Angeln Sie Ihre Fische selber?]]></description>
+        </hateQuestion>
+        <appearances>
+            <appearance>
+                <episode>37</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
+        </appearances>
+        <characteristics>
+            <characteristic>
+                <episode>37</episode>
+                <episodeTime>00:54</episodeTime>
+                <description>ehemaliger Fischzüchter in der Normandie</description>
+            </characteristic>
+            <characteristic>
+                <episode>37</episode>
+                <episodeTime>00:50</episodeTime>
+                <description>studierterter Fischereiwissenschaftler</description>
+            </characteristic>
+            <characteristic>
+                <episode>37</episode>
+                <episodeTime>0:49</episodeTime>
+                <description>betreibt Fisch-Räucherei Glut &amp; Späne</description>
+            </characteristic>
+        </characteristics>
+    </person>
+    <person>
         <name>Kristiane Kegelmann</name>
         <image>images/people/kristiane_kegelmann.webp</image>
         <hateQuestion>
@@ -613,6 +645,10 @@
         </hateQuestion>
         <appearances>
             <appearance>
+                <episode>37</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
+            <appearance>
                 <episode>36</episode>
                 <episodeTime>00:00:00</episodeTime>
             </appearance>
@@ -817,6 +853,10 @@
             <description>Was machst du sonst noch?</description>
         </hateQuestion>
         <appearances>
+            <appearance>
+                <episode>37</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
             <appearance>
                 <episode>36</episode>
                 <episodeTime>00:00:00</episodeTime>

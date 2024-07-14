@@ -4,6 +4,20 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/misc.xsd">
     <entry>
+        <episode>37</episode>
+        <episodeTime>39:35</episodeTime>
+        <name>Das Fischräucherbuch</name>
+        <description>Buch über das Räuchern von Michael Wickert.</description>
+        <image>images/misc/fisch_raeucherbuch.jpg</image>
+    </entry>
+    <entry>
+        <episode>37</episode>
+        <episodeTime>17:12</episodeTime>
+        <name><![CDATA[<a href="https://fischratgeber.wwf.de">WWF-Fischratgeber</a>]]></name>
+        <description>Ampelsystem zur Bewertung von Fischen. (empfohlen von Michael Wickert)</description>
+        <image>images/misc/wwf_fischratgeber.jpg</image>
+    </entry>
+    <entry>
         <episode>34</episode>
         <episodeTime>13:05</episodeTime>
         <name>re:publica</name>

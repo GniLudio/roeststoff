@@ -4,6 +4,26 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/sayings.xsd">
     <saying>
+        <episode>37</episode>
+        <episodeTime>1:50:13</episodeTime>
+        <description>Butter bei die Fische.</description>
+    </saying>
+    <saying>
+        <episode>37</episode>
+        <episodeTime>1:04:29</episodeTime>
+        <description>Ich finde es fischig.</description>
+    </saying>
+    <saying>
+        <episode>37</episode>
+        <episodeTime>19:32</episodeTime>
+        <description>Das Pferd von hinten aufzäumen.</description>
+    </saying>
+    <saying>
+        <episode>37</episode>
+        <episodeTime>4:34</episodeTime>
+        <description>Das ist ja komplett wild.</description>
+    </saying>
+    <saying>
         <episode>35</episode>
         <episodeTime>0:35</episodeTime>
         <description>Dreikäsehoch</description>
