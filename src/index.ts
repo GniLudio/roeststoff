@@ -15,7 +15,6 @@ const RSS_URL = "https://feeds.megaphone.fm/TWG3193347111";
 (async () => {
     console.log("FETCHING RSS");
     const episodesRaw = await (await fetch(RSS_URL)).text();
-    console.log(episodesRaw);
 
     // PARSING
     console.log("PARSING")
@@ -27,18 +26,18 @@ const RSS_URL = "https://feeds.megaphone.fm/TWG3193347111";
     const glossary: GlossaryEntry[] = parser.parseXML(glossaryRaw, ['root'], 'entry', parser.parseGlossaryEntry);
     const misc: MiscEntry[] = parser.parseXML(miscRaw, ['root'], 'entry', parser.parseMiscEntry);
     const sayings: TextWithTimestamp[] = parser.parseXML(sayingsRaw, ['root'], 'saying', parser.parseTextWithTimestamp);
-    const allContent: AllContent = {episodes, people, drinks, boestOfs, restaurants, glossary, sayings, misc};
+    const allContent: AllContent = { episodes, people, drinks, boestOfs, restaurants, glossary, sayings, misc };
 
     // SORTING
     console.log("SORTING");
     episodes.sort(compareEpisode).reverse();
-    people.sort((a,b) => -compareEpisodeIDs(a.appearances, b.appearances, allContent.episodes)).sort((a,b) => -compareIsHost(a, b));
-    drinks.sort((a,b) => -compareEpisodeIDs(a.appearances, b.appearances, allContent.episodes));
-    boestOfs.sort((a,b) => -compareEpisodeID(a, b, allContent.episodes));
-    restaurants.sort((a,b) => -compareEpisodeIDs(a.appearances, b.appearances, allContent.episodes));
-    glossary.sort((a,b) => a.name.localeCompare(b.name));
-    sayings.sort((a,b) => -compareEpisodeID(a, b, episodes));
-    misc.sort((a,b) => -compareEpisodeID(a, b, allContent.episodes));
+    people.sort((a, b) => -compareEpisodeIDs(a.appearances, b.appearances, allContent.episodes)).sort((a, b) => -compareIsHost(a, b));
+    drinks.sort((a, b) => -compareEpisodeIDs(a.appearances, b.appearances, allContent.episodes));
+    boestOfs.sort((a, b) => -compareEpisodeID(a, b, allContent.episodes));
+    restaurants.sort((a, b) => -compareEpisodeIDs(a.appearances, b.appearances, allContent.episodes));
+    glossary.sort((a, b) => a.name.localeCompare(b.name));
+    sayings.sort((a, b) => -compareEpisodeID(a, b, episodes));
+    misc.sort((a, b) => -compareEpisodeID(a, b, allContent.episodes));
 
     // CREATE AND INSERT HTML ELEMENTS
     console.log("CREATING");

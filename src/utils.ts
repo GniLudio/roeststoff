@@ -1,3 +1,5 @@
+console.log('utils.ts loaded');
+
 export function assert<T>(value: T, message?: string): NonNullable<T> {
     if (value === undefined || value === null) {
         throw (message ?? `${value} is not defined`);
@@ -11,7 +13,7 @@ export function secondsToTime(seconds: number): Time {
     seconds -= hours * 60 * 60;
     const minutes = Math.floor(seconds / 60);
     seconds -= minutes * 60;
-    return {hours, minutes, seconds};
+    return { hours, minutes, seconds };
 }
 
 export function mapToFilteredNames(items: { name: string; appearances?: Timestamp[]; }[], episode: EpisodeID, withTime: boolean): string[] {
@@ -45,7 +47,7 @@ export function mapToEpisodeNames(items: Timestamp[], episodes: Episode[], withT
 }
 
 export function toHTMLID(id: string): string {
-    return id.replace(/\W/g, '_');;
+    return id.replace(/\W/g, '_').toLowerCase();
 }
 
 export function timeToString(time: Time): string {
@@ -92,8 +94,8 @@ export function compareEpisodeID(a: EpisodeID | undefined, b: EpisodeID | undefi
     if (a == b) return 0;
     else if (a == undefined) return -1;
     else if (b == undefined) return 1;
-    const aEpisode = episodes.find(e => isEpisodeEqual(a,e));
-    const bEpisode = episodes.find(e => isEpisodeEqual(b,e));
+    const aEpisode = episodes.find(e => isEpisodeEqual(a, e));
+    const bEpisode = episodes.find(e => isEpisodeEqual(b, e));
     return compareEpisode(aEpisode, bEpisode);
 }
 
@@ -104,8 +106,8 @@ export function compareEpisodeIDs(a: EpisodeID[] | undefined, b: EpisodeID[] | u
     else if (a.length == 0 && b.length == 0) return 0;
     else if (a.length == 0) return -1;
     else if (b.length == 0) return 1;
-    const aLastEpisode = max(a, (e1,e2) => compareEpisodeID(e1, e2, episodes));
-    const bLastEpisode = max(b, (e1,e2) => compareEpisodeID(e1, e2, episodes));
+    const aLastEpisode = max(a, (e1, e2) => compareEpisodeID(e1, e2, episodes));
+    const bLastEpisode = max(b, (e1, e2) => compareEpisodeID(e1, e2, episodes));
     return compareEpisodeID(aLastEpisode, bLastEpisode, episodes);
 }
 
@@ -114,6 +116,6 @@ export function compareIsHost(a: Person, b: Person): number {
     return a.isHost ? 1 : -1;
 }
 
-function max<T>(elements: T[], compare: (a: T, b: T) => number = (a,b) => a < b ? -1 : a == b ? 0 : 1): T {
-    return elements.reduce((a,b) => compare(a,b) >= 0 ? a : b);
+function max<T>(elements: T[], compare: (a: T, b: T) => number = (a, b) => a < b ? -1 : a == b ? 0 : 1): T {
+    return elements.reduce((a, b) => compare(a, b) >= 0 ? a : b);
 }

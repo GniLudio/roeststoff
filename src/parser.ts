@@ -1,5 +1,7 @@
 import { assert, secondsToTime } from "./utils";
 
+console.log('parser.ts loaded');
+
 export function parseXML<T>(rawXML: string, rootPath: string[], entryName: string, parser: (element: Element) => T): T[] {
     // parse xml document
     const xmlDocument: XMLDocument = new DOMParser().parseFromString(rawXML, "text/xml");
@@ -110,9 +112,9 @@ function parseTimestamp(element: Element): Timestamp {
 function parseTime(element: Element): Time {
     const text = parseString(element).split(":");
     return {
-        hours: parseInt(text[text.length-3]) || 0,
-        minutes: parseInt(text[text.length-2]) || 0,
-        seconds: parseInt(text[text.length-1]) || 0,
+        hours: parseInt(text[text.length - 3]) || 0,
+        minutes: parseInt(text[text.length - 2]) || 0,
+        seconds: parseInt(text[text.length - 1]) || 0,
     };
 }
 

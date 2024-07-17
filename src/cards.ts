@@ -5,8 +5,26 @@ import { isEpisodeEqual } from "./utils";
 import { mapToFilteredNames } from "./utils";
 import { assert } from "./utils";
 
+import cardAudioTemplate from "../templates/card_audio.html";
+import cardImageTemplate from "../templates/card_image.html";
+import cardTitleTemplate from "../templates/card_title.html";
+import cardSubtitleTemplate from "../templates/card_subtitle.html";
+import cardIndexTemplate from "../templates/card_index.html";
+import cardTemplate from "../templates/card.html";
+import cardInfoButtonTemplate from "../templates/card_info_button.html";
+import cardInfoModalTemplate from "../templates/card_info_modal.html";
+import cardInfoBlockTemplate from "../templates/card_info_block.html";
+import cardInfoListTemplate from "../templates/card_info_list.html";
+import cardInfoListItemTemplate from "../templates/card_info_list_item.html";
+import cardTableTemplate from "../templates/card_table.html";
+import cardTableHeaderTemplate from "../templates/card_table_header.html";
+import cardTableRowTemplate from "../templates/card_table_row.html";
+import cardTableCellTemplate from "../templates/card_table_cell.html";
+
+console.log('card.ts loaded');
+
 export function createCards<T>(containerID: string, items: T[], getCardInfo: (e: T, allContent: AllContent) => CardInfo, allContent: AllContent): void {
-    console.log("Create Cards", containerID);
+    console.log("Creating Cards for:", containerID);
     const container = assert(document.getElementById(containerID), `Couldn't find container: ${containerID}`);
     const cardInfos = items.map(item => getCardInfo(item, allContent));
     const cards = cardInfos.map(createCard);
@@ -34,7 +52,7 @@ export function getEpisodeCardInfo(episode: Episode, allContent: AllContent): Ca
                 "Trinkstoff": mapToFilteredNames(allContent.drinks, episode, false),
                 "Restaurants": mapToFilteredNames(allContent.restaurants, episode, false),
                 'Dauer': '~' + timeToString(episode.duration),
-                'Audio': `<audio controls preload="none" class="w-75 rounded-3" src="${episode.enclosure.url}"></audio>`,
+                'Audio': cardAudioTemplate.replaceAll('{AUDIO}', episode.enclosure.url),
                 'Beschreibung': episode.description
             }
         }
@@ -133,101 +151,51 @@ function createCard(info: CardInfo): HTMLElement {
     const card = document.createElement('div');
     card.classList.add('col');
 
-    const cardImage = info.image && info.image != "" ?
-        `<img src="${info.image}" class="img-top rounded-3 m-1" loading="lazy" alt="${info.image}" alt="" onerror="console.log('Missing image ${info.image}');this.style.display='none'">` : '';
-    const cardTitle = info.title && info.title != "" ? `<h5 class="card-title m-auto p-1">${info.title}</h5>` : ''
-    const cardSubtitle = info.subtitle && info.subtitle != "" ? `<h6 class="card-subtitle m-auto p-1">${info.subtitle}</h5>` : '';
-    const cardIndex = info.index && info.index != '' ?
-        `<div class="position-absolute bottom-0 m-1 px-1 rounded-2 bg-secondary-subtle"><small>${info.index}</small></div>` : '';
-    const additionalInfo = createAdditionalInfo(info);
+    const image = info.image && info.image != "" ? cardImageTemplate.replaceAll('{IMAGE}', info.image) : '<!-- No Image -->';
+    const title = info.title && info.title != "" ? cardTitleTemplate.replaceAll('{TITLE}', info.title) : '<!-- No Title -->';
+    const subtitle = info.subtitle && info.subtitle != "" ? cardSubtitleTemplate.replaceAll('{SUBTITLE}', info.subtitle) : '<!-- No Subtitle -->';
+    const index = info.index && info.index != '' ? cardIndexTemplate.replaceAll('{INDEX}', info.index) : '<!-- No Index -->';
+    const [info_button, info_modal] = createInfoModal(info);
 
-    card.innerHTML = `
-        <div class="card bg-light border-warning border-3 h-100 overflow-auto">
-            ${cardIndex}
-            ${cardImage}
-            <div class="card-body d-flex flex-column h-100 p-2">
-                ${cardTitle}
-                ${cardSubtitle}
-                ${additionalInfo[0]}
-            </div>
-        </div>
-        ${additionalInfo[1]}
-    `
+    card.innerHTML = cardTemplate
+        .replace('{IMAGE}', image)
+        .replace('{TITLE}', title)
+        .replace('{SUBTITLE}', subtitle)
+        .replace('{INDEX}', index)
+        .replace('{INFO_BUTTON}', info_button)
+        .replace('{INFO_MODAL}', info_modal);
     return card;
 }
 
-function createAdditionalInfo(info: CardInfo): [button: string, modal: string] {
+function createInfoModal(info: CardInfo): [button: string, modal: string] {
     if (!info.additionalInfo) return ["", ""];
-    const id = toHTMLID('modal_' + info.additionalInfo.id);
+    const id = toHTMLID(info.additionalInfo.id) + '_info';
 
-    const button = `
-        <div class="p-1">
-            <button class="btn btn-outline-warning bg-secondary text-white" data-bs-toggle="modal" data-bs-target="#${id}">
-                Info
-            </button>
-        </div>`;
+    const button = cardInfoButtonTemplate.replaceAll('{ID}', id);
     const content = Object.entries(info.additionalInfo.content).map(([header, item]) => {
-        if (item == undefined || item == '') '';
-        else if (typeof (item) == 'object') return createAdditionalInfoListBlock(header, item);
-        else return createAdditionalInfoBlock(header, item);
+        if (typeof (item) == 'string' && item != '') return cardInfoBlockTemplate.replaceAll('{HEADER}', header).replaceAll('{CONTENT}', item);
+        else if (typeof (item) == 'object') {
+            const list: string[] = item;
+            if (list.length == 0) return `<!-- Empty List: ${header} -->`;
+            return cardInfoBlockTemplate
+                .replaceAll('{HEADER}', header)
+                .replaceAll('{CONTENT}',
+                    cardInfoListTemplate.replaceAll('{CONTENT}', list.map(item => cardInfoListItemTemplate.replaceAll('{CONTENT}', item)).join("")));
+        };
+        return "";
     }).join("");
 
-    const modal = `<div class="modal fade" id="${id}" tabindex="-1" aria-labelledby="${id}" aria-hidden="true">
-        <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
-            <div class="modal-content">
-                <div class="modal-header text-center">
-                    <h3 class="modal-title w-100" id="${id}">${info.title}</h3>
-                    <button type="button" class="btn-close mx-1" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    ${content}
-                </div>
-            </div>
-        </div>
-    </div>`;
+    const modal = cardInfoModalTemplate.replaceAll('{ID}', id).replaceAll('{TITLE}', info.additionalInfo.title).replaceAll('{CONTENT}', content);
     return [button, modal];
 }
 
-function createAdditionalInfoBlock(header: string, content: string): string {
-    return `
-        <div class='rounded-5 m-3 p-2 border border-2 border-warning-subtle bg-light'>
-            <div class="overflow-scroll">
-                <h5>${header}</h5>
-                ${content}
-            </div>
-        </div>`
-}
-
-function createAdditionalInfoListBlock(header: string, content: string[]): string {
-    if (content.length == 0) return '';
-    content = content.map(item => `<li class="list-group-item bg-transparent">${item}</li>`);
-    return createAdditionalInfoBlock(
-        header,
-        `<ul class="list-group list-group-flush d-inline-block">${content.join("")}</ul>`
-    );
-}
-
 function createBoestOfTable(boestOf: BoestOf): string {
-    let length = Math.max(boestOf.ilona.length, boestOf.peter.length, boestOf.max?.length ?? 0);
-    let ranking: string[][] = new Array(length).fill(undefined!);
-    for (let i = 0; i < length; i++) {
-        ranking[i] = [boestOf.ilona[i], boestOf.peter[i]];
-        if (boestOf.max) ranking[i].push(boestOf.max[i]);
+    const headers: string[] = ['Ilona', 'Peter'].concat(boestOf.max ? ['Max'] : []).map(header => cardTableHeaderTemplate.replaceAll('{HEADER}', header));
+    const rankings: string[][] = [boestOf.ilona, boestOf.peter].concat(boestOf.max ? [boestOf.max] : []);
+    const rows: string[] = [];
+    for (let i = 0; i < Math.max(...rankings.map(ranking => ranking.length)); i++) {
+        const cells = rankings.map(ranking => cardTableCellTemplate.replaceAll('{CONTENT}', ranking.length > i ? ranking[i] : '-'));
+        rows.push(cardTableRowTemplate.replaceAll('{CONTENT}', cells.join('')))
     }
-    return `
-        <table class="table table-hover w-auto mx-auto">
-                <thead>
-                    <tr>
-                        <th scope="col" class="bg-transparent">Ilona</th>
-                        <th scope="col" class="bg-transparent">Peter</th>
-                        ${boestOf.max ? '<th scope="col" class="bg-transparent">Max</th>' : ''}
-                    </tr>
-                </thead>
-                <tbody>
-                    ${ranking.map((row) => `<tr>${row.map((col) => 
-                        `<td class="bg-transparent">${col ?? "-"}</td>`).join('')}
-                    </tr>`).join("")}
-                </tbody>
-        </table>
-        `
+    return cardTableTemplate.replaceAll('{HEADERS}', headers.join("")).replaceAll('{CONTENT}', rows.join(''));
 }

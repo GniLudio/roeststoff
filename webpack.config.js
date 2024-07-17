@@ -12,6 +12,10 @@ module.exports = {
         type: 'asset/source',
       },
       {
+        test: /\.html/,
+        type: 'asset/source',
+      },
+      {
         test: /\.tsx?$/,
         use: 'ts-loader',
         exclude: /node_modules/,

@@ -54,23 +54,23 @@ interface MiscEntry extends Timestamp {
 
 // ---------- NESTED TYPES ----------
 
-interface TextWithTimestamp extends Timestamp { 
-    description: string 
+interface TextWithTimestamp extends Timestamp {
+    description: string
 }
 
-interface Timestamp extends EpisodeID { 
-    episodeTime: Time 
+interface Timestamp extends EpisodeID {
+    episodeTime: Time
 }
 
-interface Time { 
-    hours: number, 
-    minutes: number, 
-    seconds: number 
+interface Time {
+    hours: number,
+    minutes: number,
+    seconds: number
 }
 
-interface EpisodeID { 
-    episodeType: EpisodeType, 
-    episode: number 
+interface EpisodeID {
+    episodeType: EpisodeType,
+    episode: number
 }
 
 interface EpisodeEnclosure {
@@ -111,6 +111,11 @@ interface AllContent {
 }
 
 declare module '*.xml' {
+    const content: string;
+    export default content;
+}
+
+declare module '*.html' {
     const content: string;
     export default content;
 }
