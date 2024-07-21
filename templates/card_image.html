@@ -1,2 +1,2 @@
-<img src="{IMAGE}" class="img-top rounded-3 m-1" loading="lazy" alt="{IMAGE}" alt=""
-    onerror="console.log('Missing image {IMAGE}');this.style.display='none'">
+<img src="{IMAGE}" class="img-top rounded-3 m-1" loading="lazy"
+    onerror="console.log('Missing image', this.src);this.onerror='';this.loading='';this.src='{FALLBACK_IMAGE}';this.style.filter='grayscale(100%)';">

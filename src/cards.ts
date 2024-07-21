@@ -38,6 +38,7 @@ export function getEpisodeCardInfo(episode: Episode, allContent: AllContent): Ca
     const episodeType = episode.episodeType != "full" ? ` (${episode.episodeType.charAt(0).toUpperCase() + episode.episodeType.slice(1)})` : '';
     return {
         image: `images/episodes/${episodeIDToString(episode)}.jpeg`,
+        fallbackImage: 'images/episodes/fallback.jpg',
         title: episode.name,
         subtitle: episode.subtitle,
         index: episodeIDToShortString(episode),
@@ -151,7 +152,7 @@ function createCard(info: CardInfo): HTMLElement {
     const card = document.createElement('div');
     card.classList.add('col');
 
-    const image = info.image && info.image != "" ? cardImageTemplate.replaceAll('{IMAGE}', info.image) : '<!-- No Image -->';
+    const image = info.image && info.image != "" ? cardImageTemplate.replaceAll('{IMAGE}', info.image).replaceAll('{FALLBACK_IMAGE}', info.fallbackImage ?? info.image) : '<!-- No Image -->';
     const title = info.title && info.title != "" ? cardTitleTemplate.replaceAll('{TITLE}', info.title) : '<!-- No Title -->';
     const subtitle = info.subtitle && info.subtitle != "" ? cardSubtitleTemplate.replaceAll('{SUBTITLE}', info.subtitle) : '<!-- No Subtitle -->';
     const index = info.index && info.index != '' ? cardIndexTemplate.replaceAll('{INDEX}', info.index) : '<!-- No Index -->';

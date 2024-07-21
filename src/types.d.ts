@@ -84,6 +84,7 @@ type EpisodeType = "full" | "trailer" | "bonus";
 interface CardInfo {
     title?: string,
     image?: string,
+    fallbackImage?: string,
     subtitle?: string,
     index?: string,
     additionalInfo?: ModalInfo
