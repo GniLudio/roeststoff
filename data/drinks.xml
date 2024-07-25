@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns="roeststoff" 
+    xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/drinks.xsd">
+    <drink>
+        <name>Eiskaffee</name>
+        <description></description>
+        <image></image>
+        <appearances>
+            <appearance>
+                <episode>38</episode>
+                <episodeTime>6:18</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
     <drink>
         <name>Sven Enderle Alea</name>
         <image></image>

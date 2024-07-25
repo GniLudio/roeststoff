@@ -4,6 +4,27 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/glossary.xsd">
     <entry>
+        <episode>38</episode>
+        <episodeTime>1:16:12</episodeTime>
+        <name>Begleitendes Trinken</name>
+        <description>Jugendliche dürfen in Begleitung einer sorgeberechtigten Person schon ab 14 Jahren Alkohol kaufen und trinken.</description>
+    </entry>
+    <entry>
+        <episode>38</episode>
+        <episodeTime>6:33</episodeTime>
+        <name>Eiskalte Getränke bei Hitze</name>
+        <description><![CDATA[
+            <p>
+                Entgegen der ersten Intuition wirken eiskalte Getränke bei Hitze
+                kontraproduktiv, da der Körper Energie aufwenden muss, um den Körper wieder
+                aufzuwärmen.
+            </p>
+            <p>
+                Somit sind an heißen Tagen zimmerwarme oder leicht gekühlte Getränke zu empfehlen.
+            </p>
+            ]]></description>
+    </entry>
+    <entry>
         <episode>36</episode>
         <episodeTime>55:22</episodeTime>
         <name>Ampelographie</name>

@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns="roeststoff" 
+    xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/boestofs.xsd">
+    <boestof>
+        <episode>38</episode>
+        <episodeTime>50:46</episodeTime>
+        <name>Gesundes Essen</name>
+        <peter>
+            <rank>Eier</rank>
+            <rank>Olivenöl</rank>
+            <rank>Pilze</rank>
+            <rank>Kiwi</rank>
+            <rank>Mandeln</rank>
+        </peter>
+        <ilona>
+            <rank>Pilze</rank>
+            <rank>Wald-Erdbeeren</rank>
+            <rank>Knoblauch</rank>
+            <rank>Tomaten</rank>
+            <rank>Chili</rank>
+        </ilona>
+    </boestof>
     <boestof>
         <episode>36</episode>
         <episodeTime>1:35:45</episodeTime>

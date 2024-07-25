@@ -4,6 +4,16 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/restaurants.xsd">
     <restaurant>
+        <name>Butterhandlung</name>
+        <image>images/restaurants/butterhandlung.jpg</image>
+        <appearances>
+            <appearance>
+                <episode>38</episode>
+                <episodeTime>1:06:26</episodeTime>
+            </appearance>
+        </appearances>
+    </restaurant>
+    <restaurant>
         <name>Pars Pralinen</name>
         <description>Handgemachte Pralinen als Kunststücke.</description>
         <image>images/misc/pars_pralinen.webp</image>
