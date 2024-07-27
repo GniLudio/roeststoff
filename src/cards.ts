@@ -44,17 +44,15 @@ export function getEpisodeCardInfo(episode: Episode, allContent: AllContent): Ca
         index: episodeIDToShortString(episode),
         additionalInfo: {
             id: `episode_${episode.name}`,
-            title: episode.name + " (" + episode.episode + ")",
+            title: episode.name,
             content: {
-                "Episode": episode.episode.toFixed() + episodeType,
-                'Veröffentlichung': dateToString(episode.pubDate, true),
                 "Böst of Röststoff": boestOf?.name,
                 "Gäste": mapToFilteredNames(allContent.people.filter(person => !person.isHost), episode, false),
                 "Trinkstoff": mapToFilteredNames(allContent.drinks, episode, false),
                 "Restaurants": mapToFilteredNames(allContent.restaurants, episode, false),
-                'Dauer': '~' + timeToString(episode.duration),
+                'Veröffentlichung': dateToString(episode.pubDate, true),
+                'Beschreibung': episode.description,
                 'Audio': cardAudioTemplate.replaceAll('{AUDIO}', episode.enclosure.url),
-                'Beschreibung': episode.description
             }
         }
     }
