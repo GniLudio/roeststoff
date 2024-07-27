@@ -1,10 +1,10 @@
 import { episodeIDToShortString, episodeIDToString, mapToEpisodeNames, toHTMLID } from "./utils";
-import { timeToString } from "./utils";
 import { dateToString } from "./utils";
 import { isEpisodeEqual } from "./utils";
 import { mapToFilteredNames } from "./utils";
-import { assert } from "./utils";
 
+import tabButtonTemplate from "../templates/tab_button.html";
+import tabContainerTemplate from "../templates/tab_container.html";
 import cardAudioTemplate from "../templates/card_audio.html";
 import cardImageTemplate from "../templates/card_image.html";
 import cardTitleTemplate from "../templates/card_title.html";
@@ -22,20 +22,23 @@ import cardTableRowTemplate from "../templates/card_table_row.html";
 import cardTableCellTemplate from "../templates/card_table_cell.html";
 
 console.log('card.ts loaded');
+const parser = new DOMParser();
 
-export function createCards<T>(containerID: string, items: T[], getCardInfo: (e: T, allContent: AllContent) => CardInfo, allContent: AllContent): void {
-    console.log("Creating Cards for:", containerID);
-    const container = assert(document.getElementById(containerID), `Couldn't find container: ${containerID}`);
+export function createCards<T>(id: string, title: string, items: T[], getCardInfo: (e: T, allContent: AllContent) => CardInfo, allContent: AllContent): void {
+    console.log(`Create ${title}`);
+
+    createTabButton(id, title);
+    const tabContainer = createTabContainer(id);
+
     const cardInfos = items.map(item => getCardInfo(item, allContent));
     const cards = cardInfos.map(createCard);
-    container.replaceChildren(...cards);
+    tabContainer.querySelector(`#${id}_content`)!.replaceChildren(...cards);
 }
 
 // ---------- CARD INFO ----------
 
 export function getEpisodeCardInfo(episode: Episode, allContent: AllContent): CardInfo {
     const boestOf = allContent.boestOfs.find(boestOf => isEpisodeEqual(boestOf, episode));
-    const episodeType = episode.episodeType != "full" ? ` (${episode.episodeType.charAt(0).toUpperCase() + episode.episodeType.slice(1)})` : '';
     return {
         image: `images/episodes/${episodeIDToString(episode)}.jpeg`,
         fallbackImage: 'images/episodes/fallback.jpg',
@@ -145,6 +148,24 @@ export function getMiscEntryCardInfo(entry: MiscEntry, allContent: AllContent): 
 }
 
 // ---------- UTILITIES ----------
+
+function createTabButton(id: string, title: string): HTMLElement {
+    const tabButtons = document.getElementById('navTabs')!;
+    const tabButtonRaw = tabButtonTemplate.replaceAll('{ID}', id).replaceAll('{TITLE}', title);
+    const tabButton = parser.parseFromString(tabButtonRaw, 'text/html').body.firstChild as HTMLElement;
+    tabButtons.appendChild(tabButton);
+
+    return tabButton;
+}
+
+function createTabContainer(id: string): HTMLElement {
+    const tabContainers = document.getElementById('tabs')!;
+    const tabContainerRaw = tabContainerTemplate.replaceAll('{ID}', id);
+    const tabContainer = parser.parseFromString(tabContainerRaw, 'text/html').body.firstChild as HTMLElement;
+    tabContainers.appendChild(tabContainer);
+
+    return tabContainer;
+}
 
 function createCard(info: CardInfo): HTMLElement {
     const card = document.createElement('div');

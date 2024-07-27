@@ -8,7 +8,7 @@ import sayingsRaw from '../data/sayings.xml';
 import miscRaw from '../data/misc.xml';
 import * as parser from './parser';
 import * as cards from './cards';
-import { compareEpisodeID, compareEpisode, compareEpisodeIDs, compareIsHost } from './utils';
+import { compareEpisodeID, compareEpisode, compareEpisodeIDs, compareIsHost, setActiveTab } from './utils';
 
 const RSS_URL = "https://feeds.megaphone.fm/TWG3193347111";
 
@@ -41,12 +41,15 @@ const RSS_URL = "https://feeds.megaphone.fm/TWG3193347111";
 
     // CREATE AND INSERT HTML ELEMENTS
     console.log("CREATING");
-    cards.createCards('episodes_content', episodes, cards.getEpisodeCardInfo, allContent);
-    cards.createCards('people_content', people, cards.getPersonCardInfo, allContent);
-    cards.createCards('drinks_content', drinks, cards.getDrinkCardInfo, allContent);
-    cards.createCards('boestof_content', boestOfs, cards.getBoestOfCardInfo, allContent);
-    cards.createCards('restaurants_content', restaurants, cards.getRestaurantCardInfo, allContent);
-    cards.createCards('glossary_content', glossary, cards.getGlossaryEntryCardInfo, allContent);
-    cards.createCards('sayings_content', sayings, cards.getSayingCardInfo, allContent);
-    cards.createCards('misc_content', misc, cards.getMiscEntryCardInfo, allContent);
+    cards.createCards('episodes', 'Folgen', episodes, cards.getEpisodeCardInfo, allContent);
+    cards.createCards('people', 'Stoffies', people, cards.getPersonCardInfo, allContent);
+    cards.createCards('drinks', 'Trinkstoff', drinks, cards.getDrinkCardInfo, allContent);
+    cards.createCards('boestof', 'Böst Ofs', boestOfs, cards.getBoestOfCardInfo, allContent);
+    cards.createCards('restaurants', 'Röstaurants', restaurants, cards.getRestaurantCardInfo, allContent);
+    cards.createCards('glossary', 'Lehrstoff', glossary, cards.getGlossaryEntryCardInfo, allContent);
+    cards.createCards('sayings', 'Sprüche', sayings, cards.getSayingCardInfo, allContent);
+    cards.createCards('misc', 'Side Dishes', misc, cards.getMiscEntryCardInfo, allContent);
+
+    // SET ACTIVE TAB
+    setActiveTab('episodes');
 })();

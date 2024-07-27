@@ -26,11 +26,14 @@
 
 <body class="d-flex flex-column h-100">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-sm sticky-top rounded-bottom-3" style="background: linear-gradient(rgb(201, 161, 2), rgb(231, 85, 32));">
+    <nav class="navbar navbar-expand-sm sticky-top rounded-bottom-3"
+        style="background: linear-gradient(rgb(201, 161, 2), rgb(231, 85, 32));">
         <div class="container-fluid">
             <!-- Brand / Logo -->
-            <a class="navbar-brand me-sm-2 d-none d-sm-flex" href=""> <img src="images/logo.jpg" alt="Logo" height="64" loading="lazy" class="rounded-3"> </a>
-            <a class="navbar-brand me-sm-2 d-flex d-sm-none" href=""> <img src="images/logo.jpg" alt="Logo" height="48" loading="lazy" class="rounded-3"> </a>
+            <a class="navbar-brand me-sm-2 d-none d-sm-flex" href=""> <img src="images/logo.jpg" alt="Logo" height="64"
+                    loading="lazy" class="rounded-3"> </a>
+            <a class="navbar-brand me-sm-2 d-flex d-sm-none" href=""> <img src="images/logo.jpg" alt="Logo" height="48"
+                    loading="lazy" class="rounded-3"> </a>
             <!-- Toggler for small screens -->
             <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -42,46 +45,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav nav nav-pills nav-fill w-100 row-cols-lg-auto row-cols-sm-5 row-cols-1"
                     id="navTabs" role="tablist">
-                    <li class="nav-item m-1" role="presentation">
-                        <button class="nav-link border border-3 border-primary fw-bold p-1 p-lg-2 rounded-5 active"
-                            id="episodes-tab" data-bs-toggle="tab" data-bs-target="#episodes" type="button" role="tab"
-                            aria-controls="episodes" aria-selected="true">Folgen</button>
-                    </li>
-                    <li class="nav-item m-1" role="presentation">
-                        <button class="nav-link border border-3 border-primary fw-bold p-1 p-lg-2 rounded-5"
-                            id="roesties-tab" data-bs-toggle="tab" data-bs-target="#roesties" type="button" role="tab"
-                            aria-controls="roesties" aria-selected="true">Stoffies</button>
-                    </li>
-                    <li class="nav-item m-1" role="presentation">
-                        <button class="nav-link border border-3 border-primary fw-bold p-1 p-lg-2 rounded-5"
-                            id="trinkstoff-tab" data-bs-toggle="tab" data-bs-target="#trinkstoff" type="button"
-                            role="tab" aria-controls="trinkstoff" aria-selected="true">Trinkstoff</button>
-                    </li>
-                    <li class="nav-item m-1" role="presentation">
-                        <button class="nav-link border border-3 border-primary fw-bold p-1 p-lg-2 rounded-5"
-                            id="boestof-tab" data-bs-toggle="tab" data-bs-target="#boestof" type="button" role="tab"
-                            aria-controls="boestof" aria-selected="true">Böst of</button>
-                    </li>
-                    <li class="nav-item m-1" role="presentation">
-                        <button class="nav-link border border-3 border-primary fw-bold p-1 p-lg-2 rounded-5"
-                            id="restaurants-tab" data-bs-toggle="tab" data-bs-target="#restaurants" type="button"
-                            role="tab" aria-controls="restaurants" aria-selected="true">Röstaurants</button>
-                    </li>
-                    <li class="nav-item m-1" role="presentation">
-                        <button class="nav-link border border-3 border-primary fw-bold p-1 p-lg-2 rounded-5"
-                            id="glossary-tab" data-bs-toggle="tab" data-bs-target="#glossary" type="button" role="tab"
-                            aria-controls="glossary" aria-selected="true">Lehrstoff</button>
-                    </li>
-                    <li class="nav-item m-1" role="presentation">
-                        <button class="nav-link border border-3 border-primary fw-bold p-1 p-lg-2 rounded-5"
-                            id="sayings-tab" data-bs-toggle="tab" data-bs-target="#sayings" type="button" role="tab"
-                            aria-controls="sayings" aria-selected="true">Sprüche</button>
-                    </li>
-                    <li class="nav-item m-1" role="presentation">
-                        <button class="nav-link border border-3 border-primary fw-bold p-1 p-lg-2 rounded-5"
-                            id="misc-tab" data-bs-toggle="tab" data-bs-target="#misc" type="button" role="tab"
-                            aria-controls="misc" aria-selected="true">Side Dishes</button>
-                    </li>
+                    <!-- Content added through scripts -->
                 </ul>
             </div>
         </div>
@@ -90,82 +54,12 @@
     <!-- Content -->
     <div class="container-fluid p-3 flex-shrink-0" id="main-content">
         <div class="tab-content text-center float" id="tabs">
-            <!-- Episodes / Folgen -->
-            <div class="tab-pane fade show active" id="episodes" role="tabpanel" aria-labelledby="episodes-tab">
-                <div class="container">
-                    <div id="episodes_content"
-                        class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 row-cols-xxl-5 g-2 g-md-3 g-xl-4">
-                        <!-- Content is inserted by script -->
-                    </div>
-                </div>
-            </div>
-            <!-- People / Roesties -->
-            <div class="tab-pane fade show" id="roesties" role="tabpanel" aria-labelledby="roesties-tab">
-                <div class="container">
-                    <div id="people_content"
-                        class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 row-cols-xxl-5 g-2 g-md-3 g-xl-4">
-                        <!-- Content is inserted by script -->
-                    </div>
-                </div>
-            </div>
-            <!-- Drinks / Trinkstoff -->
-            <div class="tab-pane fade show" id="trinkstoff" role="tabpanel" aria-labelledby="trinkstoff-tab">
-                <div class="container">
-                    <div id="drinks_content"
-                        class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 row-cols-xxl-5 g-2 g-md-3 g-xl-4">
-                        <!-- Content is inserted by script -->
-                    </div>
-                </div>
-            </div>
-            <!-- Boest-Of -->
-            <div class="tab-pane fade show" id="boestof" role="tabpanel" aria-labelledby="boestof-tab">
-                <div class="container">
-                    <div id="boestof_content"
-                        class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 row-cols-xxl-5 g-2 g-md-3 g-xl-4">
-                        <!-- Content is inserted by script -->
-                    </div>
-                </div>
-            </div>
-            <!-- Restaurants -->
-            <div class="tab-pane fade show" id="restaurants" role="tabpanel" aria-labelledby="restaurants-tab">
-                <div class="container">
-                    <div id="restaurants_content"
-                        class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 row-cols-xxl-5 g-2 g-md-3 g-xl-4">
-                        <!-- Content is inserted by script -->
-                    </div>
-                </div>
-            </div>
-            <!-- Glossary / Lehrstoff -->
-            <div class="tab-pane fade show" id="glossary" role="tabpanel" aria-labelledby="glossary-tab">
-                <div class="container">
-                    <div id="glossary_content"
-                        class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 row-cols-xxl-5 g-2 g-md-3 g-xl-4">
-                        <!-- Content is inserted by script -->
-                    </div>
-                </div>
-            </div>
-            <!-- Sayings / Sprueche -->
-            <div class="tab-pane fade show" id="sayings" role="tabpanel" aria-labelledby="sayings-tab">
-                <div class="container">
-                    <div id="sayings_content"
-                        class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 row-cols-xxl-5 g-2 g-md-3 g-xl-4">
-                        <!-- Content is inserted by script -->
-                    </div>
-                </div>
-            </div>
-            <!-- Side Dishes -->
-            <div class="tab-pane fade show" id="misc" role="tabpanel" aria-labelledby="misc-tab">
-                <div class="container">
-                    <div id="misc_content"
-                        class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 row-cols-xxl-5 g-2 g-md-3 g-xl-4">
-                        <!-- Content is inserted by script -->
-                    </div>
-                </div>
-            </div>
+            <!-- Content added through scripts -->
         </div>
     </div>
 
-    <footer class="mt-auto px-3 d-flex justify-content-between p-3 bg-light rounded-top-3 text-muted border-top border-2 border-warning">
+    <footer
+        class="mt-auto px-3 d-flex justify-content-between p-3 bg-light rounded-top-3 text-muted border-top border-2 border-warning">
         <div>
             <a href="https://github.com/GniLudio/roeststoff" class="text-decoration-none">GitHub</a>
         </div>
