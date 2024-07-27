@@ -4,6 +4,39 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/people.xsd">
     <person>
+        <name>Nina Mihilli</name>
+        <description></description>
+        <image>images/people/nina_mihilli.jpg</image>
+        <hateQuestion>
+            <episode>39</episode>
+            <episodeTime>2:22:57</episodeTime>
+            <description>Wie schön ist es für Sie hier arbeiten zu dürfen und so tolles Essen zu bekommen?</description>
+        </hateQuestion>
+        <appearances>
+            <appearance>
+                <episode>39</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
+        </appearances>
+        <characteristics>
+            <characteristic>
+                <episode>39</episode>
+                <episodeTime>50:00</episodeTime>
+                <description>Gastgeberin des Jahres 2023 von Gault Millau</description>
+            </characteristic>
+            <characteristic>
+                <episode>39</episode>
+                <episodeTime>4:59</episodeTime>
+                <description>trinkt gerne Champagner</description>
+            </characteristic>
+            <characteristic>
+                <episode>39</episode>
+                <episodeTime>00:00:00</episodeTime>
+                <description>Restaurantleiterin der Schwarzwaldstube</description>
+            </characteristic>
+        </characteristics>
+    </person>
+    <person>
         <name>Michael Wickert</name>
         <image>images/people/michael_wickert.jpg</image>
         <hateQuestion>
@@ -645,6 +678,10 @@
         </hateQuestion>
         <appearances>
             <appearance>
+                <episode>39</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
+            <appearance>
                 <episode>38</episode>
                 <episodeTime>00:00:00</episodeTime>
             </appearance>
@@ -857,6 +894,10 @@
             <description>Was machst du sonst noch?</description>
         </hateQuestion>
         <appearances>
+            <appearance>
+                <episode>39</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
             <appearance>
                 <episode>38</episode>
                 <episodeTime>00:00:00</episodeTime>

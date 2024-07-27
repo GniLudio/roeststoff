@@ -4,6 +4,13 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/misc.xsd">
     <entry>
+        <episode>39</episode>
+        <episodeTime>1:55:30</episodeTime>
+        <name>Unvernünftige Gastfreundschaft</name>
+        <description>Empfohlen von Nina Mihilli</description>
+        <image>https://m.media-amazon.com/images/I/71Ew8FRdqKL._SL1500_.jpg</image>
+    </entry>
+    <entry>
         <episode>37</episode>
         <episodeTime>39:35</episodeTime>
         <name>Das Fischräucherbuch</name>

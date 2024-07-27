@@ -4,6 +4,28 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/restaurants.xsd">
     <restaurant>
+        <name>Posthotel</name>
+        <image>images/restaurants/posthotel.webp</image>
+        <appearances>
+            <appearance>
+                <episode>39</episode>
+                <episodeTime>23:17</episodeTime>
+            </appearance>
+        </appearances>
+        <characteristics>
+            <characteristic>
+                <episode>39</episode>
+                <episodeTime>37:33</episodeTime>
+                <description>ganz weit oben in der La Liste</description>
+            </characteristic>
+            <characteristic>
+                <episode>39</episode>
+                <episodeTime>37:05</episodeTime>
+                <description>hat 3 Sterne seid vielen Jahren</description>
+            </characteristic>
+        </characteristics>
+    </restaurant>
+    <restaurant>
         <name>Butterhandlung</name>
         <image>images/restaurants/butterhandlung.jpg</image>
         <appearances>
@@ -515,8 +537,11 @@
         </appearances>
     </restaurant>
     <restaurant>
-        <name>Traube Tonbach</name>
+        <name>Schwarzwaldstube (Traube Tonbach)</name>
         <image>images/restaurants/traube_tonbach.svg</image>
+        <team>
+            <member>Nina Mihilli</member>
+        </team>
         <appearances>
             <appearance>
                 <episode>7</episode>
