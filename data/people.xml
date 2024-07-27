@@ -165,7 +165,7 @@
         <hateQuestion>
             <episode>28</episode>
             <episodeTime>4:00:12</episodeTime>
-            <description>Was macht für Sie ein Spitzenwein aus? / Was ist Ihr Lieblingswein?</description>
+            <description><![CDATA[Was macht für Sie ein Spitzenwein aus?<br>Was ist Ihr Lieblingswein?]]></description>
         </hateQuestion>
         <appearances>
             <appearance>
