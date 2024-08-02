@@ -10,9 +10,20 @@ export function setupUrlManager(): void {
     if (initialTabButton) {
         initialTabButton.click();
     } else {
+        console.log("Couldn't open tab: ", initialTab);
         updateSearchParameter("tab", null);
         tabButtons[0].click();
         initialTab = tabButtons[0].getAttribute("data-bs-target")!.slice(1);
+    }
+
+    // open initial info
+    const initialInfo = new URL(window.location.href).searchParams.get("info");
+    if (initialInfo && initialInfo.startsWith(initialTab)) {
+        console.log("Open Modal: ", initialInfo);
+        const initialInfoModal = infoModals.find((modal) => modal.id.slice(0, -5) == initialInfo);
+        if (initialInfoModal) {
+            const modal = new bootstrap.Modal(initialInfoModal).show();
+        }
     }
 
     // update url when changing tab
@@ -24,16 +35,6 @@ export function setupUrlManager(): void {
             updateSearchParameter("tab", null);
             updateSearchParameter("info", null);
         });
-    }
-
-    // open initial info
-    const initialInfo = new URL(window.location.href).searchParams.get("info");
-    const initialInfoModal = initialInfo && infoModals.find((modal) => modal.id.slice(0, -5) == initialInfo);
-    if (initialInfoModal && document.getElementById(initialTab)?.contains(initialInfoModal)) {
-        new bootstrap.Modal(initialInfoModal).show();
-    }
-    else {
-        updateSearchParameter("info", null);
     }
 
     // update url when changing info
