@@ -46,7 +46,7 @@ export function getEpisodeCardInfo(episode: Episode, allContent: AllContent): Ca
         subtitle: episode.subtitle,
         index: episodeIDToShortString(episode),
         additionalInfo: {
-            id: `episode_${episode.name}`,
+            id: `episodes_${episodeIDToShortString(episode)}`,
             title: episode.name,
             content: {
                 "Böst of Röststoff": boestOf?.name,
@@ -67,7 +67,7 @@ export function getPersonCardInfo(person: Person, allContent: AllContent): CardI
         title: person.name,
         subtitle: person.description,
         additionalInfo: {
-            id: `person_${person.name}`,
+            id: `people_${toHTMLID(person.name)}`,
             title: person.name,
             content: {
                 "Folgen": mapToEpisodeNames(person.appearances, allContent.episodes, false),
@@ -85,7 +85,7 @@ export function getDrinkCardInfo(drink: Drink, allContent: AllContent): CardInfo
         subtitle: drink.description,
         index: episodeIDToShortString(drink.appearances[0]),
         additionalInfo: {
-            id: `drink_${drink.name}`,
+            id: `drinks_${toHTMLID(drink.name)}`,
             title: drink.name,
             content: {
                 "Folgen": mapToEpisodeNames(drink.appearances, allContent.episodes, false),
@@ -99,7 +99,7 @@ export function getBoestOfCardInfo(boestOf: BoestOf, allContent: AllContent): Ca
         title: boestOf.name,
         index: episodeIDToShortString(boestOf),
         additionalInfo: {
-            id: boestOf.name,
+            id: `boestofs_${toHTMLID(boestOf.name)}`,
             title: boestOf.name,
             content: {
                 "Folge": mapToEpisodeNames([boestOf], allContent.episodes, false),
@@ -115,7 +115,7 @@ export function getRestaurantCardInfo(restaurant: Restaurant, allContent: AllCon
         title: restaurant.name,
         subtitle: restaurant.description,
         additionalInfo: {
-            id: `restaurant_${restaurant.name}`,
+            id: `restaurants_${toHTMLID(restaurant.name)}`,
             title: restaurant.name,
             content: {
                 "Team": restaurant.team,

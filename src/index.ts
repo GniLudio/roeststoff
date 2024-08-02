@@ -8,7 +8,8 @@ import sayingsRaw from '../data/sayings.xml';
 import miscRaw from '../data/misc.xml';
 import * as parser from './parser';
 import * as cards from './cards';
-import { compareEpisodeID, compareEpisode, compareEpisodeIDs, compareIsHost, setActiveTab } from './utils';
+import { compareEpisodeID, compareEpisode, compareEpisodeIDs, compareIsHost } from './utils';
+import { setupUrlManager } from './url_manager';
 
 const RSS_URL = "https://feeds.megaphone.fm/TWG3193347111";
 
@@ -51,5 +52,5 @@ const RSS_URL = "https://feeds.megaphone.fm/TWG3193347111";
     cards.createCards('misc', 'Side Dishes', misc, cards.getMiscEntryCardInfo, allContent);
 
     // SET ACTIVE TAB
-    setActiveTab('episodes');
+    setupUrlManager();
 })();
