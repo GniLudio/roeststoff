@@ -119,3 +119,20 @@ export function compareIsHost(a: Person, b: Person): number {
 export function max<T>(elements: T[], compare: (a: T, b: T) => number = (a, b) => a < b ? -1 : a == b ? 0 : 1): T {
     return elements.reduce((a, b) => compare(a, b) >= 0 ? a : b);
 }
+
+export function setActiveTab(id: string): void {
+    for (const tabButton of document.querySelectorAll('.nav-link')) {
+        if (tabButton.getAttribute('aria-controls') == id) {
+            tabButton.classList.add('active');
+        } else {
+            tabButton.classList.remove('active');
+        }
+    }
+    for (const tabContainer of document.querySelectorAll('.tab-pane')) {
+        if (tabContainer.id == id) {
+            tabContainer.classList.add('active');
+        } else {
+            tabContainer.classList.remove('active');
+        }
+    }
+}
