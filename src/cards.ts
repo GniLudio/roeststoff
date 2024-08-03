@@ -24,15 +24,17 @@ import cardTableCellTemplate from "../templates/card_table_cell.html";
 console.log('card.ts loaded');
 const parser = new DOMParser();
 
-export function createCards<T>(id: string, title: string, items: T[], getCardInfo: (e: T, allContent: AllContent) => CardInfo, allContent: AllContent): void {
+export function createCards<T>(id: string, title: string, items: T[], getCardInfo: (e: T, allContent: AllContent) => CardInfo, allContent: AllContent): [HTMLElement, HTMLElement, HTMLElement[]] {
     console.log(`Create ${title}`);
 
-    createTabButton(id, title);
+    const tabButton = createTabButton(id, title);
     const tabContainer = createTabContainer(id);
 
     const cardInfos = items.map(item => getCardInfo(item, allContent));
     const cards = cardInfos.map(createCard);
     tabContainer.querySelector(`#${id}_content`)!.replaceChildren(...cards);
+
+    return [tabButton, tabContainer, cards];
 }
 
 // ---------- CARD INFO ----------
@@ -152,7 +154,7 @@ export function getMiscEntryCardInfo(entry: MiscEntry, allContent: AllContent): 
 function createTabButton(id: string, title: string): HTMLElement {
     const tabButtons = document.getElementById('navTabs')!;
     const tabButtonRaw = tabButtonTemplate.replaceAll('{ID}', id).replaceAll('{TITLE}', title);
-    const tabButton = parser.parseFromString(tabButtonRaw, 'text/html').body.firstChild as HTMLElement;
+    const tabButton = parser.parseFromString(tabButtonRaw, 'text/html').body.firstElementChild as HTMLElement;
     tabButtons.appendChild(tabButton);
 
     return tabButton;

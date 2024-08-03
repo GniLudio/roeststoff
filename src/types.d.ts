@@ -111,6 +111,8 @@ interface AllContent {
     misc: MiscEntry[]
 }
 
+type TabHTMLElements = [tabButton: HTMLElement, tabContainer: HTMLElement, cards: HTMLElement[]][]
+
 declare module '*.xml' {
     const content: string;
     export default content;
