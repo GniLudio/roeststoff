@@ -866,7 +866,7 @@ eval("module.exports = \"<h5 class=\\\"card-title m-auto p-1\\\">\\r\\n    {TITL
   \***********************************/
 /***/ ((module) => {
 
-eval("module.exports = \"<li class=\\\"nav-item m-1\\\" role=\\\"presentation\\\">\\r\\n    <button class=\\\"nav-link border border-3 border-primary fw-bold p-1 p-lg-2 rounded-5\\\" id=\\\"{ID}-tab\\\"\\r\\n        data-bs-toggle=\\\"tab\\\" data-bs-target=\\\"#{ID}\\\" type=\\\"button\\\" role=\\\"tab\\\" aria-controls=\\\"{ID}\\\"\\r\\n        aria-selected=\\\"true\\\">{TITLE}</button>\\r\\n</li>\";\n\n//# sourceURL=webpack://roeststoff/./templates/tab_button.html?");
+eval("module.exports = \"<li class=\\\"nav-item m-1 px-1 px-sm-0\\\" role=\\\"presentation\\\">\\r\\n    <button class=\\\"nav-link border border-3 border-primary fw-bold p-1 p-lg-2 rounded-5\\\" id=\\\"{ID}-tab\\\"\\r\\n        data-bs-toggle=\\\"tab\\\" data-bs-target=\\\"#{ID}\\\" type=\\\"button\\\" role=\\\"tab\\\" aria-controls=\\\"{ID}\\\"\\r\\n        aria-selected=\\\"true\\\">{TITLE}</button>\\r\\n</li>\";\n\n//# sourceURL=webpack://roeststoff/./templates/tab_button.html?");
 
 /***/ }),
 
