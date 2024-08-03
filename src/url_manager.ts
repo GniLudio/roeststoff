@@ -15,13 +15,11 @@ export function setupUrlManager(elements: TabHTMLElements): void {
 
     window.addEventListener("popstate", (event) => displayContent(event.state));
 
-
     function displayContent(state: { tab: string | undefined | null, info: string | undefined | null }): void {
-        const tabIndex = elements.findIndex(([tabButton, tabContainer, cards]) => tabContainer.id == state.tab);
+        let tabIndex = elements.findIndex(([tabButton, tabContainer, cards]) => tabContainer.id == state.tab);
         if (tabIndex < 0) {
             updateUrlParameter("tab", undefined, false);
-            displayContent({ 'tab': undefined, 'info': state.info });
-            return;
+            tabIndex = 0;
         }
         elements.forEach(([tabButton, tabContainer, cards]) => {
             tabButton.firstElementChild?.classList.remove("active");
