@@ -4,6 +4,18 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/glossary.xsd">
     <entry>
+        <episode>40</episode>
+        <episodeTime>1:12:00</episodeTime>
+        <name>Autolyse</name>
+        <description>Ein Verfahren bei dem abgestorbene Hefezellen in Aminosäuren umgewandelt werden und führt bei Weinen zu dem Brioche-artigem (Brot-artigem) Geschmack.</description>
+    </entry>
+    <entry>
+        <episode>40</episode>
+        <episodeTime>49:11</episodeTime>
+        <name>Schaumwein</name>
+        <description>Mindestens 3 Bar Druck auf der Flasche und 9,5% Alkohol.</description>
+    </entry>
+    <entry>
         <episode>38</episode>
         <episodeTime>1:16:12</episodeTime>
         <name>Begleitendes Trinken</name>

@@ -4,6 +4,36 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/drinks.xsd">
     <drink>
+        <name>? Franciacorta Natur 2018 vom Weingut Barone Piziini</name>
+        <image></image>
+        <appearances>
+            <appearance>
+                <episode>40</episode>
+                <episodeTime>1:15:24</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
+        <name>Riesling Reserver brut Nature 2014 von Marc Josten</name>
+        <image></image>
+        <appearances>
+            <appearance>
+                <episode>40</episode>
+                <episodeTime>1:10:26</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
+        <name>? Schaumwein vom Sekhaus Krack</name>
+        <image></image>
+        <appearances>
+            <appearance>
+                <episode>40</episode>
+                <episodeTime>45:26</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
         <name>Portugieser von Daniel Sigmund</name>
         <image></image>
         <appearances>

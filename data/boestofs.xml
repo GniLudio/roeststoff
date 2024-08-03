@@ -4,6 +4,25 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/boestofs.xsd">
     <boestof>
+        <episode>40</episode>
+        <episodeTime>1:20:50</episodeTime>
+        <name>Schlechte Sprichwörter</name>
+        <peter>
+            <rank>Die Haare vom Kopf fressen.</rank>
+            <rank>Salz in die Wunde streuen.</rank>
+            <rank>Einen Braten in der Röhre haben.</rank>
+            <rank>Der Fisch stinkt vom Kopf her.</rank>
+            <rank>Das Auge ist mit.</rank>
+        </peter>
+        <ilona>
+            <rank>Scheiße mit Ei.</rank>
+            <rank>Die Fettbemme.</rank>
+            <rank>Da tropft mir der Zahn.</rank>
+            <rank>Der Chef (Koch) hat etwas kreiert. (Selbstbehauptung von Kunst)</rank>
+            <rank>Verben für Essen: Schnabulieren, Verspachteln, Vergenussferkeln</rank>
+        </ilona>
+    </boestof>
+    <boestof>
         <episode>38</episode>
         <episodeTime>50:46</episodeTime>
         <name>Gesundes Essen</name>
@@ -348,7 +367,7 @@
         </ilona>
         <max>
             <rank>Dill</rank>
-            <rank>Haribo (indirekt)</rank> 
+            <rank>Haribo (indirekt)</rank>
             <rank>Blauschimmelkäse</rank>
             <rank>Scharf</rank>
             <rank>Fisch</rank>
@@ -468,7 +487,7 @@
         <ilona>
             <rank>-</rank>
         </ilona>
-        
+
     </boestof>
     <boestof>
         <episode>9</episode>

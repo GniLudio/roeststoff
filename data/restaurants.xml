@@ -4,6 +4,17 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/restaurants.xsd">
     <restaurant>
+        <name>Ember</name>
+        <description>Open Fire Cooking</description>
+        <image>images/restaurants/ember.svg</image>
+        <appearances>
+            <appearance>
+                <episode>40</episode>
+                <episodeTime>38:21</episodeTime>
+            </appearance>
+        </appearances>
+    </restaurant>
+    <restaurant>
         <name>Posthotel</name>
         <image>images/restaurants/posthotel.webp</image>
         <appearances>
