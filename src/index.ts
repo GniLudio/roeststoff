@@ -1,4 +1,7 @@
 console.log("index.ts loaded");
+
+import 'bootstrap';
+
 import peopleRaw from '../data/people.xml';
 import drinksRaw from '../data/drinks.xml';
 import boestOfsRaw from '../data/boestofs.xml';

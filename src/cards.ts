@@ -101,7 +101,7 @@ export function getBoestOfCardInfo(boestOf: BoestOf, allContent: AllContent): Ca
         title: boestOf.name,
         index: episodeIDToShortString(boestOf),
         additionalInfo: {
-            id: boestOf.name,
+            id: `boestof_${boestOf.name}`,
             title: boestOf.name,
             content: {
                 "Folge": mapToEpisodeNames([boestOf], allContent.episodes, false),
@@ -191,7 +191,7 @@ function createCard(info: CardInfo): HTMLElement {
 
 function createInfoModal(info: CardInfo): [button: string, modal: string] {
     if (!info.additionalInfo) return ["", ""];
-    const id = toHTMLID(info.additionalInfo.id) + '_info';
+    const id = toHTMLID(info.additionalInfo.id);
 
     const button = cardInfoButtonTemplate.replaceAll('{ID}', id);
     const content = Object.entries(info.additionalInfo.content).map(([header, item]) => {
