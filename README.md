@@ -4,6 +4,6 @@
 ## Daten
 > Die XML-Dateien im `data` Ordner.
  
-* Restaurants nur, wenn über Besuch gesprochen wird.
+* Restaurants nur, wenn über den Restaurant-Besuch gesprochen wird.
 * Personen nur, wenn sie als Gast in der Folge sind.
-* Timestamps ungenau, da Werbung dynamisch eingespielt wird.
+* Timestamps sind ungenau, da Werbung dynamisch eingespielt wird.
