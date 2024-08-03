@@ -48,7 +48,7 @@ export function getEpisodeCardInfo(episode: Episode, allContent: AllContent): Ca
         subtitle: episode.subtitle,
         index: episodeIDToShortString(episode),
         additionalInfo: {
-            id: `episode_${episode.name}`,
+            id: episodeIDToString(episode),
             title: episode.name,
             content: {
                 "Böst of Röststoff": boestOf?.name,
