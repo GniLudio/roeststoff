@@ -46,14 +46,14 @@ const RSS_URL = "https://feeds.megaphone.fm/TWG3193347111";
     // CREATE AND INSERT HTML ELEMENTS
     console.log("CREATING");
     const elements: TabHTMLElements = [
-        cards.createCards('episodes', 'Folgen', episodes, cards.getEpisodeCardInfo, allContent),
-        cards.createCards('people', 'Stoffies', people, cards.getPersonCardInfo, allContent),
-        cards.createCards('drinks', 'Trinkstoff', drinks, cards.getDrinkCardInfo, allContent),
-        cards.createCards('boestof', 'Böst Ofs', boestOfs, cards.getBoestOfCardInfo, allContent),
-        cards.createCards('restaurants', 'Röstaurants', restaurants, cards.getRestaurantCardInfo, allContent),
-        cards.createCards('glossary', 'Lehrstoff', glossary, cards.getGlossaryEntryCardInfo, allContent),
-        cards.createCards('sayings', 'Sprüche', sayings, cards.getSayingCardInfo, allContent),
-        cards.createCards('misc', 'Side Dishes', misc, cards.getMiscEntryCardInfo, allContent),
+        cards.createCards('folgen', 'Folgen', episodes, cards.getEpisodeCardInfo, allContent),
+        cards.createCards('personen', 'Stoffies', people, cards.getPersonCardInfo, allContent),
+        cards.createCards('trinkstoff', 'Trinkstoff', drinks, cards.getDrinkCardInfo, allContent),
+        cards.createCards('boestofs', 'Böst Ofs', boestOfs, cards.getBoestOfCardInfo, allContent),
+        cards.createCards('roestaurants', 'Röstaurants', restaurants, cards.getRestaurantCardInfo, allContent),
+        cards.createCards('lehrstoff', 'Lehrstoff', glossary, cards.getGlossaryEntryCardInfo, allContent),
+        cards.createCards('sprueche', 'Sprüche', sayings, cards.getSayingCardInfo, allContent),
+        cards.createCards('sidedishes', 'Side Dishes', misc, cards.getMiscEntryCardInfo, allContent),
     ];
 
     // MANAGE URL

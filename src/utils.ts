@@ -59,7 +59,7 @@ export function dateToString(date: Date, withTime: boolean): string {
 }
 
 export function episodeIDToString(episode: EpisodeID): string {
-    return ('episode_' + episode.episode.toFixed()) + (episode.episodeType != 'full' ? '_' + episode.episodeType : '');
+    return episode.episode.toFixed() + (episode.episodeType != 'full' ? '_' + episode.episodeType : '');
 }
 
 export function episodeIDToShortString(episode: EpisodeID): string {

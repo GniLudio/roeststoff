@@ -42,13 +42,13 @@ export function createCards<T>(id: string, title: string, items: T[], getCardInf
 export function getEpisodeCardInfo(episode: Episode, allContent: AllContent): CardInfo {
     const boestOf = allContent.boestOfs.find(boestOf => isEpisodeEqual(boestOf, episode));
     return {
-        image: `images/episodes/${episodeIDToString(episode)}.jpeg`,
+        image: `images/episodes/episode_${episodeIDToString(episode)}.jpeg`,
         fallbackImage: 'images/episodes/fallback.jpg',
         title: episode.name,
         subtitle: episode.subtitle,
         index: episodeIDToShortString(episode),
         additionalInfo: {
-            id: episodeIDToString(episode),
+            id: `folge_${episodeIDToString(episode)}`,
             title: episode.name,
             content: {
                 "Böst of Röststoff": boestOf?.name,
@@ -69,7 +69,7 @@ export function getPersonCardInfo(person: Person, allContent: AllContent): CardI
         title: person.name,
         subtitle: person.description,
         additionalInfo: {
-            id: `person_${person.name}`,
+            id: `stoffie_${person.name}`,
             title: person.name,
             content: {
                 "Folgen": mapToEpisodeNames(person.appearances, allContent.episodes, false),
@@ -87,7 +87,7 @@ export function getDrinkCardInfo(drink: Drink, allContent: AllContent): CardInfo
         subtitle: drink.description,
         index: episodeIDToShortString(drink.appearances[0]),
         additionalInfo: {
-            id: `drink_${drink.name}`,
+            id: `trinkstoff_${drink.name}`,
             title: drink.name,
             content: {
                 "Folgen": mapToEpisodeNames(drink.appearances, allContent.episodes, false),
@@ -117,7 +117,7 @@ export function getRestaurantCardInfo(restaurant: Restaurant, allContent: AllCon
         title: restaurant.name,
         subtitle: restaurant.description,
         additionalInfo: {
-            id: `restaurant_${restaurant.name}`,
+            id: `roestaurant_${restaurant.name}`,
             title: restaurant.name,
             content: {
                 "Team": restaurant.team,
