@@ -4,6 +4,20 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/restaurants.xsd">
     <restaurant>
+        <name>KOMU</name>
+        <description></description>
+        <image>images/restaurants/komu.svg</image>
+        <team>
+            <member>Christoph Kunz</member>
+        </team>
+        <appearances>
+            <appearance>
+                <episode>41</episode>
+                <episodeTime>00:00</episodeTime>
+            </appearance>
+        </appearances>
+    </restaurant>
+    <restaurant>
         <name>Ember</name>
         <description>Open Fire Cooking</description>
         <image>images/restaurants/ember.svg</image>

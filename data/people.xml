@@ -4,6 +4,29 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/people.xsd">
     <person>
+        <name>Christoph Kunz</name>
+        <description></description>
+        <image>images/people/christoph_kunz.webp</image>
+        <hateQuestion>
+            <episode>41</episode>
+            <episodeTime>2:02:35</episodeTime>
+            <description>Was heißt KUMA?</description>
+        </hateQuestion>
+        <appearances>
+            <appearance>
+                <episode>41</episode>
+                <episodeTime>16:55</episodeTime>
+            </appearance>
+        </appearances>
+        <characteristics>
+            <characteristic>
+                <episode>41</episode>
+                <episodeTime>16:55</episodeTime>
+                <description>hat 2 Sterne</description>
+            </characteristic>
+        </characteristics>
+    </person>
+    <person>
         <name>Nina Mihilli</name>
         <description></description>
         <image>images/people/nina_mihilli.jpg</image>
@@ -678,6 +701,10 @@
         </hateQuestion>
         <appearances>
             <appearance>
+                <episode>41</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
+            <appearance>
                 <episode>40</episode>
                 <episodeTime>00:00:00</episodeTime>
             </appearance>
@@ -898,6 +925,10 @@
             <description>Was machst du sonst noch?</description>
         </hateQuestion>
         <appearances>
+            <appearance>
+                <episode>41</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
             <appearance>
                 <episode>40</episode>
                 <episodeTime>00:00:00</episodeTime>

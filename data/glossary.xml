@@ -4,6 +4,12 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/glossary.xsd">
     <entry>
+        <episode>41</episode>
+        <episodeTime>1:23:04</episodeTime>
+        <name>Séparée</name>
+        <description>Ein abgeteilter, sichtgeschützter Bereich in einem Lokal oder Restaurant.</description>
+    </entry>
+    <entry>
         <episode>40</episode>
         <episodeTime>1:12:00</episodeTime>
         <name>Autolyse</name>
