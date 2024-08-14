@@ -1,5 +1,3 @@
-console.log("index.ts loaded");
-
 import 'bootstrap';
 
 import peopleRaw from '../data/people.xml';
@@ -13,6 +11,8 @@ import * as parser from './parser';
 import * as cards from './cards';
 import { compareEpisodeID, compareEpisode, compareEpisodeIDs, compareIsHost } from './utils';
 import { setupUrlManager } from './url_manager';
+
+console.log("index.ts loaded");
 
 const RSS_URL = "https://feeds.megaphone.fm/TWG3193347111";
 
