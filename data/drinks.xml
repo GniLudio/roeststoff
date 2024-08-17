@@ -26,7 +26,7 @@
         </appearances>
     </drink>
     <drink>
-        <name>? Franciacorta Natur 2018 vom Weingut Barone Piziini</name>
+        <name>Franciacorta Natur 2018 vom Weingut Barone Pizzini</name>
         <image></image>
         <appearances>
             <appearance>
@@ -129,7 +129,7 @@
         </appearances>
     </drink>
     <drink>
-        <name>Grauburgunder trocken „Orangewein´´ von Max Jäck</name>
+        <name>Grauburgunder trocken Orangewein von Max Jäck</name>
         <image></image>
         <appearances>
             <appearance>
@@ -139,7 +139,7 @@
         </appearances>
     </drink>
     <drink>
-        <name>? Orange Wein von UBF</name>
+        <name>Orange Wein 2019 vom Weingut Disibodenberg</name>
         <image></image>
         <appearances>
             <appearance>
@@ -169,7 +169,7 @@
         </appearances>
     </drink>
     <drink>
-        <name>? Grand Cru 2021 vom Weingut Horst Sauer</name>
+        <name>Silvaner Escherndorf am Lumpen Grand Cru 2021 vom Weingut Horst Sauer</name>
         <image></image>
         <appearances>
             <appearance>
@@ -179,7 +179,7 @@
         </appearances>
     </drink>
     <drink>
-        <name>? Silvaner 2022 vom Weingut VDP aus Saale-Unstrut</name>
+        <name>Silvaner 2022 vom Weingut Lützkendorf aus Saale-Unstrut</name>
         <image></image>
         <appearances>
             <appearance>
@@ -199,7 +199,7 @@
         </appearances>
     </drink>
     <drink>
-        <name>? vom Weingut Wagner</name>
+        <name>Riesling 2022 vom Weingut Wagner</name>
         <image></image>
         <appearances>
             <appearance>
@@ -239,7 +239,7 @@
         </appearances>
     </drink>
     <drink>
-        <name>? Schaumwein vom Weingut Aufricht</name>
+        <name>Chardonnay Blanc de Blanc Trocken vom Weingut Aufricht</name>
         <image></image>
         <appearances>
             <appearance>
@@ -279,7 +279,7 @@
         </appearances>
     </drink>
     <drink>
-        <name>? Cabernet Sauvignon aus Chile</name>
+        <name>Cabernet Sauvignon Trocken aus Chile</name>
         <image></image>
         <appearances>
             <appearance>
@@ -289,7 +289,7 @@
         </appearances>
     </drink>
     <drink>
-        <name>? Sauvignon Blanc aus Südafrika</name>
+        <name>Sauvignon Blanc Trocken aus Südafrika</name>
         <image></image>
         <appearances>
             <appearance>
@@ -299,7 +299,7 @@
         </appearances>
     </drink>
     <drink>
-        <name>? Sake</name>
+        <name>Daiginjo Sake von Kaiketzu?</name>
         <image></image>
         <appearances>
             <appearance>
@@ -429,7 +429,7 @@
         </appearances>
     </drink>
     <drink>
-        <name>?</name>
+        <name>Cabernet Cortis vom Gustavshof</name>
         <image></image>
         <appearances>
             <appearance>
@@ -459,7 +459,7 @@
         </appearances>
     </drink>
     <drink>
-        <name>? 2012 aus Bodega Numanthia</name>
+        <name>Tinta de Toro (Numanthia oder Termian) 2012 aus Bodega Numanthia</name>
         <image></image>
         <appearances>
             <appearance>
@@ -469,7 +469,8 @@
         </appearances>
     </drink>
     <drink>
-        <name>? von Joan Rubió</name>
+        <name>Tempranillo, Penedes, Ull de Llebre von Joan Rubió</name>
+        <description>von Joan Rubió finde ich nur Xarel·lo-Weine</description>
         <image></image>
         <appearances>
             <appearance>
@@ -500,7 +501,7 @@
         </appearances>
     </drink>
     <drink>
-        <name>? Cabernet Sauvignon 2013</name>
+        <name>Cabernet Sauvignon 2013 vom Weingut O'Shaughnessy (Howell Mountain)</name>
         <image></image>
         <appearances>
             <appearance>
@@ -520,7 +521,7 @@
         </appearances>
     </drink>
     <drink>
-        <name>? Cabernet Sauvignon 2018 Weingut Walter am Gardasee</name>
+        <name>Cabernet Sauvignon 2018 Weingut Walter am Gardasee (Vallagrina)</name>
         <image></image>
         <appearances>
             <appearance>
@@ -594,7 +595,7 @@
         </appearances>
     </drink>
     <drink>
-        <name>? von Brlo</name>
+        <name>Rum Barrel Aged Baltic Porter von Brlo</name>
         <image></image>
         <appearances>
             <appearance>
@@ -654,7 +655,7 @@
         </appearances>
     </drink>
     <drink>
-        <name>? 2000 aus Côtes de Beaune</name>
+        <name>? 2000 aus Côte de Beaune</name>
         <image></image>
         <appearances>
             <appearance>
@@ -664,7 +665,7 @@
         </appearances>
     </drink>
     <drink>
-        <name>? Grand Cru 2017 vom Weingut Marchand Tawse</name>
+        <name>Grand Cru 2017 vom Weingut Marchand Tawse</name>
         <image></image>
         <appearances>
             <appearance>
@@ -725,8 +726,8 @@
         </appearances>
     </drink>
     <drink>
-        <name>?</name>
-        <description>(Rose, aus der Provonce, La rolen, 2022)</description>
+        <name>Rose, aus der Provonce, La Roman, La Carve de Roman, 2022, 13.5%</name>
+        <description></description>
         <image></image>
         <appearances>
             <appearance>
