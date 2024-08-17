@@ -58,6 +58,18 @@ console.log("index.ts loaded");
         cards.createCards('sidedishes', 'Side Dishes', misc, cards.getMiscEntryCardInfo, allContent),
     ];
 
+    // CHECK FOR DUPLICATE IDS
+    console.log("CHECKING FOR DUPLICATE IDS");
+    const ids = new Set<string>();
+    for (const node of document.querySelectorAll("[id]")) {
+        if (ids.has(node.id)) {
+            console.warn("Duplicate id", node.id);
+        } else {
+            ids.add(node.id);
+        }
+    }
+
+
     // MANAGE URL
     setupUrlManager(elements);
 })();
