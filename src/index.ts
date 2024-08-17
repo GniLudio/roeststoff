@@ -1,12 +1,5 @@
 import 'bootstrap';
 
-import peopleRaw from '../data/people.xml';
-import drinksRaw from '../data/drinks.xml';
-import boestOfsRaw from '../data/boestofs.xml';
-import restaurantsRaw from '../data/restaurants.xml';
-import glossaryRaw from '../data/glossary.xml';
-import sayingsRaw from '../data/sayings.xml';
-import miscRaw from '../data/misc.xml';
 import * as parser from './parser';
 import * as cards from './cards';
 import { compareEpisodeID, compareEpisode, compareEpisodeIDs, compareIsHost } from './utils';
@@ -14,22 +7,31 @@ import { setupUrlManager } from './url_manager';
 
 console.log("index.ts loaded");
 
-const RSS_URL = "https://feeds.megaphone.fm/TWG3193347111";
-
 (async () => {
-    console.log("FETCHING RSS");
-    const episodesRaw = await (await fetch(RSS_URL)).text();
+    console.log("FETCHING");
+    const base_url = window.location.href.split("/").slice(0, -1).join("/")
+    const data = await Promise.all([
+        "https://feeds.megaphone.fm/TWG3193347111",
+        `${base_url}/data/people.xml`,
+        `${base_url}/data/drinks.xml`,
+        `${base_url}/data/boestofs.xml`,
+        `${base_url}/data/restaurants.xml`,
+        `${base_url}/data/glossary.xml`,
+        `${base_url}/data/misc.xml`,
+        `${base_url}/data/sayings.xml`,
+    ].map(async url => await (await fetch(url)).text()));
+    const [episodesRSS, peopleXML, drinksXML, boestofsXML, restaurantsXML, glossaryXML, miscXML, sayingsXML] = data;
 
     // PARSING
     console.log("PARSING")
-    const episodes: Episode[] = parser.parseXML(episodesRaw, ['rss', 'channel'], 'item', parser.parseEpisode);
-    const people: Person[] = parser.parseXML(peopleRaw, ['root'], 'person', parser.parsePerson);
-    const drinks: Drink[] = parser.parseXML(drinksRaw, ['root'], 'drink', parser.parseDrink);
-    const boestOfs: BoestOf[] = parser.parseXML(boestOfsRaw, ['root'], 'boestof', parser.parseBoestOf);
-    const restaurants: Restaurant[] = parser.parseXML(restaurantsRaw, ['root'], 'restaurant', parser.parseRestaurant);
-    const glossary: GlossaryEntry[] = parser.parseXML(glossaryRaw, ['root'], 'entry', parser.parseGlossaryEntry);
-    const misc: MiscEntry[] = parser.parseXML(miscRaw, ['root'], 'entry', parser.parseMiscEntry);
-    const sayings: TextWithTimestamp[] = parser.parseXML(sayingsRaw, ['root'], 'saying', parser.parseTextWithTimestamp);
+    const episodes: Episode[] = parser.parseXML(episodesRSS, ['rss', 'channel'], 'item', parser.parseEpisode);
+    const people: Person[] = parser.parseXML(peopleXML, ['root'], 'person', parser.parsePerson);
+    const drinks: Drink[] = parser.parseXML(drinksXML, ['root'], 'drink', parser.parseDrink);
+    const boestOfs: BoestOf[] = parser.parseXML(boestofsXML, ['root'], 'boestof', parser.parseBoestOf);
+    const restaurants: Restaurant[] = parser.parseXML(restaurantsXML, ['root'], 'restaurant', parser.parseRestaurant);
+    const glossary: GlossaryEntry[] = parser.parseXML(glossaryXML, ['root'], 'entry', parser.parseGlossaryEntry);
+    const misc: MiscEntry[] = parser.parseXML(miscXML, ['root'], 'entry', parser.parseMiscEntry);
+    const sayings: TextWithTimestamp[] = parser.parseXML(sayingsXML, ['root'], 'saying', parser.parseTextWithTimestamp);
     const allContent: AllContent = { episodes, people, drinks, boestOfs, restaurants, glossary, sayings, misc };
 
     // SORTING
