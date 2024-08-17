@@ -4,6 +4,18 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/glossary.xsd">
     <entry>
+        <episode>42</episode>
+        <episodeTime>38:56</episodeTime>
+        <name>Prosecco</name>
+        <description>Wein der Rebsorte Glera. Ist vor allem für Weine mit Kohlensäure bekannt.</description>
+    </entry>
+    <entry>
+        <episode>42</episode>
+        <episodeTime>57:24</episodeTime>
+        <name>Perlwein</name>
+        <description>Wein mit mindestens 7% Alkohol und zwischen 1 bis 2,5 Bar Druck auf der Flasche bei 20°C.</description>
+    </entry>
+    <entry>
         <episode>41</episode>
         <episodeTime>1:23:04</episodeTime>
         <name>Séparée</name>

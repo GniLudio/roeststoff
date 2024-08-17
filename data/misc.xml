@@ -4,6 +4,61 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/misc.xsd">
     <entry>
+        <episode>42</episode>
+        <episodeTime>1:33:10</episodeTime>
+        <name>Bouillabaisse</name>
+        <description><![CDATA[ 
+            <ol>
+                <li>Bouillabaisse/Fisch-Mix kaufen (Saltwasserfische, ohne Innereien)</li>
+                <li>Im Ofen mit Öl anrösten und grob zerstoßen</li>
+                <li>Wulzengemüse, Fenchel, Karotte, Knollensellerie, Rote/Gelbe Paprika mit Olivenöl, Knoblauch und Tomatenmark anschwitzen (geschält)</li>
+                <li>Gemüse mit Konjak ablöschen, flammbieren, Weißwein hinzufügen und anishaltige Getränk (Pastis, Noilly Prat, Perno) hinzufügen</li>
+                <li>Alkohol einmal auswixen (durch Flamme oder aufkochen)</li>
+                <li>Mit Fischfond und Fisch auffüllen und lange kochen</li>
+                <li>Mit Piment, Thymian, Safran würzen</li>
+                <li>Idealerweise soft geröstete Krustentierkarkasse reinwerfen (nicht Kopf)</li>
+            </ol>
+            ]]></description>
+    </entry>
+    <entry>
+        <episode>42</episode>
+        <episodeTime>1:21:45</episodeTime>
+        <name>Scharfe Marinade</name>
+        <description><![CDATA[ 
+            <ul>
+                <li>Chicken-Chili Sauce (rot)</li>
+                <li>Ketchup</li>
+                <li>Weißen Essig</li>
+                <li>Tomatenmark</li>
+                <li>Ahornsirup</li>
+                <li>Sriracha</li>
+                <li>Chiliflocken</li>
+                <li>Geräuchertes Paprikapulver</li>
+                <li>Flüssiger Rohrzucker</li>
+                <li>Koriadersaat (geröstet zerstoßen)</li>
+                <li>Salz</li>
+            </ul>
+            Am Ende mit Stabmixer und generischem Öl (z.B. Rapsöl) durchmixen.
+            ]]></description>
+    </entry>
+    <entry>
+        <episode>42</episode>
+        <episodeTime>1:20:08</episodeTime>
+        <name>Schokoladenmarinade</name>
+        <description><![CDATA[
+            <ul>
+                <li>Grafschafter Goldsaft</li>
+                <li>Kaffee</li>
+                <li>Sojasauce</li>
+                <li>Kakaopulver</li>
+                <li>Geschmolzene Schokolade</li>
+                <li>Pfeffer</li>
+                <li>Rum</li>
+            </ul>
+            Aufgekocht unter ständigem Rühren. Am Ende mit Stabmixer und generischem Öl (z.B. Rapsöl) durchmixen.
+            ]]></description>
+    </entry>
+    <entry>
         <episode>39</episode>
         <episodeTime>1:55:30</episodeTime>
         <name>Unvernünftige Gastfreundschaft</name>

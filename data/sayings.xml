@@ -4,6 +4,16 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/sayings.xsd">
     <saying>
+        <episode>42</episode>
+        <episodeTime>27:13</episodeTime>
+        <description>Man erkennt eine gute Pizza daran, in welchem Grad sie sich verneigt.</description>
+    </saying>
+    <saying>
+        <episode>42</episode>
+        <episodeTime>10:33</episodeTime>
+        <description>Fett und Quadrat macht dich zum Kreis.</description>
+    </saying>
+    <saying>
         <episode>37</episode>
         <episodeTime>1:50:13</episodeTime>
         <description>Butter bei die Fische.</description>
