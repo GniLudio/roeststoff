@@ -1,14 +1,14 @@
 // ---------- CONTENT TYPES ----------
-interface Episode extends EpisodeID {
+type Episode = EpisodeID & Readonly<{
     name: string,
     subtitle: string,
     description: string,
     pubDate: Date,
     duration: Time,
     enclosure: EpisodeEnclosure
-}
+}>
 
-interface Person {
+type Person = Readonly<{
     name: string,
     image: string,
     description?: string,
@@ -16,91 +16,91 @@ interface Person {
     isHost?: boolean,
     appearances: Timestamp[],
     characteristics?: TextWithTimestamp[],
-}
+}>
 
-interface Drink {
+type Drink = Readonly<{
     name: string,
     image: string,
     description?: string,
     appearances: Timestamp[],
-}
+}>
 
-interface BoestOf extends Timestamp {
+type BoestOf = Timestamp & Readonly<{
     name: string,
     peter: string[],
     ilona: string[],
     max?: string[],
-}
+}>
 
-interface Restaurant {
+type Restaurant = Readonly<{
     name: string,
     image: string,
     description?: string,
     appearances: Timestamp[],
     team?: string[],
     characteristics?: TextWithTimestamp[],
-}
+}>
 
-interface GlossaryEntry extends Timestamp {
+type GlossaryEntry = Timestamp & Readonly<{
     name: string,
     description: string,
-}
+}>
 
-interface MiscEntry extends Timestamp {
+type MiscEntry = Timestamp & Readonly<{
     name: string,
     description: string,
     image?: string,
-}
+}>
 
 // ---------- NESTED TYPES ----------
 
-interface TextWithTimestamp extends Timestamp {
+type TextWithTimestamp = Timestamp & Readonly<{
     description: string
-}
+}>
 
-interface Timestamp extends EpisodeID {
+type Timestamp = EpisodeID & Readonly<{
     episodeTime: Time
-}
+}>
 
-interface Time {
+type Time = Readonly<{
     hours: number,
     minutes: number,
     seconds: number
-}
+}>
 
-interface EpisodeID {
+type EpisodeID = Readonly<{
     episodeType: EpisodeType,
     episode: number
-}
+}>
 
-interface EpisodeEnclosure {
+type EpisodeEnclosure = Readonly<{
     type: string,
     url: string,
-}
+}>
 
 type EpisodeType = "full" | "trailer" | "bonus";
 
 // ---------- CARDS ----------
-interface CardInfo {
+type CardInfo = Readonly<{
     title?: string,
     image?: string,
     fallbackImage?: string,
     subtitle?: string,
     index?: string,
     additionalInfo?: ModalInfo
-}
+}>
 
-interface ModalInfo {
+type ModalInfo = Readonly<{
     id: string,
     title: string,
-    content: {
+    content: Readonly<{
         [header: string]: string | undefined | string[]
-    }
-}
+    }>
+}>
 
 // ---------- OTHER ----------
 
-interface AllContent {
+type AllContent = Readonly<{
     episodes: Episode[],
     people: Person[],
     drinks: Drink[],
@@ -109,7 +109,7 @@ interface AllContent {
     glossary: GlossaryEntry[],
     sayings: TextWithTimestamp[],
     misc: MiscEntry[]
-}
+}>
 
 type TabHTMLElements = [tabButton: HTMLElement, tabContainer: HTMLElement, cards: HTMLElement[]][]
 
