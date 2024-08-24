@@ -4,6 +4,12 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/glossary.xsd">
     <entry>
+        <episode>43</episode>
+        <episodeTime>15:37</episodeTime>
+        <name>Tartelettes</name>
+        <description>Kleine runde Mürbeteig-Böden mit geriffeltem Rand.</description>
+    </entry>
+    <entry>
         <episode>42</episode>
         <episodeTime>38:56</episodeTime>
         <name>Prosecco</name>

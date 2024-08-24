@@ -4,6 +4,7 @@ import * as parser from './parser';
 import * as cards from './cards';
 import { compareEpisodeID, compareEpisode, compareEpisodeIDs, compareIsHost } from './utils';
 import { setupUrlManager } from './url_manager';
+import { applyFixes as applyFixes } from './fixes';
 
 console.log("index.ts loaded");
 
@@ -33,6 +34,10 @@ console.log("index.ts loaded");
     const misc: MiscEntry[] = parser.parseXML(miscXML, ['root'], 'entry', parser.parseMiscEntry);
     const sayings: TextWithTimestamp[] = parser.parseXML(sayingsXML, ['root'], 'saying', parser.parseTextWithTimestamp);
     const allContent: AllContent = { episodes, people, drinks, boestOfs, restaurants, glossary, sayings, misc };
+
+    // FIXES
+    console.log("FIXING");
+    applyFixes(allContent);
 
     // SORTING
     console.log("SORTING");

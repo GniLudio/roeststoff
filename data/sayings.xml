@@ -4,6 +4,11 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/sayings.xsd">
     <saying>
+        <episode>43</episode>
+        <episodeTime>54:30</episodeTime>
+        <description>Die Jakobsmuschel sei der Tofu des Meeres.</description>
+    </saying>
+    <saying>
         <episode>42</episode>
         <episodeTime>27:13</episodeTime>
         <description>Man erkennt eine gute Pizza daran, in welchem Grad sie sich verneigt.</description>

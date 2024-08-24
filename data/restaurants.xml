@@ -4,6 +4,19 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/restaurants.xsd">
     <restaurant>
+        <name>Shōdo Udon Lab</name>
+        <image>images/restaurants/shodo_udon_lab.jpeg</image>
+        <team>
+            <member></member>
+        </team>
+        <appearances>
+            <appearance>
+                <episode>43</episode>
+                <episodeTime>24:56</episodeTime>
+            </appearance>
+        </appearances>
+    </restaurant>
+    <restaurant>
         <name>KOMU</name>
         <description></description>
         <image>images/restaurants/komu.svg</image>
