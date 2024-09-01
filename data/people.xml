@@ -709,6 +709,10 @@
         </hateQuestion>
         <appearances>
             <appearance>
+                <episode>44</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
+            <appearance>
                 <episode>43</episode>
                 <episodeTime>00:00:00</episodeTime>
             </appearance>
@@ -941,6 +945,10 @@
             <description>Was machst du sonst noch?</description>
         </hateQuestion>
         <appearances>
+            <appearance>
+                <episode>44</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
             <appearance>
                 <episode>43</episode>
                 <episodeTime>00:00:00</episodeTime>

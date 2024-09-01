@@ -4,6 +4,25 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/boestofs.xsd">
     <boestof>
+        <episode>44</episode>
+        <episodeTime>1:25:52</episodeTime>
+        <name>Craved Essen für bestimmte Situationen</name>
+        <peter>
+            <rank>Grillhänchen(stand) am Baumarkt</rank>
+            <rank><![CDATA[Suppe bei Krankheit (auf dem Weg zur Besserung)<br>(für Ilona wäre es Cola)]]></rank>
+            <rank>Süße Cerealinien bei Stress</rank>
+            <rank>Chips im betrunkenen Zustand</rank>
+            <rank>Zwiebelmettbrötchen für das Aufwachen mit Kater</rank>
+        </peter>
+        <ilona>
+            <rank>Heiße Schokolade beim Lesen von Harry-Potter</rank>
+            <rank>Nic Nacs wenn man richtig im Arsch ist</rank>
+            <rank>Eis bei Liebeskummer (direkt aus der Verpackung)</rank>
+            <rank>Curry36 bei Besuch</rank>
+            <rank>Marzipan-Croissant von Le Crobag bei langen Fahrten durch die Republik</rank>
+        </ilona>
+    </boestof>
+    <boestof>
         <episode>40</episode>
         <episodeTime>1:20:50</episodeTime>
         <name>Schlechte Sprichwörter</name>
