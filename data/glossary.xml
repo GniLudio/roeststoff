@@ -4,6 +4,18 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/glossary.xsd">
     <entry>
+        <episode>45</episode>
+        <episodeTime>54:00</episodeTime>
+        <name>Dosage</name>
+        <description>Anteil, der am Ende hinzugefügt wird, um den Zuckergehalt zu beeinflussen.</description>
+    </entry>
+    <entry>
+        <episode>45</episode>
+        <episodeTime>4:34</episodeTime>
+        <name>Crémant</name>
+        <description>Schaumwein, der nicht aus der Champagne kommt, aber ähnliche gesetzliche Vorgaben hat.</description>
+    </entry>
+    <entry>
         <episode>43</episode>
         <episodeTime>15:37</episodeTime>
         <name>Tartelettes</name>

@@ -4,6 +4,29 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/sayings.xsd">
     <saying>
+        <episode>45</episode>
+        <episodeTime>0:28</episodeTime>
+        <description><![CDATA[
+            <div class="text-start">
+            <p>
+            Ich trinke Champagner, wenn ich froh bin, und wenn ich traurig bin.
+            </p>
+            <p>
+            Manchmal trinke ich davon, wenn ich allein bin;
+            und wenn ich Gesellschaft habe, darf er nicht fehlen.
+            </p>
+            <p>
+            Wenn ich keinen Hunger habe, mache ich mir mit ihm Appetit;
+            und wenn ich hungrig bin, lasse ich ihn mir schmecken.
+            </p>
+            <p>
+            Sonst aber rühre ich ihn nicht an, außer wenn ich durst habe.
+            </p>
+            </div>
+            <small>Madame Lily Bollinger</small>
+        ]]></description>
+    </saying>
+    <saying>
         <episode>43</episode>
         <episodeTime>54:30</episodeTime>
         <description>Die Jakobsmuschel sei der Tofu des Meeres.</description>

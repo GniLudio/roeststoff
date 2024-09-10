@@ -4,6 +4,33 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/people.xsd">
     <person>
+        <name>Theresa Olkus</name>
+        <image>images/people/theresa_olkus.jpg</image>
+        <hateQuestion>
+            <episode>45</episode>
+            <episodeTime>2:14:25</episodeTime>
+            <description>Musst du jeden Tag trinken?</description>
+        </hateQuestion>
+        <appearances>
+            <appearance>
+                <episode>45</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
+        </appearances>
+        <characteristics>
+            <characteristic>
+                <episode>45</episode>
+                <episodeTime>3:01</episodeTime>
+                <description>Geschäftsführerin vom Verband der deutschen Prädikatsweine (VDP)</description>
+            </characteristic>
+            <characteristic>
+                <episode>45</episode>
+                <episodeTime>1:51:15</episodeTime>
+                <description>Würtenberger Weinkönigin</description>
+            </characteristic>
+        </characteristics>
+    </person>
+    <person>
         <name>Christoph Kunz</name>
         <description></description>
         <image>images/people/christoph_kunz.webp</image>
@@ -709,6 +736,10 @@
         </hateQuestion>
         <appearances>
             <appearance>
+                <episode>45</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
+            <appearance>
                 <episode>44</episode>
                 <episodeTime>00:00:00</episodeTime>
             </appearance>
@@ -945,6 +976,10 @@
             <description>Was machst du sonst noch?</description>
         </hateQuestion>
         <appearances>
+            <appearance>
+                <episode>45</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
             <appearance>
                 <episode>44</episode>
                 <episodeTime>00:00:00</episodeTime>
