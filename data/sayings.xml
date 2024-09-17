@@ -4,6 +4,17 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/sayings.xsd">
     <saying>
+        <episode>46</episode>
+        <episodeTime>00:00:38</episodeTime>
+        <description><![CDATA[
+            Der wunderbare W. C. Fields rieht seinen Mitmenschen stets Folgendes:
+            <p>
+            Tragen Sie gegen Schlangenbisse stets einen Flachmann mit Whiskey bei sich,
+            und für den Fall der Fälle auch eine kleine Schlange.
+            </p>
+        ]]></description>
+    </saying>
+    <saying>
         <episode>45</episode>
         <episodeTime>0:28</episodeTime>
         <description><![CDATA[

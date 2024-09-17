@@ -4,6 +4,25 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/boestofs.xsd">
     <boestof>
+        <episode>46</episode>
+        <episodeTime>50:00</episodeTime>
+        <name>Ekelhaftes Essen in Medien</name>
+        <peter>
+            <rank>Denethor isst während sein Sohn sinnlos stirbt aus Herr der Ringe</rank>
+            <rank>Essen (Schleim) der Realität aus Matrix 2</rank>
+            <rank>Affenhirne aus Indiana Jones</rank>
+            <rank>Essensschlacht aus Hook</rank>
+            <rank>Familiendinner aus Resident Evil 7</rank>
+        </peter>
+        <ilona>
+            <rank>Imperium von Christian Kracht</rank>
+            <rank>Lebendiger Tintenfisch aus Old Boy oder The Boys</rank>
+            <rank>Verwesener Braten mit Fliegenlarven besetzt in einem Plexiglasraum (in Museen)</rank>
+            <rank>Essenskapf aus Der Schacht</rank>
+            <rank>Bohnen mit Bud Spencer und Terence Hill</rank>
+        </ilona>
+    </boestof>
+    <boestof>
         <episode>44</episode>
         <episodeTime>1:25:52</episodeTime>
         <name>Craved Essen für bestimmte Situationen</name>

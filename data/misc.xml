@@ -4,6 +4,27 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/misc.xsd">
     <entry>
+        <episode>46</episode>
+        <episodeTime>47:06</episodeTime>
+        <name>Zu Besuch bei Diktatoren</name>
+        <description>Buch über Leibspeisen von Demagogen und Diktatoren des 19-21.ten Jahrhunderts.</description>
+        <image>images/misc/zu_besuch_bei_diktatoren.jpg</image>
+    </entry>
+    <entry>
+        <episode>46</episode>
+        <episodeTime>3:32</episodeTime>
+        <name>Aufsturz</name>
+        <description>Ein Podcast von Holga Schwarz für Menschen, die ohne Alkohol leben möchten.</description>
+        <image>images/misc/aufsturz.jpeg</image>
+    </entry>
+    <entry>
+        <episode>46</episode>
+        <episodeTime>3:03</episodeTime>
+        <name>Auf ein Bier</name>
+        <description>Ein Podcast über Games. Wird sehr gerne von Peter gehört.</description>
+        <image>images/misc/auf_ein_bier.png</image>
+    </entry>
+    <entry>
         <episode>42</episode>
         <episodeTime>1:33:10</episodeTime>
         <name>Bouillabaisse</name>
