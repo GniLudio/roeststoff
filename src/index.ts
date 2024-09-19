@@ -76,5 +76,8 @@ console.log("index.ts loaded");
 
 
     // MANAGE URL
+    console.log("SETUP URL-MANAGER");
     setupUrlManager(elements);
+
+    console.log("DONE");
 })();
