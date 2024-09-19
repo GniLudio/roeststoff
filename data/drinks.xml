@@ -5,6 +5,7 @@
     xsi:schemaLocation="roeststoff ../schemas/drinks.xsd">
     <drink>
         <name>Pinot 2014 von Hans Jörg Rebholz</name>
+        <image>images/drinks/drinks_45.jpeg</image>
         <appearances>
             <appearance>
                 <episode>45</episode>
@@ -14,6 +15,7 @@
     </drink>
     <drink>
         <name>Aldinger No. 530</name>
+        <image>images/drinks/drinks_45.jpeg</image>
         <appearances>
             <appearance>
                 <episode>45</episode>
@@ -23,6 +25,7 @@
     </drink>
     <drink>
         <name>Cava 2017 Cuvée Imperial aus der Region Penedest</name>
+        <image>images/drinks/drinks_45.jpeg</image>
         <appearances>
             <appearance>
                 <episode>45</episode>
@@ -32,6 +35,7 @@
     </drink>
     <drink>
         <name>Quadrille Crémant de Loire 2012</name>
+        <image>images/drinks/drinks_45.jpeg</image>
         <appearances>
             <appearance>
                 <episode>45</episode>
