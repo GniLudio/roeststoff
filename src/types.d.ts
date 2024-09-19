@@ -20,7 +20,7 @@ type Person = Readonly<{
 
 type Drink = Readonly<{
     name: string,
-    image: string,
+    image?: string,
     description?: string,
     appearances: Timestamp[],
 }>

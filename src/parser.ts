@@ -47,7 +47,7 @@ export function parsePerson(element: Element): Person {
 export function parseDrink(element: Element): Drink {
     return {
         name: parseMandatory(parseString, element, 'name'),
-        image: parseMandatory(parseString, element, 'image'),
+        image: parseOptional(parseString, element, 'image'),
         description: parseOptional(parseString, element, 'description'),
         appearances: parseMandatoryArray(parseTimestamp, element, 'appearances', 'appearance'),
     };

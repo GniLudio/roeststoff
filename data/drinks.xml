@@ -5,7 +5,6 @@
     xsi:schemaLocation="roeststoff ../schemas/drinks.xsd">
     <drink>
         <name>Pinot 2014 von Hans Jörg Rebholz</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>45</episode>
@@ -15,7 +14,6 @@
     </drink>
     <drink>
         <name>Aldinger No. 530</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>45</episode>
@@ -25,7 +23,6 @@
     </drink>
     <drink>
         <name>Cava 2017 Cuvée Imperial aus der Region Penedest</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>45</episode>
@@ -35,7 +32,6 @@
     </drink>
     <drink>
         <name>Quadrille Crémant de Loire 2012</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>45</episode>
@@ -45,7 +41,6 @@
     </drink>
     <drink>
         <name>Pinoletto vom Weingut Manonesi</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>42</episode>
@@ -55,7 +50,6 @@
     </drink>
     <drink>
         <name>Prosecco Rapunzel Vinotec Pisolato 2022</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>42</episode>
@@ -65,7 +59,6 @@
     </drink>
     <drink>
         <name>Franciacorta Natur 2018 vom Weingut Barone Pizzini</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>40</episode>
@@ -75,7 +68,6 @@
     </drink>
     <drink>
         <name>Riesling Reserver brut Nature 2014 von Marc Josten</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>40</episode>
@@ -85,7 +77,6 @@
     </drink>
     <drink>
         <name>? Schaumwein vom Sekthaus Krack</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>40</episode>
@@ -95,7 +86,6 @@
     </drink>
     <drink>
         <name>Portugieser von Daniel Sigmund</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>39</episode>
@@ -105,7 +95,6 @@
     </drink>
     <drink>
         <name>Strümpfelback Trollinger 2020 vom Weingut Idler</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>39</episode>
@@ -115,7 +104,6 @@
     </drink>
     <drink>
         <name>Yprésien 2023 von Legrand Latour</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>39</episode>
@@ -125,7 +113,6 @@
     </drink>
     <drink>
         <name>Eiskaffee</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>38</episode>
@@ -135,7 +122,6 @@
     </drink>
     <drink>
         <name>Sven Enderle Alea</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>37</episode>
@@ -145,7 +131,6 @@
     </drink>
     <drink>
         <name>Weißburgunder 2016 vom Weingut Münzberg </name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>36</episode>
@@ -155,7 +140,6 @@
     </drink>
     <drink>
         <name>Weißburgunder Ried Kittenberg 2018 vom Weingut Gross</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>36</episode>
@@ -165,7 +149,6 @@
     </drink>
     <drink>
         <name>Grauburgunder trocken Orangewein von Max Jäck</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>34</episode>
@@ -175,7 +158,6 @@
     </drink>
     <drink>
         <name>Orange Wein 2019 vom Weingut Disibodenberg</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>34</episode>
@@ -185,7 +167,6 @@
     </drink>
     <drink>
         <name>Pfalz Grauer Burgunder vom Weingut Bossert</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>34</episode>
@@ -195,7 +176,6 @@
     </drink>
     <drink>
         <name>Silvaner Alte Reben Réserve 2017 von Neverland Vineyards</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>32</episode>
@@ -205,7 +185,6 @@
     </drink>
     <drink>
         <name>Silvaner Escherndorf am Lumpen Grand Cru 2021 vom Weingut Horst Sauer</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>32</episode>
@@ -215,7 +194,6 @@
     </drink>
     <drink>
         <name>Silvaner 2022 vom Weingut Lützkendorf aus Saale-Unstrut</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>32</episode>
@@ -225,7 +203,6 @@
     </drink>
     <drink>
         <name>Dornfelder 2019 vom Weingut Kastanienberg</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>30</episode>
@@ -235,7 +212,6 @@
     </drink>
     <drink>
         <name>Riesling 2022 vom Weingut Wagner</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>30</episode>
@@ -275,7 +251,6 @@
     </drink>
     <drink>
         <name>Chardonnay Blanc de Blanc Trocken vom Weingut Aufricht</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>28</episode>
@@ -305,7 +280,6 @@
     </drink>
     <drink>
         <name>Artemis Cabernet Sauvignon 2019</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>27</episode>
@@ -315,7 +289,6 @@
     </drink>
     <drink>
         <name>Cabernet Sauvignon Trocken aus Chile</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>27</episode>
@@ -325,7 +298,6 @@
     </drink>
     <drink>
         <name>Sauvignon Blanc Trocken aus Südafrika</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>27</episode>
@@ -335,7 +307,6 @@
     </drink>
     <drink>
         <name>Daiginjo Sake von Kaiketzu?</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>26</episode>
@@ -375,7 +346,6 @@
     </drink>
     <drink>
         <name>Grüner Veltliner Black Edition 2018 von Weingut Ebner-Ebenauer</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>25</episode>
@@ -385,7 +355,6 @@
     </drink>
     <drink>
         <name>Blanc des Millenairs 2007 von Charles Heidsieck</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>25</episode>
@@ -455,7 +424,6 @@
     </drink>
     <drink>
         <name>Helles Schlenkerla Lagerbier</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>24</episode>
@@ -465,7 +433,6 @@
     </drink>
     <drink>
         <name>Cabernet Cortis vom Gustavshof</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>23</episode>
@@ -495,7 +462,6 @@
     </drink>
     <drink>
         <name>Tinta de Toro (Numanthia oder Termian) 2012 aus Bodega Numanthia</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>21</episode>
@@ -506,7 +472,6 @@
     <drink>
         <name>Tempranillo, Penedes, Ull de Llebre von Joan Rubió</name>
         <description>von Joan Rubió finde ich nur Xarel·lo-Weine</description>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>21</episode>
@@ -516,7 +481,6 @@
     </drink>
     <drink>
         <name>Gramona Cava »III Lustros« 2013</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>21</episode>
@@ -526,7 +490,6 @@
     </drink>
     <drink>
         <name>Traubensaft Riesling von Jonas Borkowski</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>20</episode>
@@ -536,7 +499,6 @@
     </drink>
     <drink>
         <name>Cabernet Sauvignon 2013 vom Weingut O'Shaughnessy (Howell Mountain)</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>19</episode>
@@ -546,7 +508,6 @@
     </drink>
     <drink>
         <name>High Roller Cabernet Sauvignon 2020</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>19</episode>
@@ -556,7 +517,6 @@
     </drink>
     <drink>
         <name>Cabernet Sauvignon 2018 Weingut Walter am Gardasee (Vallagrina)</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>19</episode>
@@ -566,7 +526,6 @@
     </drink>
     <drink>
         <name>Mitchell Sparkling Peppertree shiraz</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>18</episode>
@@ -580,7 +539,6 @@
     </drink>
     <drink>
         <name>Fritz Wieniger Rosengartle</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>18</episode>
@@ -590,7 +548,6 @@
     </drink>
     <drink>
         <name>Rutz Rebell 2013 Pinot Blanc Brut Natur vom Weingut Raumland</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>18</episode>
@@ -620,7 +577,6 @@
     </drink>
     <drink>
         <name>Rutz Rebell 2019</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>16</episode>
@@ -630,7 +586,6 @@
     </drink>
     <drink>
         <name>Rum Barrel Aged Baltic Porter von Brlo</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>14</episode>
@@ -640,7 +595,6 @@
     </drink>
     <drink>
         <name>Rosinenbomber von Brlo</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>14</episode>
@@ -650,7 +604,6 @@
     </drink>
     <drink>
         <name>Saures IPA von der Hudson Valley Brewery</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>14</episode>
@@ -660,7 +613,6 @@
     </drink>
     <drink>
         <name>Berlin Jam Erdbeer Berliner Weisse von Brlo</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>14</episode>
@@ -670,7 +622,6 @@
     </drink>
     <drink>
         <name>Berliner Weissee von Brlo</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>14</episode>
@@ -680,7 +631,6 @@
     </drink>
     <drink>
         <name>OK, CZECK! von Brlo</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>14</episode>
@@ -690,7 +640,6 @@
     </drink>
     <drink>
         <name>? 2000 aus Côte de Beaune</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>13</episode>
@@ -700,7 +649,6 @@
     </drink>
     <drink>
         <name>Grand Cru 2017 vom Weingut Marchand Tawse</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>13</episode>
@@ -710,7 +658,6 @@
     </drink>
     <drink>
         <name>Kapellenberg Spätburgunder 2018 vom Weingut Klostermühle Odernheim</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>13</episode>
@@ -720,7 +667,6 @@
     </drink>
     <drink>
         <name>Ombre d'Ambra 2020 vom Weingut Pialli</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>12</episode>
@@ -730,7 +676,6 @@
     </drink>
     <drink>
         <name>Silvaner Orangewine 2021 vom Weingut Reis &amp; Luff</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>12</episode>
@@ -740,7 +685,6 @@
     </drink>
     <drink>
         <name>Karambolage 2020 von Jonas Dostert</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>12</episode>
@@ -751,7 +695,6 @@
     <drink>
         <name>Fleur de Pinot 2020 von Sylvain Pataille</name>
         <description>Ilona's Lieblings-Rose</description>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>11</episode>
@@ -761,7 +704,6 @@
     </drink>
     <drink>
         <name>Rose, aus der Provonce, La Roman, La Carve de Roman, 2022, 13.5%</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>11</episode>
@@ -771,7 +713,6 @@
     </drink>
     <drink>
         <name>Cuvée de Réserve 2022 von Pierre Péters</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>10</episode>
@@ -842,7 +783,6 @@
     </drink>
     <drink>
         <name>Pinot Noir 2017 von Friedrich Becker</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>6</episode>
@@ -852,7 +792,6 @@
     </drink>
     <drink>
         <name>Merlot trocken Hainfelder Kapelle 2019 vom Weingut Kastanienberg</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>6</episode>
@@ -964,7 +903,6 @@
     </drink>
     <drink>
         <name>Aurore Casanova Champagner aus Puisieulx</name>
-        <image></image>
         <appearances>
             <appearance>
                 <episode>1</episode>
