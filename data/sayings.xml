@@ -4,6 +4,11 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/sayings.xsd">
     <saying>
+        <episode>47</episode>
+        <episodeTime>26:55</episodeTime>
+        <description>Von Höckchen auf Stöckchen.</description>
+    </saying>
+    <saying>
         <episode>46</episode>
         <episodeTime>00:00:38</episodeTime>
         <description><![CDATA[

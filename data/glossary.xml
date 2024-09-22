@@ -4,6 +4,12 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/glossary.xsd">
     <entry>
+        <episode>47</episode>
+        <episodeTime>15:35</episodeTime>
+        <name>Konzession</name>
+        <description>Genehmigung für Restaurant, die bestimmt was zubereitet werden darf.</description>
+    </entry>
+    <entry>
         <episode>45</episode>
         <episodeTime>54:00</episodeTime>
         <name>Dosage</name>

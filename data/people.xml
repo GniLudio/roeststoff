@@ -4,6 +4,38 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/people.xsd">
     <person>
+        <name>Alina Meissner Bebrout</name>
+        <image>images/people/alina_meissner_bebrout.jpg</image>
+        <hateQuestion>
+            <episode>47</episode>
+            <episodeTime>2:31:55</episodeTime>
+            <description><![CDATA[Wie fühlt es sich an als Frau einen Stern zu bekommen?<br>Wie spricht man deinen Namen aus? (und wie der von deinem Restaurant)]]></description>
+        </hateQuestion>
+        <appearances>
+            <appearance>
+                <episode>47</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
+        </appearances>
+        <characteristics>
+            <characteristic>
+                <episode>47</episode>
+                <episodeTime>1:29</episodeTime>
+                <description>hat Restaurant und Brasserie in Ulm</description>
+            </characteristic>
+            <characteristic>
+                <episode>47</episode>
+                <episodeTime>9:07</episodeTime>
+                <description>hat mit 24 Restaurant eröffnet und sich selbstständig gemacht</description>
+            </characteristic>
+            <characteristic>
+                <episode>47</episode>
+                <episodeTime>55:37</episodeTime>
+                <description><![CDATA[Instagram: <a href="https://www.instagram.com/alinameissnerbebrout/">@alinameissnerbebrout</a>]]></description>
+            </characteristic>
+        </characteristics>
+    </person>
+    <person>
         <name>Theresa Olkus</name>
         <image>images/people/theresa_olkus.jpg</image>
         <hateQuestion>
@@ -736,6 +768,10 @@
         </hateQuestion>
         <appearances>
             <appearance>
+                <episode>47</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
+            <appearance>
                 <episode>46</episode>
                 <episodeTime>00:00:00</episodeTime>
             </appearance>
@@ -980,6 +1016,10 @@
             <description>Was machst du sonst noch?</description>
         </hateQuestion>
         <appearances>
+            <appearance>
+                <episode>47</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
             <appearance>
                 <episode>46</episode>
                 <episodeTime>00:00:00</episodeTime>
