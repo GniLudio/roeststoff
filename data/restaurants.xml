@@ -4,6 +4,19 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/restaurants.xsd">
     <restaurant>
+        <name>Oben (bei Max Strohe)</name>
+        <image></image>
+        <team>
+            <member>Max Strohe</member>
+        </team>
+        <appearances>
+            <appearance>
+                <episode>48</episode>
+                <episodeTime>40:15</episodeTime>
+            </appearance>
+        </appearances>
+    </restaurant>
+    <restaurant>
         <name>Shōdo Udon Lab</name>
         <image>images/restaurants/shodo_udon_lab.jpeg</image>
         <team>

@@ -4,6 +4,25 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/boestofs.xsd">
     <boestof>
+        <episode>48</episode>
+        <episodeTime>1:35:00</episodeTime>
+        <name>Dinge, die man noch mal zum ersten Mal essen möchte</name>
+        <peter>
+            <rank>Center Shock</rank>
+            <rank>Zuckerwatte</rank>
+            <rank>Erdbeeren</rank>
+            <rank>Rippchen</rank>
+            <rank>Jakobsmuschel von Max</rank>
+        </peter>
+        <ilona>
+            <rank>Knallbrause (Magic Gum)</rank>
+            <rank>Jakobsmuschel von Max</rank>
+            <rank>Pinot Noir</rank>
+            <rank>Softeis</rank>
+            <rank>Käsespätzle</rank>
+        </ilona>
+    </boestof>
+    <boestof>
         <episode>46</episode>
         <episodeTime>50:00</episodeTime>
         <name>Ekelhaftes Essen in Medien</name>

@@ -4,6 +4,15 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/drinks.xsd">
     <drink>
+        <name>Mersault ?</name>
+        <appearances>
+            <appearance>
+                <episode>48</episode>
+                <episodeTime>14:34</episodeTime>
+            </appearance>
+        </appearances>
+    </drink>
+    <drink>
         <name>Pinot 2014 von Hans Jörg Rebholz</name>
         <image>images/drinks/drinks_45.jpeg</image>
         <appearances>
