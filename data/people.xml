@@ -4,6 +4,21 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/people.xsd">
     <person>
+        <name>Tim Raue</name>
+        <image>images/people/tim_raue.jpg</image>
+        <hateQuestion>
+            <episode>49</episode>
+            <episodeTime>1:36:49</episodeTime>
+            <description>Fragen über seine (schwere) Kindheit</description>
+        </hateQuestion>
+        <appearances>
+            <appearance>
+                <episode>49</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
+        </appearances>
+    </person>
+    <person>
         <name>Alina Meissner Bebrout</name>
         <image>images/people/alina_meissner_bebrout.jpg</image>
         <hateQuestion>
@@ -768,6 +783,10 @@
         </hateQuestion>
         <appearances>
             <appearance>
+                <episode>49</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
+            <appearance>
                 <episode>48</episode>
                 <episodeTime>00:00:00</episodeTime>
             </appearance>
@@ -1020,6 +1039,10 @@
             <description>Was machst du sonst noch?</description>
         </hateQuestion>
         <appearances>
+            <appearance>
+                <episode>49</episode>
+                <episodeTime>00:00:00</episodeTime>
+            </appearance>
             <appearance>
                 <episode>48</episode>
                 <episodeTime>00:00:00</episodeTime>

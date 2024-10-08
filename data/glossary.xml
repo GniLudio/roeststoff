@@ -4,6 +4,12 @@
     xmlns="roeststoff"
     xsi:schemaLocation="roeststoff ../schemas/glossary.xsd">
     <entry>
+        <episode>49</episode>
+        <episodeTime>5:01</episodeTime>
+        <name>Dim Sum</name>
+        <description>Kleine Gerichte, die meist gedämpft oder frittiert zum Frühstück oder Mittag serviert werden. Eine traditionelle Spezialität der chinesischen Küche.</description>
+    </entry>
+    <entry>
         <episode>47</episode>
         <episodeTime>15:35</episodeTime>
         <name>Konzession</name>
