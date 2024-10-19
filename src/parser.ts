@@ -1,6 +1,6 @@
 import { assert, secondsToTime } from "./utils";
 
-console.log('parser.ts loaded');
+console.debug('parser.ts loaded');
 
 export function parseXML<T>(rawXML: string, rootPath: string[], entryName: string, parser: (element: Element) => T): T[] {
     // parse xml document

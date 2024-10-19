@@ -21,11 +21,11 @@ import cardTableHeaderTemplate from "../templates/card_table_header.html";
 import cardTableRowTemplate from "../templates/card_table_row.html";
 import cardTableCellTemplate from "../templates/card_table_cell.html";
 
-console.log('card.ts loaded');
+console.debug('card.ts loaded');
 const parser = new DOMParser();
 
 export function createCards<T>(id: string, title: string, items: T[], getCardInfo: (e: T, allContent: AllContent) => CardInfo, allContent: AllContent): [HTMLElement, HTMLElement, HTMLElement[]] {
-    console.log(`Create ${title}`);
+    console.debug(`Create ${title}`);
 
     const tabButton = createTabButton(id, title);
     const tabContainer = createTabContainer(id);

@@ -1,4 +1,4 @@
-console.log('utils.ts loaded');
+console.debug('utils.ts loaded');
 
 export function assert<T>(value: T, message?: string): NonNullable<T> {
     if (value === undefined || value === null) {

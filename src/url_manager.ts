@@ -1,6 +1,6 @@
 import * as bootstrap from "bootstrap";
 
-console.log("url_manager.ts loaded");
+console.debug("url_manager.ts loaded");
 
 // currently opened info (modal)
 let openInfo: HTMLElement | undefined;

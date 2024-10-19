@@ -6,10 +6,10 @@ import { compareEpisodeID, compareEpisode, compareEpisodeIDs, compareIsHost } fr
 import { setupUrlManager } from './url_manager';
 import { applyFixes as applyFixes } from './fixes';
 
-console.log("index.ts loaded");
+console.debug("index.ts loaded");
 
 (async () => {
-    console.log("FETCHING");
+    console.debug("Fetch data");
     const base_url = window.location.href.split("/").slice(0, -1).join("/")
     const data = await Promise.all([
         "https://feeds.megaphone.fm/TWG3193347111",
@@ -24,7 +24,7 @@ console.log("index.ts loaded");
     const [episodesRSS, peopleXML, drinksXML, boestofsXML, restaurantsXML, glossaryXML, miscXML, sayingsXML] = data;
 
     // PARSING
-    console.log("PARSING")
+    console.debug("Parse data")
     const episodes: Episode[] = parser.parseXML(episodesRSS, ['rss', 'channel'], 'item', parser.parseEpisode);
     const people: Person[] = parser.parseXML(peopleXML, ['root'], 'person', parser.parsePerson);
     const drinks: Drink[] = parser.parseXML(drinksXML, ['root'], 'drink', parser.parseDrink);
@@ -36,11 +36,11 @@ console.log("index.ts loaded");
     const allContent: AllContent = { episodes, people, drinks, boestOfs, restaurants, glossary, sayings, misc };
 
     // FIXES
-    console.log("FIXING");
+    console.debug("Apply fixes to data");
     applyFixes(allContent);
 
     // SORTING
-    console.log("SORTING");
+    console.debug("Sort data");
     episodes.sort(compareEpisode).reverse();
     people.sort((a, b) => -compareEpisodeIDs(a.appearances, b.appearances, allContent.episodes)).sort((a, b) => -compareIsHost(a, b));
     drinks.sort((a, b) => -compareEpisodeIDs(a.appearances, b.appearances, allContent.episodes));
@@ -51,7 +51,7 @@ console.log("index.ts loaded");
     misc.sort((a, b) => -compareEpisodeID(a, b, allContent.episodes));
 
     // CREATE AND INSERT HTML ELEMENTS
-    console.log("CREATING");
+    console.debug("Create content");
     const elements: TabHTMLElements = [
         cards.createCards('folgen', 'Folgen', episodes, cards.getEpisodeCardInfo, allContent),
         cards.createCards('personen', 'Stoffies', people, cards.getPersonCardInfo, allContent),
@@ -64,7 +64,7 @@ console.log("index.ts loaded");
     ];
 
     // CHECK FOR DUPLICATE IDS
-    console.log("CHECKING FOR DUPLICATE IDS");
+    console.debug("Check for duplicate ids");
     const ids = new Set<string>();
     for (const node of document.querySelectorAll("[id]")) {
         if (ids.has(node.id)) {
@@ -76,8 +76,8 @@ console.log("index.ts loaded");
 
 
     // MANAGE URL
-    console.log("SETUP URL-MANAGER");
+    console.debug("Setup url-manager");
     setupUrlManager(elements);
 
-    console.log("DONE");
+    console.debug("Done all");
 })();
