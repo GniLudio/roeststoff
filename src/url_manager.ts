@@ -48,7 +48,7 @@ export function setupUrlManager(elements: TabHTMLElements): void {
         bootstrap.Tab.getOrCreateInstance(tabButton.firstElementChild!).show();
 
         // show info
-        if (info) {
+        if (info !== undefined && info !== "") {
             // note: info must be inside current tab
             const infoModal = tabContainer.querySelector<HTMLElement>(`#${info}_info`);
             if (infoModal) {
@@ -67,7 +67,7 @@ function updateUrlParameter(index: number, value?: string, pushState: boolean = 
     if (value) {
         parameter[index] = value;
     } else {
-        parameter[index] = "";
+        parameter.splice(index);
     }
 
     url.searchParams.forEach((value, key) => url.searchParams.delete(key, value));
