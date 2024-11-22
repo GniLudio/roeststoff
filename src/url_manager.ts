@@ -13,13 +13,13 @@ export function setupUrlManager(elements: TabHTMLElements): void {
 
     // update search parameter depending on opened content
     for (const [tabButton, tabContainer, cards] of elements) {
-        tabButton.firstElementChild?.addEventListener("show.bs.tab", () => updateUrlParameter("tab", tabContainer.id));
+        tabButton.firstElementChild?.addEventListener("show.bs.tab", () => updateUrlParameter(0, tabContainer.id));
         for (const card of cards) {
             const modal = card.querySelector<HTMLElement>("div.modal");
             if (modal) {
-                modal.addEventListener("show.bs.modal", () => updateUrlParameter("info", modal.id.slice(0, -"_info".length)));
+                modal.addEventListener("show.bs.modal", () => updateUrlParameter(1, modal.id.slice(0, -"_info".length)));
                 modal.addEventListener("show.bs.modal", () => openInfo = modal);
-                modal.addEventListener("hide.bs.modal", () => updateUrlParameter("info", undefined));
+                modal.addEventListener("hide.bs.modal", () => updateUrlParameter(1, undefined));
                 modal.addEventListener("hide.bs.modal", () => openInfo = undefined);
             }
         }
@@ -30,8 +30,8 @@ export function setupUrlManager(elements: TabHTMLElements): void {
 
     function displayContent(): void {
         const parameter = new URL(window.location.href);
-        const tab = parameter.searchParams.get("tab") ?? 'episodes';
-        const info = parameter.searchParams.get("info");
+        const tab = parameter.searchParams.keys().toArray()[0];
+        const info = parameter.searchParams.keys().toArray()[1];
 
         disableUpdateUrlParameter = true;
 
@@ -42,7 +42,7 @@ export function setupUrlManager(elements: TabHTMLElements): void {
         }
 
         // show tab
-        let tabIndex = Math.max(0, elements.findIndex(([, tabContainer,]) => tabContainer.id == tab));
+        const tabIndex = Math.max(0, elements.findIndex(([, tabContainer,]) => tabContainer.id == tab));
         const tabButton = elements[tabIndex][0];
         const tabContainer = elements[tabIndex][1];
         bootstrap.Tab.getOrCreateInstance(tabButton.firstElementChild!).show();
@@ -60,26 +60,23 @@ export function setupUrlManager(elements: TabHTMLElements): void {
     }
 }
 
-function updateUrlParameter(name: string, value?: string, pushState: boolean = true): void {
+function updateUrlParameter(index: number, value?: string, pushState: boolean = true): void {
     if (disableUpdateUrlParameter) return;
     const url = new URL(window.location.href);
+    const parameter: (string | undefined)[] = url.searchParams.keys().toArray();
     if (value) {
-        url.searchParams.set(name, value);
-        // sort the search parameter
-        const tab = url.searchParams.get("tab");
-        const info = url.searchParams.get("info");
-        Array.from(url.searchParams.keys()).forEach((name) => url.searchParams.delete(name));
-        if (tab) url.searchParams.append("tab", tab);
-        if (info) url.searchParams.append("info", info);
+        parameter[index] = value;
+    } else {
+        parameter[index] = "";
     }
-    else {
-        url.searchParams.delete(name);
-    }
-    const state = { 'tab': url.searchParams.get('tab'), 'info': url.searchParams.get('info') };
+
+    url.searchParams.forEach((value, key) => url.searchParams.delete(key, value));
+
+    const href = `${url.origin}?${parameter.join("&")}`
     if (pushState) {
-        history.pushState(state, "", url.href);
+        history.pushState(undefined, "", href);
     }
     else {
-        history.replaceState(state, "", url.href);
+        history.replaceState(undefined, "", href);
     }
 }

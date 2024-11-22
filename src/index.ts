@@ -54,7 +54,7 @@ console.debug("index.ts loaded");
     console.debug("Create content");
     const elements: TabHTMLElements = [
         cards.createCards('folgen', 'Folgen', episodes, cards.getEpisodeCardInfo, allContent),
-        cards.createCards('personen', 'Stoffies', people, cards.getPersonCardInfo, allContent),
+        cards.createCards('stoffies', 'Stoffies', people, cards.getPersonCardInfo, allContent),
         cards.createCards('trinkstoff', 'Trinkstoff', drinks, cards.getDrinkCardInfo, allContent),
         cards.createCards('boestofs', 'Böst Ofs', boestOfs, cards.getBoestOfCardInfo, allContent),
         cards.createCards('roestaurants', 'Röstaurants', restaurants, cards.getRestaurantCardInfo, allContent),
