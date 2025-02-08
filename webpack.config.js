@@ -23,7 +23,8 @@ module.exports = {
     },
     plugins: [
         new SitemapPlugin({
-            base: 'https://roeststoff.wiki', paths: [
+            base: 'https://roeststoff.wiki', 
+            paths: [
                 { path: "/", priority: 1.0 },
                 { path: "/?folgen", priority: 0.8},
                 { path: "/?stoffies", priority: 0.8},
@@ -33,7 +34,10 @@ module.exports = {
                 { path: "/?lehrstoff", priority: 0.8},
                 { path: "/?sprueche", priority: 0.8},
                 { path: "/?sidedishes", priority: 0.8},
-            ]
+            ],
+            options: {
+                filename: "../sitemap.xml",
+            },
         }),
     ],
     resolve: {
