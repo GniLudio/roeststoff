@@ -1,4 +1,5 @@
 const path = require('path');
+const SitemapPlugin = require('sitemap-webpack-plugin').default;
 
 module.exports = {
     entry: './src/index.ts',
@@ -20,6 +21,21 @@ module.exports = {
             },
         ],
     },
+    plugins: [
+        new SitemapPlugin({
+            base: 'https://roeststoff.wiki', paths: [
+                { path: "/", priority: 1.0 },
+                { path: "/?folgen", priority: 0.8},
+                { path: "/?stoffies", priority: 0.8},
+                { path: "/?trinkstoff", priority: 0.8},
+                { path: "/?boestofs", priority: 0.8},
+                { path: "/?roestaurants", priority: 0.8},
+                { path: "/?lehrstoff", priority: 0.8},
+                { path: "/?sprueche", priority: 0.8},
+                { path: "/?sidedishes", priority: 0.8},
+            ]
+        }),
+    ],
     resolve: {
         extensions: ['.tsx', '.ts', '.js'],
     },
