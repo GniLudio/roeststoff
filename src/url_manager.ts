@@ -62,20 +62,17 @@ export function setupUrlManager(elements: TabHTMLElements): void {
 function updateUrlParameter(index: number, value?: string, pushState: boolean = true): void {
     if (disableUpdateUrlParameter) return;
     const url = new URL(window.location.href);
-    const parameter: (string | undefined)[] = url.searchParams.keys().toArray();
-    if (value) {
-        parameter[index] = value;
-    } else {
-        parameter.splice(index);
-    }
+    const parameter: string[] = url.searchParams.keys().toArray();
+    parameter[index] = value ?? "";
 
     url.searchParams.forEach((value, key) => url.searchParams.delete(key, value));
+    url.search = parameter.join("&");
 
-    const href = `${url.host}?${parameter.join("&")}`
+    //const href = `${url.toString()}?${parameter.filter((p) => p != "-").join("&")}`
     if (pushState) {
-        history.pushState(undefined, "", href);
+        history.pushState(undefined, "", url);
     }
     else {
-        history.replaceState(undefined, "", href);
+        history.replaceState(undefined, "", url);
     }
 }
