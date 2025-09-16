@@ -3,6 +3,7 @@ import { assert, secondsToTime } from "./utils";
 console.debug('parser.ts loaded');
 
 export function parseXML<T>(rawXML: string, rootPath: string[], entryName: string, parser: (element: Element) => T): T[] {
+    if (rawXML == "") return [];
     // parse xml document
     const xmlDocument: XMLDocument = new DOMParser().parseFromString(rawXML, "text/xml");
     // get root element

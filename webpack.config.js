@@ -8,7 +8,7 @@ module.exports = {
         rules: [
             {
                 test: /\.xml/,
-                type: 'asset/source',
+                type: 'asset/inline',
             },
             {
                 test: /\.html/,
@@ -23,17 +23,9 @@ module.exports = {
     },
     plugins: [
         new SitemapPlugin({
-            base: 'https://roeststoff.wiki', 
+            base: 'https://roeststoff.wiki',
             paths: [
                 { path: "/", priority: 1.0 },
-                { path: "/?folgen", priority: 0.8},
-                { path: "/?stoffies", priority: 0.8},
-                { path: "/?trinkstoff", priority: 0.8},
-                { path: "/?boestofs", priority: 0.8},
-                { path: "/?roestaurants", priority: 0.8},
-                { path: "/?lehrstoff", priority: 0.8},
-                { path: "/?sprueche", priority: 0.8},
-                { path: "/?sidedishes", priority: 0.8},
             ],
             options: {
                 filename: "../sitemap.xml",

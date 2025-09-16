@@ -40,7 +40,7 @@ export function mapToEpisodeNames(items: Timestamp[], episodes: Episode[], withT
             }
         }
         else {
-            names.push(`Not found: ${item.episodeType} - ${item.episode}`);
+            names.push(`Nicht gefunden - ${item.episode}`);
         }
     }
     return names;

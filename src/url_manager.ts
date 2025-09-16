@@ -8,7 +8,6 @@ let openInfo: HTMLElement | undefined;
 let disableUpdateUrlParameter: boolean = false;
 
 export function setupUrlManager(elements: TabHTMLElements): void {
-    const url = new URL(window.location.href);
     displayContent();
 
     // update search parameter depending on opened content
@@ -72,7 +71,7 @@ function updateUrlParameter(index: number, value?: string, pushState: boolean = 
 
     url.searchParams.forEach((value, key) => url.searchParams.delete(key, value));
 
-    const href = `${url.origin}?${parameter.join("&")}`
+    const href = `${url.host}?${parameter.join("&")}`
     if (pushState) {
         history.pushState(undefined, "", href);
     }
